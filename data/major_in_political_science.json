@@ -1,0 +1,1070 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-political-science/major-in-political-science-42-hours",
+  "guid": "D72809E7-8CC2-46C1-8AA9-09A74DA6DEC3",
+  "title": "Major in Political Science—42 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Requirements: 24 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/100/psc-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/100/PSC-111",
+                    "guid": "FC9E5D8B-F7D1-4628-8794-EF041F8CA345",
+                    "name": "Introduction to Political Science",
+                    "number": "111",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/200/psc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/200/PSC-211",
+                    "guid": "28FCB693-7018-4886-8F4C-DF073F1390DF",
+                    "name": "Politics and Government of the United States",
+                    "number": "211",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/200/psc-214",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/200/PSC-214",
+                    "guid": "42E1F2B0-06AF-4284-A080-96739283B7A5",
+                    "name": "International Relations",
+                    "number": "214",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/200/psc-232",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/200/PSC-232",
+                    "guid": "1139706D-0848-40A9-9873-628E58E3A5D7",
+                    "name": "Comparative Political Systems",
+                    "number": "232",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/200/psc-245",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/200/PSC-245",
+                    "guid": "368274E5-0EAE-4C92-B6BC-C985ED8430D5",
+                    "name": "Research Methodology",
+                    "number": "245",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-322",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-322",
+                    "guid": "9E68B5B8-F960-4927-963D-16232510BD52",
+                    "name": "Western Political Thought I",
+                    "number": "322",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-323",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-323",
+                    "guid": "BCAD20CB-71B6-4CEA-BCAA-E9D4E434B3FD",
+                    "name": "Western Political Thought II",
+                    "number": "323",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-498",
+                    "guid": "A0DBD37B-C2B4-C179-37C3-33DDBE2A471",
+                    "name": "Seminar",
+                    "number": "498",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from the following (American): 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-305",
+                    "guid": "D93AED31-F9CD-4D6C-A0CB-F789D772DDCD",
+                    "name": "State and Local Government",
+                    "number": "305",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-313",
+                    "guid": "BA984E3A-512A-49DC-9EC1-14AA35324A4C",
+                    "name": "Political Parties in the United States",
+                    "number": "313",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-330",
+                    "guid": "E7BF9F6B-C355-415B-A6C9-C68FEC0098C8",
+                    "name": "Public Administration and Policy Making",
+                    "number": "330",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-340",
+                    "guid": "7C539854-B045-4A0F-BF7D-CC3BEE6FB704",
+                    "name": "The Judicial Process",
+                    "number": "340",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-342",
+                    "guid": "C31CCAAE-AABD-4886-850E-E612998C76F6",
+                    "name": "The United States Congress",
+                    "number": "342",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-344",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-344",
+                    "guid": "5A314010-C6C5-4AB2-8AFA-CB192BA4A655",
+                    "name": "The American Presidency",
+                    "number": "344",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-415",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-415",
+                    "guid": "59CE7BBE-4371-40BD-8EB8-A886A39D1E16",
+                    "name": "Constitutional Law I",
+                    "number": "415",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-416",
+                    "guid": "B9C12F4A-A508-423E-B4B9-DC506AEB663B",
+                    "name": "Constitutional Law II",
+                    "number": "416",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-425",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-425",
+                    "guid": "2DDA706D-64A0-4776-A76D-5843772F3772",
+                    "name": "Politics and Religion",
+                    "number": "425",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one concentration and a total of no less than 15 hours",
+              "courses": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "American: 9 to 15",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-305",
+                    "guid": "D93AED31-F9CD-4D6C-A0CB-F789D772DDCD",
+                    "name": "State and Local Government",
+                    "number": "305",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-313",
+                    "guid": "BA984E3A-512A-49DC-9EC1-14AA35324A4C",
+                    "name": "Political Parties in the United States",
+                    "number": "313",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-330",
+                    "guid": "E7BF9F6B-C355-415B-A6C9-C68FEC0098C8",
+                    "name": "Public Administration and Policy Making",
+                    "number": "330",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-340",
+                    "guid": "7C539854-B045-4A0F-BF7D-CC3BEE6FB704",
+                    "name": "The Judicial Process",
+                    "number": "340",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-342",
+                    "guid": "C31CCAAE-AABD-4886-850E-E612998C76F6",
+                    "name": "The United States Congress",
+                    "number": "342",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-344",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-344",
+                    "guid": "5A314010-C6C5-4AB2-8AFA-CB192BA4A655",
+                    "name": "The American Presidency",
+                    "number": "344",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-415",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-415",
+                    "guid": "59CE7BBE-4371-40BD-8EB8-A886A39D1E16",
+                    "name": "Constitutional Law I",
+                    "number": "415",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-416",
+                    "guid": "B9C12F4A-A508-423E-B4B9-DC506AEB663B",
+                    "name": "Constitutional Law II",
+                    "number": "416",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-425",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-425",
+                    "guid": "2DDA706D-64A0-4776-A76D-5843772F3772",
+                    "name": "Politics and Religion",
+                    "number": "425",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "International Relations: 9 to 15",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-300",
+                    "guid": "CE4AC679-4C79-4B67-B929-2CE7B379E34B",
+                    "name": "Politics and Film",
+                    "number": "300",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-324",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-324",
+                    "guid": "C18C9326-68B9-415C-AFA4-3825D591D0C2",
+                    "name": "Contemporary Global Issues",
+                    "number": "324",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-325",
+                    "guid": "362E4551-A253-434F-88CE-9B67EEC3AA02",
+                    "name": "Politics and Governments of Asia",
+                    "number": "325",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-333",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-333",
+                    "guid": "363A1D2D-1DD8-4840-ACAD-BE7247C6C4EA",
+                    "name": "International Organizations and Law",
+                    "number": "333",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-355",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-355",
+                    "guid": "4AE1ECC8-A98E-4A12-A5B3-A7921DEAD1CF",
+                    "name": "Politics of the Developing States",
+                    "number": "355",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-360",
+                    "guid": "25763E28-337A-489C-9906-81B9252DB169",
+                    "name": "Politics of Islam",
+                    "number": "360",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-365",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-365",
+                    "guid": "3C96A48B-D99A-4301-A42D-8E7521112823",
+                    "name": "International Security",
+                    "number": "365",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-400",
+                    "guid": "91125292-24BB-4BD5-895C-9648ADBE54E5",
+                    "name": "Democratization and Human Rights",
+                    "number": "400",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-414",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-414",
+                    "guid": "A6717554-53A8-4A1F-8FE4-B3F07B0B6870",
+                    "name": "International Relations Theory",
+                    "number": "414",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Political Theory: 9 to 15",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-337",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-337",
+                    "guid": "24755225-378C-419E-8416-668C999C9B14",
+                    "name": "American Political Thought",
+                    "number": "337",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-347",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-347",
+                    "guid": "865CA6D8-31EA-4B41-BD94-ADF9133C63C4",
+                    "name": "Ethics and Public Policy",
+                    "number": "347",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-353",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-353",
+                    "guid": "D8ADFB90-D7A2-4CB3-B613-381BEA6300D6",
+                    "name": "Christian Political Thought",
+                    "number": "353",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-354",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-354",
+                    "guid": "A60B8217-A084-4CBF-87F4-D629B6462A04",
+                    "name": "Economic Political Thought",
+                    "number": "354",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "General: Select 15 hours from two concentrations",
+              "courses": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "American: 9 to 15",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-305",
+                    "guid": "D93AED31-F9CD-4D6C-A0CB-F789D772DDCD",
+                    "name": "State and Local Government",
+                    "number": "305",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-313",
+                    "guid": "BA984E3A-512A-49DC-9EC1-14AA35324A4C",
+                    "name": "Political Parties in the United States",
+                    "number": "313",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-330",
+                    "guid": "E7BF9F6B-C355-415B-A6C9-C68FEC0098C8",
+                    "name": "Public Administration and Policy Making",
+                    "number": "330",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-340",
+                    "guid": "7C539854-B045-4A0F-BF7D-CC3BEE6FB704",
+                    "name": "The Judicial Process",
+                    "number": "340",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-342",
+                    "guid": "C31CCAAE-AABD-4886-850E-E612998C76F6",
+                    "name": "The United States Congress",
+                    "number": "342",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-344",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-344",
+                    "guid": "5A314010-C6C5-4AB2-8AFA-CB192BA4A655",
+                    "name": "The American Presidency",
+                    "number": "344",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-415",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-415",
+                    "guid": "59CE7BBE-4371-40BD-8EB8-A886A39D1E16",
+                    "name": "Constitutional Law I",
+                    "number": "415",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-416",
+                    "guid": "B9C12F4A-A508-423E-B4B9-DC506AEB663B",
+                    "name": "Constitutional Law II",
+                    "number": "416",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-425",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-425",
+                    "guid": "2DDA706D-64A0-4776-A76D-5843772F3772",
+                    "name": "Politics and Religion",
+                    "number": "425",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "International Relations: 9 to 15",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-300",
+                    "guid": "CE4AC679-4C79-4B67-B929-2CE7B379E34B",
+                    "name": "Politics and Film",
+                    "number": "300",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-324",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-324",
+                    "guid": "C18C9326-68B9-415C-AFA4-3825D591D0C2",
+                    "name": "Contemporary Global Issues",
+                    "number": "324",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-325",
+                    "guid": "362E4551-A253-434F-88CE-9B67EEC3AA02",
+                    "name": "Politics and Governments of Asia",
+                    "number": "325",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-333",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-333",
+                    "guid": "363A1D2D-1DD8-4840-ACAD-BE7247C6C4EA",
+                    "name": "International Organizations and Law",
+                    "number": "333",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-355",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-355",
+                    "guid": "4AE1ECC8-A98E-4A12-A5B3-A7921DEAD1CF",
+                    "name": "Politics of the Developing States",
+                    "number": "355",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-360",
+                    "guid": "25763E28-337A-489C-9906-81B9252DB169",
+                    "name": "Politics of Islam",
+                    "number": "360",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-365",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-365",
+                    "guid": "3C96A48B-D99A-4301-A42D-8E7521112823",
+                    "name": "International Security",
+                    "number": "365",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-400",
+                    "guid": "91125292-24BB-4BD5-895C-9648ADBE54E5",
+                    "name": "Democratization and Human Rights",
+                    "number": "400",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-414",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-414",
+                    "guid": "A6717554-53A8-4A1F-8FE4-B3F07B0B6870",
+                    "name": "International Relations Theory",
+                    "number": "414",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Political Theory: 9 to 15",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-337",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-337",
+                    "guid": "24755225-378C-419E-8416-668C999C9B14",
+                    "name": "American Political Thought",
+                    "number": "337",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-347",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-347",
+                    "guid": "865CA6D8-31EA-4B41-BD94-ADF9133C63C4",
+                    "name": "Ethics and Public Policy",
+                    "number": "347",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-353",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-353",
+                    "guid": "D8ADFB90-D7A2-4CB3-B613-381BEA6300D6",
+                    "name": "Christian Political Thought",
+                    "number": "353",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-354",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-354",
+                    "guid": "A60B8217-A084-4CBF-87F4-D629B6462A04",
+                    "name": "Economic Political Thought",
+                    "number": "354",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

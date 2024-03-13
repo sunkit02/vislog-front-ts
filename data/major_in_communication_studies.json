@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-communication-arts/major-in-communication-studies-45-hours",
+  "guid": "8350199D-B47E-43EE-A811-55633730AA65",
+  "title": "Major in Communication Studies—45 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Requirements: 12 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-112",
+                    "guid": "FB0C9910-A265-43A1-ABC6-88A315C96B18",
+                    "name": "Public Communication",
+                    "number": "112",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-121",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-121",
+                    "guid": "99F0573E-B9A4-4DBF-ADB7-F53363A9FBD0",
+                    "name": "Writing Across Media Platforms",
+                    "number": "121",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-242",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-242",
+                    "guid": "D341541E-766D-4B8B-807C-15F979EE0326",
+                    "name": "Communication Theory and Research",
+                    "number": "242",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/400/com-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/400/COM-430",
+                    "guid": "EF13FD81-A2E2-40B7-99FD-16132FE4A498",
+                    "name": "Communications Law",
+                    "number": "430",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Professional Electives: 33 hours",
+              "req_narrative": "<p class='sc-RequirementNarrative'>Select one upper-level course from each of the following areas: journalism, media, public relations, speech, and theater—15 hours</p><p class='sc-RequirementNarrative'>Select 18 hours of COM courses</p>"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

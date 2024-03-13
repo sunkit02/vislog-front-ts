@@ -1,0 +1,167 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-art/minor-in-art-24-hours",
+  "guid": "AD8284F4-6048-48F5-A24A-74032BF3686A",
+  "title": "Minor in Art—24 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Requirements: 12 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-113",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-113",
+                    "guid": "5D33D962-27FF-489B-B143-2FA254403645",
+                    "name": "Foundations: 2D Design",
+                    "number": "113",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-114",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-114",
+                    "guid": "C9C0A4E5-6068-4029-91B8-38E7F469EB6F",
+                    "name": "Foundations: 3D Design",
+                    "number": "114",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-116",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-116",
+                    "guid": "B92787E1-F6C6-4E1B-9209-27D9635714FE",
+                    "name": "Foundations: Introduction to Drawing",
+                    "number": "116",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-117",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-117",
+                    "guid": "94BC22EE-6EB0-44D3-BEE4-53474470DF52",
+                    "name": "Foundations: Figure Drawing",
+                    "number": "117",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from the following: 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-313",
+                    "guid": "F86B49DF-C196-42CB-91D7-54D5286FA88B",
+                    "name": "Art History 01: Pre-Historic to Medieval",
+                    "number": "313",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-314",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-314",
+                    "guid": "59D77D1C-A553-405A-A65D-EE310F85FD17",
+                    "name": "Art History 02: Renaissance to Romanticism",
+                    "number": "314",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-315",
+                    "guid": "2D3F514E-89A8-4391-AE72-0D1EB596D1BA",
+                    "name": "Art History 03: Realism to Present",
+                    "number": "315",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-318",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-318",
+                    "guid": "9A1F2A75-72D8-464D-A26C-2A3F934638E6",
+                    "name": "Art History 04: Contemporary Issues in Art History",
+                    "number": "318",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "ART Electives: 9 hours",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,677 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/memphis-college-of-urban-and-theological-studies/bachelor-in-urban-theological-studies",
+  "guid": "5391123F-EB80-48E4-8E13-AA6F13B6949C",
+  "title": "Bachelor in Urban Theological Studies",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": null,
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "General Core Requirements—56 hours:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Reflection Courses—12 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-101",
+                    "guid": "36191D56-5547-4328-AB4B-F8061C94007B",
+                    "name": "Foundations of Academic Inquiry",
+                    "number": "101",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-103",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-103",
+                    "guid": "1272CAA6-AD27-49A4-9EBC-4498FE45E36F",
+                    "name": "Advocacy and Social Movements",
+                    "number": "103",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/200/mcuts-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/200/MCUTS-201",
+                    "guid": "CFC4BAC1-70A6-471F-A6AA-6CF40AAF40EC",
+                    "name": "Introduction to Urban Studies",
+                    "number": "201",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sci-science/200/sci-202",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SCI-Science/200/SCI-202",
+                    "guid": "29A5A50A-EFEF-4FA0-B095-ACDD131922AD",
+                    "name": "Environmental Science",
+                    "number": "202",
+                    "subject_name": "Science",
+                    "subject_code": "SCI",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Methodological Reasoning Courses—27 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/econ-economic-reasoning/100/econ-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECON-Economic-Reasoning/100/ECON-101",
+                    "guid": "E9D2C993-62AE-4641-807E-C7C81128ABA9",
+                    "name": "Economic Reasoning",
+                    "number": "101",
+                    "subject_name": "Economic Reasoning",
+                    "subject_code": "ECON",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hist-historical-reasoning/200/hist-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIST-Historical-Reasoning/200/HIST-201",
+                    "guid": "37C2DA2D-6BF6-41DD-8644-AA2C67EB7613",
+                    "name": "Historical Reasoning",
+                    "number": "201",
+                    "subject_name": "Historical Reasoning",
+                    "subject_code": "HIST",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lit-literature/200/lit-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LIT-Literature/200/LIT-201",
+                    "guid": "4E880390-32B4-483C-95C3-BAD79C1B7BFE",
+                    "name": "Literary Reasoning",
+                    "number": "201",
+                    "subject_name": "Literature",
+                    "subject_code": "LIT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-104",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-104",
+                    "guid": "202EE07F-5F38-4C5E-81B3-47FFFD5793FC",
+                    "name": "Critical Reasoning",
+                    "number": "104",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sosc-social-science/200/sosc-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOSC-Social-Science/200/SOSC-201",
+                    "guid": "F896B06C-DE15-43AB-B389-F0BFDCFDBD01",
+                    "name": "Social Science Reasoning",
+                    "number": "201",
+                    "subject_name": "Social Science",
+                    "subject_code": "SOSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sci-science/200/sci-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SCI-Science/200/SCI-201",
+                    "guid": "343C85D0-3237-4330-BF7B-63C879A61998",
+                    "name": "Scientific Reasoning",
+                    "number": "201",
+                    "subject_name": "Science",
+                    "subject_code": "SCI",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/stat-statistics/200/stat-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/STAT-Statistics/200/STAT-201",
+                    "guid": "6468A131-3F58-474E-B151-0B393F0BB28B",
+                    "name": "Statistical Reasoning",
+                    "number": "201",
+                    "subject_name": "Statistics",
+                    "subject_code": "STAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/100/theo-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/100/THEO-101",
+                    "guid": "5DC390E9-3EBB-4284-9882-B7CAB0F16B1B",
+                    "name": "Scriptural Reasoning",
+                    "number": "101",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/100/theo-102",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/100/THEO-102",
+                    "guid": "AD71A2B2-05A6-4EE5-8C60-769B520422D0",
+                    "name": "Theological Reasoning",
+                    "number": "102",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Communication Courses—15 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/cmp-computer/100/cmp-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CMP-Computer/100/CMP-101",
+                    "guid": "48E227F3-60E7-43D2-9BDC-23188B80DACA",
+                    "name": "Computer and Digital Literacy",
+                    "number": "101",
+                    "subject_name": "Computer",
+                    "subject_code": "CMP",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/engl-english-studies/100/engl-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENGL-English-Studies/100/ENGL-101",
+                    "guid": "2B7CEDC1-C5BE-4344-AEBE-EA0FEF172EA2",
+                    "name": "English Composition I",
+                    "number": "101",
+                    "subject_name": "English Studies",
+                    "subject_code": "ENGL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/engl-english-studies/100/engl-102",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENGL-English-Studies/100/ENGL-102",
+                    "guid": "38A68776-3164-646A-A04C-93A38198F8C",
+                    "name": "English Composition II",
+                    "number": "102",
+                    "subject_name": "English Studies",
+                    "subject_code": "ENGL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/engl-english-studies/200/engl-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENGL-English-Studies/200/ENGL-201",
+                    "guid": "8AA70155-AE22-4FE5-B429-44E65DA16B98",
+                    "name": "Inquiry Based Research and Writing",
+                    "number": "201",
+                    "subject_name": "English Studies",
+                    "subject_code": "ENGL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spe-speech/100/spe-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPE-Speech/100/SPE-101",
+                    "guid": "9E79CA51-A6F2-4A9B-9201-5CE9D1DC4E21",
+                    "name": "Public Speaking",
+                    "number": "101",
+                    "subject_name": "Speech",
+                    "subject_code": "SPE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Physical Wellness Course—2 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-105",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-105",
+                    "guid": "DEBFEFED-1C66-45A0-8024-C9EA4335F248",
+                    "name": "Movement and Wellness",
+                    "number": "105",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Major Requirements—51 hours:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Bible and Theology Courses—33 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ccs-cross-cultural-studies/300/ccs-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CCS-Cross-Cultural-Studies/300/CCS-311",
+                    "guid": "3EB0FF91-02B9-404A-9B58-46A121989AF4",
+                    "name": "Introduction to Urban Missiology",
+                    "number": "311",
+                    "subject_name": "Cross-Cultural Studies",
+                    "subject_code": "CCS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-306",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-306",
+                    "guid": "464D4A8E-E9F1-4AF8-A0E4-6FD7A7E94F5B",
+                    "name": "Biblical Theology of the Marginalized",
+                    "number": "306",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/400/theo-401",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/400/THEO-401",
+                    "guid": "6F2CC61A-16D4-41FD-9F45-39B6A4C50536",
+                    "name": "Christian Ethics",
+                    "number": "401",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/200/theo-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/200/THEO-201",
+                    "guid": "39E34529-5C54-4E77-8EA3-3FECCC0B3050",
+                    "name": "Biblical Interpretation",
+                    "number": "201",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-301",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-301",
+                    "guid": "C860D506-20B4-696A-5A9A-B17D3123DB3",
+                    "name": "OT I: The Pentateuch",
+                    "number": "301",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-302",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-302",
+                    "guid": "94FCA8FA-D0F8-46E0-976C-46E02804A141",
+                    "name": "OT II: Prophets and Wisdom Literature",
+                    "number": "302",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-303",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-303",
+                    "guid": "12654280-9D04-498D-87A9-8D40D938B6D6",
+                    "name": "Systematic Theology I: Prolegomena, God, Humanity and Sin",
+                    "number": "303",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-304",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-304",
+                    "guid": "2280AEA7-352E-42DA-84E2-80BAF6D27F92",
+                    "name": "Systematic Theology II: Christ, the Holy Spirit, Salvation, Church and Last Things",
+                    "number": "304",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-311",
+                    "guid": "F65CB007-9F86-430D-BE50-1FA98C05B513",
+                    "name": "NT I: Jesus & the Gospels",
+                    "number": "311",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-312",
+                    "guid": "E2B53221-82D2-4FA6-9379-0A0FE101DAF9",
+                    "name": "NT II: Acts & Paul's Letters",
+                    "number": "312",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-313",
+                    "guid": "FECD1951-306A-4A55-B813-B427CC226A1C",
+                    "name": "History of World Christianity",
+                    "number": "313",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Ministry Courses—12 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ccs-cross-cultural-studies/300/ccs-332",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CCS-Cross-Cultural-Studies/300/CCS-332",
+                    "guid": "5D26013C-BFA6-42AE-9CF4-4EE84A4DE3DA",
+                    "name": "Cross Cultural Witness and Discipleship",
+                    "number": "332",
+                    "subject_name": "Cross-Cultural Studies",
+                    "subject_code": "CCS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/cdv-community-development/300/cdv-301",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CDV-Community-Development/300/CDV-301",
+                    "guid": "E5D64E12-8759-4EA3-A31B-B0E1D6FDB8B9",
+                    "name": "Community Development I",
+                    "number": "301",
+                    "subject_name": "Community Development",
+                    "subject_code": "CDV",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-305",
+                    "guid": "6CFB441A-FB8F-4B68-B688-FC54E175C680",
+                    "name": "Spiritual Formation",
+                    "number": "305",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/200/theo-202",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/200/THEO-202",
+                    "guid": "2457876A-A34A-4247-AFC4-BD7D45D31008",
+                    "name": "Speaking in a Church Context",
+                    "number": "202",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Capstone Course—3 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/400/theo-451",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/400/THEO-451",
+                    "guid": "EB76B851-16ED-4ACC-951A-71E934AFC639",
+                    "name": "Theology Capstone",
+                    "number": "451",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Internship—3 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/400/theo-441",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/400/THEO-441",
+                    "guid": "FDF00381-B038-4DDB-985F-08A4540EE948",
+                    "name": "Ministry Internship",
+                    "number": "441",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "General Electives—21 hours",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

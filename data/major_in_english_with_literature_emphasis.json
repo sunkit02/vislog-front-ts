@@ -1,0 +1,940 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-english/major-in-english-with-literature-emphasis-34-hours",
+  "guid": "BDC606A2-16B8-4CAB-A9D2-0D231DA61D9E",
+  "title": "Major in English with Literature Emphasis—34 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Core Requirements: 13 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-318",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-318",
+                    "guid": "73DBE357-4690-40FC-BCAE-6540B48E25A9",
+                    "name": "Advanced Composition",
+                    "number": "318",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-410",
+                    "guid": "C1169F3B-FABB-4EDD-92B6-3BF3D3BF8AF3",
+                    "name": "Representative Plays of Shakespeare",
+                    "number": "410",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-300",
+                    "guid": "D6DED7F2-638D-4026-8C09-1658AEE8AEC9",
+                    "name": "Literary Criticism and Analysis",
+                    "number": "300",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-490",
+                    "guid": "171F5E83-D091-4C10-BAE0-ED0C05D82547",
+                    "name": "Senior Thesis",
+                    "number": "490",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-450",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-450",
+                        "guid": "B804DB2B-AC2B-4BA7-8AF7-BBBD3C388A11",
+                        "name": "The History of the English Language",
+                        "number": "450",
+                        "subject_name": "English",
+                        "subject_code": "ENG",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-460",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-460",
+                        "guid": "39D3D0B1-B7D8-44E5-B9E5-48C21A694AA4",
+                        "name": "Advanced Grammar",
+                        "number": "460",
+                        "subject_name": "English",
+                        "subject_code": "ENG",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Advanced Literature Studies",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from the following: 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-340",
+                    "guid": "4AA38914-2CF4-75B9-18E3-B565F839010",
+                    "name": "Survey of British Literature I",
+                    "number": "340",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-342",
+                    "guid": "1104D118-7154-49EC-8206-B1970A1C1D9F",
+                    "name": "Survey of British Literature II",
+                    "number": "342",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from the following: 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-334",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-334",
+                    "guid": "E65B21F0-E4E1-49F3-AB88-40EA81CE6E6A",
+                    "name": "Survey of American I",
+                    "number": "334",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-335",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-335",
+                    "guid": "1161F514-CB43-40BF-B4EE-4E512A1C53EC",
+                    "name": "Survey of American II",
+                    "number": "335",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Genre Studies‒Select one course from the following: 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-305",
+                    "guid": "7A134C3D-F1E1-41EB-972B-85809E6D5A37",
+                    "name": "Drama",
+                    "number": "305",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-310",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-310",
+                    "guid": "8A851A50-298B-4855-BA9A-41BD2DA2A604",
+                    "name": "Poetry",
+                    "number": "310",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-311",
+                    "guid": "C06C70BF-8A21-4A3B-B7C2-3323E5B9336D",
+                    "name": "Literature and Film",
+                    "number": "311",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-320",
+                    "guid": "25B71A1F-0987-4F4D-B969-FCF59027FEAD",
+                    "name": "The Short Story",
+                    "number": "320",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-336",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-336",
+                    "guid": "1F48F9C5-FCC6-4352-9B22-E2124C6BB065",
+                    "name": "The Epic",
+                    "number": "336",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-337",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-337",
+                    "guid": "6AABD0C8-DC39-488F-B0A8-9F706CCDE383",
+                    "name": "The Novel",
+                    "number": "337",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Literary Period Studies‒Select one course from the following: 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-422",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-422",
+                    "guid": "D6A454D8-AAA7-47A6-8A01-3A410FEAEC14",
+                    "name": "Eighteenth Century British Literature",
+                    "number": "422",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-423",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-423",
+                    "guid": "9C958358-7EB0-495E-A83E-8EA33D7F4DC3",
+                    "name": "Nineteenth Century American Literature",
+                    "number": "423",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-427",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-427",
+                    "guid": "D6D1C495-870F-4184-B9D9-6A085D9F3CA3",
+                    "name": "Victorian Literature",
+                    "number": "427",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-430",
+                    "guid": "7F7D1C5A-5B6F-4AC8-A92F-955B54C27E77",
+                    "name": "Classical Antiquity",
+                    "number": "430",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-431",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-431",
+                    "guid": "E7D23A23-E0C5-4741-BF2A-8DF4C6E7DF06",
+                    "name": "The Middle Ages",
+                    "number": "431",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-432",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-432",
+                    "guid": "8DF24DE5-730F-44CC-866D-068D0C9B3C6B",
+                    "name": "The Renaissance",
+                    "number": "432",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-433",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-433",
+                    "guid": "71EEC50B-FA05-4542-B80A-EC815EE82C69",
+                    "name": "Romanticism",
+                    "number": "433",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-435",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-435",
+                    "guid": "64AA8A21-4278-4835-9915-CAFEF1E41B63",
+                    "name": "Twentieth Century and Contemporary Literature",
+                    "number": "435",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select from the following courses not used above:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-305",
+                    "guid": "7A134C3D-F1E1-41EB-972B-85809E6D5A37",
+                    "name": "Drama",
+                    "number": "305",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-310",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-310",
+                    "guid": "8A851A50-298B-4855-BA9A-41BD2DA2A604",
+                    "name": "Poetry",
+                    "number": "310",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-311",
+                    "guid": "C06C70BF-8A21-4A3B-B7C2-3323E5B9336D",
+                    "name": "Literature and Film",
+                    "number": "311",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-312",
+                    "guid": "D74C735C-955A-4F6A-B059-305D2C15F3B5",
+                    "name": "Creative Writing",
+                    "number": "312",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-320",
+                    "guid": "25B71A1F-0987-4F4D-B969-FCF59027FEAD",
+                    "name": "The Short Story",
+                    "number": "320",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-324",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-324",
+                    "guid": "D0D525BF-5FC1-4A79-B0E3-72D70A5819D6",
+                    "name": "Professional Editing, Proofreading, and Publishing",
+                    "number": "324",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-325",
+                    "guid": "234CCB96-4106-4B6B-AAF8-DCB749849AA2",
+                    "name": "Literature and Faith",
+                    "number": "325",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-334",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-334",
+                    "guid": "E65B21F0-E4E1-49F3-AB88-40EA81CE6E6A",
+                    "name": "Survey of American I",
+                    "number": "334",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-335",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-335",
+                    "guid": "1161F514-CB43-40BF-B4EE-4E512A1C53EC",
+                    "name": "Survey of American II",
+                    "number": "335",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-336",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-336",
+                    "guid": "1F48F9C5-FCC6-4352-9B22-E2124C6BB065",
+                    "name": "The Epic",
+                    "number": "336",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-337",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-337",
+                    "guid": "6AABD0C8-DC39-488F-B0A8-9F706CCDE383",
+                    "name": "The Novel",
+                    "number": "337",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-340",
+                    "guid": "4AA38914-2CF4-75B9-18E3-B565F839010",
+                    "name": "Survey of British Literature I",
+                    "number": "340",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-342",
+                    "guid": "1104D118-7154-49EC-8206-B1970A1C1D9F",
+                    "name": "Survey of British Literature II",
+                    "number": "342",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-400",
+                    "guid": "2FB2D80B-1852-47B7-9EFA-F6C64F1D7DF0",
+                    "name": "Race and Ethnicity in American Literature",
+                    "number": "400",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-422",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-422",
+                    "guid": "D6A454D8-AAA7-47A6-8A01-3A410FEAEC14",
+                    "name": "Eighteenth Century British Literature",
+                    "number": "422",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-423",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-423",
+                    "guid": "9C958358-7EB0-495E-A83E-8EA33D7F4DC3",
+                    "name": "Nineteenth Century American Literature",
+                    "number": "423",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-425",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-425",
+                    "guid": "82BB5C0A-78D4-4597-A2A5-F38276ACC3A2",
+                    "name": "Fiction Writing",
+                    "number": "425",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-426",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-426",
+                    "guid": "A462B902-2DBF-4036-8BD8-4766888A1E08",
+                    "name": "Poetry Writing",
+                    "number": "426",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-427",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-427",
+                    "guid": "D6D1C495-870F-4184-B9D9-6A085D9F3CA3",
+                    "name": "Victorian Literature",
+                    "number": "427",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-430",
+                    "guid": "7F7D1C5A-5B6F-4AC8-A92F-955B54C27E77",
+                    "name": "Classical Antiquity",
+                    "number": "430",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-431",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-431",
+                    "guid": "E7D23A23-E0C5-4741-BF2A-8DF4C6E7DF06",
+                    "name": "The Middle Ages",
+                    "number": "431",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-432",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-432",
+                    "guid": "8DF24DE5-730F-44CC-866D-068D0C9B3C6B",
+                    "name": "The Renaissance",
+                    "number": "432",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-433",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-433",
+                    "guid": "71EEC50B-FA05-4542-B80A-EC815EE82C69",
+                    "name": "Romanticism",
+                    "number": "433",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-435",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-435",
+                    "guid": "64AA8A21-4278-4835-9915-CAFEF1E41B63",
+                    "name": "Twentieth Century and Contemporary Literature",
+                    "number": "435",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-450",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-450",
+                    "guid": "B804DB2B-AC2B-4BA7-8AF7-BBBD3C388A11",
+                    "name": "The History of the English Language",
+                    "number": "450",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-460",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-460",
+                    "guid": "39D3D0B1-B7D8-44E5-B9E5-48C21A694AA4",
+                    "name": "Advanced Grammar",
+                    "number": "460",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-395",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-395",
+                    "guid": "C4154862-4B24-618A-DF3D-54934CD51D9",
+                    "name": "Special Studies",
+                    "number": "395",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-396",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-396",
+                    "guid": "B704978B-9ED7-4679-BAEE-0C17DCA976CE",
+                    "name": "Special Studies",
+                    "number": "396",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-397",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-397",
+                    "guid": "6F39E19D-ED24-4E4C-BDE8-0D82B8AD050C",
+                    "name": "Special Studies",
+                    "number": "397",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-495",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-495",
+                    "guid": "CBCAA96F-900C-424C-B185-6D42B4138262",
+                    "name": "Independent Study",
+                    "number": "495",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

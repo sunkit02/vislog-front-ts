@@ -1,0 +1,176 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/department-of-physical-education-wellness-and-sport/minor-in-athletic-coaching-21-hours",
+  "guid": "88B37588-1CD0-46EB-BA5E-852C15AB3775",
+  "title": "Minor in Athletic Coaching—21 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-218",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-218",
+                    "guid": "67FF205D-EB9B-483E-BCA3-75106AD6057B",
+                    "name": "Care and Prevention of Athletic Injuries",
+                    "number": "218",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-414",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-414",
+                    "guid": "1FB20A82-25C2-452A-8793-599832DC083E",
+                    "name": "Kinesiology",
+                    "number": "414",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-415",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-415",
+                    "guid": "18387E4B-E210-46AC-BDC0-E40060B38D1C",
+                    "name": "Physiology of Exercise",
+                    "number": "415",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-419",
+                    "guid": "87EC26C9-CA32-4F97-81C5-2ACFF0CE30D5",
+                    "name": "Organization and Administration of Physical Education and Sport",
+                    "number": "419",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-421",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-421",
+                    "guid": "30FB881D-A412-472F-A25D-FBCFF8A0945B",
+                    "name": "Sport Psychology",
+                    "number": "421",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours from the following:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-351",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-351",
+                    "guid": "DD9B309B-74DC-493A-96E6-E4CF21E2B039",
+                    "name": "Coaching Football",
+                    "number": "351",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-352",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-352",
+                    "guid": "DC5B4EC2-6925-44D3-96B0-5236D198F99E",
+                    "name": "Coaching Basketball",
+                    "number": "352",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-353",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-353",
+                    "guid": "3D9220B9-73A0-4A90-871B-60F0676726A5",
+                    "name": "Coaching Baseball",
+                    "number": "353",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-354",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-354",
+                    "guid": "56C42869-850C-4BA7-8B06-9FDA9299C9E1",
+                    "name": "Coaching Volleyball and Softball",
+                    "number": "354",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

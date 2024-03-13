@@ -1,0 +1,352 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-social-work/minor-in-mental-health-services-18-hours",
+  "guid": "693432EE-B7F2-424A-A4AE-769143C1ABFD",
+  "title": "Minor in Mental Health Services—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Prerequisite:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-200",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-200",
+                    "guid": "3DB97093-4AF4-7559-A7DA-26648FA9114",
+                    "name": "Introduction to Social Welfare",
+                    "number": "200",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-331",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-331",
+                        "guid": "F0ACB2C5-96FB-4A89-BBAD-6EC253CDE089",
+                        "name": "Introduction to Mental Health Counseling",
+                        "number": "331",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/400/psy-425",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/400/PSY-425",
+                        "guid": "88A1C443-BC0E-49EE-9B8C-2C6361B0B2E4",
+                        "name": "Introduction to Counseling",
+                        "number": "425",
+                        "subject_name": "Psychology",
+                        "subject_code": "PSY",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-305",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-305",
+                        "guid": "652923F3-8DE5-4886-9186-22FC775481AC",
+                        "name": "Psychopathology",
+                        "number": "305",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-317",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-317",
+                        "guid": "AA17A817-5B45-4142-806F-A3D007ADAB06",
+                        "name": "Abnormal Psychology",
+                        "number": "317",
+                        "subject_name": "Psychology",
+                        "subject_code": "PSY",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 3 courses (9 hours):",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-201",
+                    "guid": "1A09E954-BBEF-4621-88E9-55B68294A692",
+                    "name": "Community Social Service Experience",
+                    "number": "201",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-225",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-225",
+                    "guid": "98EE2875-A261-4077-8007-3AAD91D46198",
+                    "name": "Relationships, Marriage & Families",
+                    "number": "225",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-318",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-318",
+                    "guid": "ABF3793D-9CC4-40C5-A950-546661D74CC6",
+                    "name": "Introduction to Play Therapy",
+                    "number": "318",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-338",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-338",
+                    "guid": "76B67B2A-C414-E33A-77F7-91EBCD8B6A4",
+                    "name": "Children and Families At Risk",
+                    "number": "338",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-341",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-341",
+                    "guid": "3F3C46F2-8379-4F01-86B9-94A3CB10F290",
+                    "name": "Crisis Intervention & Disaster Relief",
+                    "number": "341",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-345",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-345",
+                    "guid": "C9042F93-4D9D-43E8-8DDD-C075D099F5B3",
+                    "name": "Introduction to Creative Therapies",
+                    "number": "345",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-360",
+                    "guid": "6389360D-B3C2-4704-BA2F-048EA39761DC",
+                    "name": "Current Topics",
+                    "number": "360",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-323",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-323",
+                    "guid": "F97FF053-E24A-45ED-AB08-8BBAECD5B2E0",
+                    "name": "Theories of Personality",
+                    "number": "323",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-328",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-328",
+                    "guid": "B84A9A88-4CC5-4146-A167-026CFB90F001",
+                    "name": "Physiological Psychology",
+                    "number": "328",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-330",
+                    "guid": "497284C6-910C-41A7-BE8A-35C194C70209",
+                    "name": "Health Psychology",
+                    "number": "330",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/400/psy-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/400/PSY-400",
+                    "guid": "88FC1877-21BC-46FD-83D2-24B4FFBB16BE",
+                    "name": "Positive Psychology",
+                    "number": "400",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/400/psy-413",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/400/PSY-413",
+                    "guid": "B774C97A-711E-42B3-AF05-BB0B3A531ACE",
+                    "name": "Psychological Assessment",
+                    "number": "413",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/400/psy-418",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/400/PSY-418",
+                    "guid": "C36A6911-8B44-1E18-2114-231D2E86188",
+                    "name": "Social Psychology",
+                    "number": "418",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/advisor-approved-elective",
+                    "guid": "2659B848-B719-41D8-8B3F-40D0F5AEEFEC",
+                    "name": "Advisor-approved elective",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

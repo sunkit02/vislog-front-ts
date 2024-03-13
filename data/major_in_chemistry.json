@@ -1,0 +1,349 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-chemistry/major-in-chemistry-46-hours",
+  "guid": "88886A16-8655-4C72-B609-2F8DB1529244",
+  "title": "Major in Chemistry—46 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Requirements:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-111",
+                    "guid": "A4CD0F9D-011F-4501-9DED-E3E38A2A63BD",
+                    "name": "General Chemistry",
+                    "number": "111",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-112",
+                    "guid": "97239341-F792-4235-8C1C-53FB2AD3B468",
+                    "name": "Chemical Equilibrium",
+                    "number": "112",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/200/che-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/200/CHE-211",
+                    "guid": "D0266935-22E8-4F5A-ADB2-4507664881BC",
+                    "name": "Analytical Chemistry",
+                    "number": "211",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/200/che-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/200/CHE-221",
+                    "guid": "1C40FD5C-49C7-4514-96BA-0C7A7C2C0159",
+                    "name": "Analytical Chemistry Lab",
+                    "number": "221",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-314",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-314",
+                    "guid": "239BF403-1D29-4380-9CE0-ABF5E6CC3534",
+                    "name": "Organic Chemistry I",
+                    "number": "314",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-315",
+                    "guid": "90E0FB1F-A90F-448E-9606-F5FEFEE9177C",
+                    "name": "Organic Chemistry II",
+                    "number": "315",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-317",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-317",
+                    "guid": "AF9946EE-41B8-44FC-AFA0-BA897DD14A2E",
+                    "name": "Physical Chemistry I",
+                    "number": "317",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-318",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-318",
+                    "guid": "27E49C98-F2BA-4A83-B4B7-E071F6F67BDD",
+                    "name": "Physical Chemistry II",
+                    "number": "318",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-319",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-319",
+                    "guid": "B9542957-B1B7-4A5F-811A-424998B4A522",
+                    "name": "Biochemistry",
+                    "number": "319",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-324",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-324",
+                    "guid": "B9D45159-BFDE-4E9B-86F0-29EA074009E5",
+                    "name": "Organic Chemistry Laboratory",
+                    "number": "324",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-326",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-326",
+                    "guid": "D769FAD0-94B7-4993-B88C-40B418592C88",
+                    "name": "Organic/Inorganic Synthesis Laboratory",
+                    "number": "326",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-327",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-327",
+                    "guid": "4C966668-CB81-44CD-B170-FDC57FFAC580",
+                    "name": "Physical Chemistry Laboratory",
+                    "number": "327",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-335",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-335",
+                    "guid": "B47B15EF-6A25-4307-ACFB-06441C8087C9",
+                    "name": "Intermediate Inorganic Chemistry",
+                    "number": "335",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-498",
+                    "guid": "5D90510B-8CB4-03DA-39CE-CAD4C5EC51D",
+                    "name": "Seminar",
+                    "number": "498",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Research, 3 hours from:",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-424",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-424",
+                        "guid": "638FCD4C-5928-42FF-AF52-E4202560631F",
+                        "name": "Introduction to Research",
+                        "number": "424",
+                        "subject_name": "Chemistry",
+                        "subject_code": "CHE",
+                        "credits": [
+                          1,
+                          3
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-425",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-425",
+                        "guid": "E120C0DE-8F35-4D15-BF28-1ABE5136C82D",
+                        "name": "Introduction to Research",
+                        "number": "425",
+                        "subject_name": "Chemistry",
+                        "subject_code": "CHE",
+                        "credits": [
+                          1,
+                          3
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-405",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-405",
+                    "guid": "9B5C57BC-1418-49BB-B759-1F54D3FCC930",
+                    "name": "Environmental Chemistry",
+                    "number": "405",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-430",
+                    "guid": "2038B73E-F76F-4A85-ABD7-46263060B290",
+                    "name": "Advanced Inorganic Chemistry",
+                    "number": "430",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-435",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-435",
+                    "guid": "3B93DE6E-33D7-4332-B1C4-6D0392B1F826",
+                    "name": "Advanced Organic Chemistry",
+                    "number": "435",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

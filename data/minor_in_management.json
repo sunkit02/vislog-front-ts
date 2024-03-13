@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/minor-in-management-human-resources-18-hours",
+  "guid": "DFC0F074-12D0-4F0A-BB98-A602B4D3C77E",
+  "title": "Minor in Management—Human Resources—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/200/mgt-218",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/200/MGT-218",
+                    "guid": "25EA44B7-7EE9-47CB-B6A5-7CC07EF69BD6",
+                    "name": "Principles of Management",
+                    "number": "218",
+                    "subject_name": "Management",
+                    "subject_code": "MGT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-348",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-348",
+                    "guid": "36F09ACF-8B94-4572-B740-7A5D7B16632E",
+                    "name": "Organizational Behavior",
+                    "number": "348",
+                    "subject_name": "Management",
+                    "subject_code": "MGT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-311",
+                    "guid": "1280F3B1-DA74-48A8-82E7-76C627310302",
+                    "name": "Managerial Communications",
+                    "number": "311",
+                    "subject_name": "Management",
+                    "subject_code": "MGT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-432",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-432",
+                    "guid": "929CED9B-34DD-48CA-BF69-B2B4ADFEB9FA",
+                    "name": "Human Resource Management",
+                    "number": "432",
+                    "subject_name": "Management",
+                    "subject_code": "MGT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours of upper-level MGT electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

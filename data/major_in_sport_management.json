@@ -1,0 +1,926 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/department-of-physical-education-wellness-and-sport/major-in-sport-management-54-hours",
+  "guid": "27A29860-C850-415B-BAB8-6BE4C7A35E47",
+  "title": "Major in Sport Management—54 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Choose one emphasis:",
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "Sport Marketing Emphasis:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Core: 33 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-201",
+                    "guid": "240A782F-837F-49CC-B538-4C72C9D62EFD",
+                    "name": "Introduction to Physical Education and Sport",
+                    "number": "201",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-300",
+                    "guid": "55473D36-ABEF-42DC-BFD1-990EE53D13EE",
+                    "name": "Sport Sociology",
+                    "number": "300",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-342",
+                    "guid": "4BF16CB2-E2B5-43D9-B7DF-7E148D4620D0",
+                    "name": "Facilities and Equipment Management in Physical Education and Sport",
+                    "number": "342",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-343",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-343",
+                    "guid": "583A424C-8DAD-40D1-9D70-39A28847F709",
+                    "name": "Sport Law",
+                    "number": "343",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-362",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-362",
+                    "guid": "537A9A11-824C-4F0E-880F-1FF1A7CC7B6C",
+                    "name": "Sport Finance",
+                    "number": "362",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-400",
+                    "guid": "50597749-F500-4B36-AD10-8DD25CE47DD4",
+                    "name": "Ethics in Sport",
+                    "number": "400",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-419",
+                    "guid": "87EC26C9-CA32-4F97-81C5-2ACFF0CE30D5",
+                    "name": "Organization and Administration of Physical Education and Sport",
+                    "number": "419",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-421",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-421",
+                    "guid": "30FB881D-A412-472F-A25D-FBCFF8A0945B",
+                    "name": "Sport Psychology",
+                    "number": "421",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-435",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-435",
+                    "guid": "93667310-8329-462C-A450-E3BA90D1413E",
+                    "name": "Intern",
+                    "number": "435",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      1,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-221",
+                    "guid": "EF8C889A-66A5-4F23-985E-1990B532AE16",
+                    "name": "Graphic Design 01: Introduction to Graphic Design",
+                    "number": "221",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Emphasis Required Courses: 21 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-340",
+                    "guid": "256A474A-3B6A-46F9-88BC-3C66A02DD571",
+                    "name": "Sport Marketing",
+                    "number": "340",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-425",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-425",
+                    "guid": "4FA010CF-B566-47A7-9675-5DE8CA1074D4",
+                    "name": "Current Issues in Sport",
+                    "number": "425",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/200/mkt-228",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/200/MKT-228",
+                    "guid": "A29532E6-9C99-4A06-BCE8-AFF65EBC857F",
+                    "name": "Principles of Marketing",
+                    "number": "228",
+                    "subject_name": "Marketing",
+                    "subject_code": "MKT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/300/mkt-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/300/MKT-330",
+                    "guid": "25BE7565-CACD-4326-9278-F2EA31618425",
+                    "name": "Consumer Behavior",
+                    "number": "330",
+                    "subject_name": "Marketing",
+                    "subject_code": "MKT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-420",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-420",
+                    "guid": "2ED02D29-6F3E-4EDF-963A-EBAA7C8EB6A7",
+                    "name": "Global Business",
+                    "number": "420",
+                    "subject_name": "Business Administration",
+                    "subject_code": "BAD",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-205",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-205",
+                    "guid": "BF63256D-99E4-4D2C-A692-839707D0703E",
+                    "name": "Sport Media",
+                    "number": "205",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one 3-hour course from ACC, MKT, MGT",
+              "courses": null
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Sport Communication Emphasis:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Core: 33 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-201",
+                    "guid": "240A782F-837F-49CC-B538-4C72C9D62EFD",
+                    "name": "Introduction to Physical Education and Sport",
+                    "number": "201",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-300",
+                    "guid": "55473D36-ABEF-42DC-BFD1-990EE53D13EE",
+                    "name": "Sport Sociology",
+                    "number": "300",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-342",
+                    "guid": "4BF16CB2-E2B5-43D9-B7DF-7E148D4620D0",
+                    "name": "Facilities and Equipment Management in Physical Education and Sport",
+                    "number": "342",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-343",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-343",
+                    "guid": "583A424C-8DAD-40D1-9D70-39A28847F709",
+                    "name": "Sport Law",
+                    "number": "343",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-362",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-362",
+                    "guid": "537A9A11-824C-4F0E-880F-1FF1A7CC7B6C",
+                    "name": "Sport Finance",
+                    "number": "362",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-400",
+                    "guid": "50597749-F500-4B36-AD10-8DD25CE47DD4",
+                    "name": "Ethics in Sport",
+                    "number": "400",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-419",
+                    "guid": "87EC26C9-CA32-4F97-81C5-2ACFF0CE30D5",
+                    "name": "Organization and Administration of Physical Education and Sport",
+                    "number": "419",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-421",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-421",
+                    "guid": "30FB881D-A412-472F-A25D-FBCFF8A0945B",
+                    "name": "Sport Psychology",
+                    "number": "421",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-435",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-435",
+                    "guid": "93667310-8329-462C-A450-E3BA90D1413E",
+                    "name": "Intern",
+                    "number": "435",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      1,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-221",
+                    "guid": "EF8C889A-66A5-4F23-985E-1990B532AE16",
+                    "name": "Graphic Design 01: Introduction to Graphic Design",
+                    "number": "221",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Emphasis Required Courses: 21 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-120",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-120",
+                    "guid": "C206E81A-ED20-4153-BDED-266878A6DE5D",
+                    "name": "Mass Media",
+                    "number": "120",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-360",
+                    "guid": "571D805B-EF1A-4814-973B-5086509C83EE",
+                    "name": "Publication Design",
+                    "number": "360",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-220",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-220",
+                        "guid": "B7945088-5B1A-4E7C-B20E-14D01447DE59",
+                        "name": "Visual Storytelling",
+                        "number": "220",
+                        "subject_name": "Communication Arts",
+                        "subject_code": "COM",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-230",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-230",
+                        "guid": "A26680CD-2FC3-46BC-AB40-7EF83D83E891",
+                        "name": "Television Production",
+                        "number": "230",
+                        "subject_name": "Communication Arts",
+                        "subject_code": "COM",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-205",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-205",
+                    "guid": "BF63256D-99E4-4D2C-A692-839707D0703E",
+                    "name": "Sport Media",
+                    "number": "205",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one 3-hour course from COM",
+              "courses": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one 3-hour course from PEWS",
+              "courses": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one 3-hour course from ACC, MGT, or MKT",
+              "courses": null
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Sport Ministry Emphasis:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Core: 33 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-201",
+                    "guid": "240A782F-837F-49CC-B538-4C72C9D62EFD",
+                    "name": "Introduction to Physical Education and Sport",
+                    "number": "201",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-300",
+                    "guid": "55473D36-ABEF-42DC-BFD1-990EE53D13EE",
+                    "name": "Sport Sociology",
+                    "number": "300",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-342",
+                    "guid": "4BF16CB2-E2B5-43D9-B7DF-7E148D4620D0",
+                    "name": "Facilities and Equipment Management in Physical Education and Sport",
+                    "number": "342",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-343",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-343",
+                    "guid": "583A424C-8DAD-40D1-9D70-39A28847F709",
+                    "name": "Sport Law",
+                    "number": "343",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-362",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-362",
+                    "guid": "537A9A11-824C-4F0E-880F-1FF1A7CC7B6C",
+                    "name": "Sport Finance",
+                    "number": "362",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-400",
+                    "guid": "50597749-F500-4B36-AD10-8DD25CE47DD4",
+                    "name": "Ethics in Sport",
+                    "number": "400",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-419",
+                    "guid": "87EC26C9-CA32-4F97-81C5-2ACFF0CE30D5",
+                    "name": "Organization and Administration of Physical Education and Sport",
+                    "number": "419",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-421",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-421",
+                    "guid": "30FB881D-A412-472F-A25D-FBCFF8A0945B",
+                    "name": "Sport Psychology",
+                    "number": "421",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-435",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-435",
+                    "guid": "93667310-8329-462C-A450-E3BA90D1413E",
+                    "name": "Intern",
+                    "number": "435",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      1,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-221",
+                    "guid": "EF8C889A-66A5-4F23-985E-1990B532AE16",
+                    "name": "Graphic Design 01: Introduction to Graphic Design",
+                    "number": "221",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Emphasis Required Courses: 21 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-113",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-113",
+                    "guid": "20544302-42ED-4F42-89CA-C4D511638E92",
+                    "name": "Introduction to Bible Study and Interpretation",
+                    "number": "113",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                    "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                    "name": "Introduction to Christian Ethics",
+                    "number": "243",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-333",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-333",
+                    "guid": "A5A87911-7D49-4839-B2E4-F53F228A9298",
+                    "name": "Contemporary Christian Life/Practice",
+                    "number": "333",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-251",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-251",
+                    "guid": "77ED3117-45B1-4A6D-9E07-58BBAFC5888D",
+                    "name": "Recreational Sports and Games",
+                    "number": "251",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-320",
+                    "guid": "6631B243-89E9-4561-BAE0-7713A11EAE6F",
+                    "name": "Sport Ministry and Recreation Management",
+                    "number": "320",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/200/mgt-218",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/200/MGT-218",
+                    "guid": "25EA44B7-7EE9-47CB-B6A5-7CC07EF69BD6",
+                    "name": "Principles of Management",
+                    "number": "218",
+                    "subject_name": "Management",
+                    "subject_code": "MGT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from the following:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-231",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-231",
+                    "guid": "672CA562-51D4-47A6-8488-5A947B436B5A",
+                    "name": "Camping and Outdoor Recreation",
+                    "number": "231",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-317",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-317",
+                    "guid": "21096E73-85D4-CAF8-F708-E426BDF740D",
+                    "name": "Organization and Administration of Intramural/Recreation Sports",
+                    "number": "317",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-425",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-425",
+                    "guid": "4FA010CF-B566-47A7-9675-5DE8CA1074D4",
+                    "name": "Current Issues in Sport",
+                    "number": "425",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

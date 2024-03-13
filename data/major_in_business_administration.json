@@ -1,0 +1,866 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/major-in-business-administration-30-hours-major-core-select-one-concentration",
+  "guid": "78E97990-EE48-4FDD-A6D0-97FCBEF1704D",
+  "title": "Major in Business Administration—30 hours (Major Core + select one concentration)",
+  "requirements": {
+    "type": "Many",
+    "data": [
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Economics Concentration",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-400",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-400",
+                      "guid": "70342C8B-176A-4EDD-BB18-90E676D7882C",
+                      "name": "Personal Financial Management",
+                      "number": "400",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-341",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-341",
+                      "guid": "C1DEEF24-A9DE-41E9-B932-80BAC2399057",
+                      "name": "Operations Management",
+                      "number": "341",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-445",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-445",
+                      "guid": "15AE32A4-FBB0-484B-8A73-51339AA4F137",
+                      "name": "Strategic Management",
+                      "number": "445",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-420",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-420",
+                      "guid": "2ED02D29-6F3E-4EDF-963A-EBAA7C8EB6A7",
+                      "name": "Global Business",
+                      "number": "420",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-475",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-475",
+                      "guid": "39FF4F93-DE66-450E-9FE9-3F026309D91B",
+                      "name": "Business Ethics and Diversity",
+                      "number": "475",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of advisor approved upper-level business electives from ACC, BAD, BLAW, ECO, FIN, MGT, or MKT",
+                "courses": null
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Economics Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-411",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-411",
+                      "guid": "1D3F812C-DE14-401B-82E3-D86A4275CCEB",
+                      "name": "Intermediate Macroeconomics",
+                      "number": "411",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-412",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-412",
+                      "guid": "33B052D8-0BFC-4595-A41D-B9F437A28ACA",
+                      "name": "Intermediate Microeconomics",
+                      "number": "412",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-430",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-430",
+                      "guid": "7C12DC71-869A-45C6-B236-E9C6E1E9C31C",
+                      "name": "International Economics",
+                      "number": "430",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Finance Concentration",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-400",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-400",
+                      "guid": "70342C8B-176A-4EDD-BB18-90E676D7882C",
+                      "name": "Personal Financial Management",
+                      "number": "400",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-341",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-341",
+                      "guid": "C1DEEF24-A9DE-41E9-B932-80BAC2399057",
+                      "name": "Operations Management",
+                      "number": "341",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-445",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-445",
+                      "guid": "15AE32A4-FBB0-484B-8A73-51339AA4F137",
+                      "name": "Strategic Management",
+                      "number": "445",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-420",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-420",
+                      "guid": "2ED02D29-6F3E-4EDF-963A-EBAA7C8EB6A7",
+                      "name": "Global Business",
+                      "number": "420",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-475",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-475",
+                      "guid": "39FF4F93-DE66-450E-9FE9-3F026309D91B",
+                      "name": "Business Ethics and Diversity",
+                      "number": "475",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of advisor approved upper-level business electives from ACC, BAD, BLAW, ECO, FIN, MGT, or MKT",
+                "courses": null
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Finance Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fin-finance/400/fin-415",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FIN-Finance/400/FIN-415",
+                      "guid": "1548DEA1-15AC-4EA3-ACDD-7FFD04354E8E",
+                      "name": "Corporate Finance",
+                      "number": "415",
+                      "subject_name": "Finance",
+                      "subject_code": "FIN",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fin-finance/400/fin-416",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FIN-Finance/400/FIN-416",
+                      "guid": "6B61AE5C-C845-4DF1-9910-08F44FA13F8C",
+                      "name": "Investment Analysis",
+                      "number": "416",
+                      "subject_name": "Finance",
+                      "subject_code": "FIN",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fin-finance/400/fin-417",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FIN-Finance/400/FIN-417",
+                          "guid": "5BA99022-3E9F-475D-BF1E-B2D0316EE9C4",
+                          "name": "Financial Markets and Institutions",
+                          "number": "417",
+                          "subject_name": "Finance",
+                          "subject_code": "FIN",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/300/eco-327",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/300/ECO-327",
+                          "guid": "179A2824-F6F0-4899-AEF3-5610444581BD",
+                          "name": "Money and Banking",
+                          "number": "327",
+                          "subject_name": "Economics",
+                          "subject_code": "ECO",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-411",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-411",
+                          "guid": "1D3F812C-DE14-401B-82E3-D86A4275CCEB",
+                          "name": "Intermediate Macroeconomics",
+                          "number": "411",
+                          "subject_name": "Economics",
+                          "subject_code": "ECO",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "International Business Concentration",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-400",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-400",
+                      "guid": "70342C8B-176A-4EDD-BB18-90E676D7882C",
+                      "name": "Personal Financial Management",
+                      "number": "400",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-341",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-341",
+                      "guid": "C1DEEF24-A9DE-41E9-B932-80BAC2399057",
+                      "name": "Operations Management",
+                      "number": "341",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-445",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-445",
+                      "guid": "15AE32A4-FBB0-484B-8A73-51339AA4F137",
+                      "name": "Strategic Management",
+                      "number": "445",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-420",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-420",
+                      "guid": "2ED02D29-6F3E-4EDF-963A-EBAA7C8EB6A7",
+                      "name": "Global Business",
+                      "number": "420",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-475",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-475",
+                      "guid": "39FF4F93-DE66-450E-9FE9-3F026309D91B",
+                      "name": "Business Ethics and Diversity",
+                      "number": "475",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of advisor approved upper-level business electives from ACC, BAD, BLAW, ECO, FIN, MGT, or MKT",
+                "courses": null
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "International Business Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-320",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-320",
+                      "guid": "F0958FC3-4B9D-4958-9C04-3568F7E4E8B8",
+                      "name": "Intercultural Communication",
+                      "number": "320",
+                      "subject_name": "Intercultural Studies",
+                      "subject_code": "ICS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-425",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-425",
+                          "guid": "EB3FBF0B-D7D3-404B-A962-6C86A01E85CC",
+                          "name": "Economic Growth and Development",
+                          "number": "425",
+                          "subject_name": "Economics",
+                          "subject_code": "ECO",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-430",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-430",
+                          "guid": "7C12DC71-869A-45C6-B236-E9C6E1E9C31C",
+                          "name": "International Economics",
+                          "number": "430",
+                          "subject_name": "Economics",
+                          "subject_code": "ECO",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select a 3-hour upper-level business elective or ICS elective",
+                "courses": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Management Concentration",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-400",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-400",
+                      "guid": "70342C8B-176A-4EDD-BB18-90E676D7882C",
+                      "name": "Personal Financial Management",
+                      "number": "400",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-341",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-341",
+                      "guid": "C1DEEF24-A9DE-41E9-B932-80BAC2399057",
+                      "name": "Operations Management",
+                      "number": "341",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-445",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-445",
+                      "guid": "15AE32A4-FBB0-484B-8A73-51339AA4F137",
+                      "name": "Strategic Management",
+                      "number": "445",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-420",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-420",
+                      "guid": "2ED02D29-6F3E-4EDF-963A-EBAA7C8EB6A7",
+                      "name": "Global Business",
+                      "number": "420",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-475",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-475",
+                      "guid": "39FF4F93-DE66-450E-9FE9-3F026309D91B",
+                      "name": "Business Ethics and Diversity",
+                      "number": "475",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of advisor approved upper-level business electives from ACC, BAD, BLAW, ECO, FIN, MGT, or MKT",
+                "courses": null
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Management Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-348",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-348",
+                      "guid": "36F09ACF-8B94-4572-B740-7A5D7B16632E",
+                      "name": "Organizational Behavior",
+                      "number": "348",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-432",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-432",
+                      "guid": "929CED9B-34DD-48CA-BF69-B2B4ADFEB9FA",
+                      "name": "Human Resource Management",
+                      "number": "432",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-330",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-330",
+                          "guid": "409134FE-5F0B-4205-BAF7-F87467412BDD",
+                          "name": "Corporate Sustainability",
+                          "number": "330",
+                          "subject_name": "Management",
+                          "subject_code": "MGT",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-484",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-484",
+                          "guid": "9097D381-F010-4F7D-AF30-0CD020993A47",
+                          "name": "Internship",
+                          "number": "484",
+                          "subject_name": "Management",
+                          "subject_code": "MGT",
+                          "credits": [
+                            0,
+                            3
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Marketing Concentration",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-400",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-400",
+                      "guid": "70342C8B-176A-4EDD-BB18-90E676D7882C",
+                      "name": "Personal Financial Management",
+                      "number": "400",
+                      "subject_name": "Economics",
+                      "subject_code": "ECO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-341",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-341",
+                      "guid": "C1DEEF24-A9DE-41E9-B932-80BAC2399057",
+                      "name": "Operations Management",
+                      "number": "341",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-445",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-445",
+                      "guid": "15AE32A4-FBB0-484B-8A73-51339AA4F137",
+                      "name": "Strategic Management",
+                      "number": "445",
+                      "subject_name": "Management",
+                      "subject_code": "MGT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-420",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-420",
+                      "guid": "2ED02D29-6F3E-4EDF-963A-EBAA7C8EB6A7",
+                      "name": "Global Business",
+                      "number": "420",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-475",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-475",
+                      "guid": "39FF4F93-DE66-450E-9FE9-3F026309D91B",
+                      "name": "Business Ethics and Diversity",
+                      "number": "475",
+                      "subject_name": "Business Administration",
+                      "subject_code": "BAD",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of advisor approved upper-level business electives from ACC, BAD, BLAW, ECO, FIN, MGT, or MKT",
+                "courses": null
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Marketing Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/400/mkt-424",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/400/MKT-424",
+                      "guid": "DC838680-D581-4F23-9EAE-F70262993CB2",
+                      "name": "Marketing Research",
+                      "number": "424",
+                      "subject_name": "Marketing",
+                      "subject_code": "MKT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/400/mkt-440",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/400/MKT-440",
+                      "guid": "12DBC8F7-599A-4C73-87FF-01033EEF0B56",
+                      "name": "Strategic Marketing",
+                      "number": "440",
+                      "subject_name": "Marketing",
+                      "subject_code": "MKT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select a 3-hour upper-level MKT elective",
+                "courses": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

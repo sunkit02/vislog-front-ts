@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/minor-in-marketing-18-hours",
+  "guid": "7F04EF7C-E5B1-4F68-89E6-FF164C090E5C",
+  "title": "Minor in Marketing—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/200/mkt-228",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/200/MKT-228",
+                    "guid": "A29532E6-9C99-4A06-BCE8-AFF65EBC857F",
+                    "name": "Principles of Marketing",
+                    "number": "228",
+                    "subject_name": "Marketing",
+                    "subject_code": "MKT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/400/mkt-424",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/400/MKT-424",
+                    "guid": "DC838680-D581-4F23-9EAE-F70262993CB2",
+                    "name": "Marketing Research",
+                    "number": "424",
+                    "subject_name": "Marketing",
+                    "subject_code": "MKT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/400/mkt-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/400/MKT-440",
+                    "guid": "12DBC8F7-599A-4C73-87FF-01033EEF0B56",
+                    "name": "Strategic Marketing",
+                    "number": "440",
+                    "subject_name": "Marketing",
+                    "subject_code": "MKT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                    "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                    "name": "Introduction to Statistics & Probability",
+                    "number": "114",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours of upper-level Marketing electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

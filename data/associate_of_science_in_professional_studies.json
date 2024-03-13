@@ -1,0 +1,2377 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-adult-and-professional-studies/associate-of-science-in-professional-studies",
+  "guid": "2CDE2966-A70A-4B76-834A-E76719C65AFC",
+  "title": "Associate of Science in Professional Studies",
+  "requirements": {
+    "type": "Many",
+    "data": [
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Christian Leadership Concentration—61 hours (33 hours of General Core Courses and 28 hours of Concentration Courses)",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "General Core Requirements for Non-Nursing Concentrations:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/100/aps-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/100/APS-100",
+                      "guid": "E34C7B85-D783-476A-9B65-52CBB2D29E0F",
+                      "name": "APS Orientation",
+                      "number": "100",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-111",
+                      "guid": "B49E6397-6024-44E7-8801-580A3000AB15",
+                      "name": "Written Composition I",
+                      "number": "111",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-112",
+                      "guid": "4D9FDC3F-D5D0-4781-8E35-ACC0E5B55175",
+                      "name": "Written Composition II",
+                      "number": "112",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-112",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-112",
+                          "guid": "FB0C9910-A265-43A1-ABC6-88A315C96B18",
+                          "name": "Public Communication",
+                          "number": "112",
+                          "subject_name": "Communication Arts",
+                          "subject_code": "COM",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-235",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-235",
+                          "guid": "52231F5B-20C3-4903-8E84-2074578B610F",
+                          "name": "Interpersonal Communication",
+                          "number": "235",
+                          "subject_name": "Communication Arts",
+                          "subject_code": "COM",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-201",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-201",
+                          "guid": "7BEE3183-9A36-479F-B05B-11BFACEAD143",
+                          "name": "World Literature I",
+                          "number": "201",
+                          "subject_name": "English",
+                          "subject_code": "ENG",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-202",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-202",
+                          "guid": "B373E05A-CD87-4021-A031-99840D59FAFE",
+                          "name": "World Literature II",
+                          "number": "202",
+                          "subject_name": "English",
+                          "subject_code": "ENG",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-101",
+                      "guid": "C688BE1C-7CD6-42B7-A894-5E8AF5E2CF0E",
+                      "name": "Mathematics for Elementary Teachers",
+                      "number": "101",
+                      "subject_name": "Mathematics",
+                      "subject_code": "MAT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/or-higher",
+                      "guid": "5D33ECF9-6214-B8D9-8314-0FF5D9D1AFB",
+                      "name": "Or higher",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        0,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                          "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                          "name": "World Civilization to the 18th Century",
+                          "number": "101",
+                          "subject_name": "History",
+                          "subject_code": "HIS",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-102",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-102",
+                          "guid": "493C37D9-9EE2-42CE-8EF2-4251E8FE9A2A",
+                          "name": "World Civilization From the 18th Century",
+                          "number": "102",
+                          "subject_name": "History",
+                          "subject_code": "HIS",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-111",
+                      "guid": "CE301745-5BE5-4547-97EA-EF700786E2DC",
+                      "name": "Old Testament Survey",
+                      "number": "111",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-112",
+                      "guid": "B966D651-7C41-4AB0-8091-892797786A5A",
+                      "name": "New Testament Survey",
+                      "number": "112",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select two sciences—8 hours:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/100/bio-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/100/BIO-100",
+                      "guid": "926C2332-DB18-42EC-8C47-547952B50E9C",
+                      "name": "Survey of Biological Concepts",
+                      "number": "100",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-102",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-102",
+                      "guid": "CECEE2F4-3405-4550-BE54-FE279EDE74BB",
+                      "name": "Chemistry of Common Consumer Products",
+                      "number": "102",
+                      "subject_name": "Chemistry",
+                      "subject_code": "CHE",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-111",
+                      "guid": "1CEF0F92-6EC8-4CFD-A7E4-79D7BD72F809",
+                      "name": "Principles of the Physical Sciences",
+                      "number": "111",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Christian Leadership Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-201",
+                      "guid": "7A67C991-E7B3-4E64-9AA4-A64F7B26C8DE",
+                      "name": "Learning Strategies for College Success",
+                      "number": "201",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-230",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-230",
+                      "guid": "49744B0A-A478-4D0B-9AB8-BD8D5C6643D0",
+                      "name": "Personal Budgeting and Financial Planning",
+                      "number": "230",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-100",
+                      "guid": "D0CBD214-400C-446E-A411-B83782B59EA2",
+                      "name": "Introduction to Computer Literacy",
+                      "number": "100",
+                      "subject_name": "Computer Science",
+                      "subject_code": "CSC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-200",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-200",
+                      "guid": "F24C31B9-DC23-4E2D-8FED-F9990005EE36",
+                      "name": "Basic Christian Beliefs",
+                      "number": "200",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-201",
+                      "guid": "B8F2E611-FB20-4636-9EA5-38B6AB98173C",
+                      "name": "Great Leaders in Christian History",
+                      "number": "201",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-202",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-202",
+                      "guid": "C5AFE61D-14BA-4834-8BAE-2191EF5E671D",
+                      "name": "Leadership in Scripture",
+                      "number": "202",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-205",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-205",
+                      "guid": "6142B26D-29A4-4475-9A17-A3E4A167EA74",
+                      "name": "Teaching the Bible",
+                      "number": "205",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                      "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                      "name": "Introduction to Psychology",
+                      "number": "213",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select two from:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-215",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-215",
+                      "guid": "A481508E-215C-4E3B-85F4-24E0B30E48CB",
+                      "name": "Learning From Great Leaders",
+                      "number": "215",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-250",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-250",
+                      "guid": "662E0808-628C-4493-96AD-9DED0AD197C8",
+                      "name": "Teams and Virtual Teams",
+                      "number": "250",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-270",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-270",
+                      "guid": "C84F2929-2A1C-4E52-9C4D-A77B3E9EBA17",
+                      "name": "Professionalism and Leadership",
+                      "number": "270",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                      "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                      "name": "Introduction to Christian Ethics",
+                      "number": "243",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/100/ics-110",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/100/ICS-110",
+                      "guid": "16D0BB31-A554-7B6B-827C-7588BE608DC",
+                      "name": "Introduction to Intercultural Studies",
+                      "number": "110",
+                      "subject_name": "Intercultural Studies",
+                      "subject_code": "ICS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-200",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-200",
+                      "guid": "3DB97093-4AF4-7559-A7DA-26648FA9114",
+                      "name": "Introduction to Social Welfare",
+                      "number": "200",
+                      "subject_name": "Social Work",
+                      "subject_code": "SW",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Organizational Leadership Concentration—61 hours (33 hours of General Core Courses + 28 hours of Concentration Courses)",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "General Core Requirements for Non-Nursing Concentrations:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/100/aps-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/100/APS-100",
+                      "guid": "E34C7B85-D783-476A-9B65-52CBB2D29E0F",
+                      "name": "APS Orientation",
+                      "number": "100",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-111",
+                      "guid": "B49E6397-6024-44E7-8801-580A3000AB15",
+                      "name": "Written Composition I",
+                      "number": "111",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-112",
+                      "guid": "4D9FDC3F-D5D0-4781-8E35-ACC0E5B55175",
+                      "name": "Written Composition II",
+                      "number": "112",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-112",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-112",
+                          "guid": "FB0C9910-A265-43A1-ABC6-88A315C96B18",
+                          "name": "Public Communication",
+                          "number": "112",
+                          "subject_name": "Communication Arts",
+                          "subject_code": "COM",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-235",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-235",
+                          "guid": "52231F5B-20C3-4903-8E84-2074578B610F",
+                          "name": "Interpersonal Communication",
+                          "number": "235",
+                          "subject_name": "Communication Arts",
+                          "subject_code": "COM",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-201",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-201",
+                          "guid": "7BEE3183-9A36-479F-B05B-11BFACEAD143",
+                          "name": "World Literature I",
+                          "number": "201",
+                          "subject_name": "English",
+                          "subject_code": "ENG",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-202",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-202",
+                          "guid": "B373E05A-CD87-4021-A031-99840D59FAFE",
+                          "name": "World Literature II",
+                          "number": "202",
+                          "subject_name": "English",
+                          "subject_code": "ENG",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-101",
+                      "guid": "C688BE1C-7CD6-42B7-A894-5E8AF5E2CF0E",
+                      "name": "Mathematics for Elementary Teachers",
+                      "number": "101",
+                      "subject_name": "Mathematics",
+                      "subject_code": "MAT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/or-higher",
+                      "guid": "5D33ECF9-6214-B8D9-8314-0FF5D9D1AFB",
+                      "name": "Or higher",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        0,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                          "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                          "name": "World Civilization to the 18th Century",
+                          "number": "101",
+                          "subject_name": "History",
+                          "subject_code": "HIS",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-102",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-102",
+                          "guid": "493C37D9-9EE2-42CE-8EF2-4251E8FE9A2A",
+                          "name": "World Civilization From the 18th Century",
+                          "number": "102",
+                          "subject_name": "History",
+                          "subject_code": "HIS",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-111",
+                      "guid": "CE301745-5BE5-4547-97EA-EF700786E2DC",
+                      "name": "Old Testament Survey",
+                      "number": "111",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-112",
+                      "guid": "B966D651-7C41-4AB0-8091-892797786A5A",
+                      "name": "New Testament Survey",
+                      "number": "112",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select two sciences—8 hours:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/100/bio-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/100/BIO-100",
+                      "guid": "926C2332-DB18-42EC-8C47-547952B50E9C",
+                      "name": "Survey of Biological Concepts",
+                      "number": "100",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-102",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-102",
+                      "guid": "CECEE2F4-3405-4550-BE54-FE279EDE74BB",
+                      "name": "Chemistry of Common Consumer Products",
+                      "number": "102",
+                      "subject_name": "Chemistry",
+                      "subject_code": "CHE",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-111",
+                      "guid": "1CEF0F92-6EC8-4CFD-A7E4-79D7BD72F809",
+                      "name": "Principles of the Physical Sciences",
+                      "number": "111",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Organizational Leadership Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-201",
+                      "guid": "7A67C991-E7B3-4E64-9AA4-A64F7B26C8DE",
+                      "name": "Learning Strategies for College Success",
+                      "number": "201",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-100",
+                      "guid": "D0CBD214-400C-446E-A411-B83782B59EA2",
+                      "name": "Introduction to Computer Literacy",
+                      "number": "100",
+                      "subject_name": "Computer Science",
+                      "subject_code": "CSC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                      "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                      "name": "Principles of Sociology",
+                      "number": "211",
+                      "subject_name": "Sociology",
+                      "subject_code": "SOC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                      "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                      "name": "Introduction to Psychology",
+                      "number": "213",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-215",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-215",
+                      "guid": "A481508E-215C-4E3B-85F4-24E0B30E48CB",
+                      "name": "Learning From Great Leaders",
+                      "number": "215",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-230",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-230",
+                      "guid": "49744B0A-A478-4D0B-9AB8-BD8D5C6643D0",
+                      "name": "Personal Budgeting and Financial Planning",
+                      "number": "230",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-102",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-102",
+                      "guid": "493C37D9-9EE2-42CE-8EF2-4251E8FE9A2A",
+                      "name": "World Civilization From the 18th Century",
+                      "number": "102",
+                      "subject_name": "History",
+                      "subject_code": "HIS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/general-studies-core-or-humanities-elective-3",
+                      "guid": "5F89091D-0F4C-4DE5-8692-DB51CB05CDF5",
+                      "name": "General Studies Core or Humanities Elective",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select two from:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-219",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-219",
+                      "guid": "791361E1-01DC-4EF7-9DE1-9D9EC85B43F6",
+                      "name": "Developmental Psychology",
+                      "number": "219",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-250",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-250",
+                      "guid": "662E0808-628C-4493-96AD-9DED0AD197C8",
+                      "name": "Teams and Virtual Teams",
+                      "number": "250",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-270",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-270",
+                      "guid": "C84F2929-2A1C-4E52-9C4D-A77B3E9EBA17",
+                      "name": "Professionalism and Leadership",
+                      "number": "270",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-205",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-205",
+                      "guid": "6142B26D-29A4-4475-9A17-A3E4A167EA74",
+                      "name": "Teaching the Bible",
+                      "number": "205",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-200",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-200",
+                      "guid": "3DB97093-4AF4-7559-A7DA-26648FA9114",
+                      "name": "Introduction to Social Welfare",
+                      "number": "200",
+                      "subject_name": "Social Work",
+                      "subject_code": "SW",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/100/ics-110",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/100/ICS-110",
+                      "guid": "16D0BB31-A554-7B6B-827C-7588BE608DC",
+                      "name": "Introduction to Intercultural Studies",
+                      "number": "110",
+                      "subject_name": "Intercultural Studies",
+                      "subject_code": "ICS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Human Services—General Concentration—61 hours (33 hours of General Core Courses + 28 hours of Concentration Courses)",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "General Core Requirements for Non-Nursing Concentrations:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/100/aps-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/100/APS-100",
+                      "guid": "E34C7B85-D783-476A-9B65-52CBB2D29E0F",
+                      "name": "APS Orientation",
+                      "number": "100",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-111",
+                      "guid": "B49E6397-6024-44E7-8801-580A3000AB15",
+                      "name": "Written Composition I",
+                      "number": "111",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-112",
+                      "guid": "4D9FDC3F-D5D0-4781-8E35-ACC0E5B55175",
+                      "name": "Written Composition II",
+                      "number": "112",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-112",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-112",
+                          "guid": "FB0C9910-A265-43A1-ABC6-88A315C96B18",
+                          "name": "Public Communication",
+                          "number": "112",
+                          "subject_name": "Communication Arts",
+                          "subject_code": "COM",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-235",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-235",
+                          "guid": "52231F5B-20C3-4903-8E84-2074578B610F",
+                          "name": "Interpersonal Communication",
+                          "number": "235",
+                          "subject_name": "Communication Arts",
+                          "subject_code": "COM",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-201",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-201",
+                          "guid": "7BEE3183-9A36-479F-B05B-11BFACEAD143",
+                          "name": "World Literature I",
+                          "number": "201",
+                          "subject_name": "English",
+                          "subject_code": "ENG",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-202",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-202",
+                          "guid": "B373E05A-CD87-4021-A031-99840D59FAFE",
+                          "name": "World Literature II",
+                          "number": "202",
+                          "subject_name": "English",
+                          "subject_code": "ENG",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-101",
+                      "guid": "C688BE1C-7CD6-42B7-A894-5E8AF5E2CF0E",
+                      "name": "Mathematics for Elementary Teachers",
+                      "number": "101",
+                      "subject_name": "Mathematics",
+                      "subject_code": "MAT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/or-higher",
+                      "guid": "5D33ECF9-6214-B8D9-8314-0FF5D9D1AFB",
+                      "name": "Or higher",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        0,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                          "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                          "name": "World Civilization to the 18th Century",
+                          "number": "101",
+                          "subject_name": "History",
+                          "subject_code": "HIS",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-102",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-102",
+                          "guid": "493C37D9-9EE2-42CE-8EF2-4251E8FE9A2A",
+                          "name": "World Civilization From the 18th Century",
+                          "number": "102",
+                          "subject_name": "History",
+                          "subject_code": "HIS",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-111",
+                      "guid": "CE301745-5BE5-4547-97EA-EF700786E2DC",
+                      "name": "Old Testament Survey",
+                      "number": "111",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-112",
+                      "guid": "B966D651-7C41-4AB0-8091-892797786A5A",
+                      "name": "New Testament Survey",
+                      "number": "112",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select two sciences—8 hours:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/100/bio-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/100/BIO-100",
+                      "guid": "926C2332-DB18-42EC-8C47-547952B50E9C",
+                      "name": "Survey of Biological Concepts",
+                      "number": "100",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-102",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-102",
+                      "guid": "CECEE2F4-3405-4550-BE54-FE279EDE74BB",
+                      "name": "Chemistry of Common Consumer Products",
+                      "number": "102",
+                      "subject_name": "Chemistry",
+                      "subject_code": "CHE",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-111",
+                      "guid": "1CEF0F92-6EC8-4CFD-A7E4-79D7BD72F809",
+                      "name": "Principles of the Physical Sciences",
+                      "number": "111",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Human Services—General Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-201",
+                      "guid": "7A67C991-E7B3-4E64-9AA4-A64F7B26C8DE",
+                      "name": "Learning Strategies for College Success",
+                      "number": "201",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-100",
+                      "guid": "D0CBD214-400C-446E-A411-B83782B59EA2",
+                      "name": "Introduction to Computer Literacy",
+                      "number": "100",
+                      "subject_name": "Computer Science",
+                      "subject_code": "CSC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                      "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                      "name": "Principles of Sociology",
+                      "number": "211",
+                      "subject_name": "Sociology",
+                      "subject_code": "SOC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                      "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                      "name": "Introduction to Psychology",
+                      "number": "213",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/100/ics-110",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/100/ICS-110",
+                      "guid": "16D0BB31-A554-7B6B-827C-7588BE608DC",
+                      "name": "Introduction to Intercultural Studies",
+                      "number": "110",
+                      "subject_name": "Intercultural Studies",
+                      "subject_code": "ICS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-230",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-230",
+                      "guid": "49744B0A-A478-4D0B-9AB8-BD8D5C6643D0",
+                      "name": "Personal Budgeting and Financial Planning",
+                      "number": "230",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/foreign-language-3",
+                      "guid": "BC9BD789-6C39-474C-ADFF-B93C278608EA",
+                      "name": "Foreign Language",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/general-core-or-humanities-elective-3",
+                      "guid": "9550696B-E372-4552-949B-D60019EE967D",
+                      "name": "General Core or Humanities Elective",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select two from:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-219",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-219",
+                      "guid": "791361E1-01DC-4EF7-9DE1-9D9EC85B43F6",
+                      "name": "Developmental Psychology",
+                      "number": "219",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-215",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-215",
+                      "guid": "A481508E-215C-4E3B-85F4-24E0B30E48CB",
+                      "name": "Learning From Great Leaders",
+                      "number": "215",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-250",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-250",
+                      "guid": "662E0808-628C-4493-96AD-9DED0AD197C8",
+                      "name": "Teams and Virtual Teams",
+                      "number": "250",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-270",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-270",
+                      "guid": "C84F2929-2A1C-4E52-9C4D-A77B3E9EBA17",
+                      "name": "Professionalism and Leadership",
+                      "number": "270",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-225",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-225",
+                      "guid": "98EE2875-A261-4077-8007-3AAD91D46198",
+                      "name": "Relationships, Marriage & Families",
+                      "number": "225",
+                      "subject_name": "Social Work",
+                      "subject_code": "SW",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-200",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-200",
+                      "guid": "3DB97093-4AF4-7559-A7DA-26648FA9114",
+                      "name": "Introduction to Social Welfare",
+                      "number": "200",
+                      "subject_name": "Social Work",
+                      "subject_code": "SW",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Human Services—Pre-Nursing (Traditional BSN)—66 hours (33 hours of General Core Courses + 33 hours Concentration Courses)",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "General Core Requirements for Pre-Nursing Concentrations:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/100/aps-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/100/APS-100",
+                      "guid": "E34C7B85-D783-476A-9B65-52CBB2D29E0F",
+                      "name": "APS Orientation",
+                      "number": "100",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-111",
+                      "guid": "B49E6397-6024-44E7-8801-580A3000AB15",
+                      "name": "Written Composition I",
+                      "number": "111",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-112",
+                      "guid": "4D9FDC3F-D5D0-4781-8E35-ACC0E5B55175",
+                      "name": "Written Composition II",
+                      "number": "112",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-201",
+                      "guid": "7BEE3183-9A36-479F-B05B-11BFACEAD143",
+                      "name": "World Literature I",
+                      "number": "201",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-202",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-202",
+                      "guid": "B373E05A-CD87-4021-A031-99840D59FAFE",
+                      "name": "World Literature II",
+                      "number": "202",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-221",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-221",
+                      "guid": "6B12C052-0C6A-4B45-A7CB-14AA6B248760",
+                      "name": "Human Anatomy and Physiology I",
+                      "number": "221",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-222",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-222",
+                      "guid": "524AEC3D-A0FC-4E10-A393-DC5C72F45CE2",
+                      "name": "Human Anatomy & Physiology II",
+                      "number": "222",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                      "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                      "name": "Introduction to Statistics & Probability",
+                      "number": "114",
+                      "subject_name": "Mathematics",
+                      "subject_code": "MAT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                      "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                      "name": "World Civilization to the 18th Century",
+                      "number": "101",
+                      "subject_name": "History",
+                      "subject_code": "HIS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-111",
+                      "guid": "CE301745-5BE5-4547-97EA-EF700786E2DC",
+                      "name": "Old Testament Survey",
+                      "number": "111",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-112",
+                      "guid": "B966D651-7C41-4AB0-8091-892797786A5A",
+                      "name": "New Testament Survey",
+                      "number": "112",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Human Services—Pre-Nursing Traditional BSN Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-201",
+                      "guid": "7A67C991-E7B3-4E64-9AA4-A64F7B26C8DE",
+                      "name": "Learning Strategies for College Success",
+                      "number": "201",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-100",
+                      "guid": "D0CBD214-400C-446E-A411-B83782B59EA2",
+                      "name": "Introduction to Computer Literacy",
+                      "number": "100",
+                      "subject_name": "Computer Science",
+                      "subject_code": "CSC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                      "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                      "name": "Principles of Sociology",
+                      "number": "211",
+                      "subject_name": "Sociology",
+                      "subject_code": "SOC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                      "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                      "name": "Introduction to Psychology",
+                      "number": "213",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-102",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-102",
+                      "guid": "493C37D9-9EE2-42CE-8EF2-4251E8FE9A2A",
+                      "name": "World Civilization From the 18th Century",
+                      "number": "102",
+                      "subject_name": "History",
+                      "subject_code": "HIS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-230",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-230",
+                      "guid": "49744B0A-A478-4D0B-9AB8-BD8D5C6643D0",
+                      "name": "Personal Budgeting and Financial Planning",
+                      "number": "230",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-210",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-210",
+                      "guid": "A3AE2D67-A4C9-4C1B-8ABA-61AD3583BA8F",
+                      "name": "The Arts in Western Civilization",
+                      "number": "210",
+                      "subject_name": "Art",
+                      "subject_code": "ART",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/300/bio-300",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/300/BIO-300",
+                      "guid": "26FDC833-5750-4B5F-845E-2655C01722D0",
+                      "name": "Pathophysiology",
+                      "number": "300",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-219",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-219",
+                      "guid": "791361E1-01DC-4EF7-9DE1-9D9EC85B43F6",
+                      "name": "Developmental Psychology",
+                      "number": "219",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-201",
+                      "guid": "EDF37E82-5347-4412-9D05-50CFAA92CCB4",
+                      "name": "Survey of Microbiology",
+                      "number": "201",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-105",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-105",
+                      "guid": "CDF35AA2-BC9F-4074-86DA-19CE30256B3D",
+                      "name": "Fundamentals of Chemistry I",
+                      "number": "105",
+                      "subject_name": "Chemistry",
+                      "subject_code": "CHE",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "And",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-100",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-100",
+                          "guid": "CD8B1586-4124-CC58-AD89-CD6A541AA40",
+                          "name": "Fitness for Health",
+                          "number": "100",
+                          "subject_name": "Physical Edu. Wellness & Sport",
+                          "subject_code": "PEWS",
+                          "credits": [
+                            1,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Label",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/pews-activity-course-1",
+                          "guid": "96E177B0-2D4B-471B-8C4D-AF694F0BE764",
+                          "name": "Activity Course",
+                          "number": null,
+                          "subject_code": "PEWS",
+                          "credits": [
+                            1,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Human Services—Pre-Nursing (Accelerated BSN)—68 hours (33 hours of General Core Courses + 35 hours Concentration Courses)",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "General Core Requirements for Pre-Nursing Concentrations:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/100/aps-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/100/APS-100",
+                      "guid": "E34C7B85-D783-476A-9B65-52CBB2D29E0F",
+                      "name": "APS Orientation",
+                      "number": "100",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-111",
+                      "guid": "B49E6397-6024-44E7-8801-580A3000AB15",
+                      "name": "Written Composition I",
+                      "number": "111",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-112",
+                      "guid": "4D9FDC3F-D5D0-4781-8E35-ACC0E5B55175",
+                      "name": "Written Composition II",
+                      "number": "112",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-201",
+                      "guid": "7BEE3183-9A36-479F-B05B-11BFACEAD143",
+                      "name": "World Literature I",
+                      "number": "201",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-202",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-202",
+                      "guid": "B373E05A-CD87-4021-A031-99840D59FAFE",
+                      "name": "World Literature II",
+                      "number": "202",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-221",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-221",
+                      "guid": "6B12C052-0C6A-4B45-A7CB-14AA6B248760",
+                      "name": "Human Anatomy and Physiology I",
+                      "number": "221",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-222",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-222",
+                      "guid": "524AEC3D-A0FC-4E10-A393-DC5C72F45CE2",
+                      "name": "Human Anatomy & Physiology II",
+                      "number": "222",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                      "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                      "name": "Introduction to Statistics & Probability",
+                      "number": "114",
+                      "subject_name": "Mathematics",
+                      "subject_code": "MAT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                      "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                      "name": "World Civilization to the 18th Century",
+                      "number": "101",
+                      "subject_name": "History",
+                      "subject_code": "HIS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-111",
+                      "guid": "CE301745-5BE5-4547-97EA-EF700786E2DC",
+                      "name": "Old Testament Survey",
+                      "number": "111",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-112",
+                      "guid": "B966D651-7C41-4AB0-8091-892797786A5A",
+                      "name": "New Testament Survey",
+                      "number": "112",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Human Services—Pre-Nursing Accelerated BSN Required Courses:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-201",
+                      "guid": "7A67C991-E7B3-4E64-9AA4-A64F7B26C8DE",
+                      "name": "Learning Strategies for College Success",
+                      "number": "201",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-100",
+                      "guid": "D0CBD214-400C-446E-A411-B83782B59EA2",
+                      "name": "Introduction to Computer Literacy",
+                      "number": "100",
+                      "subject_name": "Computer Science",
+                      "subject_code": "CSC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                      "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                      "name": "Principles of Sociology",
+                      "number": "211",
+                      "subject_name": "Sociology",
+                      "subject_code": "SOC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                      "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                      "name": "Introduction to Psychology",
+                      "number": "213",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/100/ics-110",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/100/ICS-110",
+                      "guid": "16D0BB31-A554-7B6B-827C-7588BE608DC",
+                      "name": "Introduction to Intercultural Studies",
+                      "number": "110",
+                      "subject_name": "Intercultural Studies",
+                      "subject_code": "ICS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/aps-associate-professional-studies/200/aps-230",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APS-Associate-Professional-Studies/200/APS-230",
+                      "guid": "49744B0A-A478-4D0B-9AB8-BD8D5C6643D0",
+                      "name": "Personal Budgeting and Financial Planning",
+                      "number": "230",
+                      "subject_name": "Associate Professional Studies",
+                      "subject_code": "APS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-219",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-219",
+                      "guid": "791361E1-01DC-4EF7-9DE1-9D9EC85B43F6",
+                      "name": "Developmental Psychology",
+                      "number": "219",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-201",
+                      "guid": "EDF37E82-5347-4412-9D05-50CFAA92CCB4",
+                      "name": "Survey of Microbiology",
+                      "number": "201",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/foreign-language-3",
+                      "guid": "BC9BD789-6C39-474C-ADFF-B93C278608EA",
+                      "name": "Foreign Language",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/general-core-or-humanities-elective-3",
+                      "guid": "9550696B-E372-4552-949B-D60019EE967D",
+                      "name": "General Core or Humanities Elective",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of upper-level elective courses",
+                "courses": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

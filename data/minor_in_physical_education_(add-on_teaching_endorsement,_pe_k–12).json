@@ -1,0 +1,219 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/department-of-physical-education-wellness-and-sport/minor-in-physical-education-add-on-teaching-endorsement-pe-k-12-23-hours",
+  "guid": "C8DB19C2-18AD-46A9-B5A3-113AE8842CFD",
+  "title": "Minor in Physical Education (add-on teaching endorsement, PE K–12)—23 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Minor Required Courses:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-120",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-120",
+                  "guid": "355066C2-CCCD-479B-BC08-12A771F9F1CD",
+                  "name": "Team Sports",
+                  "number": "120",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-130",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-130",
+                  "guid": "5A0C8F9A-C766-4C88-98C9-F37572FFF147",
+                  "name": "Individual-Dual Sports",
+                  "number": "130",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-201",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-201",
+                  "guid": "240A782F-837F-49CC-B538-4C72C9D62EFD",
+                  "name": "Introduction to Physical Education and Sport",
+                  "number": "201",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-222",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-222",
+                  "guid": "AB0FA62E-3872-4410-8155-A3C1FD656FED",
+                  "name": "First Aid",
+                  "number": "222",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-316",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-316",
+                  "guid": "B200AD4E-7993-4365-B90A-8828A5BCBA55",
+                  "name": "Physical Education in the Elementary Schools",
+                  "number": "316",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-410",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-410",
+                  "guid": "4CC8C71C-A58E-4F33-B05A-0EECCB03FC42",
+                  "name": "Adaptive Physical Education",
+                  "number": "410",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-414",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-414",
+                  "guid": "1FB20A82-25C2-452A-8793-599832DC083E",
+                  "name": "Kinesiology",
+                  "number": "414",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-416",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-416",
+                  "guid": "E267CCF3-AF59-4B2B-8181-90BFA269E3AF",
+                  "name": "Tests and Measurements in Health and Physical Education",
+                  "number": "416",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-419",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-419",
+                  "guid": "87EC26C9-CA32-4F97-81C5-2ACFF0CE30D5",
+                  "name": "Organization and Administration of Physical Education and Sport",
+                  "number": "419",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-221",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-221",
+                      "guid": "6B12C052-0C6A-4B45-A7CB-14AA6B248760",
+                      "name": "Human Anatomy and Physiology I",
+                      "number": "221",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-222",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-222",
+                      "guid": "524AEC3D-A0FC-4E10-A393-DC5C72F45CE2",
+                      "name": "Human Anatomy & Physiology II",
+                      "number": "222",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-421",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-421",
+                  "guid": "E61DF2C4-0BDC-4BD2-9E80-280D2E72C4A3",
+                  "name": "Teaching Health and Physical Education In the Secondary School",
+                  "number": "421",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

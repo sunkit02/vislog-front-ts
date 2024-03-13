@@ -1,0 +1,357 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-music/liberal-arts-degrees/b-a-in-worship-leadership-46-to-47-hours",
+  "guid": "2E92DA94-A9B0-4A9E-8BC9-65835956C9E3",
+  "title": "B.A. in Worship Leadership—46 to 47 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Music Theory Courses–8 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-111",
+                    "guid": "A71CB46B-01C8-45C0-86DE-4AD01E8AEF9A",
+                    "name": "Music Theory I",
+                    "number": "111",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-103",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-103",
+                    "guid": "B3E6D951-6484-41FF-AE6E-56A31E088B7B",
+                    "name": "Ear Training/Sight Singing I",
+                    "number": "103",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-112",
+                    "guid": "AAB8E66C-6E02-4BD5-891D-68C22182B057",
+                    "name": "Music Theory II",
+                    "number": "112",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-104",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-104",
+                    "guid": "C711D034-C9A1-49C6-8D75-9D7E186037C7",
+                    "name": "Ear Training/Sight Singing II",
+                    "number": "104",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Music Courses–4 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-311",
+                    "guid": "F3F70140-1DB4-4882-9950-EAB99F45D0CD",
+                    "name": "Conducting I",
+                    "number": "311",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/300/wl-302",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/300/WL-302",
+                    "guid": "922A34F4-3791-4A61-B3AE-4FF3A7622BB7",
+                    "name": "Worship Team Techniques",
+                    "number": "302",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Applied Music Studies–7 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/300/wl-399",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/300/WL-399",
+                    "guid": "E662A828-5E69-4858-956F-293784132CAB",
+                    "name": "Junior Worship Music Program",
+                    "number": "399",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/take-6-hours-of-mus-150-350",
+                    "guid": "F8AECC89-AF8C-47E1-BC01-1412EE3D8588",
+                    "name": "Take 6 hours of MUS 150-350",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Ensemble Experience–6 hours/semesters",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Recital Attendance–6 hours/semesters:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/000/mus-000",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/000/MUS-000",
+                    "guid": "E2B8BBCA-CEC8-4C9C-9FC4-BE08332F667C",
+                    "name": "Recital Attendance",
+                    "number": "000",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one of the following–2 to 3 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-340",
+                    "guid": "ACD04BCC-0668-4794-BE1D-B3DA11E85322",
+                    "name": "Arranging and Composing Methods",
+                    "number": "340",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/cmu-commercial-music/100/cmu-118",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CMU-Commercial-Music/100/CMU-118",
+                    "guid": "AF51C682-B7EB-46B5-9A1F-FC7DA70A18F6",
+                    "name": "Fundamentals of Music Production & Audio Engineering",
+                    "number": "118",
+                    "subject_name": "Commercial Music",
+                    "subject_code": "CMU",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Worship Leadership Courses–19 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/200/wl-202",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/200/WL-202",
+                    "guid": "CA281B91-A19A-4403-BF4E-945BB171F948",
+                    "name": "Biblical Foundations of Worship",
+                    "number": "202",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/200/wl-206",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/200/WL-206",
+                    "guid": "E7C0D922-2A4F-4F05-90E7-9368C7827FB0",
+                    "name": "Technology in Worship",
+                    "number": "206",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/300/wl-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/300/WL-305",
+                    "guid": "D35310E8-B7E5-40A2-882D-8B97662AA34D",
+                    "name": "Theology and Practice of Worship",
+                    "number": "305",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/300/wl-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/300/WL-315",
+                    "guid": "1683B321-9864-40B6-A2FF-E8C90921FFE4",
+                    "name": "History of Christian Worship and Song",
+                    "number": "315",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/400/wl-402",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/400/WL-402",
+                    "guid": "BB4179CD-0CB7-463F-8593-7471767FE83D",
+                    "name": "Worship Leadership Administration",
+                    "number": "402",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/400/wl-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/400/WL-410",
+                    "guid": "3A7E55B8-DBCA-4E38-B00C-66E6162569BF",
+                    "name": "Worship in Diverse Contexts",
+                    "number": "410",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/wl-worship-leadership/400/wl-484",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/WL-Worship-Leadership/400/WL-484",
+                    "guid": "43D0B7FC-DC17-4B16-9553-990334F72B6A",
+                    "name": "Worship Leadership Internship",
+                    "number": "484",
+                    "subject_name": "Worship Leadership",
+                    "subject_code": "WL",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

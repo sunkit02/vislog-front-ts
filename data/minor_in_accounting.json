@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/minor-in-accounting-18-hours",
+  "guid": "1654E9F7-5004-4A3C-9286-F026B2A909E7",
+  "title": "Minor in Accounting—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/200/acc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/200/ACC-211",
+                    "guid": "E68EDF9B-5E62-4156-BB8A-6DA514242941",
+                    "name": "Principles of Accounting I",
+                    "number": "211",
+                    "subject_name": "Accounting",
+                    "subject_code": "ACC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/200/acc-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/200/ACC-212",
+                    "guid": "8EC8A8D3-65A2-4AA1-A24F-3473C705C9E4",
+                    "name": "Principles of Accounting II",
+                    "number": "212",
+                    "subject_name": "Accounting",
+                    "subject_code": "ACC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/300/acc-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/300/ACC-313",
+                    "guid": "8CA61A8F-5B2E-4B07-AD9B-03E3ED396FA0",
+                    "name": "Intermediate Accounting I",
+                    "number": "313",
+                    "subject_name": "Accounting",
+                    "subject_code": "ACC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/300/acc-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/300/ACC-315",
+                    "guid": "245E8414-5F58-4100-B361-FA12237BE403",
+                    "name": "Taxation of Individuals",
+                    "number": "315",
+                    "subject_name": "Accounting",
+                    "subject_code": "ACC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours of upper-level ACC electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

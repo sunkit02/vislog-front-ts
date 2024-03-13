@@ -1,0 +1,118 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-art/minor-in-visual-theory-and-aesthetics-18-hours",
+  "guid": "1F126551-6F0F-40CE-BF10-30ECD7858CC0",
+  "title": "Minor in Visual Theory and Aesthetics—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": null,
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-227",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-227",
+                  "guid": "F4603A8D-052B-496E-811F-13A7B57C7145",
+                  "name": "Visual Theory and Aesthetics: the Western Tradition, Classical Greece To the Renaissance",
+                  "number": "227",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-230",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-230",
+                  "guid": "7DA4E88C-1919-415C-87FF-439A64CF3B67",
+                  "name": "Visual Theory and Aesthetics: the Western Tradition, the Renaissance to The 19th Century",
+                  "number": "230",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-327",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-327",
+                  "guid": "C08924AB-230C-4F41-9C0C-29B198D3F119",
+                  "name": "Visual Theory and Aesthetics: the Japanese and Native North American Traditions",
+                  "number": "327",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-330",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-330",
+                  "guid": "DF1D1285-E80B-4FA2-B1D1-D288A5C48697",
+                  "name": "Visual Theory and Aesthetics: the Western Tradition 1900-1950",
+                  "number": "330",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/400/art-427",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/400/ART-427",
+                  "guid": "E12C5E73-FFBA-424F-8445-977FDA70511A",
+                  "name": "Visual Theory and Aesthetics: the Western Tradition 1950-2000",
+                  "number": "427",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/400/art-430",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/400/ART-430",
+                  "guid": "B24229CE-D614-0909-523C-603A49D2873",
+                  "name": "Visual Theory and Aesthetics: Contemporary Issues 2000-PRESENT",
+                  "number": "430",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

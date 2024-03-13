@@ -1,0 +1,203 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/major-in-accounting-30-hours",
+  "guid": "BDD7D397-B83F-4367-B461-B4D0553F87D0",
+  "title": "Major in Accounting—30 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Major Required Courses:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/300/acc-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/300/ACC-311",
+                  "guid": "2F3912F4-7CD1-4863-98DC-66EF80151E6D",
+                  "name": "Cost Accounting",
+                  "number": "311",
+                  "subject_name": "Accounting",
+                  "subject_code": "ACC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/300/acc-313",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/300/ACC-313",
+                  "guid": "8CA61A8F-5B2E-4B07-AD9B-03E3ED396FA0",
+                  "name": "Intermediate Accounting I",
+                  "number": "313",
+                  "subject_name": "Accounting",
+                  "subject_code": "ACC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/300/acc-314",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/300/ACC-314",
+                  "guid": "1397D1D0-31AF-414A-BBA2-BFD59C4F50CF",
+                  "name": "Intermediate Accounting II",
+                  "number": "314",
+                  "subject_name": "Accounting",
+                  "subject_code": "ACC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/300/acc-315",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/300/ACC-315",
+                  "guid": "245E8414-5F58-4100-B361-FA12237BE403",
+                  "name": "Taxation of Individuals",
+                  "number": "315",
+                  "subject_name": "Accounting",
+                  "subject_code": "ACC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/400/acc-423",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/400/ACC-423",
+                  "guid": "EB2ADA2B-59C4-11C8-E768-7C6188A645E",
+                  "name": "Auditing & Assurance Services",
+                  "number": "423",
+                  "subject_name": "Accounting",
+                  "subject_code": "ACC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/400/acc-484",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/400/ACC-484",
+                      "guid": "A7A6D98A-71B6-4C7B-91BB-1EA86AE7A7F2",
+                      "name": "Internship",
+                      "number": "484",
+                      "subject_name": "Accounting",
+                      "subject_code": "ACC",
+                      "credits": [
+                        0,
+                        3
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/blaw-business-law/300/blaw-324",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BLAW-Business-Law/300/BLAW-324",
+                      "guid": "6733ADFE-3FCA-41F1-B166-3A004EC09585",
+                      "name": "Commercial Law",
+                      "number": "324",
+                      "subject_name": "Business Law",
+                      "subject_code": "BLAW",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/300/mgt-341",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/300/MGT-341",
+                  "guid": "C1DEEF24-A9DE-41E9-B932-80BAC2399057",
+                  "name": "Operations Management",
+                  "number": "341",
+                  "subject_name": "Management",
+                  "subject_code": "MGT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/400/mgt-445",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/400/MGT-445",
+                  "guid": "15AE32A4-FBB0-484B-8A73-51339AA4F137",
+                  "name": "Strategic Management",
+                  "number": "445",
+                  "subject_name": "Management",
+                  "subject_code": "MGT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-420",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-420",
+                  "guid": "2ED02D29-6F3E-4EDF-963A-EBAA7C8EB6A7",
+                  "name": "Global Business",
+                  "number": "420",
+                  "subject_name": "Business Administration",
+                  "subject_code": "BAD",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/400/bad-475",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/400/BAD-475",
+                  "guid": "39FF4F93-DE66-450E-9FE9-3F026309D91B",
+                  "name": "Business Ethics and Diversity",
+                  "number": "475",
+                  "subject_name": "Business Administration",
+                  "subject_code": "BAD",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

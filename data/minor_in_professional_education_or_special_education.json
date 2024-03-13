@@ -1,0 +1,235 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/school-of-education/minor-in-professional-education-special-education-39-hours",
+  "guid": "3CEE09D6-B161-4D01-9555-72472566EFFD",
+  "title": "Minor in Professional Education/Special Education—39 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Minor Required Courses:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/100/edu-150",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/100/EDU-150",
+                  "guid": "B548D5B9-4EF9-47AB-B4DA-C6946433B731",
+                  "name": "Foundations of American Education",
+                  "number": "150",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/200/edu-210",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/200/EDU-210",
+                  "guid": "92C12900-D3B6-46AF-8A61-0E98AEDD7B91",
+                  "name": "Cultural Competency in the Classroom",
+                  "number": "210",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-301",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-301",
+                  "guid": "911FFC2B-E5E1-4989-943B-1B27DD30C039",
+                  "name": "Technology-Rich Learning in a Global Classroom",
+                  "number": "301",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-302",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-302",
+                  "guid": "62D42A42-5988-4A03-8920-DC6D1728B16D",
+                  "name": "edTPA Prep Seminar",
+                  "number": "302",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-303",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-303",
+                  "guid": "BD885E7C-9F3D-4EBC-9256-D50DB6601142",
+                  "name": "Writing Across the Curriculum",
+                  "number": "303",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-305",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-305",
+                  "guid": "8621009E-40A7-479E-836C-5B2196C705BC",
+                  "name": "Planning for Student Achievement in Diverse Classrooms",
+                  "number": "305",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-310",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-310",
+                      "guid": "762244B2-1E85-4C58-95F6-E208D198C739",
+                      "name": "Children & Literature",
+                      "number": "310",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-311",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-311",
+                      "guid": "334257C5-23B2-420E-BF29-7049B85B41E1",
+                      "name": "Young Adult Literature",
+                      "number": "311",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-358",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-358",
+                  "guid": "FC7E6361-AABD-4E6D-BD85-837D6CF1ACD4",
+                  "name": "Psychological Foundations of Education",
+                  "number": "358",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-440",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-440",
+                  "guid": "34145FAA-B2EB-4CA3-8F52-9574E46706E0",
+                  "name": "Internship I",
+                  "number": "440",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-441",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-441",
+                  "guid": "B321A1B3-2C4A-48BB-B71E-17A3DF555631",
+                  "name": "Internship II",
+                  "number": "441",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    14,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-451",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-451",
+                  "guid": "81A2EE85-6A90-49FB-A38A-B63481C8E123",
+                  "name": "Problem-Based Seminar",
+                  "number": "451",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-325",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-325",
+                  "guid": "6F154DA0-8618-46A8-94BD-617CE050237E",
+                  "name": "Families Across Cultures",
+                  "number": "325",
+                  "subject_name": "Sociology",
+                  "subject_code": "SOC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

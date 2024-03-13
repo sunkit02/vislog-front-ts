@@ -1,0 +1,236 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-mathematics/major-in-mathematics-with-discipline-specific-honors-36-hours",
+  "guid": "C2326176-E0FB-4FD1-814B-FB982EA4B3E3",
+  "title": "Major in Mathematics with Discipline-Specific Honors—36 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Prerequisites:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-231",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-231",
+                    "guid": "7BC38093-7B23-4F58-B98D-C43E5DB83266",
+                    "name": "University Physics I With Calculus",
+                    "number": "231",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-115",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-115",
+                        "guid": "860AF9C9-EAD9-45AC-AA92-BAF352C5288C",
+                        "name": "Computer Science: Introduction and Overview",
+                        "number": "115",
+                        "subject_name": "Computer Science",
+                        "subject_code": "CSC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/200/csc-255",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/200/CSC-255",
+                        "guid": "F17E3997-3E59-4B70-B662-E5AB1A40ADAF",
+                        "name": "Programming in C",
+                        "number": "255",
+                        "subject_name": "Computer Science",
+                        "subject_code": "CSC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-207",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-207",
+                    "guid": "6E9025E7-7475-49CE-A2B1-553B32C1B1C6",
+                    "name": "Transition Mathematics",
+                    "number": "207",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-208",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-208",
+                    "guid": "F75B8F1B-CFE1-4DFE-AF75-6F2D6307DB55",
+                    "name": "Statistics",
+                    "number": "208",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-211",
+                    "guid": "C0E4D3A4-B05E-488C-9BA0-9726B86C3E15",
+                    "name": "Calculus and Analytic Geometry I",
+                    "number": "211",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-212",
+                    "guid": "EB7D85DE-7E32-461E-9FEE-4F0FFB247FDB",
+                    "name": "Calculus and Analytic Geometry II",
+                    "number": "212",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-213",
+                    "guid": "37AB462C-9F19-4316-BFB7-51985F111708",
+                    "name": "Calculus and Analytic Geometry III",
+                    "number": "213",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/300/mat-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/300/MAT-315",
+                    "guid": "CA5E6BA9-EEBE-43C2-8628-5F7D2EB195DD",
+                    "name": "Linear Algebra",
+                    "number": "315",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/400/mat-411",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/400/MAT-411",
+                    "guid": "C36CC350-4B09-41E3-BA2A-FEC232374674",
+                    "name": "Introduction to Analysis",
+                    "number": "411",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/400/mat-415",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/400/MAT-415",
+                    "guid": "38CD4670-A2E6-4407-8B9D-3DB11CDCBD71",
+                    "name": "Abstract Algebra",
+                    "number": "415",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/400/mat-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/400/MAT-498",
+                    "guid": "476F5C22-00D7-4D80-8F84-C18FF7A41B67",
+                    "name": "Mathematics Seminar",
+                    "number": "498",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      1,
+                      2
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours of upper-level MAT electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

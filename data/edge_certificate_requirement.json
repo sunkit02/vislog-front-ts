@@ -1,0 +1,159 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/the-union-edge-program/edge-certificate-requirement-48-hours",
+  "guid": "26A92BE1-9CAC-4DEC-8BC0-E8C34975C124",
+  "title": "EDGE Certificate Requirement—48 Hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Certificate Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Life Skills Course Requirements: 24 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/100/lfs-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/100/LFS-101",
+                    "guid": "796B2C0D-E90F-43B7-96E8-1B05C0DF7C1E",
+                    "name": "Life Skills I: First Steps to College Living",
+                    "number": "101",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/100/lfs-105",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/100/LFS-105",
+                    "guid": "8EB9E669-02A9-4BBA-AA1B-F7B10EA60F77",
+                    "name": "Life Skills II: First Steps to Employment Training",
+                    "number": "105",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/100/lfs-110",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/100/LFS-110",
+                    "guid": "15989D91-71DA-47F2-B472-67F0919026E1",
+                    "name": "Life Skills III: Advanced Steps To Healthy Living",
+                    "number": "110",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/100/lfs-116",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/100/LFS-116",
+                    "guid": "7BBD42E3-EF42-4C41-8FF5-3688C2E8257A",
+                    "name": "Life Skills IV: Introduction to Daily Technology and Finance",
+                    "number": "116",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/100/lfs-121",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/100/LFS-121",
+                    "guid": "3669FB56-BD3A-4D93-AD3B-BFA247FABD4D",
+                    "name": "Life Skills V: Advanced Steps to Independent Living Skills",
+                    "number": "121",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/100/lfs-125",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/100/LFS-125",
+                    "guid": "7FEE70DA-F093-418E-95E8-220904A3F9BB",
+                    "name": "Life Skills VI: Utilizing Technology and Community Resources",
+                    "number": "125",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/100/lfs-130",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/100/LFS-130",
+                    "guid": "D889D061-42A4-9A1A-11F2-24A1B4E05DA",
+                    "name": "Life Skills VII: Introduction to Professional Writing and Communications",
+                    "number": "130",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lfs-life-skills/200/lfs-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LFS-Life-Skills/200/LFS-201",
+                    "guid": "77802643-DF21-4908-83C8-C43B802ACAC5",
+                    "name": "Life Skills VIII: Advanced Technology Skills and Finance",
+                    "number": "201",
+                    "subject_name": "Life Skills",
+                    "subject_code": "LFS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 24 elective hours from audits of regular college courses",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

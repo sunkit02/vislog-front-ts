@@ -1,0 +1,21 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-english/minor-in-english-15-hours",
+  "guid": "739838E8-CA9F-4226-AD2A-A8F364FD38DD",
+  "title": "Minor in English—15 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Label",
+          "data": {
+            "title": "Minor Requirements:",
+            "req_narrative": "<p class='sc-RequirementNarrative'>Building on the 12 hours of ENG required in the General Core, the minor requires 15 ENG hours at the 300- or 400-level.</p>"
+          }
+        }
+      }
+    }
+  }
+}

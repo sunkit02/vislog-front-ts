@@ -1,0 +1,794 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-engineering/major-in-engineering-64-hours-47-hours-one-concentration",
+  "guid": "EF724CDD-19EE-493A-B6D4-B923B49C025A",
+  "title": "Major in Engineering—64 hours (47 hours + one Concentration)",
+  "requirements": {
+    "type": "Many",
+    "data": [
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Electrical Engineering Concentration",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements: 47 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/100/egr-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/100/EGR-101",
+                      "guid": "3BA007F6-0218-4BAC-87E0-4F557D6AD36C",
+                      "name": "Introduction to Engineering Design And Analysis",
+                      "number": "101",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/100/egr-105",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/100/EGR-105",
+                      "guid": "51B67761-4965-431C-B34E-C2C4BAC9423D",
+                      "name": "Solid Modeling",
+                      "number": "105",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/100/egr-109",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/100/EGR-109",
+                      "guid": "1358C251-EF23-42F9-950A-39ED0AA075B6",
+                      "name": "Introduction to Matlab and Computer Programming",
+                      "number": "109",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-209",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-209",
+                      "guid": "34BCC778-4129-4196-8817-65F42C20B40F",
+                      "name": "Survey of Computational Engineering",
+                      "number": "209",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-210",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-210",
+                      "guid": "E6029839-A389-4DD2-8008-3DD434852622",
+                      "name": "Materials Engineering",
+                      "number": "210",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-240",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-240",
+                      "guid": "1F3674A8-F4B1-4B9A-B6CA-0BF56094E27B",
+                      "name": "Mechanical Engineering Fundamentals I: Mechanics",
+                      "number": "240",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-250",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-250",
+                      "guid": "59DC5D9F-75B2-4E2C-9900-4EFB74941AD0",
+                      "name": "Mechanical Engineering Fundamentals II: Thermodynamics",
+                      "number": "250",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-261",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-261",
+                      "guid": "58BBE7AF-3B85-443D-A675-A4641640C63D",
+                      "name": "Electrical Engineering Fundamentals I: Digital Logic",
+                      "number": "261",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-262",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-262",
+                      "guid": "ED38D5F1-9306-4299-8FC4-9ADAEBBACB08",
+                      "name": "Electrical EGR Fundamentals II: Electric & Electronic Circuits",
+                      "number": "262",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-330",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-330",
+                      "guid": "9E6F789A-BBF2-4F06-871B-2F52F0B48A6E",
+                      "name": "Engineering Economy",
+                      "number": "330",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-342",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-342",
+                      "guid": "CB032DF7-ED7D-469E-9E2D-91BB93E0FA7E",
+                      "name": "Engineering Experimental Methods",
+                      "number": "342",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-360",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-360",
+                      "guid": "523FDE5D-18DA-4503-B618-FE0D3B634AB4",
+                      "name": "Modeling and Analysis of Linear and Dynamical Systems",
+                      "number": "360",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-375",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-375",
+                      "guid": "9CB58EDE-320E-426D-9E09-3F6E99487738",
+                      "name": "Power Systems and Electrical Machines",
+                      "number": "375",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-391",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-391",
+                      "guid": "62C0333C-7921-479C-84D4-E8BE104A9488",
+                      "name": "Major Project Design Preparation",
+                      "number": "391",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-475",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-475",
+                      "guid": "840C4C80-E361-4781-8F60-1030721072D7",
+                      "name": "Control Theory and Design",
+                      "number": "475",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-491",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-491",
+                      "guid": "B6D291B5-2AA4-49AE-9C51-B52784CE5639",
+                      "name": "Major Project Design I",
+                      "number": "491",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-492",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-492",
+                      "guid": "50FEDA0F-8FB7-4E48-A470-08AF13433199",
+                      "name": "Major Project Design II",
+                      "number": "492",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-498",
+                      "guid": "67ABC070-7BAC-4DC8-A240-1AB5C5D6C65F",
+                      "name": "Engineering Seminar",
+                      "number": "498",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Required Concentration Courses: 17 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-361",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-361",
+                      "guid": "2EE79406-EED3-4B9E-8DC5-64C08969E92E",
+                      "name": "Digital Electronics",
+                      "number": "361",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-365",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-365",
+                      "guid": "C754D402-642D-4160-969F-41A224B08D00",
+                      "name": "Electromagnetics",
+                      "number": "365",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-405",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-405",
+                      "guid": "D47C4B7A-527D-4BA7-AE99-2D0D45C2F6BA",
+                      "name": "Electronic Circuit Analysis and Design",
+                      "number": "405",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-426",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-426",
+                      "guid": "F0B76481-FB4C-4814-A018-F44843DE11B1",
+                      "name": "Signals and Systems",
+                      "number": "426",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Mechanical Engineering Concentration",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements: 47 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/100/egr-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/100/EGR-101",
+                      "guid": "3BA007F6-0218-4BAC-87E0-4F557D6AD36C",
+                      "name": "Introduction to Engineering Design And Analysis",
+                      "number": "101",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/100/egr-105",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/100/EGR-105",
+                      "guid": "51B67761-4965-431C-B34E-C2C4BAC9423D",
+                      "name": "Solid Modeling",
+                      "number": "105",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/100/egr-109",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/100/EGR-109",
+                      "guid": "1358C251-EF23-42F9-950A-39ED0AA075B6",
+                      "name": "Introduction to Matlab and Computer Programming",
+                      "number": "109",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-209",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-209",
+                      "guid": "34BCC778-4129-4196-8817-65F42C20B40F",
+                      "name": "Survey of Computational Engineering",
+                      "number": "209",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-210",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-210",
+                      "guid": "E6029839-A389-4DD2-8008-3DD434852622",
+                      "name": "Materials Engineering",
+                      "number": "210",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-240",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-240",
+                      "guid": "1F3674A8-F4B1-4B9A-B6CA-0BF56094E27B",
+                      "name": "Mechanical Engineering Fundamentals I: Mechanics",
+                      "number": "240",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-250",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-250",
+                      "guid": "59DC5D9F-75B2-4E2C-9900-4EFB74941AD0",
+                      "name": "Mechanical Engineering Fundamentals II: Thermodynamics",
+                      "number": "250",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-261",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-261",
+                      "guid": "58BBE7AF-3B85-443D-A675-A4641640C63D",
+                      "name": "Electrical Engineering Fundamentals I: Digital Logic",
+                      "number": "261",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-262",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-262",
+                      "guid": "ED38D5F1-9306-4299-8FC4-9ADAEBBACB08",
+                      "name": "Electrical EGR Fundamentals II: Electric & Electronic Circuits",
+                      "number": "262",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-330",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-330",
+                      "guid": "9E6F789A-BBF2-4F06-871B-2F52F0B48A6E",
+                      "name": "Engineering Economy",
+                      "number": "330",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-342",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-342",
+                      "guid": "CB032DF7-ED7D-469E-9E2D-91BB93E0FA7E",
+                      "name": "Engineering Experimental Methods",
+                      "number": "342",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-360",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-360",
+                      "guid": "523FDE5D-18DA-4503-B618-FE0D3B634AB4",
+                      "name": "Modeling and Analysis of Linear and Dynamical Systems",
+                      "number": "360",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-375",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-375",
+                      "guid": "9CB58EDE-320E-426D-9E09-3F6E99487738",
+                      "name": "Power Systems and Electrical Machines",
+                      "number": "375",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-391",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-391",
+                      "guid": "62C0333C-7921-479C-84D4-E8BE104A9488",
+                      "name": "Major Project Design Preparation",
+                      "number": "391",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-475",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-475",
+                      "guid": "840C4C80-E361-4781-8F60-1030721072D7",
+                      "name": "Control Theory and Design",
+                      "number": "475",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-491",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-491",
+                      "guid": "B6D291B5-2AA4-49AE-9C51-B52784CE5639",
+                      "name": "Major Project Design I",
+                      "number": "491",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-492",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-492",
+                      "guid": "50FEDA0F-8FB7-4E48-A470-08AF13433199",
+                      "name": "Major Project Design II",
+                      "number": "492",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-498",
+                      "guid": "67ABC070-7BAC-4DC8-A240-1AB5C5D6C65F",
+                      "name": "Engineering Seminar",
+                      "number": "498",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Required Concentration Courses: 17 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-320",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-320",
+                      "guid": "77899599-9F40-4236-A74A-B3C8FDDBD206",
+                      "name": "Mechanics of Materials",
+                      "number": "320",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-352",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-352",
+                      "guid": "982C85F5-33A0-4987-9DE9-78FD5E3AF375",
+                      "name": "Mechanical Engineering Laboratory",
+                      "number": "352",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-355",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-355",
+                      "guid": "4C6F07BB-D5FE-4FA1-BD6A-5D616CA5BA86",
+                      "name": "Fluid Mechanics",
+                      "number": "355",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-455",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-455",
+                      "guid": "D77E6BF4-95E6-4E76-98D1-C8688022C07E",
+                      "name": "Energy Conversion",
+                      "number": "455",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-456",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-456",
+                      "guid": "EC4C228A-8750-4085-BCA3-759EDF0F3429",
+                      "name": "Machine and Mechanism Theory and Design",
+                      "number": "456",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/400/egr-470",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/400/EGR-470",
+                      "guid": "4D74E57B-F348-4630-AC5C-6F4675AF9DEB",
+                      "name": "Heat Transfer",
+                      "number": "470",
+                      "subject_name": "Engineering",
+                      "subject_code": "EGR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

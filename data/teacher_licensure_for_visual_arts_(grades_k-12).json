@@ -1,0 +1,518 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-art/teacher-licensure-for-visual-arts-grades-k-12",
+  "guid": "175A47E9-E487-41D6-BD25-946334582202",
+  "title": "Teacher Licensure for Visual Arts (Grades K-12)",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Core Requirements: 31 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-113",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-113",
+                    "guid": "5D33D962-27FF-489B-B143-2FA254403645",
+                    "name": "Foundations: 2D Design",
+                    "number": "113",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-114",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-114",
+                    "guid": "C9C0A4E5-6068-4029-91B8-38E7F469EB6F",
+                    "name": "Foundations: 3D Design",
+                    "number": "114",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-116",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-116",
+                    "guid": "B92787E1-F6C6-4E1B-9209-27D9635714FE",
+                    "name": "Foundations: Introduction to Drawing",
+                    "number": "116",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-117",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-117",
+                    "guid": "94BC22EE-6EB0-44D3-BEE4-53474470DF52",
+                    "name": "Foundations: Figure Drawing",
+                    "number": "117",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-120",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-120",
+                    "guid": "CE531016-EF24-4445-BB97-5B5898C113E1",
+                    "name": "Foundations: Introduction to Digital Media",
+                    "number": "120",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/100/art-198",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/100/ART-198",
+                    "guid": "E1507FD7-B554-B789-D655-BE086D6FE4E",
+                    "name": "Visual Arts Seminar I: Introduction",
+                    "number": "198",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-313",
+                    "guid": "F86B49DF-C196-42CB-91D7-54D5286FA88B",
+                    "name": "Art History 01: Pre-Historic to Medieval",
+                    "number": "313",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-314",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-314",
+                    "guid": "59D77D1C-A553-405A-A65D-EE310F85FD17",
+                    "name": "Art History 02: Renaissance to Romanticism",
+                    "number": "314",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-315",
+                    "guid": "2D3F514E-89A8-4391-AE72-0D1EB596D1BA",
+                    "name": "Art History 03: Realism to Present",
+                    "number": "315",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-318",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-318",
+                    "guid": "9A1F2A75-72D8-464D-A26C-2A3F934638E6",
+                    "name": "Art History 04: Contemporary Issues in Art History",
+                    "number": "318",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-398",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-398",
+                    "guid": "29C5B7B1-124F-46CF-AED1-E6454C51465E",
+                    "name": "Visual Arts Seminar 02: Mid-Program Review",
+                    "number": "398",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/400/art-499",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/400/ART-499",
+                    "guid": "FD5BB0BD-628E-470A-AF28-BC1D5AB295A5",
+                    "name": "Visual Arts Seminar 03: Capstone/Research",
+                    "number": "499",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Primary Emphasis Courses: 12 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-216",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-216",
+                    "guid": "5558A805-BE82-441C-891C-DD201B1411E3",
+                    "name": "Ceramics Hand Building",
+                    "number": "216",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-231",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-231",
+                    "guid": "3A941E55-8547-4CEB-AD27-735C3BF87A4B",
+                    "name": "Photography 01: Introduction to Photography",
+                    "number": "231",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-311",
+                    "guid": "B80821A3-EE0D-45C3-A161-1A03AD86B17E",
+                    "name": "Painting 01: Introductory Methods and Practices",
+                    "number": "311",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-323",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-323",
+                    "guid": "21EA0D5E-F46C-402B-9416-695885F716CB",
+                    "name": "Sculpture 01: Introduction to Sculpture",
+                    "number": "323",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select a Secondary Emphasis: 6 hours",
+              "courses": null
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Professional Education Requirements: 42 hours",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Prior to Internship",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/100/edu-150",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/100/EDU-150",
+                    "guid": "B548D5B9-4EF9-47AB-B4DA-C6946433B731",
+                    "name": "Foundations of American Education",
+                    "number": "150",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-305",
+                    "guid": "8621009E-40A7-479E-836C-5B2196C705BC",
+                    "name": "Planning for Student Achievement in Diverse Classrooms",
+                    "number": "305",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-358",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-358",
+                    "guid": "FC7E6361-AABD-4E6D-BD85-837D6CF1ACD4",
+                    "name": "Psychological Foundations of Education",
+                    "number": "358",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-325",
+                    "guid": "99FE4076-937C-4CD1-866B-35C38038CDAD",
+                    "name": "Art in the Elementary Schools",
+                    "number": "325",
+                    "subject_name": "Art",
+                    "subject_code": "ART",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                    "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                    "name": "Introduction to Psychology",
+                    "number": "213",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-230",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-230",
+                    "guid": "3CC19352-3A1E-4955-8F20-2505AD2F59D5",
+                    "name": "Learning in Diverse Classrooms",
+                    "number": "230",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Fall of Internship Year",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-306",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-306",
+                    "guid": "8279514A-9F7F-45B8-A440-724BC2D8EDDD",
+                    "name": "Leading the Learning Environment",
+                    "number": "306",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-340",
+                    "guid": "1390EB6A-97BC-4D85-9D2E-55CAA64569C6",
+                    "name": "Comprehending Text",
+                    "number": "340",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-417",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-417",
+                    "guid": "73F69B5B-6358-4B36-805C-3B36DA7D4E46",
+                    "name": "Teaching Art in the Secondary School",
+                    "number": "417",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-440",
+                    "guid": "34145FAA-B2EB-4CA3-8F52-9574E46706E0",
+                    "name": "Internship I",
+                    "number": "440",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Spring of Internship Year",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-441",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-441",
+                    "guid": "B321A1B3-2C4A-48BB-B71E-17A3DF555631",
+                    "name": "Internship II",
+                    "number": "441",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      14,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-451",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-451",
+                    "guid": "81A2EE85-6A90-49FB-A38A-B63481C8E123",
+                    "name": "Problem-Based Seminar",
+                    "number": "451",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

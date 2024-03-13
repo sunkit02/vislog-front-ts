@@ -1,0 +1,79 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-theology-and-missions/minors-offered-by-the-school/minor-in-philosophy-18-hours",
+  "guid": "F0C03CD3-358C-412F-B20E-AEC213CB5887",
+  "title": "Minor in Philosophy—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses: 9 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                    "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                    "name": "Introduction to Philosophy",
+                    "number": "240",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-346",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-346",
+                    "guid": "B331D2C6-6AE7-4951-BC71-FC9758A96EAB",
+                    "name": "History of Philosophy I",
+                    "number": "346",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-347",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-347",
+                    "guid": "284945D1-3030-4D1E-9FB3-034706B52A97",
+                    "name": "History of Philosophy II",
+                    "number": "347",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Philosophy Electives: 9 hours",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

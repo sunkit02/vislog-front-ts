@@ -1,0 +1,118 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-theology-and-missions/major-in-philosophy-30-hours",
+  "guid": "17D0AA9F-F0D2-410C-82CC-889D0D048C12",
+  "title": "Major in Philosophy—30 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Courses: 15 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                    "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                    "name": "Introduction to Philosophy",
+                    "number": "240",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-331",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-331",
+                    "guid": "F6E3E3BE-E6E0-4CEF-A61F-DD5406062F25",
+                    "name": "Epistemology and Metaphysics",
+                    "number": "331",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-345",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-345",
+                    "guid": "E7ACC99B-7A17-48A2-A8F1-6401AC6D70EC",
+                    "name": "Logic",
+                    "number": "345",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-346",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-346",
+                    "guid": "B331D2C6-6AE7-4951-BC71-FC9758A96EAB",
+                    "name": "History of Philosophy I",
+                    "number": "346",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-347",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-347",
+                    "guid": "284945D1-3030-4D1E-9FB3-034706B52A97",
+                    "name": "History of Philosophy II",
+                    "number": "347",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Elective from Ethics: 3 hours",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Electives from Upper-level Philosophy: 12 hours",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

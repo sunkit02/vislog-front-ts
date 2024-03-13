@@ -1,0 +1,598 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/institute-for-intellectual-discipleship/minor-in-classical-medieval-and-renaissance-studies-19-hours",
+  "guid": "141C699E-A78A-4A77-BBF7-DFE0C80B0F57",
+  "title": "Minor in Classical, Medieval, and Renaissance Studies—19 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Elective Courses",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-227",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-227",
+                  "guid": "F4603A8D-052B-496E-811F-13A7B57C7145",
+                  "name": "Visual Theory and Aesthetics: the Western Tradition, Classical Greece To the Renaissance",
+                  "number": "227",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-230",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-230",
+                  "guid": "7DA4E88C-1919-415C-87FF-439A64CF3B67",
+                  "name": "Visual Theory and Aesthetics: the Western Tradition, the Renaissance to The 19th Century",
+                  "number": "230",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-313",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-313",
+                  "guid": "F86B49DF-C196-42CB-91D7-54D5286FA88B",
+                  "name": "Art History 01: Pre-Historic to Medieval",
+                  "number": "313",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/300/art-314",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/300/ART-314",
+                  "guid": "59D77D1C-A553-405A-A65D-EE310F85FD17",
+                  "name": "Art History 02: Renaissance to Romanticism",
+                  "number": "314",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-336",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-336",
+                  "guid": "1F48F9C5-FCC6-4352-9B22-E2124C6BB065",
+                  "name": "The Epic",
+                  "number": "336",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-340",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-340",
+                  "guid": "4AA38914-2CF4-75B9-18E3-B565F839010",
+                  "name": "Survey of British Literature I",
+                  "number": "340",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-410",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-410",
+                  "guid": "C1169F3B-FABB-4EDD-92B6-3BF3D3BF8AF3",
+                  "name": "Representative Plays of Shakespeare",
+                  "number": "410",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-430",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-430",
+                  "guid": "7F7D1C5A-5B6F-4AC8-A92F-955B54C27E77",
+                  "name": "Classical Antiquity",
+                  "number": "430",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-431",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-431",
+                  "guid": "E7D23A23-E0C5-4741-BF2A-8DF4C6E7DF06",
+                  "name": "The Middle Ages",
+                  "number": "431",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-432",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-432",
+                  "guid": "8DF24DE5-730F-44CC-866D-068D0C9B3C6B",
+                  "name": "The Renaissance",
+                  "number": "432",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-450",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-450",
+                  "guid": "B804DB2B-AC2B-4BA7-8AF7-BBBD3C388A11",
+                  "name": "The History of the English Language",
+                  "number": "450",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-301",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-301",
+                  "guid": "6593F4CE-EFA4-E199-1828-D245CC43394",
+                  "name": "Ancient History",
+                  "number": "301",
+                  "subject_name": "History",
+                  "subject_code": "HIS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-311",
+                  "guid": "56AC5456-3868-4073-A6CD-D5B9A646FD78",
+                  "name": "England to 1714",
+                  "number": "311",
+                  "subject_name": "History",
+                  "subject_code": "HIS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-316",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-316",
+                  "guid": "799C5D87-1479-421A-A12D-71E277AACBFB",
+                  "name": "Renaissance & Reformation",
+                  "number": "316",
+                  "subject_name": "History",
+                  "subject_code": "HIS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-311",
+                  "guid": "12C17D68-9707-46FB-9A90-785C499314B0",
+                  "name": "Survey of French Literature",
+                  "number": "311",
+                  "subject_name": "French",
+                  "subject_code": "FRE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-311",
+                  "guid": "EA3291A4-87B5-402B-87BA-E5DD2E5A4456",
+                  "name": "Survey of Spanish Literature",
+                  "number": "311",
+                  "subject_name": "Spanish",
+                  "subject_code": "SPA",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-315",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-315",
+                  "guid": "10E79913-9DCB-4FFF-BA79-AE31D28C0A47",
+                  "name": "History of Music I",
+                  "number": "315",
+                  "subject_name": "Music",
+                  "subject_code": "MUS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-322",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-322",
+                  "guid": "57B30475-7174-425F-9771-247A863630F3",
+                  "name": "Advanced Class Piano II",
+                  "number": "322",
+                  "subject_name": "Music",
+                  "subject_code": "MUS",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-331",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-331",
+                  "guid": "E09ECE54-E1BD-41A3-9E2A-818700FFD892",
+                  "name": "Orchestration",
+                  "number": "331",
+                  "subject_name": "Music",
+                  "subject_code": "MUS",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-322",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-322",
+                  "guid": "9E68B5B8-F960-4927-963D-16232510BD52",
+                  "name": "Western Political Thought I",
+                  "number": "322",
+                  "subject_name": "Political Science",
+                  "subject_code": "PSC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-331",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-331",
+                  "guid": "1FF4A281-8939-4E41-897A-71FD06CB03DB",
+                  "name": "Early Christian Political Thought",
+                  "number": "331",
+                  "subject_name": "Political Science",
+                  "subject_code": "PSC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-213",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-213",
+                  "guid": "D49DB920-15B9-4718-852A-C7FFE12E889A",
+                  "name": "Biblical Backgrounds",
+                  "number": "213",
+                  "subject_name": "Christian Studies",
+                  "subject_code": "CHR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-419",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-419",
+                  "guid": "E40876D9-0F03-45B6-92EA-CFCACFADD903",
+                  "name": "Virtue and Vice in the Christian Tradtion",
+                  "number": "419",
+                  "subject_name": "Christian Studies",
+                  "subject_code": "CHR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-482",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-482",
+                  "guid": "767706A8-8682-4E93-AC9F-BA5752FB030B",
+                  "name": "Great Texts & Theologians I",
+                  "number": "482",
+                  "subject_name": "Christian Studies",
+                  "subject_code": "CHR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-483",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-483",
+                  "guid": "1C752C03-1D6D-4FBE-B872-7C43EADD1CB2",
+                  "name": "Great Texts & Theologians II",
+                  "number": "483",
+                  "subject_name": "Christian Studies",
+                  "subject_code": "CHR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/grk-greek/200/grk-211",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/GRK-Greek/200/GRK-211",
+                  "guid": "4C3285D7-2A5F-494C-AC41-253E6CE68E8F",
+                  "name": "Elementary Greek I",
+                  "number": "211",
+                  "subject_name": "Greek",
+                  "subject_code": "GRK",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/grk-greek/300/grk-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/GRK-Greek/300/GRK-311",
+                  "guid": "4D0466B1-BCBF-4522-B5C0-88E00A7A1C41",
+                  "name": "Intermediate Greek I",
+                  "number": "311",
+                  "subject_name": "Greek",
+                  "subject_code": "GRK",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/grk-greek/400/grk-411",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/GRK-Greek/400/GRK-411",
+                  "guid": "F14B630A-537A-40CB-AE25-68A373DEB8F0",
+                  "name": "Advanced Greek I",
+                  "number": "411",
+                  "subject_name": "Greek",
+                  "subject_code": "GRK",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hbr-hebrew/300/hbr-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HBR-Hebrew/300/HBR-311",
+                  "guid": "B1D95316-026E-43F0-BE18-833BD8BB4A63",
+                  "name": "Elementary Hebrew I",
+                  "number": "311",
+                  "subject_name": "Hebrew",
+                  "subject_code": "HBR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hbr-hebrew/400/hbr-411",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HBR-Hebrew/400/HBR-411",
+                  "guid": "CF568A57-655F-43BC-990D-F786EDF314CE",
+                  "name": "Advanced Hebrew I",
+                  "number": "411",
+                  "subject_name": "Hebrew",
+                  "subject_code": "HBR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lat-latin/100/lat-111",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LAT-Latin/100/LAT-111",
+                  "guid": "D508292A-EEA7-400E-B3CD-A843981A54A6",
+                  "name": "Elementary Latin I",
+                  "number": "111",
+                  "subject_name": "Latin",
+                  "subject_code": "LAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lat-latin/100/lat-112",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LAT-Latin/100/LAT-112",
+                  "guid": "6E7F6F44-18A8-4D0A-A4DB-E381C97095A0",
+                  "name": "Elementary Latin II",
+                  "number": "112",
+                  "subject_name": "Latin",
+                  "subject_code": "LAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lat-latin/200/lat-211",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LAT-Latin/200/LAT-211",
+                  "guid": "B19868B2-0B2F-4684-8431-07C7C0BFBBE0",
+                  "name": "Intermediate Latin I",
+                  "number": "211",
+                  "subject_name": "Latin",
+                  "subject_code": "LAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lat-latin/200/lat-214",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LAT-Latin/200/LAT-214",
+                  "guid": "A3BFD1AD-612E-4F07-B448-C44068673E23",
+                  "name": "Latin Readings",
+                  "number": "214",
+                  "subject_name": "Latin",
+                  "subject_code": "LAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-346",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-346",
+                  "guid": "B331D2C6-6AE7-4951-BC71-FC9758A96EAB",
+                  "name": "History of Philosophy I",
+                  "number": "346",
+                  "subject_name": "Philosophy",
+                  "subject_code": "PHL",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hon-honors/400/hon-490",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HON-Honors/400/HON-490",
+                  "guid": "39C531D6-E473-4A7B-8364-5924E8ECB351",
+                  "name": "Classical, Medieval, Renaissance Capstone",
+                  "number": "490",
+                  "subject_name": "Honors",
+                  "subject_code": "HON",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

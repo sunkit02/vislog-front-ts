@@ -1,0 +1,687 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-nursing-and-health-sciences/bachelor-of-science-in-nursing-initial-rn/bachelor-of-science-in-nursing-initial-rn-licensure-tracks",
+  "guid": "C4312023-CA64-043B-3421-1FED82D34B9",
+  "title": "Bachelor of Science in Nursing, Initial RN Licensure Tracks",
+  "requirements": {
+    "type": "Many",
+    "data": [
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Non-nursing courses required for basic and accelerated tracks",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": null,
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-111",
+                      "guid": "B49E6397-6024-44E7-8801-580A3000AB15",
+                      "name": "Written Composition I",
+                      "number": "111",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-112",
+                      "guid": "4D9FDC3F-D5D0-4781-8E35-ACC0E5B55175",
+                      "name": "Written Composition II",
+                      "number": "112",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-221",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-221",
+                      "guid": "6B12C052-0C6A-4B45-A7CB-14AA6B248760",
+                      "name": "Human Anatomy and Physiology I",
+                      "number": "221",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-222",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-222",
+                      "guid": "524AEC3D-A0FC-4E10-A393-DC5C72F45CE2",
+                      "name": "Human Anatomy & Physiology II",
+                      "number": "222",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                      "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                      "name": "Introduction to Psychology",
+                      "number": "213",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-219",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-219",
+                      "guid": "791361E1-01DC-4EF7-9DE1-9D9EC85B43F6",
+                      "name": "Developmental Psychology",
+                      "number": "219",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-100",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-100",
+                      "guid": "CD8B1586-4124-CC58-AD89-CD6A541AA40",
+                      "name": "Fitness for Health",
+                      "number": "100",
+                      "subject_name": "Physical Edu. Wellness & Sport",
+                      "subject_code": "PEWS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-111",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-111",
+                      "guid": "CE301745-5BE5-4547-97EA-EF700786E2DC",
+                      "name": "Old Testament Survey",
+                      "number": "111",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-112",
+                      "guid": "B966D651-7C41-4AB0-8091-892797786A5A",
+                      "name": "New Testament Survey",
+                      "number": "112",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-201",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-201",
+                          "guid": "EDF37E82-5347-4412-9D05-50CFAA92CCB4",
+                          "name": "Survey of Microbiology",
+                          "number": "201",
+                          "subject_name": "Biology",
+                          "subject_code": "BIO",
+                          "credits": [
+                            4,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-211",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-211",
+                          "guid": "FE5C0535-C7F7-49E9-A392-44CC54EE2A0D",
+                          "name": "Microbiology",
+                          "number": "211",
+                          "subject_name": "Biology",
+                          "subject_code": "BIO",
+                          "credits": [
+                            4,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                      "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                      "name": "Principles of Sociology",
+                      "number": "211",
+                      "subject_name": "Sociology",
+                      "subject_code": "SOC",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": null,
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-201",
+                      "guid": "7BEE3183-9A36-479F-B05B-11BFACEAD143",
+                      "name": "World Literature I",
+                      "number": "201",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-202",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-202",
+                      "guid": "B373E05A-CD87-4021-A031-99840D59FAFE",
+                      "name": "World Literature II",
+                      "number": "202",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-105",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-105",
+                          "guid": "CDF35AA2-BC9F-4074-86DA-19CE30256B3D",
+                          "name": "Fundamentals of Chemistry I",
+                          "number": "105",
+                          "subject_name": "Chemistry",
+                          "subject_code": "CHE",
+                          "credits": [
+                            4,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-111",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-111",
+                          "guid": "A4CD0F9D-011F-4501-9DED-E3E38A2A63BD",
+                          "name": "General Chemistry",
+                          "number": "111",
+                          "subject_name": "Chemistry",
+                          "subject_code": "CHE",
+                          "credits": [
+                            4,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                      "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                      "name": "World Civilization to the 18th Century",
+                      "number": "101",
+                      "subject_name": "History",
+                      "subject_code": "HIS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-102",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-102",
+                      "guid": "493C37D9-9EE2-42CE-8EF2-4251E8FE9A2A",
+                      "name": "World Civilization From the 18th Century",
+                      "number": "102",
+                      "subject_name": "History",
+                      "subject_code": "HIS",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                      "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                      "name": "Introduction to Statistics & Probability",
+                      "number": "114",
+                      "subject_name": "Mathematics",
+                      "subject_code": "MAT",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-210",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-210",
+                      "guid": "A3AE2D67-A4C9-4C1B-8ABA-61AD3583BA8F",
+                      "name": "The Arts in Western Civilization",
+                      "number": "210",
+                      "subject_name": "Art",
+                      "subject_code": "ART",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/300/bio-300",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/300/BIO-300",
+                      "guid": "26FDC833-5750-4B5F-845E-2655C01722D0",
+                      "name": "Pathophysiology",
+                      "number": "300",
+                      "subject_name": "Biology",
+                      "subject_code": "BIO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/pews-activity-elective-1",
+                      "guid": "E943316D-5F4E-4F50-BBF3-BD252934AC76",
+                      "name": "Activity Elective",
+                      "number": null,
+                      "subject_code": "PEWS",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Label",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/any-level-elective-3",
+                      "guid": "1E3E5E9F-E80C-4B0B-9301-F36003A87BCF",
+                      "name": "Any level Elective",
+                      "number": null,
+                      "subject_code": null,
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Traditional BSN Track",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": null,
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-302",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-302",
+                      "guid": "CA53E9ED-5A33-4958-B1A1-4509C6973443",
+                      "name": "Foundations of Pharmacology",
+                      "number": "302",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-308",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-308",
+                      "guid": "477E3F77-D294-4A05-91B1-89A5D73F7D40",
+                      "name": "Foundations for Nursing Practice",
+                      "number": "308",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        6,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-309",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-309",
+                      "guid": "8F9DAA29-0FD0-4694-B4DD-3D19C332002A",
+                      "name": "Skills Practicum",
+                      "number": "309",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-310",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-310",
+                      "guid": "570B5E16-409E-4DB5-9023-9B5CCCF68DCB",
+                      "name": "Health Assessment",
+                      "number": "310",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-318",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-318",
+                      "guid": "64239450-F341-46F6-9DAC-5F1882DAA412",
+                      "name": "Nursing Care of Childbearing Families",
+                      "number": "318",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        5,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-330",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-330",
+                      "guid": "E522FAB6-5F34-795A-DE57-5F517859367",
+                      "name": "Introduction to Research in Nursing",
+                      "number": "330",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-408",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-408",
+                      "guid": "ADA0DE94-1A2F-4F95-B288-BFE87DE7108B",
+                      "name": "Pharmacotherapeutics in Nursing I",
+                      "number": "408",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-409",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-409",
+                      "guid": "AA1F1748-F617-45F9-9A5C-431217EB61EE",
+                      "name": "Pharmacotherapeutics in Nursing II",
+                      "number": "409",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-418",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-418",
+                      "guid": "33A1DB3B-F347-4478-B366-50147E91B722",
+                      "name": "Nursing Care of Childrearing Families",
+                      "number": "418",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        5,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-419",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-419",
+                      "guid": "D1908E55-74C5-48D1-8949-6A344C57090E",
+                      "name": "Issues in Professional Nursing",
+                      "number": "419",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-421",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-421",
+                      "guid": "8FE329C2-4F2F-4309-93C7-8FEE99701C6C",
+                      "name": "Nursing Care of Adults in Health and Illness I",
+                      "number": "421",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        6,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-423",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-423",
+                      "guid": "54ACB6CF-E5AF-41E8-A518-1BA8DC86F501",
+                      "name": "Mental Health-Psychiatric Nursing",
+                      "number": "423",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        5,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-425",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-425",
+                      "guid": "9E29C719-9F4A-4B7A-816C-1CDAB0579DA9",
+                      "name": "Nursing Care of Adults in Health and Illness II",
+                      "number": "425",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        6,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-430",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-430",
+                      "guid": "18902060-B820-494F-8FA3-81EB01571982",
+                      "name": "Leadership and Management in Nursing",
+                      "number": "430",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-440",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-440",
+                      "guid": "2A9EF9D6-3A2A-47EB-AEF2-947B22434696",
+                      "name": "Community Health Nursing",
+                      "number": "440",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        5,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-499",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-499",
+                      "guid": "C123B36C-365F-44A6-AF57-5AA879C7F906",
+                      "name": "Senior Seminar",
+                      "number": "499",
+                      "subject_name": "Nursing",
+                      "subject_code": "NUR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Upper-level Elective: 3 hours",
+                "req_narrative": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

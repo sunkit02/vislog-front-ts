@@ -1,0 +1,654 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/memphis-college-of-urban-and-theological-studies/bachelor-in-applied-psychology",
+  "guid": "3C8B7DD8-B6B6-4F5A-A5BE-8C33363DCB18",
+  "title": "Bachelor in Applied Psychology",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": null,
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "General Core Requirements—56 hours:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Reflection Courses—12 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-101",
+                    "guid": "36191D56-5547-4328-AB4B-F8061C94007B",
+                    "name": "Foundations of Academic Inquiry",
+                    "number": "101",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-103",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-103",
+                    "guid": "1272CAA6-AD27-49A4-9EBC-4498FE45E36F",
+                    "name": "Advocacy and Social Movements",
+                    "number": "103",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/200/mcuts-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/200/MCUTS-201",
+                    "guid": "CFC4BAC1-70A6-471F-A6AA-6CF40AAF40EC",
+                    "name": "Introduction to Urban Studies",
+                    "number": "201",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sci-science/200/sci-202",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SCI-Science/200/SCI-202",
+                    "guid": "29A5A50A-EFEF-4FA0-B095-ACDD131922AD",
+                    "name": "Environmental Science",
+                    "number": "202",
+                    "subject_name": "Science",
+                    "subject_code": "SCI",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Methodological Reasoning Courses—27 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/econ-economic-reasoning/100/econ-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECON-Economic-Reasoning/100/ECON-101",
+                    "guid": "E9D2C993-62AE-4641-807E-C7C81128ABA9",
+                    "name": "Economic Reasoning",
+                    "number": "101",
+                    "subject_name": "Economic Reasoning",
+                    "subject_code": "ECON",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hist-historical-reasoning/200/hist-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIST-Historical-Reasoning/200/HIST-201",
+                    "guid": "37C2DA2D-6BF6-41DD-8644-AA2C67EB7613",
+                    "name": "Historical Reasoning",
+                    "number": "201",
+                    "subject_name": "Historical Reasoning",
+                    "subject_code": "HIST",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lit-literature/200/lit-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LIT-Literature/200/LIT-201",
+                    "guid": "4E880390-32B4-483C-95C3-BAD79C1B7BFE",
+                    "name": "Literary Reasoning",
+                    "number": "201",
+                    "subject_name": "Literature",
+                    "subject_code": "LIT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-104",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-104",
+                    "guid": "202EE07F-5F38-4C5E-81B3-47FFFD5793FC",
+                    "name": "Critical Reasoning",
+                    "number": "104",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sosc-social-science/200/sosc-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOSC-Social-Science/200/SOSC-201",
+                    "guid": "F896B06C-DE15-43AB-B389-F0BFDCFDBD01",
+                    "name": "Social Science Reasoning",
+                    "number": "201",
+                    "subject_name": "Social Science",
+                    "subject_code": "SOSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sci-science/200/sci-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SCI-Science/200/SCI-201",
+                    "guid": "343C85D0-3237-4330-BF7B-63C879A61998",
+                    "name": "Scientific Reasoning",
+                    "number": "201",
+                    "subject_name": "Science",
+                    "subject_code": "SCI",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/stat-statistics/200/stat-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/STAT-Statistics/200/STAT-201",
+                    "guid": "6468A131-3F58-474E-B151-0B393F0BB28B",
+                    "name": "Statistical Reasoning",
+                    "number": "201",
+                    "subject_name": "Statistics",
+                    "subject_code": "STAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/100/theo-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/100/THEO-101",
+                    "guid": "5DC390E9-3EBB-4284-9882-B7CAB0F16B1B",
+                    "name": "Scriptural Reasoning",
+                    "number": "101",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/100/theo-102",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/100/THEO-102",
+                    "guid": "AD71A2B2-05A6-4EE5-8C60-769B520422D0",
+                    "name": "Theological Reasoning",
+                    "number": "102",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Communication Courses—15 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/cmp-computer/100/cmp-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CMP-Computer/100/CMP-101",
+                    "guid": "48E227F3-60E7-43D2-9BDC-23188B80DACA",
+                    "name": "Computer and Digital Literacy",
+                    "number": "101",
+                    "subject_name": "Computer",
+                    "subject_code": "CMP",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/engl-english-studies/100/engl-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENGL-English-Studies/100/ENGL-101",
+                    "guid": "2B7CEDC1-C5BE-4344-AEBE-EA0FEF172EA2",
+                    "name": "English Composition I",
+                    "number": "101",
+                    "subject_name": "English Studies",
+                    "subject_code": "ENGL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/engl-english-studies/100/engl-102",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENGL-English-Studies/100/ENGL-102",
+                    "guid": "38A68776-3164-646A-A04C-93A38198F8C",
+                    "name": "English Composition II",
+                    "number": "102",
+                    "subject_name": "English Studies",
+                    "subject_code": "ENGL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/engl-english-studies/200/engl-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENGL-English-Studies/200/ENGL-201",
+                    "guid": "8AA70155-AE22-4FE5-B429-44E65DA16B98",
+                    "name": "Inquiry Based Research and Writing",
+                    "number": "201",
+                    "subject_name": "English Studies",
+                    "subject_code": "ENGL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spe-speech/100/spe-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPE-Speech/100/SPE-101",
+                    "guid": "9E79CA51-A6F2-4A9B-9201-5CE9D1DC4E21",
+                    "name": "Public Speaking",
+                    "number": "101",
+                    "subject_name": "Speech",
+                    "subject_code": "SPE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Core Physical Wellness Course—2 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mcuts-urban-theological-studies/100/mcuts-105",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MCUTS-Urban-Theological-Studies/100/MCUTS-105",
+                    "guid": "DEBFEFED-1C66-45A0-8024-C9EA4335F248",
+                    "name": "Movement and Wellness",
+                    "number": "105",
+                    "subject_name": "Urban/Theological Studies",
+                    "subject_code": "MCUTS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Requirements—42 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/200/apsy-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/200/APSY-201",
+                    "guid": "B1B1C18F-AE50-4099-9F8E-8ED13EF7D42A",
+                    "name": "General Psychology",
+                    "number": "201",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/300/apsy-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/300/APSY-311",
+                    "guid": "67F1C4D2-5E44-65F9-D257-BFA7B5C5AA8",
+                    "name": "Life Span Development",
+                    "number": "311",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/300/apsy-321",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/300/APSY-321",
+                    "guid": "DF87869E-37B4-4CF0-8FCF-9ADFBD80F6BF",
+                    "name": "Cognitive Psychology",
+                    "number": "321",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/300/apsy-331",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/300/APSY-331",
+                    "guid": "FBAF453F-AB4D-476B-A2A2-4815FF8F529F",
+                    "name": "Abnormal Psychology",
+                    "number": "331",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/300/apsy-341",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/300/APSY-341",
+                    "guid": "C475AE23-EFBF-4CAD-98D7-E81E3624DBBB",
+                    "name": "Personality Theory",
+                    "number": "341",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/300/apsy-351",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/300/APSY-351",
+                    "guid": "CF317004-CCE6-4175-8A18-25F1EBA099F1",
+                    "name": "Mental Health Counseling Methodologies",
+                    "number": "351",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/300/apsy-361",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/300/APSY-361",
+                    "guid": "DE85BDA4-95DB-44EE-BBF9-AF0F9CD103BB",
+                    "name": "Psychological Statistics & Res. Methods",
+                    "number": "361",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/400/apsy-401",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/400/APSY-401",
+                    "guid": "FA84B21B-8D3C-4CE1-88D2-77973829E1B4",
+                    "name": "Behavioral & Stress Management",
+                    "number": "401",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/400/apsy-411",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/400/APSY-411",
+                    "guid": "86EA95F3-31F9-4DEA-A364-6427FD88A23E",
+                    "name": "Alcohol and Drug Abuse",
+                    "number": "411",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/400/apsy-412",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/400/APSY-412",
+                    "guid": "BD77D423-556C-4FD5-92D7-BD2CA467BE32",
+                    "name": "Understanding Trauma & Ptsd",
+                    "number": "412",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/400/apsy-413",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/400/APSY-413",
+                    "guid": "3CFCA569-6517-469A-A2E8-139663317D92",
+                    "name": "Suicide Intervention",
+                    "number": "413",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/400/apsy-441",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/400/APSY-441",
+                    "guid": "99FF2C98-797B-4B44-B6D6-806BE1954841",
+                    "name": "Applied Psychology Internship",
+                    "number": "441",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/apsy-applied-psychology/400/apsy-451",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/APSY-Applied-Psychology/400/APSY-451",
+                    "guid": "53272406-C35F-49F8-99A2-9409A216FA42",
+                    "name": "Applied Psychology Capstone",
+                    "number": "451",
+                    "subject_name": "Applied Psychology",
+                    "subject_code": "APSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Faith and Works Courses—12 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-306",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-306",
+                    "guid": "464D4A8E-E9F1-4AF8-A0E4-6FD7A7E94F5B",
+                    "name": "Biblical Theology of the Marginalized",
+                    "number": "306",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/400/theo-401",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/400/THEO-401",
+                    "guid": "6F2CC61A-16D4-41FD-9F45-39B6A4C50536",
+                    "name": "Christian Ethics",
+                    "number": "401",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-301",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-301",
+                    "guid": "C860D506-20B4-696A-5A9A-B17D3123DB3",
+                    "name": "OT I: The Pentateuch",
+                    "number": "301",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/theo-theology/300/theo-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/THEO-Theology/300/THEO-311",
+                    "guid": "F65CB007-9F86-430D-BE50-1FA98C05B513",
+                    "name": "NT I: Jesus & the Gospels",
+                    "number": "311",
+                    "subject_name": "Theology",
+                    "subject_code": "THEO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "General Electives—18 hours:",
+              "req_narrative": "<p class='sc-RequirementNarrative'>Students are encouraged to take a minor in another discipline as part of their elective hours.</p>"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

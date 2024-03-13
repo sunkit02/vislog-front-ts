@@ -1,0 +1,334 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/department-of-physical-education-wellness-and-sport/major-in-exercise-science-51-hours",
+  "guid": "447B8FCA-90CB-4DF5-8CB7-0B9D9032F204",
+  "title": "Major in Exercise Science—51 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "General and B.S. Specific Core Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-221",
+                    "guid": "6B12C052-0C6A-4B45-A7CB-14AA6B248760",
+                    "name": "Human Anatomy and Physiology I",
+                    "number": "221",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-222",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-222",
+                    "guid": "524AEC3D-A0FC-4E10-A393-DC5C72F45CE2",
+                    "name": "Human Anatomy & Physiology II",
+                    "number": "222",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                    "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                    "name": "Introduction to Statistics & Probability",
+                    "number": "114",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-113",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-113",
+                    "guid": "8506E5E2-6121-4706-89BA-6EE6E64C24AB",
+                    "name": "Elementary Nutrition",
+                    "number": "113",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-218",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-218",
+                    "guid": "67FF205D-EB9B-483E-BCA3-75106AD6057B",
+                    "name": "Care and Prevention of Athletic Injuries",
+                    "number": "218",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-222",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-222",
+                    "guid": "AB0FA62E-3872-4410-8155-A3C1FD656FED",
+                    "name": "First Aid",
+                    "number": "222",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-240",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-240",
+                    "guid": "38561F90-CD9C-47CF-8D3F-807CD8DE9CD6",
+                    "name": "Introduction to Sports Medicine",
+                    "number": "240",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-324",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-324",
+                    "guid": "8A2C20B2-9345-4AF7-9E08-88789DA52C76",
+                    "name": "Understanding Health and Wellness",
+                    "number": "324",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-333",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-333",
+                    "guid": "58333894-D83A-4521-97B6-239CFCD876F2",
+                    "name": "Principles of Health and Fitness Instruction",
+                    "number": "333",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-343",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-343",
+                    "guid": "583A424C-8DAD-40D1-9D70-39A28847F709",
+                    "name": "Sport Law",
+                    "number": "343",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-410",
+                    "guid": "4CC8C71C-A58E-4F33-B05A-0EECCB03FC42",
+                    "name": "Adaptive Physical Education",
+                    "number": "410",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-414",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-414",
+                    "guid": "1FB20A82-25C2-452A-8793-599832DC083E",
+                    "name": "Kinesiology",
+                    "number": "414",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-415",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-415",
+                    "guid": "18387E4B-E210-46AC-BDC0-E40060B38D1C",
+                    "name": "Physiology of Exercise",
+                    "number": "415",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-416",
+                    "guid": "E267CCF3-AF59-4B2B-8181-90BFA269E3AF",
+                    "name": "Tests and Measurements in Health and Physical Education",
+                    "number": "416",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-433",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-433",
+                    "guid": "793B3E80-BF2D-4460-AFBD-AD2DE57956FD",
+                    "name": "Strength, Conditioning, and Human Performance",
+                    "number": "433",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-435",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-435",
+                    "guid": "93667310-8329-462C-A450-E3BA90D1413E",
+                    "name": "Intern",
+                    "number": "435",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      1,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-461",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-461",
+                    "guid": "139C83CF-63DC-4FD5-B950-7C21FBF6084D",
+                    "name": "Exercise Testing and Prescription",
+                    "number": "461",
+                    "subject_name": "Physical Edu. Wellness & Sport",
+                    "subject_code": "PEWS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-330",
+                    "guid": "497284C6-910C-41A7-BE8A-35C194C70209",
+                    "name": "Health Psychology",
+                    "number": "330",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/select-3-one-hour-pews-activity-courses",
+                    "guid": "11FA70F3-3EA9-4BB8-A67D-254D481026B0",
+                    "name": "Select 3 one-hour PEWS Activity courses",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

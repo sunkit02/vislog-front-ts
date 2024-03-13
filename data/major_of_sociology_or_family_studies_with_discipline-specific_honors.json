@@ -1,0 +1,214 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-sociology-and-family-studies/major-of-sociology-or-family-studies-with-discipline-specific-honors",
+  "guid": "D6742115-7FB4-CB6B-5B83-E0BB3F0ACEF",
+  "title": "Major of Sociology or Family Studies with Discipline-Specific Honors",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Admission Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Sociology majors will complete the following as honors contracted courses:",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-214",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-214",
+                        "guid": "61ED4FCD-A58A-4672-8465-FB3988E43C44",
+                        "name": "Social Research I",
+                        "number": "214",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-422",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-422",
+                        "guid": "25656F82-1D4E-48C6-96F0-D414E08EACC2",
+                        "name": "Social Research II",
+                        "number": "422",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-417",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-417",
+                    "guid": "8AED1320-FD10-433D-85BD-C501B1C44F67",
+                    "name": "Social Theory",
+                    "number": "417",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/one-upper-level-soc-elective",
+                    "guid": "F6C3EA0B-53BC-4F0A-9653-2B5265DC47B6",
+                    "name": "One upper-level SOC elective",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-498",
+                    "guid": "8F7C9AD2-5569-4495-9E15-8F9A8B276526",
+                    "name": "Senior Capstone Seminar",
+                    "number": "498",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Family Studies Majors will complete the following as honors contracted courses:",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-425",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-425",
+                        "guid": "736E2A8E-FA29-4E4C-AFE1-803F89F31B77",
+                        "name": "Strengthening Marriage and Families",
+                        "number": "425",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-214",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-214",
+                        "guid": "61ED4FCD-A58A-4672-8465-FB3988E43C44",
+                        "name": "Social Research I",
+                        "number": "214",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-422",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-422",
+                        "guid": "25656F82-1D4E-48C6-96F0-D414E08EACC2",
+                        "name": "Social Research II",
+                        "number": "422",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-417",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-417",
+                    "guid": "8AED1320-FD10-433D-85BD-C501B1C44F67",
+                    "name": "Social Theory",
+                    "number": "417",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/one-upper-level-soc-elective",
+                    "guid": "F6C3EA0B-53BC-4F0A-9653-2B5265DC47B6",
+                    "name": "One upper-level SOC elective",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-498",
+                    "guid": "8F7C9AD2-5569-4495-9E15-8F9A8B276526",
+                    "name": "Senior Capstone Seminar",
+                    "number": "498",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

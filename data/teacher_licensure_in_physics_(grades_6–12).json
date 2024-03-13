@@ -1,0 +1,583 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-physics/teacher-licensure-in-physics-grades-6-12",
+  "guid": "BAD2BFA2-9BA2-4C99-96E9-287733087722",
+  "title": "Teacher Licensure in Physics (Grades 6–12)",
+  "requirements": {
+    "type": "Many",
+    "data": [
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Degree Requirements",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Physics Majors:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-262",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-262",
+                      "guid": "E7BD4A39-D758-4EF4-A981-5AC8E9DE180C",
+                      "name": "Electrical and Electronic Circuits",
+                      "number": "262",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-325",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-325",
+                      "guid": "4D2AB1BB-2484-4CEC-ABC7-7737E3DFE41A",
+                      "name": "Thermodynamics and Statistical Mechanics",
+                      "number": "325",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-105",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-105",
+                          "guid": "CDF35AA2-BC9F-4074-86DA-19CE30256B3D",
+                          "name": "Fundamentals of Chemistry I",
+                          "number": "105",
+                          "subject_name": "Chemistry",
+                          "subject_code": "CHE",
+                          "credits": [
+                            4,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-111",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-111",
+                          "guid": "A4CD0F9D-011F-4501-9DED-E3E38A2A63BD",
+                          "name": "General Chemistry",
+                          "number": "111",
+                          "subject_name": "Chemistry",
+                          "subject_code": "CHE",
+                          "credits": [
+                            4,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-105",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-105",
+                          "guid": "1B56A4C4-DB34-6B3A-AB1E-0B1DDF441D1",
+                          "name": "Survey of Microcomputing Applications",
+                          "number": "105",
+                          "subject_name": "Computer Science",
+                          "subject_code": "CSC",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-115",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-115",
+                          "guid": "860AF9C9-EAD9-45AC-AA92-BAF352C5288C",
+                          "name": "Computer Science: Introduction and Overview",
+                          "number": "115",
+                          "subject_name": "Computer Science",
+                          "subject_code": "CSC",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                          "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                          "name": "Introduction to Statistics & Probability",
+                          "number": "114",
+                          "subject_name": "Mathematics",
+                          "subject_code": "MAT",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-208",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-208",
+                          "guid": "F75B8F1B-CFE1-4DFE-AF75-6F2D6307DB55",
+                          "name": "Statistics",
+                          "number": "208",
+                          "subject_name": "Mathematics",
+                          "subject_code": "MAT",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-112",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-112",
+                      "guid": "16363308-3515-4B52-9CEB-51AC47101537",
+                      "name": "Earth and Space Science",
+                      "number": "112",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-310",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-310",
+                      "guid": "4EBB6926-705E-4B49-92D0-D320CD0CE95D",
+                      "name": "Energy, Environment, and Society",
+                      "number": "310",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Physical Science Majors:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-325",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-325",
+                      "guid": "4D2AB1BB-2484-4CEC-ABC7-7737E3DFE41A",
+                      "name": "Thermodynamics and Statistical Mechanics",
+                      "number": "325",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-430",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-430",
+                      "guid": "188C3B31-038F-4734-92B8-F826400BCE95",
+                      "name": "Experimental Physics Laboratory",
+                      "number": "430",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-424",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-424",
+                      "guid": "4C365522-4A24-03E9-A936-16251940CAB",
+                      "name": "Physics Research",
+                      "number": "424",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        1,
+                        3
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-105",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-105",
+                          "guid": "1B56A4C4-DB34-6B3A-AB1E-0B1DDF441D1",
+                          "name": "Survey of Microcomputing Applications",
+                          "number": "105",
+                          "subject_name": "Computer Science",
+                          "subject_code": "CSC",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-115",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-115",
+                          "guid": "860AF9C9-EAD9-45AC-AA92-BAF352C5288C",
+                          "name": "Computer Science: Introduction and Overview",
+                          "number": "115",
+                          "subject_name": "Computer Science",
+                          "subject_code": "CSC",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-212",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-212",
+                      "guid": "EB7D85DE-7E32-461E-9FEE-4F0FFB247FDB",
+                      "name": "Calculus and Analytic Geometry II",
+                      "number": "212",
+                      "subject_name": "Mathematics",
+                      "subject_code": "MAT",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                          "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                          "name": "Introduction to Statistics & Probability",
+                          "number": "114",
+                          "subject_name": "Mathematics",
+                          "subject_code": "MAT",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-208",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-208",
+                          "guid": "F75B8F1B-CFE1-4DFE-AF75-6F2D6307DB55",
+                          "name": "Statistics",
+                          "number": "208",
+                          "subject_name": "Mathematics",
+                          "subject_code": "MAT",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": null,
+          "requirements": [
+            {
+              "type": "Label",
+              "data": {
+                "title": "Professional Education:",
+                "req_narrative": null
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Prior to Internship",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/100/edu-150",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/100/EDU-150",
+                      "guid": "B548D5B9-4EF9-47AB-B4DA-C6946433B731",
+                      "name": "Foundations of American Education",
+                      "number": "150",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-305",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-305",
+                      "guid": "8621009E-40A7-479E-836C-5B2196C705BC",
+                      "name": "Planning for Student Achievement in Diverse Classrooms",
+                      "number": "305",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-358",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-358",
+                      "guid": "FC7E6361-AABD-4E6D-BD85-837D6CF1ACD4",
+                      "name": "Psychological Foundations of Education",
+                      "number": "358",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                      "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                      "name": "Introduction to Psychology",
+                      "number": "213",
+                      "subject_name": "Psychology",
+                      "subject_code": "PSY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-230",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-230",
+                          "guid": "3CC19352-3A1E-4955-8F20-2505AD2F59D5",
+                          "name": "Learning in Diverse Classrooms",
+                          "number": "230",
+                          "subject_name": "Psychology",
+                          "subject_code": "PSY",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/200/se-230",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/200/SE-230",
+                          "guid": "61522AEC-0923-470A-9DFA-1073B33CFE9A",
+                          "name": "Learning in Diverse Classrooms",
+                          "number": "230",
+                          "subject_name": "Special Education",
+                          "subject_code": "SE",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Fall of Internship Year",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-306",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-306",
+                      "guid": "8279514A-9F7F-45B8-A440-724BC2D8EDDD",
+                      "name": "Leading the Learning Environment",
+                      "number": "306",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-340",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-340",
+                      "guid": "1390EB6A-97BC-4D85-9D2E-55CAA64569C6",
+                      "name": "Comprehending Text",
+                      "number": "340",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-418",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-418",
+                      "guid": "3D2F80FB-E3E0-4EA1-A2DC-3571706C754E",
+                      "name": "Teaching Science in the Secondary School",
+                      "number": "418",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-440",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-440",
+                      "guid": "34145FAA-B2EB-4CA3-8F52-9574E46706E0",
+                      "name": "Internship I",
+                      "number": "440",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        4,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Spring of Internship Year",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-441",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-441",
+                      "guid": "B321A1B3-2C4A-48BB-B71E-17A3DF555631",
+                      "name": "Internship II",
+                      "number": "441",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        14,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-451",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-451",
+                      "guid": "81A2EE85-6A90-49FB-A38A-B63481C8E123",
+                      "name": "Problem-Based Seminar",
+                      "number": "451",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,858 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-music/bachelor-of-music-with-major-in-music-theory-82-hours-36-hours-46-hour-music-core",
+  "guid": "82FB76A5-6364-4B90-9CC7-F73E7A8B4017",
+  "title": "Bachelor of Music with Major in Music Theory—82 hours (36 hours + 46-hour Music Core)",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": null,
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "Required Music Core:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-111",
+                    "guid": "A71CB46B-01C8-45C0-86DE-4AD01E8AEF9A",
+                    "name": "Music Theory I",
+                    "number": "111",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-103",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-103",
+                    "guid": "B3E6D951-6484-41FF-AE6E-56A31E088B7B",
+                    "name": "Ear Training/Sight Singing I",
+                    "number": "103",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-112",
+                    "guid": "AAB8E66C-6E02-4BD5-891D-68C22182B057",
+                    "name": "Music Theory II",
+                    "number": "112",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-104",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-104",
+                    "guid": "C711D034-C9A1-49C6-8D75-9D7E186037C7",
+                    "name": "Ear Training/Sight Singing II",
+                    "number": "104",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-211",
+                    "guid": "3277AD02-53C1-497B-80DB-8DC9617C176F",
+                    "name": "Music Theory III",
+                    "number": "211",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-203",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-203",
+                    "guid": "ABB9A4E6-0E86-4964-9273-2F542E274911",
+                    "name": "Ear Training & Sight Singing III",
+                    "number": "203",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-311",
+                    "guid": "F3F70140-1DB4-4882-9950-EAB99F45D0CD",
+                    "name": "Conducting I",
+                    "number": "311",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-315",
+                    "guid": "10E79913-9DCB-4FFF-BA79-AE31D28C0A47",
+                    "name": "History of Music I",
+                    "number": "315",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-316",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-316",
+                    "guid": "639C0EA5-E326-458A-8E9B-37F83702EC23",
+                    "name": "History of Music II",
+                    "number": "316",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-317",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-317",
+                    "guid": "FE60BA3F-4F80-441C-BA08-8947ED5FEEB4",
+                    "name": "Form and Analysis",
+                    "number": "317",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-340",
+                    "guid": "ACD04BCC-0668-4794-BE1D-B3DA11E85322",
+                    "name": "Arranging and Composing Methods",
+                    "number": "340",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Applied Studies – 13 hours:",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-399",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-399",
+                        "guid": "7ABAD0CB-BCB1-4D35-8E27-7FF4DDE6C754",
+                        "name": "Recital",
+                        "number": "399",
+                        "subject_name": "Music",
+                        "subject_code": "MUS",
+                        "credits": [
+                          1,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-499",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-499",
+                        "guid": "C928C264-0EE2-4DAD-B884-5C2138D11282",
+                        "name": "Recital",
+                        "number": "499",
+                        "subject_name": "Music",
+                        "subject_code": "MUS",
+                        "credits": [
+                          1,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/12-hours-6-semesters-of-mus-150-mus-350",
+                    "guid": "116B1767-543A-4051-ACEE-E2437C3FD886",
+                    "name": "12 hours/6 semesters of MUS 150-MUS 350",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Secondary Performance – 4 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-121",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-121",
+                    "guid": "FBC94307-3BE0-43C0-9C5C-37C2ECC664E5",
+                    "name": "Class Piano",
+                    "number": "121",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-122",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-122",
+                    "guid": "DD471726-3F8E-4A94-BEA5-E920A15F3B3F",
+                    "name": "Class Piano",
+                    "number": "122",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-221",
+                    "guid": "F72E86B8-64E9-44D3-8430-EC904797F5EA",
+                    "name": "Class Piano",
+                    "number": "221",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-222",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-222",
+                    "guid": "1F9B563C-1C6E-4CE2-809F-1D61582B3FD2",
+                    "name": "Class Piano",
+                    "number": "222",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Or",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "2 hours from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-129v",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-129V",
+                    "guid": "63F745A5-6769-4346-B0F6-E400F1F8FE4C",
+                    "name": "Elec & 2ndary Applied-Voice",
+                    "number": "129V",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-129i",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-129I",
+                    "guid": "F82D9C03-3DBF-493C-B658-EB599E3A20C3",
+                    "name": "Applied Music for Elective",
+                    "number": "129I",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-129ig",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-129IG",
+                    "guid": "B837F50A-711E-4332-B01F-8FD458E5D05B",
+                    "name": "Applied Music for Elective",
+                    "number": "129IG",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      2
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "And",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "2 hours from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-229v",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-229V",
+                    "guid": "9E5B57B1-FC1A-4C48-82E6-88969DD9FA9D",
+                    "name": "Applied Music for Elective",
+                    "number": "229V",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-229i",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-229I",
+                    "guid": "40D38BF5-E584-0F5A-DCD0-E20FE055961",
+                    "name": "Applied Music for Elective",
+                    "number": "229I",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-229ig",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-229IG",
+                    "guid": "751108FB-BCA0-4D6A-974B-99A398E472F0",
+                    "name": "Applied Music for Elective",
+                    "number": "229IG",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      2
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Ensemble Experience – 6 hours/semesters",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Recital Attendance – Take 8 semesters of MUS 000",
+              "req_narrative": "<p class='sc-RequirementNarrative'>The Music Education emphasis requires 6 semesters.</p>"
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Additional Applied Studies – 4 hours/2 semesters:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-450i",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-450I",
+                    "guid": "9470871E-EEB2-4719-B1CC-F139D3D749A2",
+                    "name": "Applied Music",
+                    "number": "450I",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-450ig",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-450IG",
+                    "guid": "57C377FB-6E53-452A-8AFA-6027252DF8B8",
+                    "name": "Applied Music",
+                    "number": "450IG",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-450k",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-450K",
+                    "guid": "2704D09D-6904-43D5-9228-3586D942E4BE",
+                    "name": "Applied Music",
+                    "number": "450K",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-450v",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-450V",
+                    "guid": "E7AFAC9D-B1CF-4959-9D24-55CF94DB2574",
+                    "name": "Applied Music",
+                    "number": "450V",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Additional Music Courses – 13 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-212",
+                    "guid": "E1D1B6F6-E356-4603-A53C-9FFCDDCBBA05",
+                    "name": "Music Theory IV",
+                    "number": "212",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-204",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-204",
+                    "guid": "3007966F-5FAB-41AC-BC26-44BFA3F69BFE",
+                    "name": "Ear Training & Sight Singing IV",
+                    "number": "204",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-312",
+                    "guid": "BEBA16D9-B5E8-4C07-9A17-F5FD75D65EDD",
+                    "name": "Conducting II (Choral)",
+                    "number": "312",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-331",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-331",
+                    "guid": "E09ECE54-E1BD-41A3-9E2A-818700FFD892",
+                    "name": "Orchestration",
+                    "number": "331",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-490",
+                    "guid": "FFB53F5E-D2C8-44AB-959C-0CB3828585E9",
+                    "name": "Theory Senior Project",
+                    "number": "490",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-490",
+                    "guid": "FFB53F5E-D2C8-44AB-959C-0CB3828585E9",
+                    "name": "Theory Senior Project",
+                    "number": "490",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Courses specific to Applied Area – 2 hours:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Voice Applied Area:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-116",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-116",
+                    "guid": "2D337E5C-6C7D-481B-8F74-49A2B5E3F48A",
+                    "name": "Singer's Diction I",
+                    "number": "116",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Instrumental Applied Area – Select 2 courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-237",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-237",
+                    "guid": "A9090531-18CD-45CF-ACEB-BEAA87BA1A0B",
+                    "name": "String Methods",
+                    "number": "237",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-238",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-238",
+                    "guid": "67D5C5F8-38C2-48B4-8ED9-D5D0F57CE018",
+                    "name": "Woodwind Methods",
+                    "number": "238",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-241",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-241",
+                    "guid": "267F2E02-A78E-455A-8F73-3EBD44CD267F",
+                    "name": "Brass Methods",
+                    "number": "241",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-242",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-242",
+                    "guid": "E5739731-494A-4FED-AAA3-9F40B633323B",
+                    "name": "Percussion Methods",
+                    "number": "242",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Piano Applied Area:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-416",
+                    "guid": "DD9A9A4F-825D-407F-92DB-F1C8B5934FBB",
+                    "name": "Piano Literature",
+                    "number": "416",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Organ Applied Area – Select 2 hours from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-215",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-215",
+                    "guid": "1CF8D5B4-69B0-4127-8010-162D687DAA8D",
+                    "name": "Service Playing I",
+                    "number": "215",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-219",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-219",
+                    "guid": "37021108-AD2B-4BF6-A2A0-2B05C12B3EAB",
+                    "name": "Service Playing II",
+                    "number": "219",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/400/mus-418",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/400/MUS-418",
+                    "guid": "D23B65FA-10B7-476A-AD70-673D39E7D8FA",
+                    "name": "Organ Literature",
+                    "number": "418",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Additional Ensembles – 2 hours",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Take 7 hours of electives from MUS, CMU, WL",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Take 10 hours of upper-level Music Theory electives and/or 10 hours of MUS 350C/450C",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

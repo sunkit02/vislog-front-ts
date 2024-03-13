@@ -1,0 +1,495 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-sociology-and-family-studies/major-in-forensic-science-80-hours",
+  "guid": "A7D0133B-8813-4A91-8603-4766B762DE44",
+  "title": "Major in Forensic Science—80 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Criminal Justice Foundation-30 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                    "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                    "name": "Introduction to Psychology",
+                    "number": "213",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                    "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                    "name": "Principles of Sociology",
+                    "number": "211",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-317",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-317",
+                        "guid": "AA17A817-5B45-4142-806F-A3D007ADAB06",
+                        "name": "Abnormal Psychology",
+                        "number": "317",
+                        "subject_name": "Psychology",
+                        "subject_code": "PSY",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-305",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-305",
+                        "guid": "652923F3-8DE5-4886-9186-22FC775481AC",
+                        "name": "Psychopathology",
+                        "number": "305",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-324",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-324",
+                        "guid": "DE12283C-BA60-4BD8-A92E-F62201C67B34",
+                        "name": "Social Deviance",
+                        "number": "324",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-324",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-324",
+                        "guid": "3566F89B-7043-4BF3-8B43-63CA1C9A9997",
+                        "name": "Social Deviance",
+                        "number": "324",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-419",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-419",
+                        "guid": "7DB24067-17B7-4C18-BE7E-69C70E46D5FF",
+                        "name": "Social Diversity and Inequality",
+                        "number": "419",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-419",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-419",
+                        "guid": "97D19324-065B-4AFF-9E42-82035D011D16",
+                        "name": "Social Diversity and Inequality",
+                        "number": "419",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-250",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-250",
+                    "guid": "77852502-D3A8-4D6D-B448-53E6F0A64C15",
+                    "name": "Introduction to Criminal Justice",
+                    "number": "250",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-312",
+                    "guid": "AD209FE9-4A43-46C5-8EB1-C5DE2DD808DB",
+                    "name": "Criminology",
+                    "number": "312",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-416",
+                    "guid": "B9C12F4A-A508-423E-B4B9-DC506AEB663B",
+                    "name": "Constitutional Law II",
+                    "number": "416",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-311",
+                    "guid": "41AF36E9-FCD6-46F9-ACD7-6F111DBDF8E9",
+                    "name": "Crime and Society",
+                    "number": "311",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-411",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-411",
+                    "guid": "DA4EAF11-EE3E-4FC7-9249-38FE67638DF5",
+                    "name": "Internship",
+                    "number": "411",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Biology Required Courses-16 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-211",
+                    "guid": "FE5C0535-C7F7-49E9-A392-44CC54EE2A0D",
+                    "name": "Microbiology",
+                    "number": "211",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/200/bio-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/200/BIO-221",
+                    "guid": "6B12C052-0C6A-4B45-A7CB-14AA6B248760",
+                    "name": "Human Anatomy and Physiology I",
+                    "number": "221",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/300/bio-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/300/BIO-315",
+                    "guid": "B3B48A21-78BB-4E01-8A18-3FB19C29890B",
+                    "name": "Genetics",
+                    "number": "315",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/300/bio-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/300/BIO-325",
+                    "guid": "3A663F40-13FB-40F2-A3B8-06AB9CF6588E",
+                    "name": "Molecular Biology",
+                    "number": "325",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Forensic Science Required Courses-8 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/300/bio-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/300/BIO-313",
+                    "guid": "16E4D16E-335E-4C6E-A672-36000F9ED608",
+                    "name": "Forensic Biology",
+                    "number": "313",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-308",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-308",
+                    "guid": "2DB0CD15-8EF8-4EB0-9C51-3F12E51E616F",
+                    "name": "Introduction to Forensic Science",
+                    "number": "308",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Chemistry Required Courses-26 hours:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-111",
+                    "guid": "A4CD0F9D-011F-4501-9DED-E3E38A2A63BD",
+                    "name": "General Chemistry",
+                    "number": "111",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-112",
+                    "guid": "97239341-F792-4235-8C1C-53FB2AD3B468",
+                    "name": "Chemical Equilibrium",
+                    "number": "112",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-314",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-314",
+                    "guid": "239BF403-1D29-4380-9CE0-ABF5E6CC3534",
+                    "name": "Organic Chemistry I",
+                    "number": "314",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-315",
+                    "guid": "90E0FB1F-A90F-448E-9606-F5FEFEE9177C",
+                    "name": "Organic Chemistry II",
+                    "number": "315",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-319",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-319",
+                    "guid": "B9542957-B1B7-4A5F-811A-424998B4A522",
+                    "name": "Biochemistry",
+                    "number": "319",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-324",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-324",
+                    "guid": "B9D45159-BFDE-4E9B-86F0-29EA074009E5",
+                    "name": "Organic Chemistry Laboratory",
+                    "number": "324",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-326",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-326",
+                    "guid": "D769FAD0-94B7-4993-B88C-40B418592C88",
+                    "name": "Organic/Inorganic Synthesis Laboratory",
+                    "number": "326",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-329",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-329",
+                    "guid": "C8C56FD5-82A9-4D09-815A-7EA6798EBAF6",
+                    "name": "Biochemistry II",
+                    "number": "329",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

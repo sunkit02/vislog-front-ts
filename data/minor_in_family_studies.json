@@ -1,0 +1,181 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-sociology-and-family-studies/minor-in-family-studies-18-hours",
+  "guid": "428D7DB7-89C4-CE39-3292-5711EF15292",
+  "title": "Minor in Family Studies—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Requirements:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-225",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-225",
+                    "guid": "40D4E743-D5D9-4BF1-AAB6-1EB285DA5386",
+                    "name": "Relationshps, Marriage and Families",
+                    "number": "225",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-417",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-417",
+                    "guid": "8AED1320-FD10-433D-85BD-C501B1C44F67",
+                    "name": "Social Theory",
+                    "number": "417",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-338",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-338",
+                    "guid": "76B67B2A-C414-E33A-77F7-91EBCD8B6A4",
+                    "name": "Children and Families At Risk",
+                    "number": "338",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 9 hours from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-325",
+                    "guid": "6F154DA0-8618-46A8-94BD-617CE050237E",
+                    "name": "Families Across Cultures",
+                    "number": "325",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-356",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-356",
+                    "guid": "8EFCBFE5-287D-402A-810B-B2A103090EEA",
+                    "name": "Food, Culture and Society",
+                    "number": "356",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-370",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-370",
+                    "guid": "CD7E4102-3ABA-45EC-A9E6-050CA3F5AB08",
+                    "name": "Gender and Sexuality",
+                    "number": "370",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-419",
+                    "guid": "7DB24067-17B7-4C18-BE7E-69C70E46D5FF",
+                    "name": "Social Diversity and Inequality",
+                    "number": "419",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-219",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-219",
+                        "guid": "791361E1-01DC-4EF7-9DE1-9D9EC85B43F6",
+                        "name": "Developmental Psychology",
+                        "number": "219",
+                        "subject_name": "Psychology",
+                        "subject_code": "PSY",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-324",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-324",
+                        "guid": "40FA4721-2585-4DF8-BDF1-C3D03177825F",
+                        "name": "Child Growth and Development",
+                        "number": "324",
+                        "subject_name": "Psychology",
+                        "subject_code": "PSY",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

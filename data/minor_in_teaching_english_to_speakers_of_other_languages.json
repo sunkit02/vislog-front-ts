@@ -1,0 +1,160 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-language/minor-in-teaching-english-to-speakers-of-other-languages-21-hours",
+  "guid": "D9781258-4825-411D-B052-09973D760684",
+  "title": "Minor in Teaching English to Speakers of Other Languages—21 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Program Requirements: 18 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/200/tesl-210",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/200/TESL-210",
+                    "guid": "62504A86-E483-4A3A-A866-8530329EEB0F",
+                    "name": "Language and Content Tutoring",
+                    "number": "210",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/200/tesl-220",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/200/TESL-220",
+                    "guid": "89191B78-4089-4375-9A17-7B303380AE34",
+                    "name": "Principles of Language and Acquisition",
+                    "number": "220",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/300/tesl-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/300/TESL-315",
+                    "guid": "A51F44EE-292A-468C-8FCE-DC6278F2C22F",
+                    "name": "Critical Context of Literacy",
+                    "number": "315",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/300/tesl-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/300/TESL-320",
+                    "guid": "83730161-FB50-4078-98E0-8F7A783D6B16",
+                    "name": "ESL Assessment",
+                    "number": "320",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-320",
+                    "guid": "F0958FC3-4B9D-4958-9C04-3568F7E4E8B8",
+                    "name": "Intercultural Communication",
+                    "number": "320",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-423",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-423",
+                    "guid": "631F0DAA-1EE1-4255-AA83-EDE03D92EA96",
+                    "name": "Teaching Modern Language in the Secondary School",
+                    "number": "423",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from the following:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/400/tesl-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/400/TESL-410",
+                    "guid": "31099311-5139-4468-A73F-B7AE0C6260D3",
+                    "name": "Curriculum and Materials Development",
+                    "number": "410",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/400/tesl-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/400/TESL-440",
+                    "guid": "E840D938-7C34-4BED-9825-55DD3AEA444D",
+                    "name": "Theories of Language",
+                    "number": "440",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

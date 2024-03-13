@@ -1,0 +1,270 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-computer-science/major-in-information-technology-39-hours",
+  "guid": "135D168F-8A58-4BF0-BA8E-90BCADCAEE96",
+  "title": "Major in Information Technology—39 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Prerequisites:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-205",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-205",
+                    "guid": "EE7B699D-E429-4B9C-913C-F7EBB74B8B29",
+                    "name": "Discrete Mathematics",
+                    "number": "205",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-343",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-343",
+                    "guid": "A5AE6D6A-D986-4067-A181-7376C4A95D0D",
+                    "name": "Professional Writing",
+                    "number": "343",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-115",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-115",
+                    "guid": "860AF9C9-EAD9-45AC-AA92-BAF352C5288C",
+                    "name": "Computer Science: Introduction and Overview",
+                    "number": "115",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-125",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-125",
+                    "guid": "13A1385C-81AC-493D-ACE8-AA8AB37D2C81",
+                    "name": "Computer Science I: Programming in Java",
+                    "number": "125",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/100/csc-130",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/100/CSC-130",
+                    "guid": "16F09215-83AA-4551-AC77-B2E4F67DE1E8",
+                    "name": "System Administration and Maintenance",
+                    "number": "130",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/200/csc-235",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/200/CSC-235",
+                    "guid": "897BFC12-7790-43C7-8466-9DDAA5B239BD",
+                    "name": "Computer Ethics",
+                    "number": "235",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/200/csc-265",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/200/CSC-265",
+                    "guid": "FAAF05FE-885B-4B8C-ACBD-FAE2B15E9FB8",
+                    "name": "Fundamentals of Human Computer Interaction",
+                    "number": "265",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/300/csc-321",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/300/CSC-321",
+                    "guid": "10BC3E4E-CB86-441E-A7D3-D075476A2229",
+                    "name": "Database Management Systems",
+                    "number": "321",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/300/csc-347",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/300/CSC-347",
+                    "guid": "59C310C6-FA95-4BA6-A282-6491B3D008D3",
+                    "name": "Secure Software Engineering",
+                    "number": "347",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/300/csc-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/300/CSC-360",
+                    "guid": "9D91CD99-8570-403D-A156-29FFE35814F6",
+                    "name": "Web Building and Site Management",
+                    "number": "360",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/300/csc-365",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/300/CSC-365",
+                    "guid": "B5FB659A-CE71-4DB0-8E22-B2DA9AAD87AF",
+                    "name": "Data Communications and Networking",
+                    "number": "365",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/400/csc-455",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/400/CSC-455",
+                    "guid": "D6D105B3-9D75-4A5E-9566-0A48AA3FB18F",
+                    "name": "Programming Languages",
+                    "number": "455",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/400/csc-485",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/400/CSC-485",
+                    "guid": "C8EAB599-8C0D-4E6C-9036-2B797B9DB60B",
+                    "name": "Internship in Computer Science",
+                    "number": "485",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/400/csc-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/400/CSC-498",
+                    "guid": "6785EDC2-418C-4C8B-B76A-51DA35724F02",
+                    "name": "Computer Science Seminar",
+                    "number": "498",
+                    "subject_name": "Computer Science",
+                    "subject_code": "CSC",
+                    "credits": [
+                      2,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/csc-electives-3",
+                    "guid": "E659082A-7EC4-4574-9B7C-E3BADAA4B747",
+                    "name": "Electives",
+                    "number": null,
+                    "subject_code": "CSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

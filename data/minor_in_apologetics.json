@@ -1,0 +1,229 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-theology-and-missions/minors-offered-by-the-school/minor-in-apologetics-18-hours",
+  "guid": "ABC9A022-5C33-4363-B1AA-303DC173A737",
+  "title": "Minor in Apologetics—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-339",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-339",
+                    "guid": "E3A69A41-39A1-4C96-BAFC-C4F071610621",
+                    "name": "Apologetics",
+                    "number": "339",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                    "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                    "name": "Introduction to Philosophy",
+                    "number": "240",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 12 hours from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-213",
+                    "guid": "D49DB920-15B9-4718-852A-C7FFE12E889A",
+                    "name": "Biblical Backgrounds",
+                    "number": "213",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-324",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-324",
+                    "guid": "AAD14F3A-38CF-4878-BE7B-50D0333762EF",
+                    "name": "Contemporary Issues in Christian Ethics",
+                    "number": "324",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-348",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-348",
+                    "guid": "CE218355-F89F-484D-A318-DFA210A8DA81",
+                    "name": "Faith & Culture in Film",
+                    "number": "348",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-349",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-349",
+                    "guid": "46E76B0F-1434-31FB-3925-E3AB747E319",
+                    "name": "Christ and Other Faiths",
+                    "number": "349",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-350",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-350",
+                    "guid": "4B75B10F-E301-43AC-8408-96C783D3289E",
+                    "name": "C.S. Lewis: His Life & Work",
+                    "number": "350",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-351",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-351",
+                    "guid": "B69C7065-8224-559A-76AC-22739BCCF13",
+                    "name": "Harry Potter and the Gospel",
+                    "number": "351",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-438",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-438",
+                    "guid": "98A185DD-F0B5-419F-BEFA-33513C0612B3",
+                    "name": "Science & Faith",
+                    "number": "438",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-448",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-448",
+                    "guid": "989728B0-8E83-403F-9B14-29248E8B42CD",
+                    "name": "Philosophy of Film",
+                    "number": "448",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                        "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                        "name": "Introduction to Christian Ethics",
+                        "number": "243",
+                        "subject_name": "Christian Studies",
+                        "subject_code": "CHR",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-243",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-243",
+                        "guid": "B5FE0189-6877-4301-AF01-11591CC53C65",
+                        "name": "Introduction to Christian Ethics",
+                        "number": "243",
+                        "subject_name": "Philosophy",
+                        "subject_code": "PHL",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

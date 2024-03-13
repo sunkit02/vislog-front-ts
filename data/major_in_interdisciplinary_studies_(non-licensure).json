@@ -1,0 +1,272 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/school-of-education/major-in-interdisciplinary-studies-non-licensure-35-hours",
+  "guid": "533BE3C6-C90B-4B0F-8CF0-B10BCC47561C",
+  "title": "Major in Interdisciplinary Studies (non-licensure)—35 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Major Required Courses:",
+            "courses": [
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/geo-geography/200/geo-215",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/GEO-Geography/200/GEO-215",
+                      "guid": "5B2DD79E-FE96-4223-9E1F-E28D6D0F31B1",
+                      "name": "World Regional Geography I",
+                      "number": "215",
+                      "subject_name": "Geography",
+                      "subject_code": "GEO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/geo-geography/200/geo-216",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/GEO-Geography/200/GEO-216",
+                      "guid": "D2262CFA-1AE1-4D8F-A606-F5F4CA0AAF1A",
+                      "name": "World Regional Geography II",
+                      "number": "216",
+                      "subject_name": "Geography",
+                      "subject_code": "GEO",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-111",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-111",
+                  "guid": "51C7FFB5-9EE4-4DDF-AFF8-E30A83AAC24C",
+                  "name": "College Algebra",
+                  "number": "111",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                  "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                  "name": "Introduction to Statistics & Probability",
+                  "number": "114",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-112",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-112",
+                  "guid": "16363308-3515-4B52-9CEB-51AC47101537",
+                  "name": "Earth and Space Science",
+                  "number": "112",
+                  "subject_name": "Physics",
+                  "subject_code": "PHY",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-358",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-358",
+                  "guid": "FC7E6361-AABD-4E6D-BD85-837D6CF1ACD4",
+                  "name": "Psychological Foundations of Education",
+                  "number": "358",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-324",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-324",
+                  "guid": "40FA4721-2585-4DF8-BDF1-C3D03177825F",
+                  "name": "Child Growth and Development",
+                  "number": "324",
+                  "subject_name": "Psychology",
+                  "subject_code": "PSY",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-325",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-325",
+                  "guid": "6F154DA0-8618-46A8-94BD-617CE050237E",
+                  "name": "Families Across Cultures",
+                  "number": "325",
+                  "subject_name": "Sociology",
+                  "subject_code": "SOC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/200/se-230",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/200/SE-230",
+                  "guid": "61522AEC-0923-470A-9DFA-1073B33CFE9A",
+                  "name": "Learning in Diverse Classrooms",
+                  "number": "230",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/uni-university-studies/300/uni-300",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/UNI-University-Studies/300/UNI-300",
+                  "guid": "A0D7FB91-DAE9-4669-9948-FDC98FE49AC5",
+                  "name": "Integrative Arts in the Classroom",
+                  "number": "300",
+                  "subject_name": "University Studies",
+                  "subject_code": "UNI",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/200/edu-210",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/200/EDU-210",
+                  "guid": "92C12900-D3B6-46AF-8A61-0E98AEDD7B91",
+                  "name": "Cultural Competency in the Classroom",
+                  "number": "210",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-301",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-301",
+                  "guid": "911FFC2B-E5E1-4989-943B-1B27DD30C039",
+                  "name": "Technology-Rich Learning in a Global Classroom",
+                  "number": "301",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-303",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-303",
+                  "guid": "BD885E7C-9F3D-4EBC-9256-D50DB6601142",
+                  "name": "Writing Across the Curriculum",
+                  "number": "303",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-310",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-310",
+                      "guid": "762244B2-1E85-4C58-95F6-E208D198C739",
+                      "name": "Children & Literature",
+                      "number": "310",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-311",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-311",
+                      "guid": "334257C5-23B2-420E-BF29-7049B85B41E1",
+                      "name": "Young Adult Literature",
+                      "number": "311",
+                      "subject_name": "Education",
+                      "subject_code": "EDU",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

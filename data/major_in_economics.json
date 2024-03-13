@@ -1,0 +1,266 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/major-in-economics-39-hours",
+  "guid": "BB7979D3-1997-4215-A106-C84E5603E890",
+  "title": "Major in Economics—39 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                    "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                    "name": "Introduction to Statistics & Probability",
+                    "number": "114",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bad-business-administration/200/bad-224",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BAD-Business-Administration/200/BAD-224",
+                    "guid": "4FA5F856-B2C7-4D19-AF63-D73CBD80B914",
+                    "name": "Introduction to Business Analytics And Decision-Making",
+                    "number": "224",
+                    "subject_name": "Business Administration",
+                    "subject_code": "BAD",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/200/eco-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/200/ECO-211",
+                    "guid": "83ECD647-1004-A2C9-B612-08837456678",
+                    "name": "Principles of Macroeconomics",
+                    "number": "211",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/200/eco-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/200/ECO-212",
+                    "guid": "64D5DE62-28C7-449E-A022-6F34C5EC89C2",
+                    "name": "Principles of Microeconomics",
+                    "number": "212",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-498",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-498",
+                        "guid": "94FA1E53-7B41-4216-8E25-191288305CEC",
+                        "name": "Seminar",
+                        "number": "498",
+                        "subject_name": "Economics",
+                        "subject_code": "ECO",
+                        "credits": [
+                          1,
+                          3
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Label",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/eco-elective",
+                        "guid": "35D25137-9F27-439E-A315-8632ABA7EC80",
+                        "name": "Elective",
+                        "number": null,
+                        "subject_code": "ECO",
+                        "credits": [
+                          0,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-411",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-411",
+                    "guid": "1D3F812C-DE14-401B-82E3-D86A4275CCEB",
+                    "name": "Intermediate Macroeconomics",
+                    "number": "411",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-412",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-412",
+                    "guid": "33B052D8-0BFC-4595-A41D-B9F437A28ACA",
+                    "name": "Intermediate Microeconomics",
+                    "number": "412",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-430",
+                    "guid": "7C12DC71-869A-45C6-B236-E9C6E1E9C31C",
+                    "name": "International Economics",
+                    "number": "430",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fin-finance/300/fin-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FIN-Finance/300/FIN-320",
+                    "guid": "7FE0A793-5114-4E92-BC40-5900ED2CFBAE",
+                    "name": "Business Financial Management I",
+                    "number": "320",
+                    "subject_name": "Finance",
+                    "subject_code": "FIN",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two courses from the following: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-346",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-346",
+                    "guid": "B331D2C6-6AE7-4951-BC71-FC9758A96EAB",
+                    "name": "History of Philosophy I",
+                    "number": "346",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-347",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-347",
+                    "guid": "284945D1-3030-4D1E-9FB3-034706B52A97",
+                    "name": "History of Philosophy II",
+                    "number": "347",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-322",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-322",
+                    "guid": "9E68B5B8-F960-4927-963D-16232510BD52",
+                    "name": "Western Political Thought I",
+                    "number": "322",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-323",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-323",
+                    "guid": "BCAD20CB-71B6-4CEA-BCAA-E9D4E434B3FD",
+                    "name": "Western Political Thought II",
+                    "number": "323",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours upper-level electives outside the School of Business with advisor approval",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

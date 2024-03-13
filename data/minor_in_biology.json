@@ -1,0 +1,54 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-biology/minor-in-biology-21-24-hours",
+  "guid": "BC30A407-E866-4723-A7ED-60FE00F0A817",
+  "title": "Minor in Biology—21–24 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Requirements:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/100/bio-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/100/BIO-112",
+                    "guid": "FE15721B-B229-49A4-8185-398A3B08F2F4",
+                    "name": "Principles of Biology",
+                    "number": "112",
+                    "subject_name": "Biology",
+                    "subject_code": "BIO",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two 200-level BIO Courses: 8 hours",
+              "courses": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select three 300-level BIO Courses: 9–12 hours",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

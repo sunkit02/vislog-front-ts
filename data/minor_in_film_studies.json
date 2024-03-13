@@ -1,0 +1,597 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-communication-arts/minor-in-film-studies-18-or-21-hours",
+  "guid": "FE4C263A-19CD-46C5-8595-C240DE7A4D91",
+  "title": "Minor in Film Studies—18 or 21 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Select one Track",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Track One: 18 hours",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-209",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-209",
+                        "guid": "69BADB33-BCE0-44EC-ABF5-3F50F913DE3D",
+                        "name": "History of Animation",
+                        "number": "209",
+                        "subject_name": "Communication Arts",
+                        "subject_code": "COM",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-238",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-238",
+                        "guid": "4A82501A-E33B-48BA-A487-F01781782223",
+                        "name": "History of Film",
+                        "number": "238",
+                        "subject_name": "Communication Arts",
+                        "subject_code": "COM",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-313",
+                    "guid": "CDD0C660-1314-2079-D0E6-507836A8D02",
+                    "name": "Media Theory & Trends",
+                    "number": "313",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-348",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-348",
+                    "guid": "CE218355-F89F-484D-A318-DFA210A8DA81",
+                    "name": "Faith & Culture in Film",
+                    "number": "348",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 3 courses from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-209",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-209",
+                    "guid": "69BADB33-BCE0-44EC-ABF5-3F50F913DE3D",
+                    "name": "History of Animation",
+                    "number": "209",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-220",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-220",
+                    "guid": "B7945088-5B1A-4E7C-B20E-14D01447DE59",
+                    "name": "Visual Storytelling",
+                    "number": "220",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-238",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-238",
+                    "guid": "4A82501A-E33B-48BA-A487-F01781782223",
+                    "name": "History of Film",
+                    "number": "238",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-306",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-306",
+                    "guid": "EDD2AEE7-EE00-4885-A68C-22F1B3DE9AC9",
+                    "name": "Entertainment Industry",
+                    "number": "306",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-315",
+                    "guid": "303CE70B-3CF0-48FD-92B0-D0AF3A27F54D",
+                    "name": "Documentary Filmmaking",
+                    "number": "315",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-321",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-321",
+                    "guid": "D37296C0-2DF7-4432-A7A6-204EB431CC12",
+                    "name": "Introduction to Screenwriting",
+                    "number": "321",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-339",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-339",
+                    "guid": "E9DD78D3-E861-4728-99FA-355B2709A9E7",
+                    "name": "Cinematography",
+                    "number": "339",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-344",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-344",
+                    "guid": "6CABD9A0-EA86-4116-AF5D-88D0D114CAE5",
+                    "name": "Film and Television Editing",
+                    "number": "344",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-358",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-358",
+                    "guid": "CC516A4C-B353-4BA6-A6BB-ED40BF76776D",
+                    "name": "Film Festival Study Trip",
+                    "number": "358",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-372",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-372",
+                    "guid": "AD2A69E2-603C-48DF-868D-AE08AE3B074B",
+                    "name": "Special Topics in Film",
+                    "number": "372",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-311",
+                    "guid": "C06C70BF-8A21-4A3B-B7C2-3323E5B9336D",
+                    "name": "Literature and Film",
+                    "number": "311",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/400/phl-448",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/400/PHL-448",
+                    "guid": "A9984644-7F62-4F13-B7CE-A548D4487AF7",
+                    "name": "Philosophy of Film",
+                    "number": "448",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-300",
+                    "guid": "CE4AC679-4C79-4B67-B929-2CE7B379E34B",
+                    "name": "Politics and Film",
+                    "number": "300",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Track Two: 21 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-313",
+                    "guid": "CDD0C660-1314-2079-D0E6-507836A8D02",
+                    "name": "Media Theory & Trends",
+                    "number": "313",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 3 hours from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-209",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-209",
+                    "guid": "69BADB33-BCE0-44EC-ABF5-3F50F913DE3D",
+                    "name": "History of Animation",
+                    "number": "209",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-220",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-220",
+                    "guid": "B7945088-5B1A-4E7C-B20E-14D01447DE59",
+                    "name": "Visual Storytelling",
+                    "number": "220",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-238",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-238",
+                    "guid": "4A82501A-E33B-48BA-A487-F01781782223",
+                    "name": "History of Film",
+                    "number": "238",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-306",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-306",
+                    "guid": "EDD2AEE7-EE00-4885-A68C-22F1B3DE9AC9",
+                    "name": "Entertainment Industry",
+                    "number": "306",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-315",
+                    "guid": "303CE70B-3CF0-48FD-92B0-D0AF3A27F54D",
+                    "name": "Documentary Filmmaking",
+                    "number": "315",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-321",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-321",
+                    "guid": "D37296C0-2DF7-4432-A7A6-204EB431CC12",
+                    "name": "Introduction to Screenwriting",
+                    "number": "321",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-339",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-339",
+                    "guid": "E9DD78D3-E861-4728-99FA-355B2709A9E7",
+                    "name": "Cinematography",
+                    "number": "339",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-344",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-344",
+                    "guid": "6CABD9A0-EA86-4116-AF5D-88D0D114CAE5",
+                    "name": "Film and Television Editing",
+                    "number": "344",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-358",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-358",
+                    "guid": "CC516A4C-B353-4BA6-A6BB-ED40BF76776D",
+                    "name": "Film Festival Study Trip",
+                    "number": "358",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-372",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-372",
+                    "guid": "AD2A69E2-603C-48DF-868D-AE08AE3B074B",
+                    "name": "Special Topics in Film",
+                    "number": "372",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/400/com-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/400/COM-410",
+                    "guid": "AC26C427-951A-46E7-BC90-2E91FC4055EC",
+                    "name": "Directing for the Screen",
+                    "number": "410",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/400/com-438",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/400/COM-438",
+                    "guid": "74BCBA85-D108-42EF-927C-2A3BF69BDAF7",
+                    "name": "Censorship and Propaganda in Film",
+                    "number": "438",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-348",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-348",
+                    "guid": "CE218355-F89F-484D-A318-DFA210A8DA81",
+                    "name": "Faith & Culture in Film",
+                    "number": "348",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/300/eng-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/300/ENG-311",
+                    "guid": "C06C70BF-8A21-4A3B-B7C2-3323E5B9336D",
+                    "name": "Literature and Film",
+                    "number": "311",
+                    "subject_name": "English",
+                    "subject_code": "ENG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/400/phl-448",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/400/PHL-448",
+                    "guid": "A9984644-7F62-4F13-B7CE-A548D4487AF7",
+                    "name": "Philosophy of Film",
+                    "number": "448",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-300",
+                    "guid": "CE4AC679-4C79-4B67-B929-2CE7B379E34B",
+                    "name": "Politics and Film",
+                    "number": "300",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-nursing-and-health-sciences/bachelor-of-science-in-nursing-rn-to-bsn-track/bachelor-of-science-rn-to-bsn-track",
+  "guid": "890CFDD3-6694-26AB-97CB-01D94EE74D3",
+  "title": "Bachelor of Science, RN to BSN Track",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "General Core Requirements:",
+              "req_narrative": "<p class=\"sc-RequirementNarrative\">General Core and transfer policies specific to Adult Studies are detailed in the \"<a href=\"~/link.aspx?_id=6AB6CC3FC2594D3DA808D3B48677D03E&amp;_z=z\">Adult Studies</a>\" section of the Catalogue.</p>\n<p class=\"sc-BodyTextNS\">Must include MAT 114 as the Math requirement.</p>\n<p class=\"sc-BodyTextNS\">The Speech requirement is considered met within the oral communication components of nursing clinicals. </p>\n<p class=\"sc-BodyTextNS\">Sciences must include BIO 300. </p>"
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Upper level (300/400 level) Electives: 6 hours",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Nursing Major Requirements: 31 hours plus 37 basic nursing education hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-310",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-310",
+                    "guid": "570B5E16-409E-4DB5-9023-9B5CCCF68DCB",
+                    "name": "Health Assessment",
+                    "number": "310",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-330",
+                    "guid": "E522FAB6-5F34-795A-DE57-5F517859367",
+                    "name": "Introduction to Research in Nursing",
+                    "number": "330",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-360",
+                    "guid": "CAC7671E-81B7-4F28-8B7E-DD71E3110B4E",
+                    "name": "Legal and Ethical Aspects of Nursing",
+                    "number": "360",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/300/nur-361",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/300/NUR-361",
+                    "guid": "A818FFDD-F050-4FE2-BB6B-45B28277DB12",
+                    "name": "Survey of Technology in Nursing",
+                    "number": "361",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-410",
+                    "guid": "5489CADF-254C-4589-8866-3EE3FC00BE30",
+                    "name": "Pharmacotherapeutics in Nursing Practice",
+                    "number": "410",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-419",
+                    "guid": "D1908E55-74C5-48D1-8949-6A344C57090E",
+                    "name": "Issues in Professional Nursing",
+                    "number": "419",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-430",
+                    "guid": "18902060-B820-494F-8FA3-81EB01571982",
+                    "name": "Leadership and Management in Nursing",
+                    "number": "430",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-440",
+                    "guid": "2A9EF9D6-3A2A-47EB-AEF2-947B22434696",
+                    "name": "Community Health Nursing",
+                    "number": "440",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/nur-nursing/400/nur-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/NUR-Nursing/400/NUR-490",
+                    "guid": "69625334-28E8-47E9-86DC-A24060AFB708",
+                    "name": "Nursing Capstone",
+                    "number": "490",
+                    "subject_name": "Nursing",
+                    "subject_code": "NUR",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "NUR Upper-Level Elective: 3 hours",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

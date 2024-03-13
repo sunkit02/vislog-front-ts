@@ -1,0 +1,411 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-social-work/minor-in-church-and-community-social-ministries-18-hours",
+  "guid": "C5975FE0-C354-464A-DEA6-E14A005EE77",
+  "title": "Minor in Church and Community Social Ministries—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Prerequisite:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-200",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-200",
+                    "guid": "3DB97093-4AF4-7559-A7DA-26648FA9114",
+                    "name": "Introduction to Social Welfare",
+                    "number": "200",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-307",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-307",
+                        "guid": "8E06DC59-E67F-487B-ABF3-FA7595C8DAD8",
+                        "name": "Faith-Based Social Serivces",
+                        "number": "307",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-352",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-352",
+                        "guid": "44D7A15A-7117-4DA6-9E71-1B0B1B979740",
+                        "name": "Engaging Congregations Within the Community",
+                        "number": "352",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 4 courses (12 hours):",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-201",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-201",
+                    "guid": "1A09E954-BBEF-4621-88E9-55B68294A692",
+                    "name": "Community Social Service Experience",
+                    "number": "201",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-225",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-225",
+                    "guid": "98EE2875-A261-4077-8007-3AAD91D46198",
+                    "name": "Relationships, Marriage & Families",
+                    "number": "225",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-300",
+                    "guid": "56CA0759-5015-4EEC-9046-A11050CDF30A",
+                    "name": "Human Behavior and the Social Environment I",
+                    "number": "300",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-301",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-301",
+                    "guid": "12213C0F-D46C-43D5-A2E4-19FFC5932F1F",
+                    "name": "Human Behavior and the Social Environment II",
+                    "number": "301",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-325",
+                    "guid": "EB99FA64-06FE-4E89-BE20-1C0C10FCCB57",
+                    "name": "Families Across Cultures",
+                    "number": "325",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-338",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-338",
+                    "guid": "76B67B2A-C414-E33A-77F7-91EBCD8B6A4",
+                    "name": "Children and Families At Risk",
+                    "number": "338",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-341",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-341",
+                    "guid": "3F3C46F2-8379-4F01-86B9-94A3CB10F290",
+                    "name": "Crisis Intervention & Disaster Relief",
+                    "number": "341",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-342",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-342",
+                    "guid": "F66998E5-9DFB-4C40-827D-CDE757B27BC1",
+                    "name": "Conflict Management",
+                    "number": "342",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-350",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-350",
+                    "guid": "273568BA-0E66-4CEB-900B-9393BA639852",
+                    "name": "Leadership of Non-Profit Organizations",
+                    "number": "350",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-351",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-351",
+                    "guid": "BE9017C6-F60B-46A6-992A-0320232CBA4A",
+                    "name": "Spirituality and Religion in SW Practice",
+                    "number": "351",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-360",
+                    "guid": "6389360D-B3C2-4704-BA2F-048EA39761DC",
+                    "name": "Current Topics",
+                    "number": "360",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-338",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-338",
+                    "guid": "80138D1E-1466-4FCD-A15E-7FECCA4D15C3",
+                    "name": "Issues in Psychology and Religion",
+                    "number": "338",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-320",
+                    "guid": "F0958FC3-4B9D-4958-9C04-3568F7E4E8B8",
+                    "name": "Intercultural Communication",
+                    "number": "320",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-321",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-321",
+                    "guid": "B575A6DF-557B-4F42-B86A-6300DB57E57E",
+                    "name": "Intercultural Perspectives of Humanitarian Response",
+                    "number": "321",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-319",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-319",
+                    "guid": "EA132BAB-104B-4D66-98A6-189330B376D0",
+                    "name": "Sociology of Religion",
+                    "number": "319",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-113",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-113",
+                    "guid": "20544302-42ED-4F42-89CA-C4D511638E92",
+                    "name": "Introduction to Bible Study and Interpretation",
+                    "number": "113",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                    "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                    "name": "Introduction to Christian Ethics",
+                    "number": "243",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-245",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-245",
+                    "guid": "880C3AC2-51C7-487C-B4E7-7F2682E1EECA",
+                    "name": "Cross-Cultural Life and Ministry",
+                    "number": "245",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-334",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-334",
+                    "guid": "947A7F91-B2FB-4776-8077-A58727B41CA5",
+                    "name": "Christian Spiritual Formation",
+                    "number": "334",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/advisor-approved-elective",
+                    "guid": "2659B848-B719-41D8-8B3F-40D0F5AEEFEC",
+                    "name": "Advisor-approved elective",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

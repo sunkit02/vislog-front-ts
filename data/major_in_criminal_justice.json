@@ -1,0 +1,391 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-sociology-and-family-studies/major-in-criminal-justice-39-hours",
+  "guid": "419F471D-9804-5BE9-74F1-6371D509EBF",
+  "title": "Major in Criminal Justice—39 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Social Science Foundation: 18 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                    "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                    "name": "Introduction to Psychology",
+                    "number": "213",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                    "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                    "name": "Principles of Sociology",
+                    "number": "211",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-214",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-214",
+                    "guid": "61ED4FCD-A58A-4672-8465-FB3988E43C44",
+                    "name": "Social Research I",
+                    "number": "214",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-317",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-317",
+                        "guid": "AA17A817-5B45-4142-806F-A3D007ADAB06",
+                        "name": "Abnormal Psychology",
+                        "number": "317",
+                        "subject_name": "Psychology",
+                        "subject_code": "PSY",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-305",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-305",
+                        "guid": "652923F3-8DE5-4886-9186-22FC775481AC",
+                        "name": "Psychopathology",
+                        "number": "305",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-324",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-324",
+                        "guid": "DE12283C-BA60-4BD8-A92E-F62201C67B34",
+                        "name": "Social Deviance",
+                        "number": "324",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-324",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-324",
+                        "guid": "3566F89B-7043-4BF3-8B43-63CA1C9A9997",
+                        "name": "Social Deviance",
+                        "number": "324",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-419",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-419",
+                        "guid": "7DB24067-17B7-4C18-BE7E-69C70E46D5FF",
+                        "name": "Social Diversity and Inequality",
+                        "number": "419",
+                        "subject_name": "Sociology",
+                        "subject_code": "SOC",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-419",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-419",
+                        "guid": "97D19324-065B-4AFF-9E42-82035D011D16",
+                        "name": "Social Diversity and Inequality",
+                        "number": "419",
+                        "subject_name": "Social Work",
+                        "subject_code": "SW",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Criminal Justice Core: 15 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-250",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-250",
+                    "guid": "77852502-D3A8-4D6D-B448-53E6F0A64C15",
+                    "name": "Introduction to Criminal Justice",
+                    "number": "250",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-312",
+                    "guid": "AD209FE9-4A43-46C5-8EB1-C5DE2DD808DB",
+                    "name": "Criminology",
+                    "number": "312",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/400/psc-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/400/PSC-416",
+                    "guid": "B9C12F4A-A508-423E-B4B9-DC506AEB663B",
+                    "name": "Constitutional Law II",
+                    "number": "416",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-311",
+                    "guid": "41AF36E9-FCD6-46F9-ACD7-6F111DBDF8E9",
+                    "name": "Crime and Society",
+                    "number": "311",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-411",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-411",
+                    "guid": "DA4EAF11-EE3E-4FC7-9249-38FE67638DF5",
+                    "name": "Internship",
+                    "number": "411",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Electives: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/300/psc-340",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/300/PSC-340",
+                    "guid": "7C539854-B045-4A0F-BF7D-CC3BEE6FB704",
+                    "name": "The Judicial Process",
+                    "number": "340",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-313",
+                    "guid": "83221E62-F601-4BBB-AA27-F7A913039B07",
+                    "name": "Adolescent Psychology",
+                    "number": "313",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-317",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-317",
+                    "guid": "2E5368F3-3E0A-4BC9-8B79-DE6010324C17",
+                    "name": "Urban Sociology",
+                    "number": "317",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/300/soc-326",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/300/SOC-326",
+                    "guid": "1EA530B6-73A9-4DA4-8BEC-FB9B44BEF2C0",
+                    "name": "Juvenile Justice",
+                    "number": "326",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-422",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-422",
+                    "guid": "25656F82-1D4E-48C6-96F0-D414E08EACC2",
+                    "name": "Social Research II",
+                    "number": "422",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-310",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-310",
+                    "guid": "6DB7D9E0-67F0-4496-8D12-8CDB99238A99",
+                    "name": "Social and Economic Justice",
+                    "number": "310",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-338",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-338",
+                    "guid": "76B67B2A-C414-E33A-77F7-91EBCD8B6A4",
+                    "name": "Children and Families At Risk",
+                    "number": "338",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

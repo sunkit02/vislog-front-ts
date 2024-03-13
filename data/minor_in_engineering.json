@@ -1,0 +1,21 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-engineering/minor-in-engineering-18-hours",
+  "guid": "F1761962-BBE4-4F51-A4A5-85AFFA91B11B",
+  "title": "Minor in Engineering—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Label",
+          "data": {
+            "title": "Minor Requirements:",
+            "req_narrative": "<p class='sc-RequirementNarrative'>EGR coursework to exclude EGR 391, EGR 491, EGR 492, and EGR 498 (must include 6 upper-level hours).</p>"
+          }
+        }
+      }
+    }
+  }
+}

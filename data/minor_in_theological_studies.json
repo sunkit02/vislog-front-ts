@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-theology-and-missions/minors-offered-by-the-school/minor-in-theological-studies-18-hours",
+  "guid": "ECF2E97F-1EB3-48FD-B304-268B672786D8",
+  "title": "Minor in Theological Studies—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses: 12 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                    "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                    "name": "Introduction to Philosophy",
+                    "number": "240",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                    "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                    "name": "Introduction to Christian Ethics",
+                    "number": "243",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-305",
+                    "guid": "D2DFF783-30EC-4E26-B732-8B800A9B9F81",
+                    "name": "History of Christianity",
+                    "number": "305",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-338",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-338",
+                    "guid": "A00E0ECB-1C2E-4BD2-ADA7-451DBE03A446",
+                    "name": "Christian Doctrine",
+                    "number": "338",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Theological Studies Electives: 6 hours",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

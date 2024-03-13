@@ -1,0 +1,487 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-history/major-in-history-36-hours",
+  "guid": "36D4390F-BE6F-4B33-8322-86197E29A9D5",
+  "title": "Major in History—36 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Courses: 18 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                    "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                    "name": "World Civilization to the 18th Century",
+                    "number": "101",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-102",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-102",
+                    "guid": "493C37D9-9EE2-42CE-8EF2-4251E8FE9A2A",
+                    "name": "World Civilization From the 18th Century",
+                    "number": "102",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/200/his-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/200/HIS-211",
+                    "guid": "1B67BD5F-806D-4D66-BEBB-3724D4BC2EE2",
+                    "name": "The United States to 1877",
+                    "number": "211",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/200/his-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/200/HIS-212",
+                    "guid": "92AE56F1-4495-46CA-916F-E7127F06A75E",
+                    "name": "United States from 1877",
+                    "number": "212",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/200/his-245",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/200/HIS-245",
+                    "guid": "9265988E-C73C-41C2-A0E6-49E3B2C09D26",
+                    "name": "History and Historians",
+                    "number": "245",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/400/his-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/400/HIS-498",
+                    "guid": "6B3638C6-CEA4-4E14-B087-4366794C4F36",
+                    "name": "Seminar",
+                    "number": "498",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two courses from the following (World): 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-301",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-301",
+                    "guid": "6593F4CE-EFA4-E199-1828-D245CC43394",
+                    "name": "Ancient History",
+                    "number": "301",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-311",
+                    "guid": "56AC5456-3868-4073-A6CD-D5B9A646FD78",
+                    "name": "England to 1714",
+                    "number": "311",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-312",
+                    "guid": "807C0C3F-0AB2-4F60-886E-5EA50BE898CB",
+                    "name": "Modern Britain and the Empire",
+                    "number": "312",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-317",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-317",
+                    "guid": "3095D786-882A-4E0F-B9F1-79156A79803C",
+                    "name": "The French Revolution and Napoleon I",
+                    "number": "317",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-320",
+                    "guid": "751F040F-9D94-A529-3C56-60538D5F311",
+                    "name": "Latin American History",
+                    "number": "320",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-322",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-322",
+                    "guid": "F142C9AF-46AE-4C6D-AB26-E6C641CE5682",
+                    "name": "Twentieth Century Europe",
+                    "number": "322",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/400/his-420",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/400/HIS-420",
+                    "guid": "C9CEAFCC-19DE-429F-8E80-5D1CE25FAB2B",
+                    "name": "Russia Since 1547",
+                    "number": "420",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two courses from the following (American): 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-325",
+                    "guid": "964B775C-0E71-49A2-9C80-ECC30A3D2FF6",
+                    "name": "History and Government of Tennessee",
+                    "number": "325",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-330",
+                    "guid": "944F0DAD-6AA5-4D35-BA14-32E25DCF3169",
+                    "name": "Colonial America, 1607-1776",
+                    "number": "330",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-331",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-331",
+                    "guid": "A11F3056-66A4-B41A-54CA-2180284388E",
+                    "name": "American Revolution and Early National Period, 1776-1828",
+                    "number": "331",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-332",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-332",
+                    "guid": "B72C251D-9562-4A34-8FAD-5929CEA09F7C",
+                    "name": "Civil War and Reconstruction",
+                    "number": "332",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-333",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-333",
+                    "guid": "26B79C3E-DC10-4FFF-AE40-E2614CE24FC2",
+                    "name": "Women in U.S. History,1607 to the Present",
+                    "number": "333",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-334",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-334",
+                    "guid": "52F9CE8C-3D1B-4E80-8E25-110BAB4EE3FA",
+                    "name": "African-American History",
+                    "number": "334",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/400/his-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/400/HIS-410",
+                    "guid": "9EFC2DF6-B3DA-431A-AF64-7579D6067DDA",
+                    "name": "American Foreign Policy",
+                    "number": "410",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/400/his-414",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/400/HIS-414",
+                    "guid": "A8A72701-0951-4FC2-97E8-AEDC46E67A89",
+                    "name": "The Gilded Age and Progressive Era, 1877-1920",
+                    "number": "414",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/400/his-415",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/400/HIS-415",
+                    "guid": "D37EFDBC-AE75-4AB3-A48E-E353BBA7BADA",
+                    "name": "America and World War, 1914-1945",
+                    "number": "415",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/400/his-422",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/400/HIS-422",
+                    "guid": "98A13CE8-4B5E-4470-A937-756349580400",
+                    "name": "The United States in the Cold War Era, 1945-1991",
+                    "number": "422",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from the following (Church): 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-300",
+                    "guid": "9BED1C0A-0944-4DD2-99EE-0247FE430D5A",
+                    "name": "American Church History",
+                    "number": "300",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-305",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-305",
+                    "guid": "BD07142E-01F1-41DB-9AAC-28162CD56764",
+                    "name": "History of Christianity",
+                    "number": "305",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-316",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-316",
+                    "guid": "799C5D87-1479-421A-A12D-71E277AACBFB",
+                    "name": "Renaissance & Reformation",
+                    "number": "316",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/300/his-397",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/300/HIS-397",
+                    "guid": "D3468698-E840-409D-982F-96AA25805004",
+                    "name": "Special Studies in Church History",
+                    "number": "397",
+                    "subject_name": "History",
+                    "subject_code": "HIS",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one upper level HIS elective not used above: 3 hours",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

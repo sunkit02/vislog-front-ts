@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/minor-in-business-administration-18-hours",
+  "guid": "37D39C38-06D9-4C78-9EBC-E4A25E7D1B51",
+  "title": "Minor in Business Administration—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/200/acc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/200/ACC-211",
+                    "guid": "E68EDF9B-5E62-4156-BB8A-6DA514242941",
+                    "name": "Principles of Accounting I",
+                    "number": "211",
+                    "subject_name": "Accounting",
+                    "subject_code": "ACC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/200/eco-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/200/ECO-212",
+                    "guid": "64D5DE62-28C7-449E-A022-6F34C5EC89C2",
+                    "name": "Principles of Microeconomics",
+                    "number": "212",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mgt-management/200/mgt-218",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MGT-Management/200/MGT-218",
+                    "guid": "25EA44B7-7EE9-47CB-B6A5-7CC07EF69BD6",
+                    "name": "Principles of Management",
+                    "number": "218",
+                    "subject_name": "Management",
+                    "subject_code": "MGT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mkt-marketing/200/mkt-228",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MKT-Marketing/200/MKT-228",
+                    "guid": "A29532E6-9C99-4A06-BCE8-AFF65EBC857F",
+                    "name": "Principles of Marketing",
+                    "number": "228",
+                    "subject_name": "Marketing",
+                    "subject_code": "MKT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours of upper-level business electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

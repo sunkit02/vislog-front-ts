@@ -1,0 +1,678 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-chemistry/major-in-chemical-physics-119-hours",
+  "guid": "C02939DD-9845-47A1-BA9D-1A9D14A570BD",
+  "title": "Major in Chemical Physics—119 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Major Requirements:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-111",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-111",
+                  "guid": "A4CD0F9D-011F-4501-9DED-E3E38A2A63BD",
+                  "name": "General Chemistry",
+                  "number": "111",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-112",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-112",
+                  "guid": "97239341-F792-4235-8C1C-53FB2AD3B468",
+                  "name": "Chemical Equilibrium",
+                  "number": "112",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/200/che-211",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/200/CHE-211",
+                  "guid": "D0266935-22E8-4F5A-ADB2-4507664881BC",
+                  "name": "Analytical Chemistry",
+                  "number": "211",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/200/che-221",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/200/CHE-221",
+                  "guid": "1C40FD5C-49C7-4514-96BA-0C7A7C2C0159",
+                  "name": "Analytical Chemistry Lab",
+                  "number": "221",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-314",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-314",
+                  "guid": "239BF403-1D29-4380-9CE0-ABF5E6CC3534",
+                  "name": "Organic Chemistry I",
+                  "number": "314",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-315",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-315",
+                  "guid": "90E0FB1F-A90F-448E-9606-F5FEFEE9177C",
+                  "name": "Organic Chemistry II",
+                  "number": "315",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-324",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-324",
+                  "guid": "B9D45159-BFDE-4E9B-86F0-29EA074009E5",
+                  "name": "Organic Chemistry Laboratory",
+                  "number": "324",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-326",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-326",
+                  "guid": "D769FAD0-94B7-4993-B88C-40B418592C88",
+                  "name": "Organic/Inorganic Synthesis Laboratory",
+                  "number": "326",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-317",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-317",
+                  "guid": "AF9946EE-41B8-44FC-AFA0-BA897DD14A2E",
+                  "name": "Physical Chemistry I",
+                  "number": "317",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-318",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-318",
+                  "guid": "27E49C98-F2BA-4A83-B4B7-E071F6F67BDD",
+                  "name": "Physical Chemistry II",
+                  "number": "318",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-327",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-327",
+                  "guid": "4C966668-CB81-44CD-B170-FDC57FFAC580",
+                  "name": "Physical Chemistry Laboratory",
+                  "number": "327",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-319",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-319",
+                  "guid": "B9542957-B1B7-4A5F-811A-424998B4A522",
+                  "name": "Biochemistry",
+                  "number": "319",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/300/che-335",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/300/CHE-335",
+                  "guid": "B47B15EF-6A25-4307-ACFB-06441C8087C9",
+                  "name": "Intermediate Inorganic Chemistry",
+                  "number": "335",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-231",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-231",
+                  "guid": "7BC38093-7B23-4F58-B98D-C43E5DB83266",
+                  "name": "University Physics I With Calculus",
+                  "number": "231",
+                  "subject_name": "Physics",
+                  "subject_code": "PHY",
+                  "credits": [
+                    5,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-232",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-232",
+                  "guid": "D0197056-7337-47A6-858E-9D42EBE700CB",
+                  "name": "University Physics II With Calculus",
+                  "number": "232",
+                  "subject_name": "Physics",
+                  "subject_code": "PHY",
+                  "credits": [
+                    5,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-311",
+                  "guid": "6AFFDAB9-FB9B-46E4-B4F1-A85FD45703DC",
+                  "name": "University Physics: Modern Physics",
+                  "number": "311",
+                  "subject_name": "Physics",
+                  "subject_code": "PHY",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-313",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-313",
+                  "guid": "BD6CC495-D3CF-4C99-9784-4D93A2B2A5AD",
+                  "name": "Intermediate Mechanics",
+                  "number": "313",
+                  "subject_name": "Physics",
+                  "subject_code": "PHY",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-314",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-314",
+                  "guid": "37CD6A89-6B82-4BE5-B989-51B79089B834",
+                  "name": "Intermediate Electricity and Magnetism",
+                  "number": "314",
+                  "subject_name": "Physics",
+                  "subject_code": "PHY",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-325",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-325",
+                      "guid": "4D2AB1BB-2484-4CEC-ABC7-7737E3DFE41A",
+                      "name": "Thermodynamics and Statistical Mechanics",
+                      "number": "325",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-420",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-420",
+                      "guid": "B3135878-228C-46C8-B0BD-472359E00A22",
+                      "name": "Quantum Mechanics",
+                      "number": "420",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-430",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-430",
+                  "guid": "188C3B31-038F-4734-92B8-F826400BCE95",
+                  "name": "Experimental Physics Laboratory",
+                  "number": "430",
+                  "subject_name": "Physics",
+                  "subject_code": "PHY",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-424",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-424",
+                      "guid": "4C365522-4A24-03E9-A936-16251940CAB",
+                      "name": "Physics Research",
+                      "number": "424",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        1,
+                        3
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-424",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-424",
+                      "guid": "638FCD4C-5928-42FF-AF52-E4202560631F",
+                      "name": "Introduction to Research",
+                      "number": "424",
+                      "subject_name": "Chemistry",
+                      "subject_code": "CHE",
+                      "credits": [
+                        1,
+                        3
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-498",
+                      "guid": "42158859-986B-451E-BEE2-5F923327C1E5",
+                      "name": "Seminar",
+                      "number": "498",
+                      "subject_name": "Physics",
+                      "subject_code": "PHY",
+                      "credits": [
+                        1,
+                        3
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/400/che-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/400/CHE-498",
+                      "guid": "5D90510B-8CB4-03DA-39CE-CAD4C5EC51D",
+                      "name": "Seminar",
+                      "number": "498",
+                      "subject_name": "Chemistry",
+                      "subject_code": "CHE",
+                      "credits": [
+                        1,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Label",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/select-upper-level-phy-or-che-elective-4",
+                  "guid": "43FAFA2F-D670-4C0E-AC23-ABDAEAF5441D",
+                  "name": "Select upper-level PHY or CHE elective",
+                  "number": null,
+                  "subject_code": null,
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-211",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-211",
+                  "guid": "C0E4D3A4-B05E-488C-9BA0-9726B86C3E15",
+                  "name": "Calculus and Analytic Geometry I",
+                  "number": "211",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-212",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-212",
+                  "guid": "EB7D85DE-7E32-461E-9FEE-4F0FFB247FDB",
+                  "name": "Calculus and Analytic Geometry II",
+                  "number": "212",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-213",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-213",
+                  "guid": "37AB462C-9F19-4316-BFB7-51985F111708",
+                  "name": "Calculus and Analytic Geometry III",
+                  "number": "213",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/300/mat-314",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/300/MAT-314",
+                  "guid": "DC0DAB99-9933-4F9F-8F8B-7DC00FDF11C8",
+                  "name": "Differential Equations",
+                  "number": "314",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-111",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-111",
+                  "guid": "B49E6397-6024-44E7-8801-580A3000AB15",
+                  "name": "Written Composition I",
+                  "number": "111",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/100/eng-112",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/100/ENG-112",
+                  "guid": "4D9FDC3F-D5D0-4781-8E35-ACC0E5B55175",
+                  "name": "Written Composition II",
+                  "number": "112",
+                  "subject_name": "English",
+                  "subject_code": "ENG",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Or",
+                "data": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-201",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-201",
+                      "guid": "7BEE3183-9A36-479F-B05B-11BFACEAD143",
+                      "name": "World Literature I",
+                      "number": "201",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/200/eng-202",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/200/ENG-202",
+                      "guid": "B373E05A-CD87-4021-A031-99840D59FAFE",
+                      "name": "World Literature II",
+                      "number": "202",
+                      "subject_name": "English",
+                      "subject_code": "ENG",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/art-art/200/art-210",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ART-Art/200/ART-210",
+                  "guid": "A3AE2D67-A4C9-4C1B-8ABA-61AD3583BA8F",
+                  "name": "The Arts in Western Civilization",
+                  "number": "210",
+                  "subject_name": "Art",
+                  "subject_code": "ART",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-111",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-111",
+                  "guid": "CE301745-5BE5-4547-97EA-EF700786E2DC",
+                  "name": "Old Testament Survey",
+                  "number": "111",
+                  "subject_name": "Christian Studies",
+                  "subject_code": "CHR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-112",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-112",
+                  "guid": "97239341-F792-4235-8C1C-53FB2AD3B468",
+                  "name": "Chemical Equilibrium",
+                  "number": "112",
+                  "subject_name": "Chemistry",
+                  "subject_code": "CHE",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/100/bio-112",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/100/BIO-112",
+                  "guid": "FE15721B-B229-49A4-8185-398A3B08F2F4",
+                  "name": "Principles of Biology",
+                  "number": "112",
+                  "subject_name": "Biology",
+                  "subject_code": "BIO",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/his-history/100/his-101",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HIS-History/100/HIS-101",
+                  "guid": "352AAC32-1633-462C-A271-10E9F905F868",
+                  "name": "World Civilization to the 18th Century",
+                  "number": "101",
+                  "subject_name": "History",
+                  "subject_code": "HIS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Label",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/social-science-9",
+                  "guid": "DAB871BC-754D-4FF6-852C-A32FC8AABAFF",
+                  "name": "Social Science",
+                  "number": null,
+                  "subject_code": null,
+                  "credits": [
+                    9,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

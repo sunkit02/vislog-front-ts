@@ -1,0 +1,86 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-sociology-and-family-studies/minor-in-human-studies-21-hours",
+  "guid": "A7C860C6-C647-4491-933D-8A1ECBE68EA9",
+  "title": "Minor in Human Studies—21 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "Minor Requirements:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two of the following:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/200/psy-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/200/PSY-213",
+                    "guid": "BDA87DF3-F2D8-4E99-A42A-BCFD4FD0785D",
+                    "name": "Introduction to Psychology",
+                    "number": "213",
+                    "subject_name": "Psychology",
+                    "subject_code": "PSY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/200/soc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/200/SOC-211",
+                    "guid": "757BE603-293A-45B9-AE03-102F6E14D85D",
+                    "name": "Principles of Sociology",
+                    "number": "211",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/200/se-230",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/200/SE-230",
+                    "guid": "61522AEC-0923-470A-9DFA-1073B33CFE9A",
+                    "name": "Learning in Diverse Classrooms",
+                    "number": "230",
+                    "subject_name": "Special Education",
+                    "subject_code": "SE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Fifteen hours, 9 of which must be upper-level, from EDU, PSY, SE, SOC, SW",
+              "req_narrative": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

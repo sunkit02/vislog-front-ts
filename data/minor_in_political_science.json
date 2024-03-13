@@ -1,0 +1,63 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-political-science/minor-in-political-science-21-hours",
+  "guid": "700C7286-69E3-44BB-9269-5B186A9E2356",
+  "title": "Minor in Political Science—21 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/100/psc-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/100/PSC-111",
+                    "guid": "FC9E5D8B-F7D1-4628-8794-EF041F8CA345",
+                    "name": "Introduction to Political Science",
+                    "number": "111",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/200/psc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/200/PSC-211",
+                    "guid": "28FCB693-7018-4886-8F4C-DF073F1390DF",
+                    "name": "Politics and Government of the United States",
+                    "number": "211",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "PSC Electives: 15 hours",
+              "req_narrative": "<p class='sc-RequirementNarrative'>Select PSC electives including a minimum of 6 upper level (300/400) hours</p>"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

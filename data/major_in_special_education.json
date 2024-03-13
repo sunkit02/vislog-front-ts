@@ -1,0 +1,198 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/school-of-education/major-in-special-education-31-hours",
+  "guid": "A954FCB3-9C87-4554-9E77-CE12C5FF5AA5",
+  "title": "Major in Special Education—31 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Major Required Courses:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/200/se-230",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/200/SE-230",
+                  "guid": "61522AEC-0923-470A-9DFA-1073B33CFE9A",
+                  "name": "Learning in Diverse Classrooms",
+                  "number": "230",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/300/se-331",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/300/SE-331",
+                  "guid": "72D83C64-12E8-42C1-9C12-529C7F21DBAE",
+                  "name": "Characteristics and Needs of Pupils With Exceptionalities I",
+                  "number": "331",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/300/se-332",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/300/SE-332",
+                  "guid": "510C49AD-DC34-160B-1547-F97CD8652D1",
+                  "name": "Characteristics and Needs of Pupils With Exceptionalities II",
+                  "number": "332",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/300/se-312",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/300/SE-312",
+                  "guid": "FFC3B0AE-3109-4B46-804A-8F867287F3FF",
+                  "name": "Seminar in Literacy for Special Education",
+                  "number": "312",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/300/se-305",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/300/SE-305",
+                  "guid": "4B5CA185-230E-4AE7-BA35-1260FE72CFDC",
+                  "name": "Literacy for Special Populations",
+                  "number": "305",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-306",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-306",
+                  "guid": "8279514A-9F7F-45B8-A440-724BC2D8EDDD",
+                  "name": "Leading the Learning Environment",
+                  "number": "306",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-309",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-309",
+                  "guid": "6C7CEAAB-B55C-4921-8581-2D37D8171E0A",
+                  "name": "Explorations in Teaching Science and Social Studies",
+                  "number": "309",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/300/se-310",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/300/SE-310",
+                  "guid": "8E4C96CF-1FD7-48F5-85CA-E40280BDD1AD",
+                  "name": "Meeting the Needs of Severe & Profound Populations",
+                  "number": "310",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/300/se-311",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/300/SE-311",
+                  "guid": "E509C399-E930-4469-8CA1-EAA754D132C1",
+                  "name": "Teaching Math for Special Populations",
+                  "number": "311",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/se-special-education/400/se-405",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SE-Special-Education/400/SE-405",
+                  "guid": "42CFD12D-3B00-4293-92A6-CD7E9C1FB69F",
+                  "name": "Educational Assessment of Students With Exceptionalities",
+                  "number": "405",
+                  "subject_name": "Special Education",
+                  "subject_code": "SE",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psy-psychology/300/psy-324",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSY-Psychology/300/PSY-324",
+                  "guid": "40FA4721-2585-4DF8-BDF1-C3D03177825F",
+                  "name": "Child Growth and Development",
+                  "number": "324",
+                  "subject_name": "Psychology",
+                  "subject_code": "PSY",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

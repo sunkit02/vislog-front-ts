@@ -1,0 +1,134 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-social-work/adult-studies-bachelor-of-social-work/bachelor-of-science-in-social-organization",
+  "guid": "36B1D2FC-AA81-4500-B8DD-264BAC908735",
+  "title": "Bachelor of Science in Social Organization",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-200",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-200",
+                    "guid": "3DB97093-4AF4-7559-A7DA-26648FA9114",
+                    "name": "Introduction to Social Welfare",
+                    "number": "200",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-300",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-300",
+                    "guid": "56CA0759-5015-4EEC-9046-A11050CDF30A",
+                    "name": "Human Behavior and the Social Environment I",
+                    "number": "300",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-301",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-301",
+                    "guid": "12213C0F-D46C-43D5-A2E4-19FFC5932F1F",
+                    "name": "Human Behavior and the Social Environment II",
+                    "number": "301",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-310",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-310",
+                    "guid": "6DB7D9E0-67F0-4496-8D12-8CDB99238A99",
+                    "name": "Social and Economic Justice",
+                    "number": "310",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-335",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-335",
+                    "guid": "F7A88737-9BBB-48A5-A91B-5FB1A0BA382E",
+                    "name": "Social Policy",
+                    "number": "335",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-421",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-421",
+                    "guid": "C3A86D4C-FDE6-48A3-91A8-3124C6A3D045",
+                    "name": "Research and Statistical Methods in Social Work",
+                    "number": "421",
+                    "subject_name": "Social Work",
+                    "subject_code": "SW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 30 hours from the following subjects:",
+              "courses": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 31 hours of General Electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-communication-arts/major-in-rhetoric-33-hours",
+  "guid": "D5ACC846-EB13-4AB5-AB05-A56A045CB09C",
+  "title": "Major in Rhetoric—33 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Requirements:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-112",
+                    "guid": "FB0C9910-A265-43A1-ABC6-88A315C96B18",
+                    "name": "Public Communication",
+                    "number": "112",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-211",
+                    "guid": "20FDD0D9-BF30-46DD-93E1-9408DB091580",
+                    "name": "Voice and Diction",
+                    "number": "211",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-218",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-218",
+                    "guid": "1F0D359B-8DA4-EA58-2C60-4655B853C86",
+                    "name": "Argumentation and Debate",
+                    "number": "218",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-235",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-235",
+                    "guid": "52231F5B-20C3-4903-8E84-2074578B610F",
+                    "name": "Interpersonal Communication",
+                    "number": "235",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-311",
+                    "guid": "4D3FC1D8-24F2-48D9-97F5-8D3CCADEAE60",
+                    "name": "Oral Interpretation of Literature",
+                    "number": "311",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/400/com-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/400/COM-416",
+                    "guid": "386B61D9-F8C7-41B7-85BB-E30777A0FA93",
+                    "name": "Persuasion",
+                    "number": "416",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/400/com-417",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/400/COM-417",
+                    "guid": "3A9126DD-6456-47ED-BF3F-9639A548BA63",
+                    "name": "Advanced Public Speaking",
+                    "number": "417",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 12 hours from the following:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-170",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-170",
+                    "guid": "EA63F51C-F324-4F8F-BC47-CFDE0E18C52C",
+                    "name": "Debate Practicum",
+                    "number": "170",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-240",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-240",
+                    "guid": "B8F224A1-B4F1-4F43-A7C3-47BBCEFC5EE0",
+                    "name": "Acting Theory and Technique",
+                    "number": "240",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-270",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-270",
+                    "guid": "B0F05E47-EE89-42EF-8EB9-30F9702235C9",
+                    "name": "Debate Practicum",
+                    "number": "270",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-299",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-299",
+                    "guid": "F615B1DD-1BF2-4DF3-8442-7B08F20D2B05",
+                    "name": "Practicum",
+                    "number": "299",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-312",
+                    "guid": "D29C1CBD-08B4-20A9-C973-CFF6D48BA74",
+                    "name": "Creative Writing",
+                    "number": "312",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-325",
+                    "guid": "435DF88A-67EB-44C4-9412-024A2813BC84",
+                    "name": "Communication Training and Development",
+                    "number": "325",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-370",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-370",
+                    "guid": "51A9A2D7-D839-4365-90F1-2522DB46A10D",
+                    "name": "Debate Practicum",
+                    "number": "370",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-399",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-399",
+                    "guid": "BCCEDF6E-49AD-4190-ACD0-DBB287F2B80C",
+                    "name": "Advanced Communications Practicum",
+                    "number": "399",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/400/com-470",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/400/COM-470",
+                    "guid": "D3B2512F-1AFE-4C7E-A2D9-0702BDA1702F",
+                    "name": "Debate Practicum",
+                    "number": "470",
+                    "subject_name": "Communication Arts",
+                    "subject_code": "COM",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/blaw-business-law/400/blaw-421",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BLAW-Business-Law/400/BLAW-421",
+                    "guid": "F5855DDE-EB7D-4609-A3DA-D20385C872B6",
+                    "name": "Negotiation and Dispute Resolution",
+                    "number": "421",
+                    "subject_name": "Business Law",
+                    "subject_code": "BLAW",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-363",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-363",
+                    "guid": "C607BC6A-C9EA-45CB-AB1B-305C8FEC8F05",
+                    "name": "Biblical Preaching",
+                    "number": "363",
+                    "subject_name": "Christian Studies",
+                    "subject_code": "CHR",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-345",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-345",
+                    "guid": "E7ACC99B-7A17-48A2-A8F1-6401AC6D70EC",
+                    "name": "Logic",
+                    "number": "345",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

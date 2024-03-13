@@ -1,0 +1,452 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/department-of-physical-education-wellness-and-sport/major-in-athletic-training-76-hours",
+  "guid": "21994191-A03B-49ED-ADF0-EEED6DFAB2C9",
+  "title": "Major in Athletic Training—76 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Major Required Courses:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-113",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-113",
+                  "guid": "8506E5E2-6121-4706-89BA-6EE6E64C24AB",
+                  "name": "Elementary Nutrition",
+                  "number": "113",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-170",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-170",
+                  "guid": "ED563A30-B34F-4FE1-B701-B4C2A05520FB",
+                  "name": "Medical Terminology",
+                  "number": "170",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-218",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-218",
+                  "guid": "67FF205D-EB9B-483E-BCA3-75106AD6057B",
+                  "name": "Care and Prevention of Athletic Injuries",
+                  "number": "218",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-222",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-222",
+                  "guid": "AB0FA62E-3872-4410-8155-A3C1FD656FED",
+                  "name": "First Aid",
+                  "number": "222",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-240",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-240",
+                  "guid": "38561F90-CD9C-47CF-8D3F-807CD8DE9CD6",
+                  "name": "Introduction to Sports Medicine",
+                  "number": "240",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-414",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-414",
+                  "guid": "1FB20A82-25C2-452A-8793-599832DC083E",
+                  "name": "Kinesiology",
+                  "number": "414",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-415",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-415",
+                  "guid": "18387E4B-E210-46AC-BDC0-E40060B38D1C",
+                  "name": "Physiology of Exercise",
+                  "number": "415",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-433",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-433",
+                  "guid": "793B3E80-BF2D-4460-AFBD-AD2DE57956FD",
+                  "name": "Strength, Conditioning, and Human Performance",
+                  "number": "433",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/400/pews-461",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/400/PEWS-461",
+                  "guid": "139C83CF-63DC-4FD5-B950-7C21FBF6084D",
+                  "name": "Exercise Testing and Prescription",
+                  "number": "461",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/100/at-170",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/100/AT-170",
+                  "guid": "EC6FD8A7-1377-4D8B-B67E-6FF107C11972",
+                  "name": "Taping and Risk Management",
+                  "number": "170",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/200/at-265",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/200/AT-265",
+                  "guid": "FA454AB1-4E93-473B-B99E-B86E914F1776",
+                  "name": "Athletic Training Clinical I",
+                  "number": "265",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/200/at-275",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/200/AT-275",
+                  "guid": "569105CA-3C34-051A-B3E9-37BAEDEECD0",
+                  "name": "Athletic Training Clinical II",
+                  "number": "275",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/300/at-318",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/300/AT-318",
+                  "guid": "94DAD124-38C1-41BF-9711-410E6E9D2510",
+                  "name": "Advanced Injury Management",
+                  "number": "318",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/300/at-350",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/300/AT-350",
+                  "guid": "C2AF35F2-1EEB-4010-9A93-3429717A8AB9",
+                  "name": "Administration and Management Strategies in Athletic Training",
+                  "number": "350",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/300/at-360",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/300/AT-360",
+                  "guid": "92443B49-FF44-42BB-A33D-36F75ED1CA85",
+                  "name": "Therapeutic Modalities",
+                  "number": "360",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/300/at-361",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/300/AT-361",
+                  "guid": "6FC37F16-C4FE-48C0-8BD9-25348FADCACE",
+                  "name": "Evaluation I: Upper Body, Spine and Extremities",
+                  "number": "361",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/300/at-370",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/300/AT-370",
+                  "guid": "6790BC73-D459-462C-A832-D80E006338B0",
+                  "name": "Evaluation II: Lower Body, Lumbar Spine And Extremities",
+                  "number": "370",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/400/at-460",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/400/AT-460",
+                  "guid": "9D1F484D-8BDF-4FDE-BA6D-1F5C31F06F60",
+                  "name": "Therapeutic Exercise and Rehabilitation",
+                  "number": "460",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/400/at-461",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/400/AT-461",
+                  "guid": "7B2E6C86-22E4-CE6A-BA7B-8DDEB990428",
+                  "name": "Medical Ethics, Professional Practice, And Research and Sports Medicine",
+                  "number": "461",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/400/at-462",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/400/AT-462",
+                  "guid": "29110716-958C-4A32-8AEF-D1F299B2D0A0",
+                  "name": "Pharmacology in Athletic Training",
+                  "number": "462",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/400/at-463",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/400/AT-463",
+                  "guid": "7FCCBB6A-56F0-4A2D-BB01-5DBE8B1D57A7",
+                  "name": "General Medical Conditions in Athletic Training",
+                  "number": "463",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/300/at-365",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/300/AT-365",
+                  "guid": "950E20C3-0777-408E-A00B-90129226EEEF",
+                  "name": "Athletic Training Clinical III",
+                  "number": "365",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/300/at-375",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/300/AT-375",
+                  "guid": "72676900-F0F3-48C6-B19A-B8B062CF3841",
+                  "name": "Athletic Training Clinical IV",
+                  "number": "375",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/400/at-465",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/400/AT-465",
+                  "guid": "3AA3BD06-DDF1-4798-BEA7-0B22F48C631D",
+                  "name": "Athletic Training Clinical V",
+                  "number": "465",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/at-athletic-training/400/at-475",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/AT-Athletic-Training/400/AT-475",
+                  "guid": "88CB86D1-E2EF-446F-B549-1855ABE2AEA0",
+                  "name": "Athletic Training Clinical VI",
+                  "number": "475",
+                  "subject_name": "Athletic Training",
+                  "subject_code": "AT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/bio-biology/300/bio-300",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/BIO-Biology/300/BIO-300",
+                  "guid": "26FDC833-5750-4B5F-845E-2655C01722D0",
+                  "name": "Pathophysiology",
+                  "number": "300",
+                  "subject_name": "Biology",
+                  "subject_code": "BIO",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Label",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/select-one-psy-elective-3",
+                  "guid": "98D46519-55C0-464B-BD33-5EF8A3D405CD",
+                  "name": "Select one PSY elective",
+                  "number": null,
+                  "subject_code": null,
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

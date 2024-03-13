@@ -1,0 +1,277 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-language/major-in-teaching-english-to-speakers-of-other-languages-34-hours",
+  "guid": "7A9F63CC-1EC9-4A9C-A45E-DD574742494E",
+  "title": "Major in Teaching English to Speakers of Other Languages—34 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Course Requirements: 31 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/200/tesl-210",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/200/TESL-210",
+                    "guid": "62504A86-E483-4A3A-A866-8530329EEB0F",
+                    "name": "Language and Content Tutoring",
+                    "number": "210",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/200/tesl-220",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/200/TESL-220",
+                    "guid": "89191B78-4089-4375-9A17-7B303380AE34",
+                    "name": "Principles of Language and Acquisition",
+                    "number": "220",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/300/tesl-315",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/300/TESL-315",
+                    "guid": "A51F44EE-292A-468C-8FCE-DC6278F2C22F",
+                    "name": "Critical Context of Literacy",
+                    "number": "315",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/300/tesl-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/300/TESL-320",
+                    "guid": "83730161-FB50-4078-98E0-8F7A783D6B16",
+                    "name": "ESL Assessment",
+                    "number": "320",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/400/tesl-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/400/TESL-410",
+                    "guid": "31099311-5139-4468-A73F-B7AE0C6260D3",
+                    "name": "Curriculum and Materials Development",
+                    "number": "410",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/400/tesl-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/400/TESL-440",
+                    "guid": "E840D938-7C34-4BED-9825-55DD3AEA444D",
+                    "name": "Theories of Language",
+                    "number": "440",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-320",
+                    "guid": "F0958FC3-4B9D-4958-9C04-3568F7E4E8B8",
+                    "name": "Intercultural Communication",
+                    "number": "320",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-423",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-423",
+                    "guid": "631F0DAA-1EE1-4255-AA83-EDE03D92EA96",
+                    "name": "Teaching Modern Language in the Secondary School",
+                    "number": "423",
+                    "subject_name": "Education",
+                    "subject_code": "EDU",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/300/tesl-350",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/300/TESL-350",
+                    "guid": "651516A2-BBA0-4DA9-990F-BB88668F37FF",
+                    "name": "Instructional Methodology",
+                    "number": "350",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-450",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-450",
+                        "guid": "B804DB2B-AC2B-4BA7-8AF7-BBBD3C388A11",
+                        "name": "The History of the English Language",
+                        "number": "450",
+                        "subject_name": "English",
+                        "subject_code": "ENG",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eng-english/400/eng-460",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ENG-English/400/ENG-460",
+                        "guid": "39D3D0B1-B7D8-44E5-B9E5-48C21A694AA4",
+                        "name": "Advanced Grammar",
+                        "number": "460",
+                        "subject_name": "English",
+                        "subject_code": "ENG",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/tesl-teach-english-as-2nd-language/400/tesl-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/TESL-Teach-English-As-2nd-Language/400/TESL-490",
+                    "guid": "9566E609-1C79-4FB6-A23D-D8D7AB9BC0EE",
+                    "name": "Capstone Seminar",
+                    "number": "490",
+                    "subject_name": "Teach English As 2nd Language",
+                    "subject_code": "TESL",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "You must complete one course from the following: 3 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/psc-political-science/200/psc-232",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PSC-Political-Science/200/PSC-232",
+                    "guid": "1139706D-0848-40A9-9873-628E58E3A5D7",
+                    "name": "Comparative Political Systems",
+                    "number": "232",
+                    "subject_name": "Political Science",
+                    "subject_code": "PSC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/300/phl-349",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/300/PHL-349",
+                    "guid": "9A975ADB-2A73-4DE6-8943-670717C85C05",
+                    "name": "Christ and Other Faiths",
+                    "number": "349",
+                    "subject_name": "Philosophy",
+                    "subject_code": "PHL",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/soc-sociology/400/soc-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SOC-Sociology/400/SOC-419",
+                    "guid": "7DB24067-17B7-4C18-BE7E-69C70E46D5FF",
+                    "name": "Social Diversity and Inequality",
+                    "number": "419",
+                    "subject_name": "Sociology",
+                    "subject_code": "SOC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

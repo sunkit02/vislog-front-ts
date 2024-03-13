@@ -1,0 +1,635 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-language/major-in-spanish-language-and-culture-track-37-hours",
+  "guid": "C7AD875E-1344-4D9B-A883-32E748890908",
+  "title": "Major in Spanish: Language and Culture Track—37 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "Major Requirements:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two courses from the following: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/200/spa-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/200/SPA-211",
+                    "guid": "AB8FE655-7CF4-9908-E8F9-7946F193225",
+                    "name": "Intermediate Conversation and Grammar",
+                    "number": "211",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/200/spa-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/200/SPA-212",
+                    "guid": "2B0734B4-0CE8-41CB-A3E7-0DD7B179EFD1",
+                    "name": "Composition and Grammar",
+                    "number": "212",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/200/spa-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/200/SPA-213",
+                    "guid": "74F9BEC4-354E-404C-BB47-001A5489B296",
+                    "name": "Introduction to Hispanic Cultures",
+                    "number": "213",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/200/spa-214",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/200/SPA-214",
+                    "guid": "D345D819-9E21-4417-B949-14234B317960",
+                    "name": "Readings in Literature and Culture",
+                    "number": "214",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/upper-level-300-400-spa-electives",
+                    "guid": "E31729C6-81D7-4992-ADF8-BBAE0D15A75B",
+                    "name": "Upper-level (300/400) SPA electives",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two courses from the following: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-311",
+                    "guid": "EA3291A4-87B5-402B-87BA-E5DD2E5A4456",
+                    "name": "Survey of Spanish Literature",
+                    "number": "311",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-312",
+                    "guid": "23165940-74E8-47DD-9B33-EEEE695C6E23",
+                    "name": "Survey of Spanish Literature",
+                    "number": "312",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-316",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-316",
+                    "guid": "3BA46A6E-9490-4F75-B92B-6D80EB5F8E4E",
+                    "name": "Survey of Spanish American Literature to The 19th Century",
+                    "number": "316",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-317",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-317",
+                    "guid": "D3DD4375-A885-4E79-BF04-98F4FC7120C4",
+                    "name": "Survey of Spanish American Literature From the 19th Century",
+                    "number": "317",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-411",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-411",
+                    "guid": "B6F6DE2B-96E4-443B-BCD2-54F3010BA15C",
+                    "name": "Introduction to Hispanic Drama",
+                    "number": "411",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-416",
+                    "guid": "E679E251-1AE3-4D7C-AC19-BDBBB20E3526",
+                    "name": "Latino Literature and Cultural Studies",
+                    "number": "416",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-420",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-420",
+                    "guid": "EE490A84-823D-4ABB-9B3A-73DC018C7133",
+                    "name": "Introduction to the Hispanic Novel",
+                    "number": "420",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-499",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-499",
+                    "guid": "68032F40-7D8D-4F03-BDED-EF22A2708E82",
+                    "name": "Seminar",
+                    "number": "499",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-395",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-395",
+                    "guid": "60694C87-E353-4BC8-B8F9-1015BCE71D0F",
+                    "name": "Special Studies",
+                    "number": "395",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-495",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-495",
+                    "guid": "27D09726-B25F-4A94-ABCC-9D43B94A3CBC",
+                    "name": "Independent Study",
+                    "number": "495",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 9 hours from one group and 12 hours from the alternative group: 21 hours total from the two groups",
+              "courses": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Group 1: 9 or 12 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-313",
+                    "guid": "84B2F0D5-3F39-47C5-B306-8EE2CF076CA6",
+                    "name": "Advanced Conversation",
+                    "number": "313",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-314",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-314",
+                    "guid": "D90D22BF-6E4A-4073-81C7-DB143FEE9889",
+                    "name": "Spanish Conversation and Cinema",
+                    "number": "314",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-325",
+                    "guid": "732954B9-A4AC-4BD5-9D63-825AECD3BDCD",
+                    "name": "Phonetics and Diction",
+                    "number": "325",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-330",
+                    "guid": "51F4A5CC-2524-D72B-0E3F-6634397BC51",
+                    "name": "Advanced Grammar I",
+                    "number": "330",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-430",
+                    "guid": "A6DB1F5D-E914-461D-A2DE-385483324BE7",
+                    "name": "Grammar and Translation",
+                    "number": "430",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-440",
+                    "guid": "BA59678D-FC5C-4DD3-8959-2CD8C49EE18C",
+                    "name": "Socio- and Psycholinguistics",
+                    "number": "440",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-395",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-395",
+                    "guid": "60694C87-E353-4BC8-B8F9-1015BCE71D0F",
+                    "name": "Special Studies",
+                    "number": "395",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-495",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-495",
+                    "guid": "27D09726-B25F-4A94-ABCC-9D43B94A3CBC",
+                    "name": "Independent Study",
+                    "number": "495",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Group 2: 9 or 12 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/200/spa-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/200/SPA-213",
+                    "guid": "74F9BEC4-354E-404C-BB47-001A5489B296",
+                    "name": "Introduction to Hispanic Cultures",
+                    "number": "213",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/200/spa-214",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/200/SPA-214",
+                    "guid": "D345D819-9E21-4417-B949-14234B317960",
+                    "name": "Readings in Literature and Culture",
+                    "number": "214",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-318",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-318",
+                    "guid": "B296549F-C5AB-4856-BF8C-664B6711FC24",
+                    "name": "Historical Perspectives of the Hispanic World: Spain",
+                    "number": "318",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-319",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-319",
+                    "guid": "CE6066C2-BDE6-48A4-8B6C-6953F2A18317",
+                    "name": "Historical Perspectives of the Hispanic World",
+                    "number": "319",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-320",
+                    "guid": "83F1AAFC-2A87-4E94-9673-BD222EE01AEE",
+                    "name": "Spanish for Professioinal Contexts",
+                    "number": "320",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-359",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-359",
+                    "guid": "15FB7D9E-6340-4537-9950-C8F0BAA3D07D",
+                    "name": "Service Learning Immersion Experience",
+                    "number": "359",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-416",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-416",
+                    "guid": "E679E251-1AE3-4D7C-AC19-BDBBB20E3526",
+                    "name": "Latino Literature and Cultural Studies",
+                    "number": "416",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-419",
+                    "guid": "B9535605-61F7-4049-A2C8-75417EE4B881",
+                    "name": "Hispanic Cultural Studies",
+                    "number": "419",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-499",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-499",
+                    "guid": "68032F40-7D8D-4F03-BDED-EF22A2708E82",
+                    "name": "Seminar",
+                    "number": "499",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/300/spa-395",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/300/SPA-395",
+                    "guid": "60694C87-E353-4BC8-B8F9-1015BCE71D0F",
+                    "name": "Special Studies",
+                    "number": "395",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-495",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-495",
+                    "guid": "27D09726-B25F-4A94-ABCC-9D43B94A3CBC",
+                    "name": "Independent Study",
+                    "number": "495",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "External program/study credit approved by department: 3 hours",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Capstone Seminar: 1 hour",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/spa-spanish/400/spa-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SPA-Spanish/400/SPA-490",
+                    "guid": "E048ED55-14F9-4944-ADE8-DFB3C4EE3176",
+                    "name": "Capstone Seminar",
+                    "number": "490",
+                    "subject_name": "Spanish",
+                    "subject_code": "SPA",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/intercultural-studies-program/major-in-intercultural-studies-33-hours",
+  "guid": "F55FCAEB-08E4-43C2-B77C-D446177D7F7A",
+  "title": "Major in Intercultural Studies—33 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Required Core: 12 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/100/ics-110",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/100/ICS-110",
+                    "guid": "16D0BB31-A554-7B6B-827C-7588BE608DC",
+                    "name": "Introduction to Intercultural Studies",
+                    "number": "110",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/200/ics-214",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/200/ICS-214",
+                    "guid": "9A06920B-FA3C-40E2-B9B9-A29CF073345E",
+                    "name": "World Politics",
+                    "number": "214",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-320",
+                    "guid": "F0958FC3-4B9D-4958-9C04-3568F7E4E8B8",
+                    "name": "Intercultural Communication",
+                    "number": "320",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/400/ics-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/400/ICS-410",
+                    "guid": "14A5B8D7-0960-46CF-8926-41E88B034D18",
+                    "name": "Intercultural Conflict & Negotiation",
+                    "number": "410",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/200/ics-245",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/200/ICS-245",
+                    "guid": "7F79D768-89AE-4DA2-8F91-07F188C9193A",
+                    "name": "Research Methodologies for Intercultural Study",
+                    "number": "245",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/400/ics-445",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/400/ICS-445",
+                    "guid": "F3ECA48A-82A9-4944-B87D-74C2E2994379",
+                    "name": "Intercultural Experience",
+                    "number": "445",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/400/ics-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/400/ICS-498",
+                    "guid": "6B12F948-83E3-44C7-B24C-C1D77BFCCF22",
+                    "name": "Intercultural Studies Capstone Seminar",
+                    "number": "498",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Program Selectives: 12 hours",
+              "courses": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/200/ics-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/200/ICS-213",
+                    "guid": "5B0989A6-9C01-4E09-9F18-F5C470212DDC",
+                    "name": "Social Change for Social Problems",
+                    "number": "213",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-319",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-319",
+                    "guid": "3CFEAF15-2460-43B1-A703-09E98ADA3E82",
+                    "name": "Sociology of Religion",
+                    "number": "319",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-356",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-356",
+                    "guid": "D372C7EB-3CCA-4649-A915-2179F4CD66BD",
+                    "name": "Food, Culture and Society",
+                    "number": "356",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/400/ics-419",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/400/ICS-419",
+                    "guid": "90F8C0D8-2C41-4E34-A330-15482A558737",
+                    "name": "Social Diversity and Inequality",
+                    "number": "419",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-310",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-310",
+                    "guid": "5289FCBE-8693-49BA-820C-D141C3A08AE2",
+                    "name": "Social & Economic Justice",
+                    "number": "310",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-325",
+                    "guid": "889F8ABF-3FBD-4E5F-A882-4BAC57909790",
+                    "name": "Families Across Cultures",
+                    "number": "325",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-321",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-321",
+                    "guid": "B575A6DF-557B-4F42-B86A-6300DB57E57E",
+                    "name": "Intercultural Perspectives of Humanitarian Response",
+                    "number": "321",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/lang-language-studies/400/lang-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/LANG-Language-Studies/400/LANG-498",
+                    "guid": "493B23EA-1E6F-406D-862F-36D8413763B2",
+                    "name": "Senior Seminar",
+                    "number": "498",
+                    "subject_name": "Language Studies",
+                    "subject_code": "LANG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one course from:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/200/ics-246",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/200/ICS-246",
+                    "guid": "61E28728-CBDF-4CAB-964D-5BF621D2357B",
+                    "name": "Cross-Cultural Life and Ministry",
+                    "number": "246",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-377",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-377",
+                    "guid": "25281B2A-374A-4E22-8C6A-78A254C5FD55",
+                    "name": "Introduction to Missions",
+                    "number": "377",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

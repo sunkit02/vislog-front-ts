@@ -1,0 +1,560 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-language/major-in-french-language-and-culture-track-37-hours",
+  "guid": "DD6BA07B-BD99-40A1-AF67-2ADA3E366DB6",
+  "title": "Major in French: Language and Culture Track—37 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "Major Requirements:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two courses from the following: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/200/fre-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/200/FRE-211",
+                    "guid": "93AD66F3-F829-48D7-8655-C75D5E2A4D24",
+                    "name": "Intermediate Conversation and Grammar",
+                    "number": "211",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/200/fre-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/200/FRE-212",
+                    "guid": "9D93B932-D48B-4817-9EA0-668BFAB782AE",
+                    "name": "Composition and Grammar",
+                    "number": "212",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/200/fre-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/200/FRE-213",
+                    "guid": "D866E9D2-C88F-48BD-9BC3-70DD81615298",
+                    "name": "Introduction to Francophone Cultures",
+                    "number": "213",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/200/fre-214",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/200/FRE-214",
+                    "guid": "C9885AB8-7BEE-4951-9F87-2171B131F7F2",
+                    "name": "Readings in Literature and Culture",
+                    "number": "214",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/upper-level-fre-electives",
+                    "guid": "BC08D943-D62E-4647-9C3D-814FCCD079C9",
+                    "name": "Upper-level FRE electives",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select two courses from the following: 6 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-311",
+                    "guid": "12C17D68-9707-46FB-9A90-785C499314B0",
+                    "name": "Survey of French Literature",
+                    "number": "311",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-312",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-312",
+                    "guid": "5C9A33CE-74F7-481B-9C71-3EF7298CC587",
+                    "name": "Survey of French Literature",
+                    "number": "312",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-317",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-317",
+                    "guid": "EF9F1906-7B90-4DF3-8509-595ED4F221B9",
+                    "name": "Survey of Francophone Literature",
+                    "number": "317",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-420",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-420",
+                    "guid": "AD80B343-23D3-43D8-9162-1244A33C7BFE",
+                    "name": "Introduction to French Novel",
+                    "number": "420",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-421",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-421",
+                    "guid": "A0DF53EC-7127-4BBB-BCB5-92230D3592DE",
+                    "name": "Introduction to French Poetry",
+                    "number": "421",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-499",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-499",
+                    "guid": "3136971B-48B7-482D-AC2B-B9FA5B110047",
+                    "name": "Seminar",
+                    "number": "499",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-395",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-395",
+                    "guid": "5C6C616A-83EC-4819-9A6B-A90E313CC5C8",
+                    "name": "Special Studies",
+                    "number": "395",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-495",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-495",
+                    "guid": "704AA59C-C5C5-49F8-8043-1DB252FF13B4",
+                    "name": "Independent Study",
+                    "number": "495",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 9 hours from one group and 12 hours from the alternative group: 21 hours",
+              "courses": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Group 1: 9 to 12",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-313",
+                    "guid": "8259E881-F3B5-49FD-A9E7-D0E38F179590",
+                    "name": "Advanced Conversation",
+                    "number": "313",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-325",
+                    "guid": "2592B062-28F7-4B0F-8D6C-551BBDCABBA5",
+                    "name": "Phonetics and Diction",
+                    "number": "325",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-330",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-330",
+                    "guid": "A18FFA46-24B1-4230-BDB9-756C564B322B",
+                    "name": "Advanced Grammar I",
+                    "number": "330",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-430",
+                    "guid": "F67CE7B1-212D-48DC-9253-A590D0F0C2CE",
+                    "name": "Advanced Grammar II",
+                    "number": "430",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-440",
+                    "guid": "1928D6EA-8727-4FBD-80B3-DA386FB32715",
+                    "name": "Socio- and Psycholinguistics",
+                    "number": "440",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-395",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-395",
+                    "guid": "5C6C616A-83EC-4819-9A6B-A90E313CC5C8",
+                    "name": "Special Studies",
+                    "number": "395",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-495",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-495",
+                    "guid": "704AA59C-C5C5-49F8-8043-1DB252FF13B4",
+                    "name": "Independent Study",
+                    "number": "495",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Group 2: 9 to 12",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/200/fre-213",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/200/FRE-213",
+                        "guid": "D866E9D2-C88F-48BD-9BC3-70DD81615298",
+                        "name": "Introduction to Francophone Cultures",
+                        "number": "213",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/200/fre-214",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/200/FRE-214",
+                        "guid": "C9885AB8-7BEE-4951-9F87-2171B131F7F2",
+                        "name": "Readings in Literature and Culture",
+                        "number": "214",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-319",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-319",
+                        "guid": "A2599A02-C23A-477A-8D6F-2ED8D688E903",
+                        "name": "Historical Perspectives of the Francophone World",
+                        "number": "319",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-320",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-320",
+                        "guid": "92A82225-C5E4-4B81-8A55-8EEAE373383D",
+                        "name": "French for Business",
+                        "number": "320",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-359",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-359",
+                        "guid": "DA407211-5FEB-4CF3-B2DB-C58F32626D90",
+                        "name": "Service Learning Immersion Experience",
+                        "number": "359",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-419",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-419",
+                        "guid": "5A97DC4B-CA93-4C82-BA2D-0674497FC145",
+                        "name": "Francophone Cultural Studies",
+                        "number": "419",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-499",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-499",
+                        "guid": "3136971B-48B7-482D-AC2B-B9FA5B110047",
+                        "name": "Seminar",
+                        "number": "499",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          3,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/300/fre-395",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/300/FRE-395",
+                        "guid": "5C6C616A-83EC-4819-9A6B-A90E313CC5C8",
+                        "name": "Special Studies",
+                        "number": "395",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          1,
+                          4
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-495",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-495",
+                        "guid": "704AA59C-C5C5-49F8-8043-1DB252FF13B4",
+                        "name": "Independent Study",
+                        "number": "495",
+                        "subject_name": "French",
+                        "subject_code": "FRE",
+                        "credits": [
+                          1,
+                          4
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "External program/study credit approved by department: 3 hours",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Capstone Seminar: 1 hour",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fre-french/400/fre-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FRE-French/400/FRE-490",
+                    "guid": "2FDF26C5-74F4-4843-BE20-3A7BC513A9BA",
+                    "name": "Capstone Seminar",
+                    "number": "490",
+                    "subject_name": "French",
+                    "subject_code": "FRE",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

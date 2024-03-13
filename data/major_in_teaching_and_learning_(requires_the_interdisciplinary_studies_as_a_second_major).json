@@ -1,0 +1,230 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/school-of-education/major-in-teaching-and-learning-requires-the-interdisciplinary-studies-as-a-second-major-44-hours",
+  "guid": "A1441BEA-55B6-4AB4-82CA-3F75D42A4442",
+  "title": "Major in Teaching and Learning (requires the Interdisciplinary Studies as a second major)—44 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Major Courses Required:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/100/edu-150",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/100/EDU-150",
+                  "guid": "B548D5B9-4EF9-47AB-B4DA-C6946433B731",
+                  "name": "Foundations of American Education",
+                  "number": "150",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-302",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-302",
+                  "guid": "62D42A42-5988-4A03-8920-DC6D1728B16D",
+                  "name": "edTPA Prep Seminar",
+                  "number": "302",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-305",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-305",
+                  "guid": "8621009E-40A7-479E-836C-5B2196C705BC",
+                  "name": "Planning for Student Achievement in Diverse Classrooms",
+                  "number": "305",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-306",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-306",
+                  "guid": "8279514A-9F7F-45B8-A440-724BC2D8EDDD",
+                  "name": "Leading the Learning Environment",
+                  "number": "306",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-309",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-309",
+                  "guid": "6C7CEAAB-B55C-4921-8581-2D37D8171E0A",
+                  "name": "Explorations in Teaching Science and Social Studies",
+                  "number": "309",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-331",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-331",
+                  "guid": "8A605A41-4218-4E1D-B7AC-B087C83F49F1",
+                  "name": "Literacy in Diverse Classrooms",
+                  "number": "331",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-337",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-337",
+                  "guid": "E556F325-45C8-48ED-A180-51A1960897EC",
+                  "name": "Meeting the Needs of Learners In the Early Childhood Environment",
+                  "number": "337",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-312",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-312",
+                  "guid": "92007EFD-9ACC-403B-AF5B-697185D74604",
+                  "name": "Teaching Math in Diverse Classroom",
+                  "number": "312",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-304",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-304",
+                  "guid": "9335764D-3D2D-43E3-BAF0-27479AF9ED40",
+                  "name": "Inclusionary Practices",
+                  "number": "304",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/300/edu-307",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/300/EDU-307",
+                  "guid": "61643640-3A67-414D-B7F5-296F3A91235F",
+                  "name": "Assessing Teaching & Learning",
+                  "number": "307",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-440",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-440",
+                  "guid": "34145FAA-B2EB-4CA3-8F52-9574E46706E0",
+                  "name": "Internship I",
+                  "number": "440",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    4,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-441",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-441",
+                  "guid": "B321A1B3-2C4A-48BB-B71E-17A3DF555631",
+                  "name": "Internship II",
+                  "number": "441",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    14,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/edu-education/400/edu-451",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EDU-Education/400/EDU-451",
+                  "guid": "81A2EE85-6A90-49FB-A38A-B63481C8E123",
+                  "name": "Problem-Based Seminar",
+                  "number": "451",
+                  "subject_name": "Education",
+                  "subject_code": "EDU",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

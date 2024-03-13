@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/minor-in-finance-18-hours",
+  "guid": "7FD94E16-7765-4951-B947-5EF9D2C13C36",
+  "title": "Minor in Finance—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/acc-accounting/200/acc-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ACC-Accounting/200/ACC-211",
+                    "guid": "E68EDF9B-5E62-4156-BB8A-6DA514242941",
+                    "name": "Principles of Accounting I",
+                    "number": "211",
+                    "subject_name": "Accounting",
+                    "subject_code": "ACC",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/200/eco-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/200/ECO-211",
+                    "guid": "83ECD647-1004-A2C9-B612-08837456678",
+                    "name": "Principles of Macroeconomics",
+                    "number": "211",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/fin-finance/300/fin-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/FIN-Finance/300/FIN-320",
+                    "guid": "7FE0A793-5114-4E92-BC40-5900ED2CFBAE",
+                    "name": "Business Financial Management I",
+                    "number": "320",
+                    "subject_name": "Finance",
+                    "subject_code": "FIN",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/100/mat-114",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/100/MAT-114",
+                    "guid": "DD349D3F-80B1-4E88-A04F-F80898377C18",
+                    "name": "Introduction to Statistics & Probability",
+                    "number": "114",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours of upper-level FIN electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

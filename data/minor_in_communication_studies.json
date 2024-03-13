@@ -1,0 +1,21 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-communication-arts/minor-in-communication-studies-21-hours",
+  "guid": "4F38D467-9C3D-41BC-91F8-6B7082FD95E9",
+  "title": "Minor in Communication Studies—21 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Label",
+          "data": {
+            "title": "Minor Requirements:",
+            "req_narrative": "<p class=\"sc-RequirementNarrative\">Select <strong>12 hours</strong> of COM courses (any level)</p>\n<p class=\"sc-RequirementNarrative\">Select <strong>9 hours</strong> of upper-level COM courses</p>"
+          }
+        }
+      }
+    }
+  }
+}

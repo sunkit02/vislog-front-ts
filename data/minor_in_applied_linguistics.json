@@ -1,0 +1,127 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-language/minor-in-applied-linguistics-22-hours",
+  "guid": "A566E7A7-2946-4FE8-B4FF-4DFFC052F323",
+  "title": "Minor in Applied Linguistics—22 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Program Requirements: 16 hours",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/alng-applied-linguistics/200/alng-220",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ALNG-Applied-Linguistics/200/ALNG-220",
+                    "guid": "1E15BD90-CC8D-4D3F-A0BF-6A96688D6CF5",
+                    "name": "Principles of Language and Acquisition",
+                    "number": "220",
+                    "subject_name": "Applied Linguisitics",
+                    "subject_code": "ALNG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/alng-applied-linguistics/300/alng-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ALNG-Applied-Linguistics/300/ALNG-325",
+                    "guid": "E9CF07C9-C1F0-4DBF-83E0-D42320A68662",
+                    "name": "Introduction to Language Acquisition",
+                    "number": "325",
+                    "subject_name": "Applied Linguisitics",
+                    "subject_code": "ALNG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/alng-applied-linguistics/400/alng-440",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ALNG-Applied-Linguistics/400/ALNG-440",
+                    "guid": "54E24FF2-4052-4F11-B990-5361493F5165",
+                    "name": "Theories of Language",
+                    "number": "440",
+                    "subject_name": "Applied Linguisitics",
+                    "subject_code": "ALNG",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/alng-applied-linguistics/400/alng-490",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ALNG-Applied-Linguistics/400/ALNG-490",
+                    "guid": "C2925CFA-D61F-4F26-819A-5E620E92A9FE",
+                    "name": "Capstone Seminar",
+                    "number": "490",
+                    "subject_name": "Applied Linguisitics",
+                    "subject_code": "ALNG",
+                    "credits": [
+                      1,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/200/ics-245",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/200/ICS-245",
+                    "guid": "7F79D768-89AE-4DA2-8F91-07F188C9193A",
+                    "name": "Research Methodologies for Intercultural Study",
+                    "number": "245",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/ics-intercultural-studies/300/ics-320",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ICS-Intercultural-Studies/300/ICS-320",
+                    "guid": "F0958FC3-4B9D-4958-9C04-3568F7E4E8B8",
+                    "name": "Intercultural Communication",
+                    "number": "320",
+                    "subject_name": "Intercultural Studies",
+                    "subject_code": "ICS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select one Option:",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-physics/minor-in-physics-24-semester-hours",
+  "guid": "25838141-93C4-6109-449E-8270515B136",
+  "title": "Minor in Physics—24 semester hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": null,
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-231",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-231",
+                    "guid": "7BC38093-7B23-4F58-B98D-C43E5DB83266",
+                    "name": "University Physics I With Calculus",
+                    "number": "231",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-232",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-232",
+                    "guid": "D0197056-7337-47A6-858E-9D42EBE700CB",
+                    "name": "University Physics II With Calculus",
+                    "number": "232",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-311",
+                    "guid": "6AFFDAB9-FB9B-46E4-B4F1-A85FD45703DC",
+                    "name": "University Physics: Modern Physics",
+                    "number": "311",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/phy-electives-10",
+                    "guid": "2AD6C0BD-AF66-4C22-854F-AF6299794459",
+                    "name": "Electives",
+                    "number": null,
+                    "subject_code": "PHY",
+                    "credits": [
+                      10,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Excluded from electives:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-111",
+                    "guid": "1CEF0F92-6EC8-4CFD-A7E4-79D7BD72F809",
+                    "name": "Principles of the Physical Sciences",
+                    "number": "111",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-112",
+                    "guid": "16363308-3515-4B52-9CEB-51AC47101537",
+                    "name": "Earth and Space Science",
+                    "number": "112",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-130",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-130",
+                    "guid": "33C5FC12-DB82-4018-855B-3BB4BDE3410E",
+                    "name": "The World of Water",
+                    "number": "130",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-301",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-301",
+                    "guid": "265D915C-64F1-4FFD-BA9E-E09BD831653A",
+                    "name": "Perspectives in Science",
+                    "number": "301",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-310",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-310",
+                    "guid": "4EBB6926-705E-4B49-92D0-D320CD0CE95D",
+                    "name": "Energy, Environment, and Society",
+                    "number": "310",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-social-work/adult-studies-bachelor-of-social-work/social-work-requirements-51-hours",
+  "guid": "1F6607A6-61DF-4FFB-BD12-F09968B1426E",
+  "title": "Social Work Requirements—51 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Major Required Courses:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/200/sw-200",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/200/SW-200",
+                  "guid": "3DB97093-4AF4-7559-A7DA-26648FA9114",
+                  "name": "Introduction to Social Welfare",
+                  "number": "200",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-300",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-300",
+                  "guid": "56CA0759-5015-4EEC-9046-A11050CDF30A",
+                  "name": "Human Behavior and the Social Environment I",
+                  "number": "300",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-301",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-301",
+                  "guid": "12213C0F-D46C-43D5-A2E4-19FFC5932F1F",
+                  "name": "Human Behavior and the Social Environment II",
+                  "number": "301",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-305",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-305",
+                  "guid": "652923F3-8DE5-4886-9186-22FC775481AC",
+                  "name": "Psychopathology",
+                  "number": "305",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-310",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-310",
+                  "guid": "6DB7D9E0-67F0-4496-8D12-8CDB99238A99",
+                  "name": "Social and Economic Justice",
+                  "number": "310",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-315",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-315",
+                  "guid": "9020E923-A515-41CF-831B-4682186EA53E",
+                  "name": "Foundations for Social Work Practice",
+                  "number": "315",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/300/sw-335",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/300/SW-335",
+                  "guid": "F7A88737-9BBB-48A5-A91B-5FB1A0BA382E",
+                  "name": "Social Policy",
+                  "number": "335",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-400",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-400",
+                  "guid": "DAD6C194-04B5-4533-9C33-57C27FB88C25",
+                  "name": "Populations-At-Risk",
+                  "number": "400",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-401",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-401",
+                  "guid": "219FA9F2-B4DE-4894-9F18-E2F52F7ECE24",
+                  "name": "Social Work Practice With Individuals, Families and Groups",
+                  "number": "401",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-402",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-402",
+                  "guid": "1F079A61-E0F3-4D0E-9C86-BDCA95023AE9",
+                  "name": "Social Work Practice With Organizations, Communities, and Government",
+                  "number": "402",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-421",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-421",
+                  "guid": "C3A86D4C-FDE6-48A3-91A8-3124C6A3D045",
+                  "name": "Research and Statistical Methods in Social Work",
+                  "number": "421",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Label",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/sw-electives-6",
+                  "guid": "A4A496BA-802F-4118-BBAD-40546F5F7894",
+                  "name": "Electives",
+                  "number": null,
+                  "subject_code": "SW",
+                  "credits": [
+                    6,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-490",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-490",
+                  "guid": "57B8C310-07DD-47C4-88DF-6E252605334C",
+                  "name": "Social Work Field Practicum",
+                  "number": "490",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    1,
+                    6
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/sw-social-work/400/sw-423",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/SW-Social-Work/400/SW-423",
+                  "guid": "DAACFE88-A748-4A45-B948-029340DC835A",
+                  "name": "Senior Seminar in Social Work Practice",
+                  "number": "423",
+                  "subject_name": "Social Work",
+                  "subject_code": "SW",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

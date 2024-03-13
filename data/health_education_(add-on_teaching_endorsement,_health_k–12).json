@@ -1,0 +1,86 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-education/department-of-physical-education-wellness-and-sport/health-education-add-on-teaching-endorsement-health-k-12-12-hours",
+  "guid": "B12E9E76-2ACD-4F67-AC78-5E191DA7C343",
+  "title": "Health Education (add-on teaching endorsement, Health K–12)—12 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Required Courses:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/100/pews-113",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/100/PEWS-113",
+                  "guid": "8506E5E2-6121-4706-89BA-6EE6E64C24AB",
+                  "name": "Elementary Nutrition",
+                  "number": "113",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/200/pews-222",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/200/PEWS-222",
+                  "guid": "AB0FA62E-3872-4410-8155-A3C1FD656FED",
+                  "name": "First Aid",
+                  "number": "222",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-301",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-301",
+                  "guid": "41A89BDC-E190-4A81-B6D0-6E552C247CCF",
+                  "name": "Drug Education",
+                  "number": "301",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/pews-physical-edu-wellness-sport/300/pews-322",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PEWS-Physical-Edu-Wellness-Sport/300/PEWS-322",
+                  "guid": "D64286F0-E9D4-607A-9BBE-D6BCD7384B7",
+                  "name": "School Health Education",
+                  "number": "322",
+                  "subject_name": "Physical Edu. Wellness & Sport",
+                  "subject_code": "PEWS",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

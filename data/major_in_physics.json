@@ -1,0 +1,440 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-physics/major-in-physics-38-hours",
+  "guid": "AC6A2C2F-206F-4E81-B1ED-AD65CFED9134",
+  "title": "Major in Physics—38 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Prerequisites:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-211",
+                    "guid": "C0E4D3A4-B05E-488C-9BA0-9726B86C3E15",
+                    "name": "Calculus and Analytic Geometry I",
+                    "number": "211",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-212",
+                    "guid": "EB7D85DE-7E32-461E-9FEE-4F0FFB247FDB",
+                    "name": "Calculus and Analytic Geometry II",
+                    "number": "212",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/200/mat-213",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/200/MAT-213",
+                    "guid": "37AB462C-9F19-4316-BFB7-51985F111708",
+                    "name": "Calculus and Analytic Geometry III",
+                    "number": "213",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/300/mat-314",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/300/MAT-314",
+                    "guid": "DC0DAB99-9933-4F9F-8F8B-7DC00FDF11C8",
+                    "name": "Differential Equations",
+                    "number": "314",
+                    "subject_name": "Mathematics",
+                    "subject_code": "MAT",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Requirements:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-231",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-231",
+                    "guid": "7BC38093-7B23-4F58-B98D-C43E5DB83266",
+                    "name": "University Physics I With Calculus",
+                    "number": "231",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-232",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-232",
+                    "guid": "D0197056-7337-47A6-858E-9D42EBE700CB",
+                    "name": "University Physics II With Calculus",
+                    "number": "232",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-311",
+                    "guid": "6AFFDAB9-FB9B-46E4-B4F1-A85FD45703DC",
+                    "name": "University Physics: Modern Physics",
+                    "number": "311",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-313",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-313",
+                    "guid": "BD6CC495-D3CF-4C99-9784-4D93A2B2A5AD",
+                    "name": "Intermediate Mechanics",
+                    "number": "313",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-314",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-314",
+                    "guid": "37CD6A89-6B82-4BE5-B989-51B79089B834",
+                    "name": "Intermediate Electricity and Magnetism",
+                    "number": "314",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-420",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-420",
+                    "guid": "B3135878-228C-46C8-B0BD-472359E00A22",
+                    "name": "Quantum Mechanics",
+                    "number": "420",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-424",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-424",
+                    "guid": "4C365522-4A24-03E9-A936-16251940CAB",
+                    "name": "Physics Research",
+                    "number": "424",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-430",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-430",
+                    "guid": "188C3B31-038F-4734-92B8-F826400BCE95",
+                    "name": "Experimental Physics Laboratory",
+                    "number": "430",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-498",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-498",
+                    "guid": "42158859-986B-451E-BEE2-5F923327C1E5",
+                    "name": "Seminar",
+                    "number": "498",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select three or more courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-262",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-262",
+                    "guid": "E7BD4A39-D758-4EF4-A981-5AC8E9DE180C",
+                    "name": "Electrical and Electronic Circuits",
+                    "number": "262",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-325",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-325",
+                    "guid": "4D2AB1BB-2484-4CEC-ABC7-7737E3DFE41A",
+                    "name": "Thermodynamics and Statistical Mechanics",
+                    "number": "325",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-350",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-350",
+                    "guid": "A2F795CF-7902-4787-B2C2-074FA16D17DB",
+                    "name": "Introduction to Astrophysics",
+                    "number": "350",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-360",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-360",
+                    "guid": "AA3C6054-7943-4B73-A3DB-9E722A52D9C0",
+                    "name": "Mathematical Methods in Physics",
+                    "number": "360",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-395",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-395",
+                    "guid": "202FF9CF-4A48-40A7-94A2-5D1CE0392745",
+                    "name": "Special Studies",
+                    "number": "395",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-396",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-396",
+                    "guid": "A18FCBDE-331E-42CB-8B51-BD3470973F0D",
+                    "name": "Special Studies",
+                    "number": "396",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-397",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-397",
+                    "guid": "A5A34067-B5B0-4BA4-8892-584AF9F9C8F9",
+                    "name": "Special Studies",
+                    "number": "397",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-400",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-400",
+                    "guid": "1C88F094-1EA7-46B6-87FA-11A5ADF61BF2",
+                    "name": "Optics and Lasers",
+                    "number": "400",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-410",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-410",
+                    "guid": "755FCFF7-6C5E-4C0F-8A88-659090312309",
+                    "name": "Nuclear Physics",
+                    "number": "410",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-417",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-417",
+                    "guid": "E2D71FDB-D3DE-43BE-8D0E-01178D813184",
+                    "name": "Introduction to Condensed Matter Physics",
+                    "number": "417",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-425",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-425",
+                    "guid": "A78E3299-7905-477E-B5C6-BFB058F6B87E",
+                    "name": "Physics Research",
+                    "number": "425",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      1,
+                      3
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/400/phy-495",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/400/PHY-495",
+                    "guid": "B5CB27D3-ED25-4D6B-BF80-81F301F2FA7E",
+                    "name": "Independent Study",
+                    "number": "495",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      1,
+                      4
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

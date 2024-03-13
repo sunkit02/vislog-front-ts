@@ -1,0 +1,212 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-physics/major-in-physical-science-44-hours",
+  "guid": "DA9D101A-C912-4144-A399-87C86CDE299D",
+  "title": "Major in Physical Science—44 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Major Requirements:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-111",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-111",
+                    "guid": "A4CD0F9D-011F-4501-9DED-E3E38A2A63BD",
+                    "name": "General Chemistry",
+                    "number": "111",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-112",
+                    "guid": "97239341-F792-4235-8C1C-53FB2AD3B468",
+                    "name": "Chemical Equilibrium",
+                    "number": "112",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/100/che-113",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/100/CHE-113",
+                    "guid": "671FC3E8-0124-4795-ABCD-41CE5D25D283",
+                    "name": "Survey of Chemical Instrumentation",
+                    "number": "113",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/200/che-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/200/CHE-211",
+                    "guid": "D0266935-22E8-4F5A-ADB2-4507664881BC",
+                    "name": "Analytical Chemistry",
+                    "number": "211",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/che-chemistry/200/che-221",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHE-Chemistry/200/CHE-221",
+                    "guid": "1C40FD5C-49C7-4514-96BA-0C7A7C2C0159",
+                    "name": "Analytical Chemistry Lab",
+                    "number": "221",
+                    "subject_name": "Chemistry",
+                    "subject_code": "CHE",
+                    "credits": [
+                      2,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/100/phy-112",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/100/PHY-112",
+                    "guid": "16363308-3515-4B52-9CEB-51AC47101537",
+                    "name": "Earth and Space Science",
+                    "number": "112",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-231",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-231",
+                    "guid": "7BC38093-7B23-4F58-B98D-C43E5DB83266",
+                    "name": "University Physics I With Calculus",
+                    "number": "231",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/200/phy-232",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/200/PHY-232",
+                    "guid": "D0197056-7337-47A6-858E-9D42EBE700CB",
+                    "name": "University Physics II With Calculus",
+                    "number": "232",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      5,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-311",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-311",
+                    "guid": "6AFFDAB9-FB9B-46E4-B4F1-A85FD45703DC",
+                    "name": "University Physics: Modern Physics",
+                    "number": "311",
+                    "subject_name": "Physics",
+                    "subject_code": "PHY",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-310",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-310",
+                        "guid": "4EBB6926-705E-4B49-92D0-D320CD0CE95D",
+                        "name": "Energy, Environment, and Society",
+                        "number": "310",
+                        "subject_name": "Physics",
+                        "subject_code": "PHY",
+                        "credits": [
+                          4,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phy-physics/300/phy-301",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHY-Physics/300/PHY-301",
+                        "guid": "265D915C-64F1-4FFD-BA9E-E09BD831653A",
+                        "name": "Perspectives in Science",
+                        "number": "301",
+                        "subject_name": "Physics",
+                        "subject_code": "PHY",
+                        "credits": [
+                          4,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 7 hours of upper-level electives from PHY or CHE",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

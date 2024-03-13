@@ -1,0 +1,110 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/the-honors-community/general-honors",
+  "guid": "B010166A-2540-4BBD-8269-4AD50598E66F",
+  "title": "General Honors",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "General Honors—three courses",
+        "requirements": [
+          {
+            "type": "Label",
+            "data": {
+              "title": "General Honors Core:",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Freshman Year:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hon-honors/200/hon-205",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HON-Honors/200/HON-205",
+                    "guid": "7948E11E-9109-4EA5-AC61-BF8EFA1849BB",
+                    "name": "Wisdom",
+                    "number": "205",
+                    "subject_name": "Honors",
+                    "subject_code": "HON",
+                    "credits": [
+                      6,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hon-honors/200/hon-215",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HON-Honors/200/HON-215",
+                    "guid": "81104EA8-C71D-43B5-A3BB-DE7E09D728C2",
+                    "name": "Beauty",
+                    "number": "215",
+                    "subject_name": "Honors",
+                    "subject_code": "HON",
+                    "credits": [
+                      6,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Sophomore Year:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hon-honors/200/hon-225",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HON-Honors/200/HON-225",
+                    "guid": "3762A980-C303-4EEA-B321-09F4FDF7B793",
+                    "name": "Justice",
+                    "number": "225",
+                    "subject_name": "Honors",
+                    "subject_code": "HON",
+                    "credits": [
+                      6,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/hon-honors/200/hon-235",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/HON-Honors/200/HON-235",
+                    "guid": "5588A6EA-DD41-4645-9C24-813CC07782BE",
+                    "name": "Creation",
+                    "number": "235",
+                    "subject_name": "Honors",
+                    "subject_code": "HON",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "General Honors Electives (optional):",
+              "req_narrative": "<p class=\"sc-RequirementNarrative\">Special studies courses (variable credit)</p>\n<p class=\"sc-BodyTextNS\">Scholar-in-Residence tutorial (variable credit)</p>\n<p class=\"sc-BodyTextNS\">Other courses with the HON prefix</p>\n<p class=\"sc-BodyTextNS\">Select study abroad opportunities</p>"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

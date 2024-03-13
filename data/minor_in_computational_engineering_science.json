@@ -1,0 +1,134 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-mathematics/minor-in-computational-engineering-science-18-hours",
+  "guid": "C9CCCC29-3FED-45A3-BEE8-0CB26FBB2156",
+  "title": "Minor in Computational Engineering Science—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": null,
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": null,
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/100/egr-109",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/100/EGR-109",
+                  "guid": "1358C251-EF23-42F9-950A-39ED0AA075B6",
+                  "name": "Introduction to Matlab and Computer Programming",
+                  "number": "109",
+                  "subject_name": "Engineering",
+                  "subject_code": "EGR",
+                  "credits": [
+                    2,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/200/egr-209",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/200/EGR-209",
+                  "guid": "34BCC778-4129-4196-8817-65F42C20B40F",
+                  "name": "Survey of Computational Engineering",
+                  "number": "209",
+                  "subject_name": "Engineering",
+                  "subject_code": "EGR",
+                  "credits": [
+                    1,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/egr-engineering/300/egr-325",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/EGR-Engineering/300/EGR-325",
+                  "guid": "94E2B889-434B-478E-A119-0EBCD7D5C776",
+                  "name": "Computational Analysis of Structures - Finite Element Methods",
+                  "number": "325",
+                  "subject_name": "Engineering",
+                  "subject_code": "EGR",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/200/csc-255",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/200/CSC-255",
+                  "guid": "F17E3997-3E59-4B70-B662-E5AB1A40ADAF",
+                  "name": "Programming in C",
+                  "number": "255",
+                  "subject_name": "Computer Science",
+                  "subject_code": "CSC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/csc-computer-science/300/csc-329",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CSC-Computer-Science/300/CSC-329",
+                  "guid": "BD362AA2-397F-4906-8550-11BFAAAD32EB",
+                  "name": "Parallel Computing",
+                  "number": "329",
+                  "subject_name": "Computer Science",
+                  "subject_code": "CSC",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/300/mat-315",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/300/MAT-315",
+                  "guid": "CA5E6BA9-EEBE-43C2-8628-5F7D2EB195DD",
+                  "name": "Linear Algebra",
+                  "number": "315",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mat-mathematics/300/mat-360",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MAT-Mathematics/300/MAT-360",
+                  "guid": "70E62E83-0634-F2FA-A16C-79B3D4F929C",
+                  "name": "Numerical Analysis",
+                  "number": "360",
+                  "subject_name": "Mathematics",
+                  "subject_code": "MAT",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

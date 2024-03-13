@@ -1,0 +1,1320 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/school-of-theology-and-missions/major-in-christian-ministry-and-missions-40-hours",
+  "guid": "2A92CE72-0B67-404D-8715-81949F481DB7",
+  "title": "Major in Christian Ministry and Missions—40 hours",
+  "requirements": {
+    "type": "Many",
+    "data": [
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "General Track",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements: 18 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-113",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-113",
+                      "guid": "20544302-42ED-4F42-89CA-C4D511638E92",
+                      "name": "Introduction to Bible Study and Interpretation",
+                      "number": "113",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-305",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-305",
+                      "guid": "D2DFF783-30EC-4E26-B732-8B800A9B9F81",
+                      "name": "History of Christianity",
+                      "number": "305",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-334",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-334",
+                      "guid": "947A7F91-B2FB-4776-8077-A58727B41CA5",
+                      "name": "Christian Spiritual Formation",
+                      "number": "334",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-338",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-338",
+                      "guid": "A00E0ECB-1C2E-4BD2-ADA7-451DBE03A446",
+                      "name": "Christian Doctrine",
+                      "number": "338",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                      "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                      "name": "Introduction to Philosophy",
+                      "number": "240",
+                      "subject_name": "Philosophy",
+                      "subject_code": "PHL",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                          "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Christian Studies",
+                          "subject_code": "CHR",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-243",
+                          "guid": "B5FE0189-6877-4301-AF01-11591CC53C65",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Philosophy",
+                          "subject_code": "PHL",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Track Required Courses: 7 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-231",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-231",
+                      "guid": "B41CDA3F-8B32-4EEE-AF16-4C6DF9938B72",
+                      "name": "Sophomore Seminar",
+                      "number": "231",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-367",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-367",
+                      "guid": "B5CB3C73-C072-4881-B6FD-2726E4224335",
+                      "name": "Intro to Christian Evangelism",
+                      "number": "367",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-498",
+                      "guid": "1781E762-8F34-4B1B-A0B2-CD6CFEE58FE9",
+                      "name": "Senior Seminar",
+                      "number": "498",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        3
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Electives from Christian Ministry and Missions: 9 hours",
+                "req_narrative": null
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Electives from Biblical Studies: 3 hours",
+                "req_narrative": null
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Theological Studies: 3 hours",
+                "req_narrative": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Biblical Counseling Track",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements: 18 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-113",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-113",
+                      "guid": "20544302-42ED-4F42-89CA-C4D511638E92",
+                      "name": "Introduction to Bible Study and Interpretation",
+                      "number": "113",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-305",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-305",
+                      "guid": "D2DFF783-30EC-4E26-B732-8B800A9B9F81",
+                      "name": "History of Christianity",
+                      "number": "305",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-334",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-334",
+                      "guid": "947A7F91-B2FB-4776-8077-A58727B41CA5",
+                      "name": "Christian Spiritual Formation",
+                      "number": "334",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-338",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-338",
+                      "guid": "A00E0ECB-1C2E-4BD2-ADA7-451DBE03A446",
+                      "name": "Christian Doctrine",
+                      "number": "338",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                      "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                      "name": "Introduction to Philosophy",
+                      "number": "240",
+                      "subject_name": "Philosophy",
+                      "subject_code": "PHL",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                          "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Christian Studies",
+                          "subject_code": "CHR",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-243",
+                          "guid": "B5FE0189-6877-4301-AF01-11591CC53C65",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Philosophy",
+                          "subject_code": "PHL",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Track Required Courses: 16 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-231",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-231",
+                      "guid": "B41CDA3F-8B32-4EEE-AF16-4C6DF9938B72",
+                      "name": "Sophomore Seminar",
+                      "number": "231",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-336",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-336",
+                      "guid": "36DB9028-A25C-4694-98AF-9AF0242FD4C9",
+                      "name": "Biblical Counseling Distinctions, Theology, and Foundations",
+                      "number": "336",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-337",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-337",
+                      "guid": "79F15CD6-DCFB-4EDC-ABE6-4FDFDDA38831",
+                      "name": "Biblical Counseling Methods and Practice",
+                      "number": "337",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-367",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-367",
+                      "guid": "B5CB3C73-C072-4881-B6FD-2726E4224335",
+                      "name": "Intro to Christian Evangelism",
+                      "number": "367",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-481",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-481",
+                      "guid": "422D8E07-8E71-464F-9DB3-B5E392DEF779",
+                      "name": "Christian Ministries Mentorshp",
+                      "number": "481",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-498",
+                      "guid": "1781E762-8F34-4B1B-A0B2-CD6CFEE58FE9",
+                      "name": "Senior Seminar",
+                      "number": "498",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        3
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Biblical Studies/Languages: 3 hours",
+                "req_narrative": null
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Theological Studies: 3 hours",
+                "req_narrative": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Missions Track",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements: 18 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-113",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-113",
+                      "guid": "20544302-42ED-4F42-89CA-C4D511638E92",
+                      "name": "Introduction to Bible Study and Interpretation",
+                      "number": "113",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-305",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-305",
+                      "guid": "D2DFF783-30EC-4E26-B732-8B800A9B9F81",
+                      "name": "History of Christianity",
+                      "number": "305",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-334",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-334",
+                      "guid": "947A7F91-B2FB-4776-8077-A58727B41CA5",
+                      "name": "Christian Spiritual Formation",
+                      "number": "334",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-338",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-338",
+                      "guid": "A00E0ECB-1C2E-4BD2-ADA7-451DBE03A446",
+                      "name": "Christian Doctrine",
+                      "number": "338",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                      "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                      "name": "Introduction to Philosophy",
+                      "number": "240",
+                      "subject_name": "Philosophy",
+                      "subject_code": "PHL",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                          "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Christian Studies",
+                          "subject_code": "CHR",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-243",
+                          "guid": "B5FE0189-6877-4301-AF01-11591CC53C65",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Philosophy",
+                          "subject_code": "PHL",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Track Required Courses: 10 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-231",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-231",
+                      "guid": "B41CDA3F-8B32-4EEE-AF16-4C6DF9938B72",
+                      "name": "Sophomore Seminar",
+                      "number": "231",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-367",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-367",
+                      "guid": "B5CB3C73-C072-4881-B6FD-2726E4224335",
+                      "name": "Intro to Christian Evangelism",
+                      "number": "367",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-377",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-377",
+                      "guid": "40849B92-D6A4-0778-A5A3-66E40418B3B",
+                      "name": "Introduction to Missions",
+                      "number": "377",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-498",
+                      "guid": "1781E762-8F34-4B1B-A0B2-CD6CFEE58FE9",
+                      "name": "Senior Seminar",
+                      "number": "498",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        3
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of electives from:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-245",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-245",
+                      "guid": "880C3AC2-51C7-487C-B4E7-7F2682E1EECA",
+                      "name": "Cross-Cultural Life and Ministry",
+                      "number": "245",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-299",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-299",
+                      "guid": "7ACD37C2-DE69-4462-B8F9-3FD6007C9EA4",
+                      "name": "Missions Practicum",
+                      "number": "299",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-308",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-308",
+                      "guid": "87AC910F-BCB9-4EED-9692-7F982777AF3D",
+                      "name": "Islam",
+                      "number": "308",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-322",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-322",
+                      "guid": "79D49FA3-ED63-4BA5-8F52-EE6CABDF9C7B",
+                      "name": "Current Issues in Missions",
+                      "number": "322",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-349",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-349",
+                      "guid": "46E76B0F-1434-31FB-3925-E3AB747E319",
+                      "name": "Christ and Other Faiths",
+                      "number": "349",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Biblical Studies: 3 hours",
+                "req_narrative": null
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Theological Studies: 3 hours",
+                "req_narrative": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Pastoral Ministry Track",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements: 18 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-113",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-113",
+                      "guid": "20544302-42ED-4F42-89CA-C4D511638E92",
+                      "name": "Introduction to Bible Study and Interpretation",
+                      "number": "113",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-305",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-305",
+                      "guid": "D2DFF783-30EC-4E26-B732-8B800A9B9F81",
+                      "name": "History of Christianity",
+                      "number": "305",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-334",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-334",
+                      "guid": "947A7F91-B2FB-4776-8077-A58727B41CA5",
+                      "name": "Christian Spiritual Formation",
+                      "number": "334",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-338",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-338",
+                      "guid": "A00E0ECB-1C2E-4BD2-ADA7-451DBE03A446",
+                      "name": "Christian Doctrine",
+                      "number": "338",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                      "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                      "name": "Introduction to Philosophy",
+                      "number": "240",
+                      "subject_name": "Philosophy",
+                      "subject_code": "PHL",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                          "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Christian Studies",
+                          "subject_code": "CHR",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-243",
+                          "guid": "B5FE0189-6877-4301-AF01-11591CC53C65",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Philosophy",
+                          "subject_code": "PHL",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Track Required Courses: 16 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-231",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-231",
+                      "guid": "B41CDA3F-8B32-4EEE-AF16-4C6DF9938B72",
+                      "name": "Sophomore Seminar",
+                      "number": "231",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-363",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-363",
+                      "guid": "C607BC6A-C9EA-45CB-AB1B-305C8FEC8F05",
+                      "name": "Biblical Preaching",
+                      "number": "363",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-365",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-365",
+                      "guid": "43B4F7C9-63DA-4896-8E02-FD5F8C2A2DFA",
+                      "name": "Pastoral Ministries",
+                      "number": "365",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-367",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-367",
+                      "guid": "B5CB3C73-C072-4881-B6FD-2726E4224335",
+                      "name": "Intro to Christian Evangelism",
+                      "number": "367",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-481",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-481",
+                      "guid": "422D8E07-8E71-464F-9DB3-B5E392DEF779",
+                      "name": "Christian Ministries Mentorshp",
+                      "number": "481",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-498",
+                      "guid": "1781E762-8F34-4B1B-A0B2-CD6CFEE58FE9",
+                      "name": "Senior Seminar",
+                      "number": "498",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        3
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Biblical Studies: 3 hours",
+                "req_narrative": null
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Theological Studies: 3 hours",
+                "req_narrative": null
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BasicRequirements",
+        "data": {
+          "title": "Youth Ministry Track",
+          "requirements": [
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Major Core Requirements: 18 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/100/chr-113",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/100/CHR-113",
+                      "guid": "20544302-42ED-4F42-89CA-C4D511638E92",
+                      "name": "Introduction to Bible Study and Interpretation",
+                      "number": "113",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-305",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-305",
+                      "guid": "D2DFF783-30EC-4E26-B732-8B800A9B9F81",
+                      "name": "History of Christianity",
+                      "number": "305",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-334",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-334",
+                      "guid": "947A7F91-B2FB-4776-8077-A58727B41CA5",
+                      "name": "Christian Spiritual Formation",
+                      "number": "334",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-338",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-338",
+                      "guid": "A00E0ECB-1C2E-4BD2-ADA7-451DBE03A446",
+                      "name": "Christian Doctrine",
+                      "number": "338",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-240",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-240",
+                      "guid": "BE3363FA-D13E-4397-A70B-972B2C86D7EE",
+                      "name": "Introduction to Philosophy",
+                      "number": "240",
+                      "subject_name": "Philosophy",
+                      "subject_code": "PHL",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Or",
+                    "data": [
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-243",
+                          "guid": "DC79EDD5-1144-412D-9023-9D0A049DE333",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Christian Studies",
+                          "subject_code": "CHR",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Course",
+                        "data": {
+                          "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/phl-philosophy/200/phl-243",
+                          "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/PHL-Philosophy/200/PHL-243",
+                          "guid": "B5FE0189-6877-4301-AF01-11591CC53C65",
+                          "name": "Introduction to Christian Ethics",
+                          "number": "243",
+                          "subject_name": "Philosophy",
+                          "subject_code": "PHL",
+                          "credits": [
+                            3,
+                            null
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Courses",
+              "data": {
+                "title": "Track Required Courses: 10 hours",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-231",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-231",
+                      "guid": "B41CDA3F-8B32-4EEE-AF16-4C6DF9938B72",
+                      "name": "Sophomore Seminar",
+                      "number": "231",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-367",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-367",
+                      "guid": "B5CB3C73-C072-4881-B6FD-2726E4224335",
+                      "name": "Intro to Christian Evangelism",
+                      "number": "367",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-481",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-481",
+                      "guid": "422D8E07-8E71-464F-9DB3-B5E392DEF779",
+                      "name": "Christian Ministries Mentorshp",
+                      "number": "481",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/400/chr-498",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/400/CHR-498",
+                      "guid": "1781E762-8F34-4B1B-A0B2-CD6CFEE58FE9",
+                      "name": "Senior Seminar",
+                      "number": "498",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        2,
+                        3
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "SelectFromCourses",
+              "data": {
+                "title": "Select 6 hours of electives from:",
+                "courses": [
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/200/chr-271",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/200/CHR-271",
+                      "guid": "D63F5B1F-22EA-42B3-AC7C-C83BC8A68D2E",
+                      "name": "Youth Ministry Strategies",
+                      "number": "271",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-320",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-320",
+                      "guid": "87B0D697-A030-4090-95CD-BC60E2AF1847",
+                      "name": "Sport Ministry & Recreation Mgmt",
+                      "number": "320",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-372",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-372",
+                      "guid": "DB7F3C28-7865-4336-B697-8487359656D5",
+                      "name": "Youth Ministry Administration",
+                      "number": "372",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  },
+                  {
+                    "type": "Course",
+                    "data": {
+                      "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/chr-christian-studies/300/chr-375",
+                      "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/CHR-Christian-Studies/300/CHR-375",
+                      "guid": "E64FC119-8FE5-42CA-8B06-1977086E0D29",
+                      "name": "Youth Ministry Issues",
+                      "number": "375",
+                      "subject_name": "Christian Studies",
+                      "subject_code": "CHR",
+                      "credits": [
+                        3,
+                        null
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Biblical Studies: 3 hours",
+                "req_narrative": null
+              }
+            },
+            {
+              "type": "Label",
+              "data": {
+                "title": "Elective from Theological Studies: 3 hours",
+                "req_narrative": null
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

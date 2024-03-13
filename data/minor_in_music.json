@@ -1,0 +1,200 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-music/liberal-arts-degrees/minor-in-music-25-hours",
+  "guid": "B3B5F147-A1D7-499A-801E-147835CB2679",
+  "title": "Minor in Music—25 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": null,
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/100/mus-109",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/100/MUS-109",
+                    "guid": "794217E1-264B-42C5-8EA5-38F6FD81C310",
+                    "name": "Elementary Music Theory",
+                    "number": "109",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-209",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-209",
+                    "guid": "297C8F87-4F0A-46E8-97D1-E2D3C72A9C14",
+                    "name": "Intermediate Music Theory",
+                    "number": "209",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      4,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/200/mus-220",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/200/MUS-220",
+                    "guid": "C4859AEA-11DA-417E-83B5-0CD959B30B2B",
+                    "name": "Survey of Music Literature",
+                    "number": "220",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/300/mus-316",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/300/MUS-316",
+                    "guid": "639C0EA5-E326-458A-8E9B-37F83702EC23",
+                    "name": "History of Music II",
+                    "number": "316",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Applied Music Studies:",
+              "courses": [
+                {
+                  "type": "Label",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/take-4-hours-semesters-of-mus-150-250",
+                    "guid": "CB113F88-978D-4296-8430-2B2170281414",
+                    "name": "Take 4 hours/semesters of MUS 150-250",
+                    "number": null,
+                    "subject_code": null,
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Label",
+            "data": {
+              "title": "Ensemble Experience–4 hours/semesters",
+              "req_narrative": null
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Recital Attendance–4 semesters:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/mus-music/000/mus-000",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/MUS-Music/000/MUS-000",
+                    "guid": "E2B8BBCA-CEC8-4C9C-9FC4-BE08332F667C",
+                    "name": "Recital Attendance",
+                    "number": "000",
+                    "subject_name": "Music",
+                    "subject_code": "MUS",
+                    "credits": [
+                      0,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Upper-level MUS elective–3 hours:",
+              "courses": [
+                {
+                  "type": "Or",
+                  "data": [
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/mus-329",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/Narrative-Courses/MUS-329",
+                        "guid": "1E5DBD71-2D55-47F5-A4BB-3B21650A8403",
+                        "name": null,
+                        "number": "329",
+                        "subject_name": null,
+                        "subject_code": "MUS",
+                        "credits": [
+                          0,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Course",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/mus-429",
+                        "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/Narrative-Courses/MUS-429",
+                        "guid": "4BB327F5-B4A7-406E-A841-BB3562DC1902",
+                        "name": null,
+                        "number": "429",
+                        "subject_name": null,
+                        "subject_code": "MUS",
+                        "credits": [
+                          0,
+                          null
+                        ]
+                      }
+                    },
+                    {
+                      "type": "Label",
+                      "data": {
+                        "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/narrative-courses/academic-mus-courses",
+                        "guid": "A005506F-9E56-4643-A2AA-DA57742A6DEE",
+                        "name": "Academic MUS courses",
+                        "number": null,
+                        "subject_code": null,
+                        "credits": [
+                          0,
+                          null
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

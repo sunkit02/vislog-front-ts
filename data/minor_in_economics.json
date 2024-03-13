@@ -1,0 +1,95 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/mcafee-school-of-business/minor-in-economics-18-hours",
+  "guid": "1D73103A-6244-4718-A360-1709BE3A20D5",
+  "title": "Minor in Economics—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "BasicRequirements",
+      "data": {
+        "title": "Degree Requirements",
+        "requirements": [
+          {
+            "type": "Courses",
+            "data": {
+              "title": "Minor Required Courses:",
+              "courses": [
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/200/eco-211",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/200/ECO-211",
+                    "guid": "83ECD647-1004-A2C9-B612-08837456678",
+                    "name": "Principles of Macroeconomics",
+                    "number": "211",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/200/eco-212",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/200/ECO-212",
+                    "guid": "64D5DE62-28C7-449E-A022-6F34C5EC89C2",
+                    "name": "Principles of Microeconomics",
+                    "number": "212",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-411",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-411",
+                    "guid": "1D3F812C-DE14-401B-82E3-D86A4275CCEB",
+                    "name": "Intermediate Macroeconomics",
+                    "number": "411",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                },
+                {
+                  "type": "Course",
+                  "data": {
+                    "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/eco-economics/400/eco-412",
+                    "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/ECO-Economics/400/ECO-412",
+                    "guid": "33B052D8-0BFC-4595-A41D-B9F437A28ACA",
+                    "name": "Intermediate Microeconomics",
+                    "number": "412",
+                    "subject_name": "Economics",
+                    "subject_code": "ECO",
+                    "credits": [
+                      3,
+                      null
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "SelectFromCourses",
+            "data": {
+              "title": "Select 6 hours of upper-level ECO electives",
+              "courses": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

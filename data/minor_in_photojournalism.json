@@ -1,0 +1,118 @@
+{
+  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/college-of-arts-and-sciences/department-of-communication-arts/minor-in-photojournalism-18-hours",
+  "guid": "822DBA36-C510-4D07-AC07-DB73CEF9C471",
+  "title": "Minor in Photojournalism—18 hours",
+  "requirements": {
+    "type": "Single",
+    "data": {
+      "type": "SingleBasicRequirement",
+      "data": {
+        "title": "Degree Requirements",
+        "requirement": {
+          "type": "Courses",
+          "data": {
+            "title": "Minor Requirements:",
+            "courses": [
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/100/com-121",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/100/COM-121",
+                  "guid": "99F0573E-B9A4-4DBF-ADB7-F53363A9FBD0",
+                  "name": "Writing Across Media Platforms",
+                  "number": "121",
+                  "subject_name": "Communication Arts",
+                  "subject_code": "COM",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/200/com-236",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/200/COM-236",
+                  "guid": "BB319359-C4FD-4D2C-B83E-E3353902C941",
+                  "name": "Digital Photography",
+                  "number": "236",
+                  "subject_name": "Communication Arts",
+                  "subject_code": "COM",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-326",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-326",
+                  "guid": "D39C826C-DA8A-41D4-BA6D-5BDE2D5EA850",
+                  "name": "Social Documentary",
+                  "number": "326",
+                  "subject_name": "Communication Arts",
+                  "subject_code": "COM",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-336",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-336",
+                  "guid": "ADA8D571-857A-4440-B3BD-C01013DBE03D",
+                  "name": "Editorial Photography",
+                  "number": "336",
+                  "subject_name": "Communication Arts",
+                  "subject_code": "COM",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/300/com-346",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/300/COM-346",
+                  "guid": "F89AEFF7-AFA9-4B2C-BCB7-4EED24E0F23A",
+                  "name": "Photo Editing",
+                  "number": "346",
+                  "subject_name": "Communication Arts",
+                  "subject_code": "COM",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              },
+              {
+                "type": "Course",
+                "data": {
+                  "url": "https://iq5prod1.smartcatalogiq.com:443/en/catalogs/union-university/2023/academic-catalogue-undergraduate-catalogue/courses/com-communication-arts/400/com-426",
+                  "path": "/sitecore/content/Catalogs/Union-University/2023/Academic-Catalogue-Undergraduate-Catalogue/Courses/COM-Communication-Arts/400/COM-426",
+                  "guid": "EAF0E13E-243B-4A30-86AB-C8D9F6AAB53C",
+                  "name": "Professional Portfolio",
+                  "number": "426",
+                  "subject_name": "Communication Arts",
+                  "subject_code": "COM",
+                  "credits": [
+                    3,
+                    null
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
