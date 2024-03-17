@@ -1,5 +1,5 @@
 import { ReactiveMap } from "@solid-primitives/map";
-import { For, JSXElement, Match, Switch } from "solid-js";
+import { For, JSXElement, Match, Show, Switch } from "solid-js";
 import { generateId } from "../utils/keygen";
 import * as T from "../types";
 
@@ -15,7 +15,7 @@ function NewProgramMap(props: { program: T.Program }) {
   const nodes = new ReactiveMap<string, NodeInfo>();
 
   return (
-    <article class="h-[80vh] w-[90vw] rounded-lg border-2 border-solid border-black bg-yellow-50 p-5">
+    <article class="h-[90vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5">
       <Program program={props.program} />
     </article>
   );
@@ -24,9 +24,16 @@ function NewProgramMap(props: { program: T.Program }) {
 function Program(props: { program: T.Program }) {
   console.log("Program", props.program);
   const contents = (
-    <>
-      <h3 class="text-center">{props.program.title}</h3>
-    </>
+    <div class="flex flex-col items-center justify-center">
+      <h3 class="w-[80%] text-center">{props.program.title}</h3>
+      <a
+        href={props.program.url}
+        target="_blank"
+        class="underline hover:text-blue-600"
+      >
+        Link to Catalog
+      </a>
+    </div>
   );
 
   return (
@@ -104,7 +111,7 @@ function RequirementModule(props: { reqModule: T.RequirementModule }) {
 }
 
 function SingleBasicRequirement(props: { req: T.SingleBasicRequirement }) {
-  const content = <h3>{props.req.title}</h3>;
+  const content = <h3 class="w-[80%] text-center">{props.req.title}</h3>;
 
   return (
     <Node
@@ -117,16 +124,20 @@ function SingleBasicRequirement(props: { req: T.SingleBasicRequirement }) {
 }
 
 function BasicRequirements(props: { req: T.BasicRequirements }) {
-  const content = <h3>{props.req.title}</h3>;
+  console.log("BasicRequirements", props.req);
+  console.log("BasicRequirements title", props.req.data.title);
+  const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
 
   return (
     <Node
-      id={generateId(props.req.title || "SingleBasicRequirement")}
+      id={generateId(props.req.data.title || "SingleBasicRequirement")}
       nodeContent={content}
     >
-      <For each={props.req.requirements}>
-        {(req) => <Requirement req={req} />}
-      </For>
+      <div class="flex flex-row items-start justify-center">
+        <For each={props.req.data.requirements}>
+          {(req) => <Requirement req={req} />}
+        </For>
+      </div>
     </Node>
   );
 }
@@ -135,7 +146,7 @@ function ModuleLabel(props: { req: T.ModuleLabel }) {
   return (
     <Node
       id={generateId(props.req.data.title)}
-      nodeContent={<h3>{props.req.data.title}</h3>}
+      nodeContent={<h3 class="w-[80%] text-center">{props.req.data.title}</h3>}
     />
   );
 }
@@ -146,9 +157,10 @@ function Unimplemented(props: { rawContent: unknown }) {
     <Node
       id={id}
       nodeContent={
-        <>
-          <h3>Unimplemented</h3>
+        <div class="flex flex-col items-center justify-center p-5">
+          <h3 class="w-[80%] text-center">Unimplemented</h3>
           <button
+            class="rounded-md bg-blue-300 px-5 py-3"
             onClick={() => {
               console.log(`RawContent for Node with id: ${id}`);
               console.log(JSON.stringify(props.rawContent, null, 4));
@@ -156,7 +168,7 @@ function Unimplemented(props: { rawContent: unknown }) {
           >
             Console Log Raw Content
           </button>
-        </>
+        </div>
       }
     />
   );
@@ -181,13 +193,17 @@ function Requirement(props: { req: T.Requirement }) {
 function Courses(props: {
   data: { title: string | null; courses: T.CourseEntry[] };
 }) {
-  const content = <h3>{props.data.title || "Courses"}</h3>;
+  const content = (
+    <h3 class="w-[80%] text-center">{props.data.title || "Courses"}</h3>
+  );
 
   return (
     <Node id={generateId(props.data.title || "Courses")} nodeContent={content}>
-      <For each={props.data.courses}>
-        {(entry) => <CourseEntry entry={entry} />}
-      </For>
+      <div class="flex flex-col items-center justify-center gap-20">
+        <For each={props.data.courses}>
+          {(entry) => <CourseEntry entry={entry} />}
+        </For>
+      </div>
     </Node>
   );
 }
@@ -195,7 +211,21 @@ function Courses(props: {
 function SelectFromCourses(props: {
   data: { title: string; courses: T.CourseEntry[] | null };
 }) {
-  return <Unimplemented rawContent={props.data} />;
+  return (
+    <Node
+      id={generateId(props.data.title)}
+      nodeContent={
+        <div class="flex flex-col items-center justify-center gap-5">
+          <h3 class="w-[80%] text-center">{props.data.title}</h3>
+          <Show when={props.data.courses} fallback={<p>No courses listed.</p>}>
+            {(entries) =>
+              entries().map((entry) => <CourseEntry entry={entry} />)
+            }
+          </Show>
+        </div>
+      }
+    />
+  );
 }
 
 function RequirementLabel(props: {
@@ -206,7 +236,7 @@ function RequirementLabel(props: {
       id={generateId(props.data.title || "RequirementLabel")}
       nodeContent={
         <>
-          <h3>{props.data.title}</h3>
+          <h3 class="w-[80%] text-center">{props.data.title}</h3>
           <p>{props.data.reqNarrative}</p>
         </>
       }
@@ -238,52 +268,74 @@ function And(props: { entries: T.CourseEntry[] }) {
     <Node
       id={generateId("And")}
       nodeContent={
-        <>
-          <h3>And</h3>
-          <For each={props.entries}>
-            {(entry) => <CourseEntry entry={entry} />}
-          </For>
-        </>
+        <div class="flex flex-col items-center justify-center gap-5 p-5">
+          <h3 class="w-[80%] text-center">And</h3>
+          <div
+            class={`flex ${props.entries.length <= 3 ? "flex-row" : "flex-col"} items-center justify-center gap-5`}
+          >
+            <For each={props.entries}>
+              {(entry) => <CourseEntry entry={entry} />}
+            </For>
+          </div>
+        </div>
       }
     ></Node>
   );
 }
+
+// TODO: Display different options as horizontal branches of the program map
 function Or(props: { entries: T.CourseEntry[] }) {
+  console.log("Or entry length: ", props.entries.length);
+
   return (
     <Node
       id={generateId("Or")}
       nodeContent={
-        <>
-          <h3>And</h3>
-          <For each={props.entries}>
-            {(entry) => <CourseEntry entry={entry} />}
-          </For>
-        </>
+        <div class="flex flex-col items-center justify-center gap-5 p-5">
+          <h3 class="w-[80%] text-center">Or</h3>
+          <div
+            class={`flex ${props.entries.length <= 3 ? "flex-row" : "flex-col"} items-center justify-center gap-5`}
+          >
+            <For each={props.entries}>
+              {(entry) => <CourseEntry entry={entry} />}
+            </For>
+          </div>
+        </div>
       }
     ></Node>
   );
 }
+
 function Label(props: { label: T.Label }) {
   return (
     <Node
       id={generateId(props.label.name)}
       nodeContent={
         <>
-          <h3>{props.label.name}</h3>
+          <h3 class="w-[80%] text-center">{props.label.name}</h3>
         </>
       }
     />
   );
 }
+
 function Course(props: { course: T.Course }) {
   return (
     <Node
       id={generateId(props.course.name || "Course")}
       nodeContent={
-        <>
-          <h3>{props.course.name || `Course: ${props.course.guid}`}</h3>
-          <a href={props.course.url}>Link to Course</a>
-        </>
+        <div class="flex flex-col items-center justify-center">
+          <h3 class="w-[80%] text-center">
+            {props.course.name || `Course: ${props.course.guid}`}
+          </h3>
+          <a
+            href={props.course.url}
+            target="_blank"
+            class="underline hover:text-blue-600"
+          >
+            Link to Course
+          </a>
+        </div>
       }
     />
   );
@@ -295,15 +347,15 @@ function Node(props: {
   children?: JSXElement;
 }) {
   return (
-    <div class="flex flex-shrink-0 flex-col items-center justify-center">
+    <div class="flex flex-shrink-0 flex-col items-center justify-center gap-20">
       <section
         id={props.id}
-        class="flex h-[120px] w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black bg-sky-100 hover:cursor-pointer hover:bg-sky-300"
+        class="flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black bg-sky-100 hover:bg-sky-300"
       >
         {props.nodeContent}
       </section>
       {props.children ? (
-        <div class="flex flex-shrink-0 flex-row items-center justify-center">
+        <div class="flex flex-shrink-0 flex-row items-center justify-center gap-20">
           {props.children}
         </div>
       ) : null}

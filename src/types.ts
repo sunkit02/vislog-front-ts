@@ -45,8 +45,10 @@ export type SingleBasicRequirement = {
 
 export type BasicRequirements = {
   type: RequirementModuleType.BasicRequirements;
-  title: string | null;
-  requirements: Requirement[];
+  data: {
+    title: string | null;
+    requirements: Requirement[];
+  };
 };
 
 export type SelectOneEmphasis = {
