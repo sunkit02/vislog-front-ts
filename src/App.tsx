@@ -1,12 +1,12 @@
 import {
-  Match,
-  Suspense,
-  Switch,
+  Show,
   createEffect,
   createResource,
   createSignal,
 } from "solid-js";
 import SearchBar from "./components/utility/SearchBar";
+import NewProgramMap from "./components/NewProgramMap";
+import { Program } from "./types";
 
 const fetchProgramNames = async (): Promise<string[]> => {
   const url = `http://localhost:3001/program_names.json`;
@@ -26,7 +26,8 @@ const fetchProgram = async (programName: string): Promise<Program> => {
 };
 
 function App() {
-  const [programName, setProgramName] = createSignal("");
+  const [programName, setProgramName] = createSignal("Major in Computer Science");
+  // FIX: Do not fetch resource when `programName` is an empty string
   const [programJson] = createResource(programName, fetchProgram);
   const [programNamesResource] = createResource(fetchProgramNames);
   const [programNames, setProgramNames] = createSignal<string[]>([]);
@@ -43,33 +44,48 @@ function App() {
     }
   });
 
+  createEffect(() => console.log(`JSON for ${programName()}`, programJson()))
+
   return (
-    <div>
-      <div class="flex justify-center">
-      <SearchBar
-        setSearchText={setProgramName}
-        possibleSearches={programNames}
-      />
+    <>
+      <div>
+        <div class="flex justify-center">
+          <SearchBar
+            setSearchText={setProgramName}
+            possibleSearches={programNames}
+          />
+        </div>
+        <div class="flex justify-center items-center mt-5">
+        <Show
+          when={programJson.state === "ready"}
+          fallback={<div>Loading program json</div>}
+        >
+          <NewProgramMap program={programJson() as Program} />
+        </Show>
+        </div>
       </div>
-      {programName().length > 0 ? (
-        <Suspense fallback={<p>Loading...</p>}>
-          <Switch>
-            <Match when={programJson.error}>
-              <span>
-                Error: {`Program with name: ${programName()} is not found.`}
-              </span>
-            </Match>
-            <Match when={programJson()}>
-              <textarea class="h-[90vh] w-full resize-none overflow-scroll text-sky-800">
-                {JSON.stringify(programJson(), null, 4)}
-              </textarea>
-            </Match>
-          </Switch>
-        </Suspense>
-      ) : null}
-    </div>
+    </>
   );
 }
+
+// const oldProgramMap = (
+//   <Show when={programName().length > 0}>
+//     <Suspense fallback={<p>Loading...</p>}>
+//       <Switch>
+//         <Match when={programJson.error}>
+//           <span>
+//             Error: {`Program with name: ${programName()} is not found.`}
+//           </span>
+//         </Match>
+//         <Match when={programJson()}>
+//           <textarea class="h-[90vh] w-full resize-none overflow-scroll text-sky-800">
+//             {JSON.stringify(programJson(), null, 4)}
+//           </textarea>
+//         </Match>
+//       </Switch>
+//     </Suspense>
+//   </Show>
+// );
 
 // const oldSearchBar = (
 //       <input
@@ -83,5 +99,50 @@ function App() {
 //         }}
 //       />
 // );
+const CS_MAJOR = {
+  title: "CS Major",
+  requirements: [
+    {
+      title: "Prerequisites",
+      courses: [
+        {
+          title: "Calculus I",
+        },
+        {
+          title: "Calculus II",
+        },
+        {
+          title: "Discrete Math",
+        },
+      ],
+    },
+    {
+      title: "Major Requirements",
+      courses: [
+        {
+          title: "Intro to Computer Science",
+        },
+        {
+          title: "Programming in Java",
+        },
+        {
+          title: "Database Management Systems",
+        },
+        {
+          title: "Computer Architecture",
+        },
+        {
+          title: "Operating Systems",
+        },
+        {
+          title: "Senior Seminar I",
+        },
+        {
+          title: "Senior Seminar II",
+        },
+      ],
+    },
+  ],
+};
 
 export default App;
