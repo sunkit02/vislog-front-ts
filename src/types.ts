@@ -1,35 +1,35 @@
-type Program = {
+export type Program = {
   url: string;
   guid: string;
   title: string;
   requirements: Requirements | null;
 };
 
-type Requirements = SingleRequirement | ManyRequirements;
+export type Requirements = SingleRequirement | ManyRequirements;
 
-type SingleRequirement = {
+export type SingleRequirement = {
   type: RequirementsType.Single;
   data: RequirementModule;
 };
 
-type ManyRequirements = {
+export type ManyRequirements = {
   type: RequirementsType.Many;
   data: RequirementModule[];
 };
 
-const enum RequirementsType {
+export const enum RequirementsType {
   Single = "Single",
   Many = "Many",
 }
 
-type RequirementModule =
+export type RequirementModule =
   | SingleBasicRequirement
   | BasicRequirements
   | SelectOneEmphasis
   | ModuleLabel
   | Unimplemented;
 
-const enum RequirementModuleType {
+export const enum RequirementModuleType {
   SingleBasicRequirement = "SingleBasicRequirement",
   BasicRequirements = "BasicRequirements",
   SelectOneEmphasis = "SelectOneEmphasis",
@@ -37,19 +37,19 @@ const enum RequirementModuleType {
   Unimplemented = "Unimplemented",
 }
 
-type SingleBasicRequirement = {
+export type SingleBasicRequirement = {
   type: RequirementModuleType.SingleBasicRequirement;
   title: string | null;
   requirement: Requirement;
 };
 
-type BasicRequirements = {
+export type BasicRequirements = {
   type: RequirementModuleType.BasicRequirements;
   title: string | null;
   requirements: Requirement[];
 };
 
-type SelectOneEmphasis = {
+export type SelectOneEmphasis = {
   type: RequirementModuleType.SelectOneEmphasis;
   data: Requirement[];
 };
@@ -57,27 +57,27 @@ type SelectOneEmphasis = {
 /**
  * Corresponding to rust enum `vislog::RequirementModule::Label`
  */
-type ModuleLabel = {
+export type ModuleLabel = {
   type: RequirementModuleType.Label;
   data: {
     title: string;
   };
 };
 
-type Unimplemented = {
+export type Unimplemented = {
   type: RequirementModuleType.Unimplemented;
   data: unknown;
 };
 
-type Requirement = Courses | SelectFromCourses | RequirementLabel;
+export type Requirement = Courses | SelectFromCourses | RequirementLabel;
 
-const enum RequirementType {
+export const enum RequirementType {
   Courses = "Courses",
   SelectFromCourses = "SelectFromCourses",
   Label = "Label",
 }
 
-type Courses = {
+export type Courses = {
   type: RequirementType.Courses;
   data: {
     title: string | null;
@@ -85,7 +85,7 @@ type Courses = {
   };
 };
 
-type SelectFromCourses = {
+export type SelectFromCourses = {
   type: RequirementType.SelectFromCourses;
   data: {
     title: string;
@@ -96,44 +96,44 @@ type SelectFromCourses = {
 /**
  * Corresponding to rust enum `vislog::Requirement::Label`
  */
-type RequirementLabel = {
+export type RequirementLabel = {
   type: RequirementType.Label;
   data: {
     title: string | null;
-    req_narrative: string | null;
+    reqNarrative: string | null;
   };
 };
 
-type CourseEntry = And | Or | EntryLabel | EntryCourse;
+export type CourseEntry = And | Or | EntryLabel | EntryCourse;
 
-const enum CourseEntryType {
+export const enum CourseEntryType {
   And = "And",
   Or = "Or",
-  EntryLabel = "EntryLabel",
+  Label = "Label",
   Course = "Course",
 }
 
-type And = {
+export type And = {
   type: CourseEntryType.And;
   data: CourseEntry[];
 };
 
-type Or = {
+export type Or = {
   type: CourseEntryType.Or;
   data: CourseEntry[];
 };
 
-type EntryLabel = {
-  type: CourseEntryType.EntryLabel;
+export type EntryLabel = {
+  type: CourseEntryType.Label;
   data: Label;
 };
 
-type EntryCourse = {
+export type EntryCourse = {
   type: CourseEntryType.Course;
   data: Course;
 };
 
-type Label = {
+export type Label = {
   url: string;
   guid: string;
   name: string;
@@ -141,7 +141,7 @@ type Label = {
   subject_code: string | null;
   credits: [number, number | null];
 };
-type Course = {
+export type Course = {
   url: string;
   path: string;
   guid: string;
