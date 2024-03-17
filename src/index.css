@@ -7,3 +7,81 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.pm-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  border: solid 2px black;
+  border-radius: 1rem;
+
+  height: 80vh;
+}
+
+.pm-edges-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.pm-title {
+  background: skyblue;
+}
+
+.pm-map-container {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  border: solid 2px maroon;
+  border-radius: 1rem;
+  background-color: beige;
+
+  height: 80%;
+  width: 90%;
+
+  overflow: scroll;
+}
+
+.node {
+  margin: 3rem;
+
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 100px;
+}
+
+.normal-node {
+  background-color: skyblue;
+}
+
+.hover-node {
+  background-color: yellow;
+}
+
+.pm-req-wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pm-req-course-wrapper {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+

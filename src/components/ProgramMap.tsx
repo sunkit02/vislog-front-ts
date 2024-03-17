@@ -7,24 +7,16 @@
 
 import { ReactiveMap } from "@solid-primitives/map";
 import { generateId } from "../utils/keygen";
-import { createEffect, createSignal, onMount } from "solid-js";
+import { For, JSXElement, createEffect, createSignal } from "solid-js";
 
-// type Node {
-//    htmlNode: HTMLElement,
-//    parent: Node | null,
-//    children: Node[],
-//    childrenEdges: Edge[],
-// }
-//
-// type Edge {
-//    x1,
-//    y1,
-//    x2,
-//    y2,
-// }
+type NodeInfo = {
+  parentId: string | null;
+  childrenIds: string[];
+};
 
-function HProgramMap(props) {
-  let nodes = new ReactiveMap();
+
+function ProgramMap(props: { program: any }) {
+  let nodes = new ReactiveMap<string, NodeInfo>();
   console.log("Immediately: ", Array.from(nodes));
 
   return (
@@ -36,16 +28,19 @@ function HProgramMap(props) {
         }}
       >
         <Program
-          nodes={nodes}
           title={props.program.title}
           requirements={props.program.requirements}
+          nodes={nodes}
         />
       </ProgramMapContainer>
     </>
   );
 }
 
-function ProgramMapContainer(props) {
+function ProgramMapContainer(props: {
+  style: { [key: string]: string };
+  children: JSXElement;
+}) {
   return (
     <article
       style={{
@@ -69,7 +64,7 @@ function ProgramMapContainer(props) {
   );
 }
 
-function SVGOverlay(props) {
+function SVGOverlay(props: { children: JSXElement }) {
   return (
     <svg
       style={{
@@ -86,48 +81,62 @@ function SVGOverlay(props) {
   );
 }
 
-function Program(props) {
-  let [arrows, setArrows] = createSignal([]);
+function Program(props: {
+  nodes: ReactiveMap<string, NodeInfo>;
+  title: string;
+  requirements: any;
+}) {
+  let [arrows, setArrows] = createSignal<JSXElement[]>([]);
   let id = generateId(props.title);
 
   createEffect(() => {
     const svgOverlay = document.querySelector("svg");
-    const { x: overlayOffsetX, y: overlayOffsetY } =
-      svgOverlay.getBoundingClientRect();
+    if (svgOverlay) {
+      const { x: overlayOffsetX, y: overlayOffsetY } =
+        svgOverlay.getBoundingClientRect();
 
-    setArrows(
-      Array.from(props.nodes)
+      let newArrows = Array.from(props.nodes)
         .map(([id, nodeEntry]) => {
           console.log(`id: ${id}`);
           const node = document.getElementById(id);
-          let { x, y, height, width } = node.getBoundingClientRect();
+          if (node) {
+            const { x, y, height, width } = node.getBoundingClientRect();
 
-          const startX = x + width - overlayOffsetX;
-          const startY = y + height / 2 - overlayOffsetY;
+            const startX = x + width - overlayOffsetX;
+            const startY = y + height / 2 - overlayOffsetY;
 
-          return nodeEntry.childrenIds.map((childId) => {
-            const childNode = document.getElementById(childId);
+            return nodeEntry.childrenIds.map((childId) => {
+              const childNode = document.getElementById(childId);
 
-            const childX = childNode.getBoundingClientRect().x;
-            const childY = childNode.getBoundingClientRect().y;
-            const childHeight = childNode.getBoundingClientRect().height;
+              if (childNode) {
+                const childX = childNode.getBoundingClientRect().x;
+                const childY = childNode.getBoundingClientRect().y;
+                const childHeight = childNode.getBoundingClientRect().height;
 
-            const endX = childX - overlayOffsetX;
-            const endY = childY + childHeight / 2 - overlayOffsetY;
+                const endX = childX - overlayOffsetX;
+                const endY = childY + childHeight / 2 - overlayOffsetY;
 
-            return (
-              <SmoothCurveArrow
-                id={`${id}->${childId}`}
-                x1={startX}
-                y1={startY}
-                x2={endX}
-                y2={endY}
-              />
-            );
-          });
+                return (
+                  <SmoothCurveArrow
+                    id={`${id}->${childId}`}
+                    x1={startX}
+                    y1={startY}
+                    x2={endX}
+                    y2={endY}
+                  />
+                );
+              }
+              return null;
+            });
+          } else {
+            return null;
+          }
         })
         .flat()
-    );
+        .filter((e) => e);
+
+      setArrows(newArrows);
+    }
   });
 
   // NOTE: This must be placed before the children nodes are generated to ensure that this entry exists when accessed by children
@@ -159,7 +168,10 @@ function Program(props) {
   );
 }
 
-function NodeContainer(props) {
+function NodeContainer(props: {
+  children: JSXElement;
+  childrenNodes: JSXElement;
+}) {
   const [childrenHidden, setChildrenHidden] = createSignal(false);
 
   return (
@@ -194,15 +206,20 @@ function NodeContainer(props) {
   );
 }
 
-function Node(props) {
+function Node(props: {
+  id: string;
+  margin?: string;
+  nodes: ReactiveMap<string, NodeInfo>;
+  children: JSXElement;
+}) {
   let nodeRef;
 
-  function highlightNode(targetNode) {
+  function highlightNode(targetNode: HTMLElement) {
     targetNode.classList.remove("normal-node");
     targetNode.classList.add("hover-node");
   }
 
-  function unHighlightNode(targetNode) {
+  function unHighlightNode(targetNode: HTMLElement) {
     targetNode.classList.add("normal-node");
     targetNode.classList.remove("hover-node");
   }
@@ -211,40 +228,51 @@ function Node(props) {
     console.log(`Mouse entered ${props.id}`);
 
     // Highlight current node and all its parents
-    let currNodeId = props.id;
+    let currNodeId: string | undefined | null = props.id;
     while (currNodeId) {
       console.log(currNodeId);
       const currNode = document.getElementById(currNodeId);
-      highlightNode(currNode);
+      if (currNode) {
+        highlightNode(currNode);
 
-      const parentId = props.nodes.get(currNodeId).parentId;
-      if (parentId) {
-        const arrowId = `${parentId}->${currNodeId}`;
-        const arrow = document.getElementById(arrowId);
-        arrow.setAttribute("stroke", "lightblue");
+        const parentId: string | null | undefined =
+          props.nodes.get(currNodeId)?.parentId;
+        if (parentId) {
+          const arrowId = `${parentId}->${currNodeId}`;
+          const arrow = document.getElementById(arrowId);
+          arrow?.setAttribute("stroke", "lightblue");
+        }
+
+        currNodeId = parentId;
+      } else {
+        currNodeId = null;
       }
-
-      currNodeId = parentId;
     }
   }
+
   function handleMouseLeaveNode() {
     console.log(`Mouse left ${props.id}`);
 
     // Highlight current node and all its parents
-    let currNodeId = props.id;
+    let currNodeId: string | null | undefined = props.id;
     while (currNodeId) {
       console.log(currNodeId);
       const currNode = document.getElementById(currNodeId);
-      unHighlightNode(currNode);
+      if (currNode) {
+        unHighlightNode(currNode);
 
-      const parentId = props.nodes.get(currNodeId).parentId;
-      if (parentId) {
-        const arrowId = `${parentId}->${currNodeId}`;
-        const arrow = document.getElementById(arrowId);
-        arrow.setAttribute("stroke", "black");
+        const parentId: string | null | undefined =
+          props.nodes.get(currNodeId)?.parentId;
+        if (parentId) {
+          const arrowId = `${parentId}->${currNodeId}`;
+          const arrow = document.getElementById(arrowId);
+          arrow?.setAttribute("stroke", "black");
+        }
+
+        currNodeId = parentId;
+      } else {
+        currNodeId = null;
       }
-
-      currNodeId = parentId;
     }
   }
 
@@ -273,7 +301,12 @@ function Node(props) {
   );
 }
 
-function Requirement(props) {
+function Requirement(props: {
+  parentId: string;
+  title: string;
+  nodes: ReactiveMap<string, NodeInfo>;
+  entries: any[];
+}) {
   const id = generateId(props.title);
 
   // Add current Node as an entry to nodes map
@@ -285,8 +318,10 @@ function Requirement(props) {
   // Add current Node's id to parent Node's children list
   const parentId = props.parentId;
   const parentEntry = props.nodes.get(parentId);
-  const newChildrenIds = [...parentEntry.childrenIds, id];
-  props.nodes.set(parentId, { ...parentEntry, childrenIds: newChildrenIds });
+  if (parentEntry) {
+    const newChildrenIds = [...parentEntry.childrenIds, id];
+    props.nodes.set(parentId, { ...parentEntry, childrenIds: newChildrenIds });
+  }
 
   let childrenNodes = (
     <For each={props.entries}>
@@ -305,7 +340,11 @@ function Requirement(props) {
   );
 }
 
-function CourseEntry(props) {
+function CourseEntry(props: {
+  parentId: string;
+  title: string;
+  nodes: ReactiveMap<string, NodeInfo>;
+}) {
   const id = generateId(props.title);
 
   // Add current Node as an entry to nodes map
@@ -319,8 +358,10 @@ function CourseEntry(props) {
   // Add current Node's id to parent Node's children list
   const parentId = props.parentId;
   const parentEntry = props.nodes.get(parentId);
-  const newChildrenIds = [...parentEntry.childrenIds, id];
-  props.nodes.set(parentId, { ...parentEntry, childrenIds: newChildrenIds });
+  if (parentEntry) {
+    const newChildrenIds = [...parentEntry.childrenIds, id];
+    props.nodes.set(parentId, { ...parentEntry, childrenIds: newChildrenIds });
+  }
 
   return (
     <Node id={id} nodes={props.nodes}>
@@ -329,7 +370,15 @@ function CourseEntry(props) {
   );
 }
 
-function SmoothCurveArrow(props) {
+function SmoothCurveArrow(props: {
+  id: string;
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  strokeWidth?: number;
+  showCurveLines?: boolean;
+}) {
   const mid = {
     x: (props.x1 + props.x2) / 2,
     y: (props.y1 + props.y2) / 2,
@@ -405,4 +454,4 @@ function SmoothCurveArrow(props) {
   );
 }
 
-export default HProgramMap;
+export default ProgramMap;
