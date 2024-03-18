@@ -29,15 +29,19 @@ function SearchBar(props: SearchBarProps) {
         console.log("article focusout");
       }}
     >
-      <div class={`rounded-t-3xl ${inputActive() && props.possibleSearches().length > 0 ? "bg-sky-200" : "bg-transparent"}`}>
-        <div class={`flex flex-row w-full ${inputActive() ? "bg-sky-200" : "bg-sky-100" } overflow-ellipsis rounded-t-3xl rounded-b-3xl border-2 border-solid border-sky-300 px-5 focus:border-none`}>
+      <div
+        class={`w-full rounded-t-3xl ${inputActive() && props.possibleSearches().length > 0 ? "bg-sky-200" : "bg-transparent"}`}
+      >
+        <div
+          class={`flex w-full flex-row ${inputActive() ? "bg-sky-200" : "bg-sky-100 outline outline-2 outline-sky-300"} rounded-b-3xl rounded-t-3xl px-5`}
+        >
           <input
             onFocus={() => {
               console.log("input focus in");
               setInputActive(true);
             }}
             ref={inputBox}
-            class="w-full focus:outline-none bg-transparent py-3"
+            class="w-full bg-transparent py-3 focus:outline-none"
             type="text"
             placeholder="Enter program name"
             value={input()}
@@ -51,23 +55,26 @@ function SearchBar(props: SearchBarProps) {
               }
             }}
           />
-          <button 
-            class="h-[50px] w-[30px] bg-transparent text-sky-600 flex justify-center items-center"
+          <button
+            class="flex h-[50px] w-[30px] items-center justify-center bg-transparent text-sky-600"
             hidden={input().length === 0}
             onClick={() => {
               setInput("");
               if (inputBox) {
                 inputBox.focus();
               }
-            }}>
-            <svg class="h-[25px] w-[25px] flex">
-              <path 
+            }}
+          >
+            <svg class="flex h-[25px] w-[25px]">
+              <path
                 class="fill-sky-500"
                 d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              >
-              </path>
+              ></path>
             </svg>
           </button>
+        </div>
+        <div hidden={!inputActive()} class="flex flex-row justify-center items-center w-full">
+          <div class="w-[98%] border-t-[1px] border-gray-400"></div>
         </div>
         <ul
           ref={possibleSearchesListRef}
