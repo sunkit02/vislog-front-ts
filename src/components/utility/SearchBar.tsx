@@ -1,81 +1,101 @@
-import { Accessor, For, Setter, createSignal } from "solid-js";
+import { Accessor, For, Setter, createEffect, createSignal } from "solid-js";
 
 interface SearchBarProps {
+  // The text that is actually being searched
   setSearchText: Setter<string>;
+  // A list of potential search targets
   possibleSearches: Accessor<string[]>;
 }
 
 // TODO: Implement keyboard navigation of search list with up, down, left, and right
 function SearchBar(props: SearchBarProps) {
+  // The text currently being typed in search bar
   const [input, setInput] = createSignal("Major in Computer Science");
-  const [hideSearchList, setHideSearchList] = createSignal(true);
-  const [viewingSearcheList, setViewingSearchList] = createSignal(false);
+  const [mouseOverSearchBar, setMouseOverSearchBar] = createSignal(false);
+  const [inputActive, setInputActive] = createSignal(false);
 
-  let possibleSearchesList: HTMLUListElement | undefined = undefined;
+  let inputBox: HTMLInputElement | undefined;
+  let possibleSearchesListRef: HTMLUListElement | undefined;
 
   return (
-    <div
-      class="w-[80vw]"
-      onFocus={() => {
-        console.log("wrapper div focus in");
-      }}
+    <article
+      class="relative w-full"
+      onMouseEnter={() => setMouseOverSearchBar(true)}
+      onMouseLeave={() => setMouseOverSearchBar(false)}
       onFocusOut={() => {
-        console.log("wrapper div focus out");
-        if (!viewingSearcheList()) {
-          setHideSearchList(true);
+        if (!mouseOverSearchBar()) {
+          setInputActive(false);
         }
+        console.log("article focusout");
       }}
     >
-      <input
-        onFocus={() => {
-          console.log("input focus in");
-          setHideSearchList(false);
-        }}
-        onFocusOut={() => {
-          console.log("input focusout");
-        }}
-        class="w-full overflow-ellipsis rounded-full border-2 border-solid border-sky-300 bg-sky-100 px-10 py-3 focus:rounded-b-none focus:rounded-t-3xl focus:bg-sky-200 focus:outline-none active:outline-none"
-        type="search"
-        placeholder="Enter program name"
-        value={input()}
-        onInput={(e) => setInput(e.target.value)}
-        onKeyDown={(e) => {
-          if (e.key == "Enter") {
-            console.log("Enter pressed. Update search text");
-            props.setSearchText(input());
-          } else if (e.key === "Escape") {
-            console.log("Escape pressed");
-          }
-        }}
-      />
-      <ul
-        ref={possibleSearchesList}
-        class="absolute z-50 max-h-96 w-[80vw] overflow-x-clip overflow-y-scroll rounded-b-md bg-sky-200 pb-1"
-        onMouseEnter={() => setViewingSearchList(true)}
-        onMouseLeave={() => setViewingSearchList(false)}
-        hidden={hideSearchList()}
-      >
-        <For each={props.possibleSearches()} fallback={null}>
-          {(entry) => (
-            <li
-              class="p-3 hover:cursor-pointer hover:bg-sky-100"
-              hidden={
-                // Only show when search input is empty or when matches search input
-                input().length === 0 ? false : !searchMatches(entry, input())
+      <div class={`rounded-t-3xl ${inputActive() && props.possibleSearches().length > 0 ? "bg-sky-200" : "bg-transparent"}`}>
+        <div class={`flex flex-row w-full ${inputActive() ? "bg-sky-200" : "bg-sky-100" } overflow-ellipsis rounded-t-3xl rounded-b-3xl border-2 border-solid border-sky-300 px-5 focus:border-none`}>
+          <input
+            onFocus={() => {
+              console.log("input focus in");
+              setInputActive(true);
+            }}
+            ref={inputBox}
+            class="w-full focus:outline-none bg-transparent py-3"
+            type="text"
+            placeholder="Enter program name"
+            value={input()}
+            onInput={(e) => setInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key == "Enter") {
+                props.setSearchText(input());
+                inputBox?.blur();
+              } else if (e.key === "Escape") {
+                inputBox?.blur();
               }
-              onClick={() => {
-                console.log("Clicked: ", entry);
-                setInput(entry);
-                props.setSearchText(entry);
-                setHideSearchList(true);
-              }}
-            >
-              {entry}
-            </li>
-          )}
-        </For>
-      </ul>
-    </div>
+            }}
+          />
+          <button 
+            class="h-[50px] w-[30px] bg-transparent text-sky-600 flex justify-center items-center"
+            hidden={input().length === 0}
+            onClick={() => {
+              setInput("");
+              if (inputBox) {
+                inputBox.focus();
+              }
+            }}>
+            <svg class="h-[25px] w-[25px] flex">
+              <path 
+                class="fill-sky-500"
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              >
+              </path>
+            </svg>
+          </button>
+        </div>
+        <ul
+          ref={possibleSearchesListRef}
+          class="absolute z-50 max-h-96 w-full overflow-x-clip overflow-y-scroll rounded-b-md bg-sky-200"
+          hidden={!inputActive()}
+        >
+          <For each={props.possibleSearches()} fallback={null}>
+            {(entry) => (
+              <li
+                class="p-3 hover:cursor-pointer hover:bg-sky-100"
+                hidden={
+                  // Only show when search input is empty or when matches search input
+                  input().length === 0 ? false : !searchMatches(entry, input())
+                }
+                onClick={() => {
+                  console.log("Clicked: ", entry);
+                  setInput(entry);
+                  props.setSearchText(entry);
+                  setInputActive(false);
+                }}
+              >
+                {entry}
+              </li>
+            )}
+          </For>
+        </ul>
+      </div>
+    </article>
   );
 }
 
