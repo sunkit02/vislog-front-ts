@@ -1,5 +1,7 @@
 import {
+    Match,
   Show,
+  Switch,
   createEffect,
   createResource,
   createSignal,
@@ -9,7 +11,7 @@ import NewProgramMap from "./components/NewProgramMap";
 import { Program } from "./types";
 
 const fetchProgramNames = async (): Promise<string[]> => {
-  const url = `http://localhost:3001/program_names.json`;
+  const url = `http://10.253.132.175:3001/program_names.json`;
   console.log(`Fetching from: ${url}`);
 
   const response = await fetch(url);
@@ -18,7 +20,7 @@ const fetchProgramNames = async (): Promise<string[]> => {
 
 const fetchProgram = async (programName: string): Promise<Program> => {
   const processedProgramName = programName.toLowerCase().replaceAll(" ", "_");
-  const url = `http://localhost:3001/${processedProgramName}.json`;
+  const url = `http://10.253.132.175:3001/${processedProgramName}.json`;
   console.log(`Fetching from: ${url}`);
 
   const response = await fetch(url);
@@ -49,19 +51,24 @@ function App() {
   return (
     <>
       <div>
-        <div class="flex justify-center">
+        <div class="p-5 flex justify-center">
           <SearchBar
             setSearchText={setProgramName}
             possibleSearches={programNames}
           />
         </div>
         <div class="flex justify-center items-center mt-5">
-        <Show
-          when={programJson.state === "ready"}
-          fallback={<div>Loading program json</div>}
-        >
-          <NewProgramMap program={programJson() as Program} />
-        </Show>
+          <Switch>
+            <Match when={programJson.state === "ready"}>
+              <NewProgramMap program={programJson() as Program} />
+            </Match>
+            <Match when={programJson.state === "pending"}>
+              <div>Loading... </div>
+            </Match>
+            <Match when={programJson.state === "errored"}>
+              <div>Failed to load "{programName()}"</div>
+            </Match>
+          </Switch>
         </div>
       </div>
     </>
