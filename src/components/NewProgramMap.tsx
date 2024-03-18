@@ -15,7 +15,7 @@ function NewProgramMap(props: { program: T.Program }) {
   const nodes = new ReactiveMap<string, NodeInfo>();
 
   return (
-    <article class="h-[90vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5">
+    <article class="h-[80vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5">
       <Program program={props.program} />
     </article>
   );
@@ -111,14 +111,14 @@ function RequirementModule(props: { reqModule: T.RequirementModule }) {
 }
 
 function SingleBasicRequirement(props: { req: T.SingleBasicRequirement }) {
-  const content = <h3 class="w-[80%] text-center">{props.req.title}</h3>;
+  const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
 
   return (
     <Node
-      id={generateId(props.req.title || "SingleBasicRequirement")}
+      id={generateId(props.req.data.title || "SingleBasicRequirement")}
       nodeContent={content}
     >
-      <Requirement req={props.req.requirement} />
+      <Requirement req={props.req.data.requirement} />
     </Node>
   );
 }
@@ -175,6 +175,7 @@ function Unimplemented(props: { rawContent: unknown }) {
 }
 
 function Requirement(props: { req: T.Requirement }) {
+  console.log("Requirement", props.req);
   return (
     <Switch>
       <Match when={props.req.type === T.RequirementType.Courses}>

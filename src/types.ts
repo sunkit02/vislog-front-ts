@@ -39,8 +39,10 @@ export const enum RequirementModuleType {
 
 export type SingleBasicRequirement = {
   type: RequirementModuleType.SingleBasicRequirement;
-  title: string | null;
-  requirement: Requirement;
+  data: {
+    title: string | null;
+    requirement: Requirement;
+  };
 };
 
 export type BasicRequirements = {
