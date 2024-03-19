@@ -1,4 +1,4 @@
-import { Accessor, For, Setter, createEffect, createSignal } from "solid-js";
+import { Accessor, For, Setter, createSignal } from "solid-js";
 
 interface SearchBarProps {
   // The text that is actually being searched
@@ -49,14 +49,16 @@ function SearchBar(props: SearchBarProps) {
             onKeyDown={(e) => {
               if (e.key == "Enter") {
                 props.setSearchText(input());
+                setInputActive(false);
                 inputBox?.blur();
               } else if (e.key === "Escape") {
+                setInputActive(false);
                 inputBox?.blur();
               }
             }}
           />
           <div
-            class="flex h-[50px] w-[30px] items-center justify-center bg-transparent text-sky-600"
+            class="flex h-[50px] w-[30px] items-center justify-center bg-transparent text-sky-600 hover:cursor-pointer"
             hidden={input().length === 0}
             onClick={() => {
               setInput("");
