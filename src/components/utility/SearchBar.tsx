@@ -55,7 +55,7 @@ function SearchBar(props: SearchBarProps) {
               }
             }}
           />
-          <button
+          <div
             class="flex h-[50px] w-[30px] items-center justify-center bg-transparent text-sky-600"
             hidden={input().length === 0}
             onClick={() => {
@@ -71,14 +71,19 @@ function SearchBar(props: SearchBarProps) {
                 d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               ></path>
             </svg>
-          </button>
+          </div>
         </div>
-        <div hidden={!inputActive()} class="flex flex-row justify-center items-center w-full">
-          <div class="w-[98%] border-t-[1px] border-gray-400"></div>
+
+        {/* Dividng line that only shows when `inputActive` is true */}
+        <div class="flex flex-row justify-center items-center w-full z-50 h-1">
+          <div hidden={!inputActive()} class="w-[98%] border-t-[1px] border-gray-400"></div>
         </div>
+
+        {/* Search suggestion selection menu or the "possible searches list" */}
         <ul
+          tabindex={-1}
           ref={possibleSearchesListRef}
-          class="absolute z-50 max-h-96 w-full overflow-x-clip overflow-y-scroll rounded-b-md bg-sky-200"
+          class="absolute z-30 max-h-96 w-full overflow-x-clip overflow-y-scroll rounded-b-md bg-sky-200"
           hidden={!inputActive()}
         >
           <For each={props.possibleSearches()} fallback={null}>
