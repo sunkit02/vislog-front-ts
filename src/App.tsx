@@ -49,29 +49,27 @@ function App() {
   createEffect(() => console.log(`JSON for ${programName()}`, programJson()))
 
   return (
-    <>
-      <div>
-        <div class="p-5 flex justify-center">
-          <SearchBar
-            setSearchText={setProgramName}
-            possibleSearches={programNames}
-          />
-        </div>
-        <div class="flex justify-center items-center mt-5">
-          <Switch>
-            <Match when={programJson.state === "ready"}>
-              <NewProgramMap program={programJson() as Program} />
-            </Match>
-            <Match when={programJson.state === "pending"}>
-              <div>Loading... </div>
-            </Match>
-            <Match when={programJson.state === "errored"}>
-              <div>Failed to load "{programName()}"</div>
-            </Match>
-          </Switch>
-        </div>
+    <div class="flex flex-col justify-center items-center">
+      <div class="p-5 flex justify-center w-[30%]">
+        <SearchBar
+          setSearchText={setProgramName}
+          possibleSearches={programNames}
+        />
       </div>
-    </>
+      <div class="flex justify-center items-center mt-5">
+        <Switch>
+          <Match when={programJson.state === "ready"}>
+            <NewProgramMap program={programJson() as Program} />
+          </Match>
+          <Match when={programJson.state === "pending"}>
+            <div>Loading... </div>
+          </Match>
+          <Match when={programJson.state === "errored"}>
+            <div>Failed to load "{programName()}"</div>
+          </Match>
+        </Switch>
+      </div>
+    </div>
   );
 }
 
