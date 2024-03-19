@@ -1,6 +1,5 @@
 import {
-    Match,
-  Show,
+  Match,
   Switch,
   createEffect,
   createResource,
@@ -28,7 +27,9 @@ const fetchProgram = async (programName: string): Promise<Program> => {
 };
 
 function App() {
-  const [programName, setProgramName] = createSignal("Major in Computer Science");
+  const [programName, setProgramName] = createSignal(
+    "Major in Computer Science"
+  );
   // FIX: Do not fetch resource when `programName` is an empty string
   const [programJson] = createResource(programName, fetchProgram);
   const [programNamesResource] = createResource(fetchProgramNames);
@@ -46,17 +47,17 @@ function App() {
     }
   });
 
-  createEffect(() => console.log(`JSON for ${programName()}`, programJson()))
+  createEffect(() => console.log(`JSON for ${programName()}`, programJson()));
 
   return (
-    <div class="flex flex-col justify-center items-center">
-      <div class="p-5 flex justify-center w-[30%]">
+    <div class="flex flex-col items-center justify-center">
+      <div class="flex w-[30%] justify-center p-5">
         <SearchBar
           setSearchText={setProgramName}
           possibleSearches={programNames}
         />
       </div>
-      <div class="flex justify-center items-center mt-5">
+      <div class="mt-5 flex items-center justify-center">
         <Switch>
           <Match when={programJson.state === "ready"}>
             <NewProgramMap program={programJson() as Program} />
