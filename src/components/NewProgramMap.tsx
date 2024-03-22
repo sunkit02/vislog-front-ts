@@ -11,7 +11,7 @@ type NodeInfo = {
   childrenEdges: JSXElement[];
 };
 
-function NewProgramMap(props: { program: T.Program }) {
+function ProgramMap(props: { program: T.Program }) {
   const nodes = new ReactiveMap<string, NodeInfo>();
 
   return (

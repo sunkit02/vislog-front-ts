@@ -6,7 +6,7 @@ import {
   createSignal,
 } from "solid-js";
 import SearchBar from "./components/utility/SearchBar";
-import NewProgramMap from "./components/NewProgramMap";
+import ProgramMap from "./components/NewProgramMap";
 import { Program } from "./types";
 
 const fetchProgramNames = async (): Promise<string[]> => {
@@ -60,7 +60,7 @@ function App() {
       <div class="mt-5 flex items-center justify-center">
         <Switch>
           <Match when={programJson.state === "ready"}>
-            <NewProgramMap program={programJson() as Program} />
+            <ProgramMap program={programJson() as Program} />
           </Match>
           <Match when={programJson.state === "pending"}>
             <div>Loading... </div>
