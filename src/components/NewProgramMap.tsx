@@ -245,11 +245,11 @@ function RequirementLabel(props: {
   );
 }
 
-function CourseEntry(props: { entry: T.CourseEntry }) {
+function CourseEntry(props: { entry: T.CourseEntry, isNested?: boolean }) {
   return (
     <Switch>
       <Match when={props.entry.type === T.CourseEntryType.And}>
-        <And entries={(props.entry as T.And).data} />
+        <And entries={(props.entry as T.And).data} isNested={props.isNested} />
       </Match>
       <Match when={props.entry.type === T.CourseEntryType.Or}>
         <Or entries={(props.entry as T.Or).data} />
@@ -264,7 +264,7 @@ function CourseEntry(props: { entry: T.CourseEntry }) {
   );
 }
 
-function And(props: { entries: T.CourseEntry[] }) {
+function And(props: { entries: T.CourseEntry[], isNested?: boolean }) {
   return (
     <Node
       id={generateId("And")}
@@ -272,10 +272,10 @@ function And(props: { entries: T.CourseEntry[] }) {
         <div class="flex flex-col items-center justify-center gap-5 p-5">
           <h3 class="w-[80%] text-center">And</h3>
           <div
-            class={`flex ${props.entries.length <= 3 ? "flex-row" : "flex-col"} items-center justify-center gap-5`}
+            class={`flex ${props.entries.length <= 3 && props.isNested === false ? "flex-row" : "flex-col"} items-center justify-center gap-5`}
           >
             <For each={props.entries}>
-              {(entry) => <CourseEntry entry={entry} />}
+              {(entry) => <CourseEntry entry={entry} isNested={true} />}
             </For>
           </div>
         </div>
@@ -289,22 +289,12 @@ function Or(props: { entries: T.CourseEntry[] }) {
   console.log("Or entry length: ", props.entries.length);
 
   return (
-    <Node
-      id={generateId("Or")}
-      nodeContent={
-        <div class="flex flex-col items-center justify-center gap-5 p-5">
-          <h3 class="w-[80%] text-center">Or</h3>
-          <div
-            class={`flex ${props.entries.length <= 3 ? "flex-row" : "flex-col"} items-center justify-center gap-5`}
-          >
-            <For each={props.entries}>
-              {(entry) => <CourseEntry entry={entry} />}
-            </For>
-          </div>
-        </div>
-      }
-    ></Node>
-  );
+    <div class="flex flex-row gap-5">
+    <For each={props.entries}>
+      {(entry) => <CourseEntry entry={entry} isNested={true} />}
+    </For>
+    </div>
+  )
 }
 
 function Label(props: { label: T.Label }) {
@@ -372,4 +362,4 @@ function FallbackMessage(props: { target: string }) {
   );
 }
 
-export default NewProgramMap;
+export default ProgramMap;
