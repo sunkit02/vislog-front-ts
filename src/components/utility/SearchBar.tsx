@@ -10,7 +10,7 @@ interface SearchBarProps {
 // TODO: Implement keyboard navigation of search list with up, down, left, and right
 function SearchBar(props: SearchBarProps) {
   // The text currently being typed in search bar
-  const [input, setInput] = createSignal("Major in Computer Science");
+  const [input, setInput] = createSignal("");
   const [mouseOverSearchBar, setMouseOverSearchBar] = createSignal(false);
   const [inputActive, setInputActive] = createSignal(false);
 
