@@ -28,7 +28,7 @@ const fetchProgram = async (programName: string): Promise<Program> => {
 
 function App() {
   const [programName, setProgramName] = createSignal(
-    "Major in Computer Science"
+    "Minor in Music"
   );
   // FIX: Do not fetch resource when `programName` is an empty string
   const [programJson] = createResource(programName, fetchProgram);
