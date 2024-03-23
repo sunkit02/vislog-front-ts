@@ -37,7 +37,6 @@ function Program(props: { program: T.Program }) {
   );
 
   return (
-    <div class="flex h-full w-full flex-col items-center justify-start">
       <Node id={generateId(props.program.title)} nodeContent={contents}>
         <Switch fallback={<FallbackMessage target="Program" />}>
           <Match when={props.program.requirements}>
@@ -48,7 +47,6 @@ function Program(props: { program: T.Program }) {
           </Match>
         </Switch>
       </Node>
-    </div>
   );
 }
 
