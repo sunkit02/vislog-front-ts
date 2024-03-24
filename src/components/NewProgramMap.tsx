@@ -336,15 +336,17 @@ function Node(props: {
   children?: JSXElement;
 }) {
   return (
-    <div class="flex flex-shrink-0 flex-col items-center justify-center gap-20">
-      <section
-        id={props.id}
-        class="flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black bg-sky-100 hover:bg-sky-300"
-      >
-        {props.nodeContent}
-      </section>
+    <div class="flex flex-shrink-0 w-max flex-col gap-20 p-10 border-black border rounded">
+      <div class="flex flex-row justify-center items-center">
+        <section
+          id={props.id}
+          class="flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black bg-sky-100 hover:bg-sky-300"
+        >
+          {props.nodeContent}
+        </section>
+      </div>
       {props.children ? (
-        <div class="flex flex-shrink-0 flex-row items-center justify-center gap-20">
+        <div class="flex flex-shrink-0 flex-row gap-20">
           {props.children}
         </div>
       ) : null}
