@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/uuid": "^9.0.8",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
     "prettier": "^3.2.5",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@solid-primitives/map": "^0.4.11",
-    "solid-js": "^1.8.11"
+    "solid-js": "^1.8.11",
+    "uuid": "^9.0.1"
   }
 }
