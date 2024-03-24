@@ -13,6 +13,7 @@ type NodeInfo = {
 
 function ProgramMap(props: { program: T.Program }) {
   const nodes = new ReactiveMap<string, NodeInfo>();
+
   let pmContainerRef: HTMLDivElement | undefined;
 
   onMount(() => {
@@ -21,11 +22,21 @@ function ProgramMap(props: { program: T.Program }) {
       const clientWidth = pmContainerRef.clientWidth;
       const scrollWidth = pmContainerRef.scrollWidth;
       pmContainerRef.scrollLeft = (scrollWidth - clientWidth) / 2;
+
+      const selfWidth = pmContainerRef.clientWidth
+      const childWidth = pmContainerRef.children[0].clientWidth;
+
+      // Center the Program using CSS property `justify-content: center`
+      // if no horizontal scrolling is required
+      if (childWidth < selfWidth) {
+        pmContainerRef.style.setProperty("display", "flex")
+        pmContainerRef.style.setProperty("justify-content", "center")
+      }
     }
   })
 
   return (
-    <article ref={pmContainerRef} class="h-[80vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5">
+    <article ref={pmContainerRef} class={`h-[80vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5`}>
       <Program program={props.program} />
     </article>
   );
@@ -33,6 +44,7 @@ function ProgramMap(props: { program: T.Program }) {
 
 function Program(props: { program: T.Program }) {
   console.log("Program", props.program);
+
   const contents = (
     <div class="flex flex-col items-center justify-center">
       <h3 class="w-[80%] text-center">{props.program.title}</h3>
