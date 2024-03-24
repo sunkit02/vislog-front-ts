@@ -1,5 +1,5 @@
 import { ReactiveMap } from "@solid-primitives/map";
-import { For, JSXElement, Match, Show, Switch } from "solid-js";
+import { For, JSXElement, Match, Show, Switch, onMount } from "solid-js";
 import { generateId } from "../utils/keygen";
 import * as T from "../types";
 
@@ -13,9 +13,19 @@ type NodeInfo = {
 
 function ProgramMap(props: { program: T.Program }) {
   const nodes = new ReactiveMap<string, NodeInfo>();
+  let pmContainerRef: HTMLDivElement | undefined;
+
+  onMount(() => {
+    // Center the scroll bar for entire ProgramMap
+    if (pmContainerRef) {
+      const clientWidth = pmContainerRef.clientWidth;
+      const scrollWidth = pmContainerRef.scrollWidth;
+      pmContainerRef.scrollLeft = (scrollWidth - clientWidth) / 2;
+    }
+  })
 
   return (
-    <article class="h-[80vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5">
+    <article ref={pmContainerRef} class="h-[80vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5">
       <Program program={props.program} />
     </article>
   );
@@ -336,8 +346,8 @@ function Node(props: {
   children?: JSXElement;
 }) {
   return (
-    <div class="flex flex-shrink-0 w-max flex-col gap-20 p-10 border-black border rounded">
-      <div class="flex flex-row justify-center items-center">
+    <div class="node-container flex flex-shrink-0 w-max flex-col gap-20 p-10 border-black border rounded">
+      <div class="section-container flex flex-row justify-center items-center">
         <section
           id={props.id}
           class="flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black bg-sky-100 hover:bg-sky-300"
@@ -346,7 +356,7 @@ function Node(props: {
         </section>
       </div>
       {props.children ? (
-        <div class="flex flex-shrink-0 flex-row gap-20">
+        <div class="children-container flex flex-shrink-0 flex-row justify-center items-start gap-20">
           {props.children}
         </div>
       ) : null}
