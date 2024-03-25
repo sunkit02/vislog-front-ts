@@ -760,7 +760,7 @@ function Node(props: {
               updateSubTreeHoverCount((prev) => prev - 1, props.nodes);
             }
           }}
-          class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black ${highlight() ? "bg-sky-300" : "bg-sky-100"} transition`}
+          class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-solid transition ${props.state.selected() ? "border-4" : "border-2 border-black"} ${highlight() ? "bg-sky-300 border-blue-500" : "bg-sky-100"} transition`}
         >
           {props.nodeContent}
         </section>
