@@ -8,6 +8,7 @@ interface SearchBarProps {
 }
 
 // TODO: Implement keyboard navigation of search list with up, down, left, and right
+// TODO: Use a fuzzy search library like (fuzzysort)[https://github.com/farzher/fuzzysort]
 function SearchBar(props: SearchBarProps) {
   // The text currently being typed in search bar
   const [input, setInput] = createSignal("");

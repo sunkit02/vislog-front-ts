@@ -9,6 +9,7 @@ function CurvedArrow(props: {
   strokeWidth?: number;
   showCurveLines?: boolean;
 }): JSXElement {
+
   const mid = {
     x: (props.x1 + props.x2) / 2,
     y: (props.y1 + props.y2) / 2,
@@ -24,7 +25,9 @@ function CurvedArrow(props: {
     y: props.y2,
   };
 
-  const directives = `M ${props.x1} ${props.y1} Q ${controlPoint1.x} ${controlPoint1.y}, ${mid.x} ${mid.y} T ${props.x2} ${props.y2}`;
+  // Height of the triangle acting as pointer at the end of the arrow
+  const tipHeight = 8;
+  const directives = `M ${props.x1} ${props.y1} Q ${controlPoint1.x} ${controlPoint1.y}, ${mid.x} ${mid.y} T ${props.x2} ${props.y2 - tipHeight}`;
 
   const curveDemoLines = (
     <>
@@ -65,6 +68,14 @@ function CurvedArrow(props: {
     </>
   );
 
+  const triangle = {
+    p1: {x: props.x2, y: props.y2},
+    p2: {x: props.x2 - tipHeight / 2, y: props.y2 - tipHeight},
+    p3: {x: props.x2 + tipHeight / 2, y: props.y2 - tipHeight},
+  }
+
+  const {p1, p2, p3} = triangle;
+
   return (
     <>
       {props.showCurveLines === true ? curveDemoLines : null}
@@ -78,6 +89,12 @@ function CurvedArrow(props: {
         fill="none"
         stroke="black"
         stroke-width={props.strokeWidth || 3}
+      />
+      <polygon
+        points={`${p1.x},${p1.y} ${p2.x},${p2.y} ${p3.x},${p3.y}`}
+        fill="black"
+        stroke="black"
+        stroke-width={1}
       />
       ;
     </>

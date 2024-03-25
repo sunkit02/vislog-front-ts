@@ -1,4 +1,3 @@
-import { ReactiveMap } from "@solid-primitives/map";
 import {
   For,
   JSXElement,
@@ -7,26 +6,38 @@ import {
   Switch,
   createSignal,
   onMount,
+  useContext,
 } from "solid-js";
 import { generateId } from "../utils/keygen";
 import CurvedArrow from "./utility/CurvedArrow";
 import * as T from "../types";
+import { NodeContext } from "./ProgramMapContext";
 
-type NodeInfo = {
-  id: string;
+export class NodeInfo {
   parentId: string | null;
-  element: JSXElement;
   childrenIds: string[];
-  childrenEdges: JSXElement[];
-};
+  childrenEdges: { [key: string]: JSXElement };
+
+  constructor(
+    parentId: string | null,
+    childrenIds: string[],
+    childrenEdges: { [key: string]: JSXElement }
+  ) {
+    this.parentId = parentId;
+    this.childrenIds = childrenIds;
+    this.childrenEdges = childrenEdges;
+  }
+}
 
 function ProgramMap(props: { program: T.Program }) {
-  const nodes = new ReactiveMap<string, NodeInfo>();
-
   let pmContainerRef: HTMLDivElement | undefined;
 
   onMount(() => {
-    // Center the scroll bar for entire ProgramMap
+    centerProgramMap();
+  });
+
+  function centerProgramMap() {
+    // Set scroll bar to center position for entire ProgramMap
     if (pmContainerRef) {
       const clientWidth = pmContainerRef.clientWidth;
       const scrollWidth = pmContainerRef.scrollWidth;
@@ -42,7 +53,7 @@ function ProgramMap(props: { program: T.Program }) {
         pmContainerRef.style.setProperty("justify-content", "center");
       }
     }
-  });
+  }
 
   return (
     <article
@@ -56,8 +67,19 @@ function ProgramMap(props: { program: T.Program }) {
 
 function Program(props: { program: T.Program }) {
   console.log("Program", props.program);
-
   const id = generateId(props.program.title);
+
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+
+    const childrenIds: string[] = [];
+    // TODO: Pull childrenEdges (arrows pointing to children) from `Node`
+    const childrenEdges = {};
+
+    const node = new NodeInfo(null, childrenIds, childrenEdges);
+    nodes.set(id, node);
+  });
 
   const contents = (
     <div class="flex flex-col items-center justify-center">
@@ -167,6 +189,21 @@ function SingleBasicRequirement(props: {
   const id = generateId(props.req.data.title || "SingleBasicRequirement");
   const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
 
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.req);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
+
   return (
     <Node id={id} parentId={props.parentId} nodeContent={content}>
       <Requirement req={props.req.data.requirement} parentId={id} />
@@ -183,6 +220,13 @@ function BasicRequirements(props: {
   const id = generateId(props.req.data.title || "SingleBasicRequirement");
   const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
 
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+  });
+
   return (
     <Node id={id} parentId={props.parentId} nodeContent={content}>
       <div class="flex flex-row items-start justify-center">
@@ -195,9 +239,18 @@ function BasicRequirements(props: {
 }
 
 function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
+  const id = generateId(props.req.data.title);
+
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+  });
+
   return (
     <Node
-      id={generateId(props.req.data.title)}
+      id={id}
       parentId={props.parentId}
       nodeContent={<h3 class="w-[80%] text-center">{props.req.data.title}</h3>}
     />
@@ -206,6 +259,22 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
 
 function Unimplemented(props: { rawContent: unknown; parentId: string }) {
   const id = generateId("Unimplemented");
+
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.rawContent);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
+
   return (
     <Node
       id={id}
@@ -263,6 +332,21 @@ function Courses(props: {
     <h3 class="w-[80%] text-center">{props.data.title || "Courses"}</h3>
   );
 
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.data);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
+
   return (
     <Node id={id} nodeContent={content} parentId={props.parentId}>
       <div class="flex flex-col items-center justify-center gap-20">
@@ -279,6 +363,21 @@ function SelectFromCourses(props: {
   parentId: string;
 }) {
   const id = generateId(props.data.title);
+
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.data);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
 
   return (
     <Node
@@ -305,6 +404,21 @@ function RequirementLabel(props: {
   parentId: string;
 }) {
   const id = generateId(props.data.title || "RequirementLabel");
+
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.data);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
 
   return (
     <Node
@@ -360,6 +474,21 @@ function And(props: {
 }) {
   const id = generateId("And");
 
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.entries);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
+
   return (
     <Node
       id={id}
@@ -401,10 +530,27 @@ function Or(props: { entries: T.CourseEntry[]; parentId: string }) {
   );
 }
 
-function Label(props: { label: T.Label; parentId: string}) {
+function Label(props: { label: T.Label; parentId: string }) {
+  const id = generateId(props.label.name);
+
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+    
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.label);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
+
   return (
     <Node
-      id={generateId(props.label.name)}
+      id={id}
       parentId={props.parentId}
       nodeContent={
         <>
@@ -417,6 +563,22 @@ function Label(props: { label: T.Label; parentId: string}) {
 
 function Course(props: { course: T.Course; parentId: string }) {
   const id = generateId(props.course.name || "Course");
+
+  onMount(() => {
+    // Add node to nodes
+    const { nodes } = useContext(NodeContext);
+    const node = new NodeInfo(props.parentId, [], {});
+    nodes.set(id, node);
+
+    // Add node to parent node's children
+    const parentNode = nodes.get(props.parentId);
+    if (!parentNode) {
+      handleParentUndefined(props.parentId, props.course);
+      return;
+    }
+    parentNode.childrenIds.push(id);
+  });
+
   return (
     <Node
       id={id}
@@ -523,6 +685,16 @@ function FallbackMessage(props: { target: string }) {
       Failed to load {props.target}
     </div>
   );
+}
+
+function handleParentUndefined(parentId: string, node: any) {
+  alert("Parent node cannot be undefined. See console for more information.");
+  console.error(
+    "Cannot find parent of the following:",
+    node,
+    `Parent id: ${parentId}`
+  );
+  return;
 }
 
 export default ProgramMap;
