@@ -18,6 +18,7 @@ import { ReactiveMap } from "@solid-primitives/map";
 
 function ProgramMap(props: { program: T.Program }) {
   let pmContainerRef: HTMLDivElement | undefined;
+  const [fullScreen, setFullScreen] = createSignal(false);
 
   onMount(() => {
     centerProgramMap();
@@ -42,13 +43,46 @@ function ProgramMap(props: { program: T.Program }) {
     }
   }
 
+  function toggleFullScreen() {
+    if (pmContainerRef) {
+      if (fullScreen()) {
+        pmContainerRef.style.removeProperty("position");
+        pmContainerRef.style.removeProperty("top");
+        pmContainerRef.style.removeProperty("left");
+        pmContainerRef.style.removeProperty("width");
+        pmContainerRef.style.removeProperty("height");
+      } else {
+        pmContainerRef.style.setProperty("position", "absolute");
+        pmContainerRef.style.setProperty("top", "0");
+        pmContainerRef.style.setProperty("left", "0");
+        pmContainerRef.style.setProperty("width", "100vw");
+        pmContainerRef.style.setProperty("height", "100vh");
+      }
+      setFullScreen((prev) => !prev);
+    } else {
+      alert("Failed to fullscreen, `pmContainerRef is undefined");
+    }
+  }
+
   return (
-    <article
-      ref={pmContainerRef}
-      class={`relative h-[80vh] w-[90vw] overflow-scroll rounded-lg border-2 border-solid border-black bg-yellow-50 p-5`}
-    >
-      <Program program={props.program} />
-    </article>
+    <div class={`transition ${fullScreen() ? "" : "relative"}`}>
+      <article
+        ref={pmContainerRef}
+        class={`h-[80vh] w-[90vw] overflow-scroll ${fullScreen() ? "" : "rounded-lg border-2 border-solid border-black"} bg-yellow-50 p-5`}
+      >
+        <Program program={props.program} />
+      </article>
+      <button
+        class="absolute left-3 top-3 p-1 h-[30px] w-[30px] hover:border hover:border-solid hover:border-black rounded-lg hover:bg-yellow-100"
+        onClick={toggleFullScreen}
+      >
+        {fullScreen() ? (
+          <img src="../../assets/exit-fullscreen.svg" />
+        ) : (
+          <img src="../../assets/into-fullscreen.svg" />
+        )}
+      </button>
+    </div>
   );
 }
 
@@ -760,7 +794,8 @@ function Node(props: {
               updateSubTreeHoverCount((prev) => prev - 1, props.nodes);
             }
           }}
-          class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-solid transition ${props.state.selected() ? "border-4" : "border-2 border-black"} ${highlight() ? "bg-sky-300 border-blue-500" : "bg-sky-100"} transition`}
+          // TODO: Add contrast between nodes that are selected or parents of the currently hovered nodes and the node being hovered;
+          class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-solid transition ${props.state.selected() ? "border-4" : "border-2"} ${highlight() ? "border-blue-500 bg-sky-300" : "border-black bg-sky-100"} transition`}
         >
           {props.nodeContent}
         </section>
