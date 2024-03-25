@@ -1,4 +1,4 @@
-import { JSXElement } from "solid-js";
+import { Accessor, JSXElement } from "solid-js";
 
 function CurvedArrow(props: {
   id: string;
@@ -8,8 +8,8 @@ function CurvedArrow(props: {
   y2: number;
   strokeWidth?: number;
   showCurveLines?: boolean;
+  highlight?: Accessor<boolean>;
 }): JSXElement {
-
   const mid = {
     x: (props.x1 + props.x2) / 2,
     y: (props.y1 + props.y2) / 2,
@@ -69,33 +69,30 @@ function CurvedArrow(props: {
   );
 
   const triangle = {
-    p1: {x: props.x2, y: props.y2},
-    p2: {x: props.x2 - tipHeight / 2, y: props.y2 - tipHeight},
-    p3: {x: props.x2 + tipHeight / 2, y: props.y2 - tipHeight},
-  }
+    p1: { x: props.x2, y: props.y2 },
+    p2: { x: props.x2 - tipHeight / 2, y: props.y2 - tipHeight },
+    p3: { x: props.x2 + tipHeight / 2, y: props.y2 - tipHeight },
+  };
 
-  const {p1, p2, p3} = triangle;
+  const { p1, p2, p3 } = triangle;
 
   return (
     <>
       {props.showCurveLines === true ? curveDemoLines : null}
-      <path
+      <g
         id={props.id}
-        style={{
-          transition: "0.25s",
-        }}
-        class="normal-arrow"
-        d={directives}
-        fill="none"
-        stroke="black"
-        stroke-width={props.strokeWidth || 3}
-      />
-      <polygon
-        points={`${p1.x},${p1.y} ${p2.x},${p2.y} ${p3.x},${p3.y}`}
-        fill="black"
-        stroke="black"
-        stroke-width={1}
-      />
+        class={`transition ${props?.highlight && props.highlight() ? `fill-blue-500 stroke-blue-500` : "fill-black stroke-black"}`}
+      >
+        <path
+          d={directives}
+          fill="none"
+          stroke-width={props.strokeWidth || 3 * (props?.highlight && props.highlight() ? 1.25 : 1)}
+        />
+        <polygon
+          points={`${p1.x},${p1.y} ${p2.x},${p2.y} ${p3.x},${p3.y}`}
+          stroke-width={props?.highlight && props.highlight() ? 2 : 1}
+        />
+      </g>
       ;
     </>
   );

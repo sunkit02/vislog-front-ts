@@ -1,7 +1,9 @@
 import {
+  Accessor,
   For,
   JSXElement,
   Match,
+  Setter,
   Show,
   Switch,
   createSignal,
@@ -12,22 +14,7 @@ import { generateId } from "../utils/keygen";
 import CurvedArrow from "./utility/CurvedArrow";
 import * as T from "../types";
 import { NodeContext } from "./ProgramMapContext";
-
-export class NodeInfo {
-  parentId: string | null;
-  childrenIds: string[];
-  childrenEdges: { [key: string]: JSXElement };
-
-  constructor(
-    parentId: string | null,
-    childrenIds: string[],
-    childrenEdges: { [key: string]: JSXElement }
-  ) {
-    this.parentId = parentId;
-    this.childrenIds = childrenIds;
-    this.childrenEdges = childrenEdges;
-  }
-}
+import { ReactiveMap } from "@solid-primitives/map";
 
 function ProgramMap(props: { program: T.Program }) {
   let pmContainerRef: HTMLDivElement | undefined;
@@ -67,17 +54,14 @@ function ProgramMap(props: { program: T.Program }) {
 
 function Program(props: { program: T.Program }) {
   console.log("Program", props.program);
+  const { nodes } = useContext(NodeContext);
+  const nodeState = createNodeState();
   const id = generateId(props.program.title);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-
     const childrenIds: string[] = [];
-    // TODO: Pull childrenEdges (arrows pointing to children) from `Node`
-    const childrenEdges = {};
-
-    const node = new NodeInfo(null, childrenIds, childrenEdges);
+    const node = new NodeInfo(null, childrenIds, nodeState);
     nodes.set(id, node);
   });
 
@@ -91,11 +75,18 @@ function Program(props: { program: T.Program }) {
       >
         Link to Catalog
       </a>
+      <button onClick={() => console.log(nodes)}>Print</button>
     </div>
   );
 
   return (
-    <Node id={id} nodeContent={contents}>
+    <Node
+      id={id}
+      parentId={null}
+      nodeContent={contents}
+      state={nodeState}
+      nodes={nodes}
+    >
       <Switch fallback={<FallbackMessage target="Program" />}>
         <Match when={props.program.requirements}>
           {(reqs) => <Requirements reqs={reqs()} parentId={id} />}
@@ -188,11 +179,12 @@ function SingleBasicRequirement(props: {
 }) {
   const id = generateId(props.req.data.title || "SingleBasicRequirement");
   const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
+  const { nodes } = useContext(NodeContext);
+  const nodeState = createNodeState();
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
 
     // Add node to parent node's children
@@ -201,11 +193,19 @@ function SingleBasicRequirement(props: {
       handleParentUndefined(props.parentId, props.req);
       return;
     }
-    parentNode.childrenIds.push(id);
+    const newParentNode = { ...parentNode };
+    newParentNode.childrenIds = [...newParentNode.childrenIds, id];
+    nodes.set(props.parentId, newParentNode);
   });
 
   return (
-    <Node id={id} parentId={props.parentId} nodeContent={content}>
+    <Node
+      id={id}
+      parentId={props.parentId}
+      nodeContent={content}
+      state={nodeState}
+      nodes={nodes}
+    >
       <Requirement req={props.req.data.requirement} parentId={id} />
     </Node>
   );
@@ -219,16 +219,23 @@ function BasicRequirements(props: {
   console.log("BasicRequirements title", props.req.data.title);
   const id = generateId(props.req.data.title || "SingleBasicRequirement");
   const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
+  const { nodes } = useContext(NodeContext);
+  const nodeState = createNodeState();
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
   });
 
   return (
-    <Node id={id} parentId={props.parentId} nodeContent={content}>
+    <Node
+      id={id}
+      parentId={props.parentId}
+      nodeContent={content}
+      state={nodeState}
+      nodes={nodes}
+    >
       <div class="flex flex-row items-start justify-center">
         <For each={props.req.data.requirements}>
           {(req) => <Requirement req={req} parentId={id} />}
@@ -240,11 +247,12 @@ function BasicRequirements(props: {
 
 function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
   const id = generateId(props.req.data.title);
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
   });
 
@@ -253,17 +261,20 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
       id={id}
       parentId={props.parentId}
       nodeContent={<h3 class="w-[80%] text-center">{props.req.data.title}</h3>}
+      state={nodeState}
+      nodes={nodes}
     />
   );
 }
 
 function Unimplemented(props: { rawContent: unknown; parentId: string }) {
   const id = generateId("Unimplemented");
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
 
     // Add node to parent node's children
@@ -279,6 +290,8 @@ function Unimplemented(props: { rawContent: unknown; parentId: string }) {
     <Node
       id={id}
       parentId={props.parentId}
+      state={nodeState}
+      nodes={nodes}
       nodeContent={
         <div class="flex flex-col items-center justify-center p-5">
           <h3 class="w-[80%] text-center">Unimplemented</h3>
@@ -328,14 +341,15 @@ function Courses(props: {
   parentId: string;
 }) {
   const id = generateId(props.data.title || "Courses");
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
   const content = (
     <h3 class="w-[80%] text-center">{props.data.title || "Courses"}</h3>
   );
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
 
     // Add node to parent node's children
@@ -348,7 +362,13 @@ function Courses(props: {
   });
 
   return (
-    <Node id={id} nodeContent={content} parentId={props.parentId}>
+    <Node
+      id={id}
+      nodeContent={content}
+      parentId={props.parentId}
+      state={nodeState}
+      nodes={nodes}
+    >
       <div class="flex flex-col items-center justify-center gap-20">
         <For each={props.data.courses}>
           {(entry) => <CourseEntry entry={entry} parentId={id} />}
@@ -363,11 +383,12 @@ function SelectFromCourses(props: {
   parentId: string;
 }) {
   const id = generateId(props.data.title);
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
 
     // Add node to parent node's children
@@ -383,6 +404,8 @@ function SelectFromCourses(props: {
     <Node
       id={id}
       parentId={props.parentId}
+      state={nodeState}
+      nodes={nodes}
       nodeContent={
         <div class="flex flex-col items-center justify-center gap-5">
           <h3 class="w-[80%] text-center">{props.data.title}</h3>
@@ -404,11 +427,12 @@ function RequirementLabel(props: {
   parentId: string;
 }) {
   const id = generateId(props.data.title || "RequirementLabel");
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
 
     // Add node to parent node's children
@@ -424,6 +448,8 @@ function RequirementLabel(props: {
     <Node
       id={id}
       parentId={props.parentId}
+      state={nodeState}
+      nodes={nodes}
       nodeContent={
         <>
           <h3 class="w-[80%] text-center">{props.data.title}</h3>
@@ -473,11 +499,12 @@ function And(props: {
   parentId: string;
 }) {
   const id = generateId("And");
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
 
     // Add node to parent node's children
@@ -493,6 +520,8 @@ function And(props: {
     <Node
       id={id}
       parentId={props.parentId}
+      state={nodeState}
+      nodes={nodes}
       nodeContent={
         <div class="flex flex-col items-center justify-center gap-5 p-5">
           <h3 class="w-[80%] text-center">And</h3>
@@ -532,13 +561,14 @@ function Or(props: { entries: T.CourseEntry[]; parentId: string }) {
 
 function Label(props: { label: T.Label; parentId: string }) {
   const id = generateId(props.label.name);
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
-    
+
     // Add node to parent node's children
     const parentNode = nodes.get(props.parentId);
     if (!parentNode) {
@@ -552,6 +582,8 @@ function Label(props: { label: T.Label; parentId: string }) {
     <Node
       id={id}
       parentId={props.parentId}
+      state={nodeState}
+      nodes={nodes}
       nodeContent={
         <>
           <h3 class="w-[80%] text-center">{props.label.name}</h3>
@@ -563,11 +595,12 @@ function Label(props: { label: T.Label; parentId: string }) {
 
 function Course(props: { course: T.Course; parentId: string }) {
   const id = generateId(props.course.name || "Course");
+  const nodeState = createNodeState();
+  const { nodes } = useContext(NodeContext);
 
   onMount(() => {
     // Add node to nodes
-    const { nodes } = useContext(NodeContext);
-    const node = new NodeInfo(props.parentId, [], {});
+    const node = new NodeInfo(props.parentId, [], nodeState);
     nodes.set(id, node);
 
     // Add node to parent node's children
@@ -583,6 +616,8 @@ function Course(props: { course: T.Course; parentId: string }) {
     <Node
       id={id}
       parentId={props.parentId}
+      state={nodeState}
+      nodes={nodes}
       nodeContent={
         <div class="flex flex-col items-center justify-center">
           <h3 class="w-[80%] text-center">
@@ -601,10 +636,15 @@ function Course(props: { course: T.Course; parentId: string }) {
   );
 }
 
+/**
+ * It is assumed that there is no parent when a `null` value is explicitly assinged to `parentId`
+ */
 function Node(props: {
   id: string;
   nodeContent: JSXElement;
-  parentId?: string;
+  parentId: string | null;
+  nodes: ReactiveMap<string, NodeInfo>;
+  state: NodeState;
   children?: JSXElement;
 }) {
   const [arrow, setArrow] = createSignal<JSXElement | undefined>(undefined);
@@ -612,8 +652,15 @@ function Node(props: {
   let nodeRef: HTMLDivElement | undefined;
   let svgRef: SVGSVGElement | undefined;
 
+  function highlight(): boolean {
+    return props.state.hoverCount() > 0 || props.state.selected();
+  }
+
   onMount(() => {
-    if (!props.parentId) return;
+    if (!props.parentId) {
+      console.log(`Node with id ${props.id} doesn't have a parentId`);
+      return;
+    }
 
     const parentNode = document.getElementById(props.parentId);
     const parentBoundingRect = parentNode?.getBoundingClientRect();
@@ -646,7 +693,14 @@ function Node(props: {
       const endY = y - offsetY;
 
       const arrow = (
-        <CurvedArrow id="" x1={startX} y1={startY} x2={endX} y2={endY} />
+        <CurvedArrow
+          id={`${props.parentId}->${props.id}`}
+          x1={startX}
+          y1={startY}
+          x2={endX}
+          y2={endY}
+          highlight={highlight}
+        />
       );
 
       console.log("Hello from onMount");
@@ -656,13 +710,44 @@ function Node(props: {
     }
   });
 
+  // Updates the hovercount of the current node and all of its parents
+  function updateSubTreeHoverCount(
+    updateFn: (prev: number) => number,
+    nodes: ReactiveMap<string, NodeInfo>
+  ) {
+    // Update current node's hover count
+    props.state.setHoverCount(updateFn);
+
+    let parentId: string | null = props.parentId;
+    while (parentId) {
+      const parentNode = nodes.get(parentId);
+      if (!parentNode) {
+        console.error(
+          `Node with id ${parentId} was not found in the node tree.`
+        );
+        return;
+      }
+      parentNode.nodeState.setHoverCount(updateFn);
+      parentId = parentNode.parentId;
+    }
+  }
+
   return (
     <div class="node-container flex w-max flex-shrink-0 flex-col gap-20 rounded border border-black p-10">
       <div class="section-container flex flex-row items-center justify-center">
         <section
           id={props.id}
           ref={nodeRef}
-          class="flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black bg-sky-100 transition hover:bg-sky-300"
+          onClick={() => props.state.setSelected(!props.state.selected())}
+          onMouseEnter={() =>
+            updateSubTreeHoverCount((prev) => prev + 1, props.nodes)
+          }
+          // NOTE: Potential place for the hoverCount to get offsynce and be always lower or greater than 0.
+          // Add a check if needed in the future
+          onMouseLeave={() =>
+            updateSubTreeHoverCount((prev) => prev - 1, props.nodes)
+          }
+          class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black ${highlight() ? "bg-sky-300" : "bg-sky-100"} transition`}
         >
           {props.nodeContent}
         </section>
@@ -695,6 +780,38 @@ function handleParentUndefined(parentId: string, node: any) {
     `Parent id: ${parentId}`
   );
   return;
+}
+
+export class NodeInfo {
+  parentId: string | null;
+  selected: boolean;
+  childrenIds: string[];
+  readonly nodeState: NodeState;
+
+  constructor(
+    parentId: string | null,
+    childrenIds: string[],
+    nodeState: NodeState
+  ) {
+    this.parentId = parentId;
+    this.childrenIds = childrenIds;
+    this.selected = false;
+    this.nodeState = nodeState;
+  }
+}
+
+type NodeState = {
+  hoverCount: Accessor<number>;
+  setHoverCount: Setter<number>;
+  selected: Accessor<boolean>;
+  setSelected: Setter<boolean>;
+};
+
+function createNodeState(): NodeState {
+  const [hoverCount, setHoverCount] = createSignal(0);
+  const [selected, setSelected] = createSignal(false);
+
+  return { hoverCount, setHoverCount, selected, setSelected };
 }
 
 export default ProgramMap;
