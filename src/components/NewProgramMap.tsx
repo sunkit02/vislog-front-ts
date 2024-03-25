@@ -732,21 +732,34 @@ function Node(props: {
     }
   }
 
+  /**
+   * Selection and hover highlight interaction logic:
+   * 1. If current node is highlighted, do not update it's hoverCount directly
+   *   - Updates propagated from children are still allowed because it should never cause the hoverCount to drop under 1, hence holding the highlight.
+   */
+  function handleClickNode() {
+    props.state.setSelected(!props.state.selected());
+  }
+
   return (
     <div class="node-container flex w-max flex-shrink-0 flex-col gap-20 rounded border border-black p-10">
       <div class="section-container flex flex-row items-center justify-center">
         <section
           id={props.id}
           ref={nodeRef}
-          onClick={() => props.state.setSelected(!props.state.selected())}
-          onMouseEnter={() =>
-            updateSubTreeHoverCount((prev) => prev + 1, props.nodes)
-          }
+          onClick={handleClickNode}
+          onMouseEnter={() => {
+            if (!props.state.selected()) {
+              updateSubTreeHoverCount((prev) => prev + 1, props.nodes);
+            }
+          }}
           // NOTE: Potential place for the hoverCount to get offsynce and be always lower or greater than 0.
           // Add a check if needed in the future
-          onMouseLeave={() =>
-            updateSubTreeHoverCount((prev) => prev - 1, props.nodes)
-          }
+          onMouseLeave={() => {
+            if (!props.state.selected()) {
+              updateSubTreeHoverCount((prev) => prev - 1, props.nodes);
+            }
+          }}
           class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-2 border-solid border-black ${highlight() ? "bg-sky-300" : "bg-sky-100"} transition`}
         >
           {props.nodeContent}
