@@ -70,7 +70,7 @@ function ProgramMap(props: { program: T.Program }) {
     <div class={`transition ${fullScreen() ? "" : "relative"}`}>
       <article
         ref={pmContainerRef}
-        class={`h-[80vh] w-[90vw] overflow-scroll ${fullScreen() ? "" : "rounded-lg border-2 border-solid border-black"} bg-yellow-50 p-5`}
+        class={`relative h-[80vh] w-[90vw] overflow-scroll ${fullScreen() ? "" : "rounded-lg border-2 border-solid border-black"} bg-yellow-50 p-5`}
       >
         <Program program={props.program} />
       </article>
