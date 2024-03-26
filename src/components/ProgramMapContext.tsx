@@ -1,6 +1,6 @@
 import { ReactiveMap } from "@solid-primitives/map";
 import { type JSXElement, createContext } from "solid-js";
-import type { NodeInfo } from "./NewProgramMap";
+import type { NodeInfo } from "./ProgramMap";
 
 export type NodeContextType = {
 	nodes: ReactiveMap<string, NodeInfo>;

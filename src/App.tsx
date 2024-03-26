@@ -6,7 +6,7 @@ import {
 	createSignal,
 } from "solid-js";
 import SearchBar from "./components/utility/SearchBar";
-import ProgramMap from "./components/NewProgramMap";
+import ProgramMap from "./components/ProgramMap";
 import type { Program } from "./types";
 
 const fetchProgramNames = async (): Promise<string[]> => {

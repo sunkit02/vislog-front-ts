@@ -690,7 +690,7 @@ function Node(props: {
 	nodes: ReactiveMap<string, NodeInfo>;
 	state: NodeState;
 	children?: JSXElement;
-}) {
+}): JSXElement {
 	const [arrow, setArrow] = createSignal<JSXElement | undefined>(undefined);
 
 	let nodeRef: HTMLDivElement | undefined;
@@ -786,7 +786,7 @@ function Node(props: {
 	}
 
 	return (
-		<div class="node-container flex w-max flex-shrink-0 flex-col gap-20 rounded border border-black p-10">
+		<div class="node-container flex w-max flex-shrink-0 flex-col gap-y-20 rounded border border-black p-10">
 			<div class="section-container flex flex-row items-center justify-center">
 				<section
 					id={props.id}
@@ -812,7 +812,7 @@ function Node(props: {
 						highlight()
 							? "border-blue-500 bg-sky-300"
 							: "border-black bg-sky-100"
-					} transition`}
+					}`}
 				>
 					{props.nodeContent}
 				</section>
