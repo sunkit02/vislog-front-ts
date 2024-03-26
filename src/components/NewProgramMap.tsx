@@ -15,6 +15,8 @@ import CurvedArrow from "./utility/CurvedArrow";
 import * as T from "../types";
 import { NodeContext } from "./ProgramMapContext";
 import { ReactiveMap } from "@solid-primitives/map";
+import ExitFullscreen from "../icons/ExitFullscreen";
+import IntoFullscreen from "../icons/IntoFullscreen";
 
 function ProgramMap(props: { program: T.Program }) {
   let pmContainerRef: HTMLDivElement | undefined;
@@ -73,14 +75,10 @@ function ProgramMap(props: { program: T.Program }) {
         <Program program={props.program} />
       </article>
       <button
-        class="absolute left-3 top-3 p-1 h-[30px] w-[30px] hover:border hover:border-solid hover:border-black rounded-lg hover:bg-yellow-100"
+        class="absolute left-3 top-3 h-[30px] w-[30px] rounded-lg p-[0.2rem] hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100"
         onClick={toggleFullScreen}
       >
-        {fullScreen() ? (
-          <img src="../../assets/exit-fullscreen.svg" />
-        ) : (
-          <img src="../../assets/into-fullscreen.svg" />
-        )}
+        {fullScreen() ? <ExitFullscreen /> : <IntoFullscreen />}
       </button>
     </div>
   );
