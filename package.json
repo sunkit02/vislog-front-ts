@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "1.6.3",
     "@types/uuid": "^9.0.8",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
