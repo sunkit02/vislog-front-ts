@@ -45,7 +45,7 @@ function ProgramMap(props: { program: T.Program }) {
 		}
 	}
 
-	function toggleFullScreen() {
+	async function toggleFullScreen() {
 		if (pmContainerRef) {
 			if (fullScreen()) {
 				pmContainerRef.style.removeProperty("position");
@@ -60,6 +60,7 @@ function ProgramMap(props: { program: T.Program }) {
 				pmContainerRef.style.setProperty("width", "100vw");
 				pmContainerRef.style.setProperty("height", "100vh");
 			}
+
 			setFullScreen((prev) => !prev);
 		} else {
 			alert("Failed to fullscreen, `pmContainerRef is undefined");
@@ -102,7 +103,9 @@ function Program(props: { program: T.Program }) {
 
 	const contents = (
 		<div class="flex flex-col items-center justify-center">
-			<h3 class="w-[80%] text-center">{props.program.title}</h3>
+			<h3 class="w-[80%] overflow-ellipsis text-center">
+				{props.program.title}
+			</h3>
 			<a
 				href={props.program.url}
 				rel="noreferrer"
@@ -130,7 +133,7 @@ function Program(props: { program: T.Program }) {
 					{(reqs) => <Requirements reqs={reqs()} parentId={id} />}
 				</Match>
 				<Match when={props.program.requirements === null}>
-					<div>No Requirements Listed</div>
+					<div class="text-center">No Requirements Listed</div>
 				</Match>
 			</Switch>
 		</Node>
@@ -165,7 +168,7 @@ function RequirementModule(props: {
 	reqModule: T.RequirementModule;
 	parentId: string;
 }) {
-	console.log("RequirementModule", props.reqModule);
+	console.log("RequirementModule", props);
 	return (
 		<Switch>
 			<Match
@@ -215,6 +218,8 @@ function SingleBasicRequirement(props: {
 	req: T.SingleBasicRequirement;
 	parentId: string;
 }) {
+	console.log("SingleBasicRequirement", props);
+
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
 	const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
 	const { nodes } = useContext(NodeContext);
@@ -253,8 +258,8 @@ function BasicRequirements(props: {
 	req: T.BasicRequirements;
 	parentId: string;
 }) {
-	console.log("BasicRequirements", props.req);
-	console.log("BasicRequirements title", props.req.data.title);
+	console.log("BasicRequirements", props);
+	// console.log("BasicRequirements title", props.req.data.title);
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
 	const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
 	const { nodes } = useContext(NodeContext);
@@ -284,6 +289,8 @@ function BasicRequirements(props: {
 }
 
 function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
+	console.log("ModuleLabel", props);
+
 	const id = generateId(props.req.data.title);
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -306,6 +313,8 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
 }
 
 function Unimplemented(props: { rawContent: unknown; parentId: string }) {
+	console.log("Unimplemented", props);
+
 	const id = generateId("Unimplemented");
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -350,7 +359,7 @@ function Unimplemented(props: { rawContent: unknown; parentId: string }) {
 }
 
 function Requirement(props: { req: T.Requirement; parentId: string }) {
-	console.log("Requirement", props.req);
+	console.log("Requirement", props);
 	return (
 		<Switch>
 			<Match when={props.req.type === T.RequirementType.Courses}>
@@ -379,6 +388,8 @@ function Courses(props: {
 	data: { title: string | null; courses: T.CourseEntry[] };
 	parentId: string;
 }) {
+	console.log("Courses", props);
+
 	const id = generateId(props.data.title || "Courses");
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -421,6 +432,8 @@ function SelectFromCourses(props: {
 	data: { title: string; courses: T.CourseEntry[] | null };
 	parentId: string;
 }) {
+	console.log("SelectFromCourses", props);
+
 	const id = generateId(props.data.title);
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -451,7 +464,7 @@ function SelectFromCourses(props: {
 					<Show when={props.data.courses} fallback={<p>No courses listed.</p>}>
 						{(entries) =>
 							entries().map((entry) => (
-								<CourseEntry entry={entry} parentId={id} />
+								<CourseEntry entry={entry} parentId={id} showArrow={false} />
 							))
 						}
 					</Show>
@@ -465,6 +478,8 @@ function RequirementLabel(props: {
 	data: { title: string | null; reqNarrative: string | null };
 	parentId: string;
 }) {
+	console.log("RequirementLabel", props);
+
 	const id = generateId(props.data.title || "RequirementLabel");
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -501,31 +516,41 @@ function RequirementLabel(props: {
 
 function CourseEntry(props: {
 	entry: T.CourseEntry;
-	isNested?: boolean;
 	parentId: string;
+	isNested?: boolean;
+	showArrow?: boolean;
 }) {
+	console.log("CourseEntry", props);
+
 	return (
 		<Switch>
 			<Match when={props.entry.type === T.CourseEntryType.And}>
 				<And
 					entries={(props.entry as T.And).data}
-					isNested={props.isNested}
 					parentId={props.parentId}
+					isNested={props.isNested}
+					showArrow={props.showArrow}
 				/>
 			</Match>
 			<Match when={props.entry.type === T.CourseEntryType.Or}>
-				<Or entries={(props.entry as T.Or).data} parentId={props.parentId} />
+				<Or
+					entries={(props.entry as T.Or).data}
+					parentId={props.parentId}
+					showArrow={props.showArrow === false ? false : true}
+				/>
 			</Match>
 			<Match when={props.entry.type === T.CourseEntryType.Course}>
 				<Course
 					course={(props.entry as T.EntryCourse).data}
 					parentId={props.parentId}
+					showArrow={props.showArrow}
 				/>
 			</Match>
 			<Match when={props.entry.type === T.CourseEntryType.Label}>
 				<Label
 					label={(props.entry as T.EntryLabel).data}
 					parentId={props.parentId}
+					showArrow={props.showArrow}
 				/>
 			</Match>
 		</Switch>
@@ -536,7 +561,10 @@ function And(props: {
 	entries: T.CourseEntry[];
 	isNested?: boolean;
 	parentId: string;
+	showArrow?: boolean;
 }) {
+	console.log("And", props);
+
 	const id = generateId("And");
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -561,6 +589,7 @@ function And(props: {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
+			showArrow={props.showArrow}
 			nodeContent={
 				<div class="flex flex-col items-center justify-center gap-5 p-5">
 					<h3 class="w-[80%] text-center">And</h3>
@@ -573,7 +602,12 @@ function And(props: {
 					>
 						<For each={props.entries}>
 							{(entry) => (
-								<CourseEntry entry={entry} isNested={true} parentId={id} />
+								<CourseEntry
+									entry={entry}
+									isNested={true}
+									parentId={id}
+									showArrow={false}
+								/>
 							)}
 						</For>
 					</div>
@@ -584,8 +618,12 @@ function And(props: {
 }
 
 // TODO: Display different options as horizontal branches of the program map
-function Or(props: { entries: T.CourseEntry[]; parentId: string }) {
-	console.log("Or entry length: ", props.entries.length);
+function Or(props: {
+	entries: T.CourseEntry[];
+	parentId: string;
+	showArrow?: boolean;
+}) {
+	console.log("Or", props);
 
 	return (
 		<div class="flex flex-row gap-5">
@@ -595,6 +633,7 @@ function Or(props: { entries: T.CourseEntry[]; parentId: string }) {
 						entry={entry}
 						isNested={true}
 						parentId={props.parentId}
+						showArrow={props.showArrow}
 					/>
 				)}
 			</For>
@@ -602,7 +641,13 @@ function Or(props: { entries: T.CourseEntry[]; parentId: string }) {
 	);
 }
 
-function Label(props: { label: T.Label; parentId: string }) {
+function Label(props: {
+	label: T.Label;
+	parentId: string;
+	showArrow?: boolean;
+}) {
+	console.log("Lable", props);
+
 	const id = generateId(props.label.name);
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -627,6 +672,7 @@ function Label(props: { label: T.Label; parentId: string }) {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
+			showArrow={props.showArrow}
 			nodeContent={
 				<>
 					<h3 class="w-[80%] text-center">{props.label.name}</h3>
@@ -636,7 +682,13 @@ function Label(props: { label: T.Label; parentId: string }) {
 	);
 }
 
-function Course(props: { course: T.Course; parentId: string }) {
+function Course(props: {
+	course: T.Course;
+	parentId: string;
+	showArrow?: boolean;
+}) {
+	console.log("Course", props);
+
 	const id = generateId(props.course.name || "Course");
 	const nodeState = createNodeState();
 	const { nodes } = useContext(NodeContext);
@@ -659,6 +711,7 @@ function Course(props: { course: T.Course; parentId: string }) {
 		<Node
 			id={id}
 			parentId={props.parentId}
+			showArrow={props.showArrow}
 			state={nodeState}
 			nodes={nodes}
 			nodeContent={
@@ -689,6 +742,7 @@ function Node(props: {
 	parentId: string | null;
 	nodes: ReactiveMap<string, NodeInfo>;
 	state: NodeState;
+	showArrow?: boolean;
 	children?: JSXElement;
 }): JSXElement {
 	const [arrow, setArrow] = createSignal<JSXElement | undefined>(undefined);
@@ -706,51 +760,53 @@ function Node(props: {
 			return;
 		}
 
-		const parentNode = document.getElementById(props.parentId);
-		const parentBoundingRect = parentNode?.getBoundingClientRect();
-		const selfBoundingRect = nodeRef?.getBoundingClientRect();
-		const svgBoundingRect = svgRef?.getBoundingClientRect();
+		if (props.showArrow !== false) {
+			const parentNode = document.getElementById(props.parentId);
+			const parentBoundingRect = parentNode?.getBoundingClientRect();
+			const selfBoundingRect = nodeRef?.getBoundingClientRect();
+			const svgBoundingRect = svgRef?.getBoundingClientRect();
 
-		console.log("parentBoundingRect", parentBoundingRect);
-		console.log("selfBoundingRect", selfBoundingRect);
-		console.log("svgBoundingRect", svgBoundingRect);
+			// console.log("parentBoundingRect", parentBoundingRect);
+			// console.log("selfBoundingRect", selfBoundingRect);
+			// console.log("svgBoundingRect", svgBoundingRect);
 
-		if (selfBoundingRect && parentBoundingRect && svgBoundingRect) {
-			const { x, y, height, width } = selfBoundingRect;
-			console.log({ x, y, height, width });
+			if (selfBoundingRect && parentBoundingRect && svgBoundingRect) {
+				const { x, y, height, width } = selfBoundingRect;
+				// console.log({ x, y, height, width });
 
-			const {
-				x: parentX,
-				y: parentY,
-				height: parentHeight,
-				width: parentWidth,
-			} = parentBoundingRect;
-			console.log({ parentX, parentY, parentHeight, parentWidth });
+				const {
+					x: parentX,
+					y: parentY,
+					height: parentHeight,
+					width: parentWidth,
+				} = parentBoundingRect;
+				// console.log({ parentX, parentY, parentHeight, parentWidth });
 
-			const { x: offsetX, y: offsetY } = svgBoundingRect;
-			console.log({ offsetX, offsetY });
+				const { x: offsetX, y: offsetY } = svgBoundingRect;
+				// console.log({ offsetX, offsetY });
 
-			const startX = parentX + parentWidth / 2 - offsetX;
-			const startY = parentY + parentHeight - offsetY;
+				const startX = parentX + parentWidth / 2 - offsetX;
+				const startY = parentY + parentHeight - offsetY;
 
-			const endX = x + width / 2 - offsetX;
-			const endY = y - offsetY;
+				const endX = x + width / 2 - offsetX;
+				const endY = y - offsetY;
 
-			const arrow = (
-				<CurvedArrow
-					id={`${props.parentId}->${props.id}`}
-					x1={startX}
-					y1={startY}
-					x2={endX}
-					y2={endY}
-					highlight={highlight}
-				/>
-			);
+				const arrow = (
+					<CurvedArrow
+						id={`${props.parentId}->${props.id}`}
+						x1={startX}
+						y1={startY}
+						x2={endX}
+						y2={endY}
+						highlight={highlight}
+					/>
+				);
 
-			console.log("Hello from onMount");
-			console.log(props.parentId);
+				// console.log("Hello from onMount");
+				// console.log(props.parentId);
 
-			setArrow(arrow);
+				setArrow(arrow);
+			}
 		}
 	});
 
@@ -781,12 +837,14 @@ function Node(props: {
 	 * 1. If current node is highlighted, do not update it's hoverCount directly
 	 *   - Updates propagated from children are still allowed because it should never cause the hoverCount to drop under 1, hence holding the highlight.
 	 */
-	function handleClickNode() {
+	function handleClickNode(e: MouseEvent) {
+		// e.preventDefault();
+		e.stopPropagation();
 		props.state.setSelected(!props.state.selected());
 	}
 
 	return (
-		<div class="node-container flex w-max flex-shrink-0 flex-col gap-y-20 rounded border border-black p-10">
+		<div class="node-container flex w-max flex-shrink-0 flex-col gap-y-20 p-10">
 			<div class="section-container flex flex-row items-center justify-center">
 				<section
 					id={props.id}
@@ -821,11 +879,7 @@ function Node(props: {
 				<title>Arrow betwen nodes</title>
 				{arrow()}
 			</svg>
-			{props.children ? (
-				<div class="children-container flex flex-shrink-0 flex-row items-start justify-center gap-20">
-					{props.children}
-				</div>
-			) : null}
+			{props.children}
 		</div>
 	);
 }
