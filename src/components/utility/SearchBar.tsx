@@ -27,7 +27,7 @@ function SearchBar(props: SearchBarProps) {
 				if (!mouseOverSearchBar()) {
 					setInputActive(false);
 				}
-				console.log("article focusout");
+				// console.log("article focusout");
 			}}
 		>
 			<div
@@ -46,7 +46,7 @@ function SearchBar(props: SearchBarProps) {
 				>
 					<input
 						onFocus={() => {
-							console.log("input focus in");
+							// console.log("input focus in");
 							setInputActive(true);
 						}}
 						ref={inputBox}
@@ -67,7 +67,9 @@ function SearchBar(props: SearchBarProps) {
 						}}
 					/>
 					<div
-						class="flex h-[50px] w-[30px] items-center justify-center bg-transparent text-sky-600 hover:cursor-pointer"
+						class={`${
+							input().length === 0 ? "hidden" : "flex"
+						} h-[48px] w-[30px] items-center justify-center bg-transparent text-sky-600 hover:cursor-pointer`}
 						hidden={input().length === 0}
 						onKeyPress={() => {}}
 						onClick={() => {
@@ -77,7 +79,11 @@ function SearchBar(props: SearchBarProps) {
 							}
 						}}
 					>
-						<svg class="flex h-[25px] w-[25px]">
+						<svg
+							class={`${
+								input().length === 0 ? "hidden" : "flex"
+							} h-[25px] w-[25px]`}
+						>
 							<title>Clear input</title>
 							<path
 								class="fill-sky-500"
@@ -112,7 +118,7 @@ function SearchBar(props: SearchBarProps) {
 								}
 								onKeyPress={() => {}}
 								onClick={() => {
-									console.log("Clicked: ", entry);
+									// console.log("Clicked: ", entry);
 									setInput(entry);
 									props.setSearchText(entry);
 									setInputActive(false);
