@@ -844,7 +844,7 @@ function Node(props: {
 	}
 
 	return (
-		<div class="node-container flex w-max flex-shrink-0 flex-col gap-y-20 p-10">
+		<div class="node-container relative flex w-max flex-shrink-0 flex-col gap-y-20 p-10">
 			<div class="section-container flex flex-row items-center justify-center">
 				<section
 					id={props.id}
@@ -875,7 +875,10 @@ function Node(props: {
 					{props.nodeContent}
 				</section>
 			</div>
-			<svg class="absolute h-0 w-0 overflow-visible" ref={svgRef}>
+			<svg
+				class="absolute h-[100%] w-[100%] overflow-visible pointer-events-none"
+				ref={svgRef}
+			>
 				<title>Arrow betwen nodes</title>
 				{arrow()}
 			</svg>
