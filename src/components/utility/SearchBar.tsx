@@ -105,7 +105,7 @@ function SearchBar(props: SearchBarProps) {
 				<ul
 					tabindex={-1}
 					ref={possibleSearchesListRef}
-					class="absolute z-30 max-h-96 w-full overflow-x-clip overflow-y-scroll rounded-b-md bg-sky-200"
+					class="absolute z-30 max-h-96 w-full overflow-x-clip overflow-y-auto rounded-b-md bg-sky-200"
 					hidden={!inputActive()}
 				>
 					<For each={props.possibleSearches()} fallback={null}>
