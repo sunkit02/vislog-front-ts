@@ -13,17 +13,17 @@ import {
 import { generateId } from "../utils/keygen";
 import CurvedArrow from "./utility/CurvedArrow";
 import * as T from "../types";
-import { NodeContext } from "./ProgramMapContext";
+import { ProgramMapContext } from "./ProgramMapContext";
 import type { ReactiveMap } from "@solid-primitives/map";
 import ExitFullscreen from "../icons/ExitFullscreen";
 import IntoFullscreen from "../icons/IntoFullscreen";
-import ActiveNodeDetails from "./programmap/ActiveNodeDetails";
+import ActiveNodeDetails from "./programmap/ActiveNodeDetailsSideBar";
 
 function ProgramMap(props: { program: T.Program }) {
 	let pmContainerRef: HTMLDivElement | undefined;
 	const [fullScreen, setFullScreen] = createSignal(false);
 	const { activeNodeDetails, showActiveNodeDetails, setShowActiveNodeDetails } =
-		useContext(NodeContext);
+		useContext(ProgramMapContext);
 
 	onMount(() => {
 		centerProgramMap();
@@ -66,7 +66,7 @@ function ProgramMap(props: { program: T.Program }) {
 
 			setFullScreen((prev) => !prev);
 		} else {
-			alert("Failed to fullscreen, `pmContainerRef is undefined");
+			alert("Failed to fullscreen, `pmContainerRef` is undefined");
 		}
 	}
 
@@ -84,9 +84,8 @@ function ProgramMap(props: { program: T.Program }) {
 			{/* The following div wrapper is `justify-end flex-col-reverse` when */}
 			{/* `showActiveNodeDetails() == false` to ensure the fullscreen button is on top */}
 			<div
-				class={`flex ${
-					showActiveNodeDetails() ? "flex-row" : "justify-end flex-col-reverse"
-				} absolute left-[2px] top-[2px] h-[calc(100%-4px)] w-[20%]`}
+				id="left-aside-container"
+				class="flex flex-row absolute left-[2px] top-[2px] h-[calc(100%-4px)] w-[20%]"
 			>
 				<ActiveNodeDetails
 					details={activeNodeDetails}
@@ -110,6 +109,17 @@ function ProgramMap(props: { program: T.Program }) {
 					</button>
 				</div>
 			</div>
+			<div id="right-aside-container" class="absolute left-full top-0 h-full">
+				<div class="absolute left-[calc(-1rem-2px)] flex flex-row justify-start items-center h-full">
+					<button
+						type="button"
+						class="bg-sky-200 h-20 w-[1rem] rounded-tl-lg rounded-bl-lg border-r-black border-t-black border-b-black hover:bg-sky-300 transition"
+						onClick={() => setShowActiveNodeDetails((prev) => !prev)}
+					>
+						{showActiveNodeDetails() ? ">" : "<"}
+					</button>
+				</div>
+			</div>
 		</div>
 	);
 }
@@ -117,7 +127,7 @@ function ProgramMap(props: { program: T.Program }) {
 function Program(props: { program: T.Program }) {
 	console.log("Program", props.program);
 	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
-		useContext(NodeContext);
+		useContext(ProgramMapContext);
 	const nodeState = createNodeState();
 	const id = generateId(props.program.title);
 
@@ -270,7 +280,7 @@ function SingleBasicRequirement(props: {
 
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
 	const { setShowActiveNodeDetails, setActiveNodeDetails } =
-		useContext(NodeContext);
+		useContext(ProgramMapContext);
 
 	const showCurrentNodeDetails = (e: MouseEvent) => {
 		e.stopPropagation();
@@ -290,7 +300,7 @@ function SingleBasicRequirement(props: {
 			</button>
 		</>
 	);
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 	const nodeState = createNodeState();
 
 	onMount(() => {
@@ -330,7 +340,7 @@ function BasicRequirements(props: {
 	// console.log("BasicRequirements title", props.req.data.title);
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
 	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
-		useContext(NodeContext);
+		useContext(ProgramMapContext);
 	const nodeState = createNodeState();
 
 	onMount(() => {
@@ -380,7 +390,7 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
 
 	const id = generateId(props.req.data.title);
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 
 	onMount(() => {
 		// Add node to nodes
@@ -404,7 +414,7 @@ function Unimplemented(props: { rawContent: unknown; parentId: string }) {
 
 	const id = generateId("Unimplemented");
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 
 	onMount(() => {
 		// Add node to nodes
@@ -479,7 +489,7 @@ function Courses(props: {
 
 	const id = generateId(props.data.title || "Courses");
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 	const content = (
 		<h3 class="w-[80%] text-center">{props.data.title || "Courses"}</h3>
 	);
@@ -523,7 +533,7 @@ function SelectFromCourses(props: {
 
 	const id = generateId(props.data.title);
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 
 	onMount(() => {
 		// Add node to nodes
@@ -569,7 +579,7 @@ function RequirementLabel(props: {
 
 	const id = generateId(props.data.title || "RequirementLabel");
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 
 	onMount(() => {
 		// Add node to nodes
@@ -654,7 +664,7 @@ function And(props: {
 
 	const id = generateId("And");
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 
 	onMount(() => {
 		// Add node to nodes
@@ -737,7 +747,7 @@ function Label(props: {
 
 	const id = generateId(props.label.name);
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes } = useContext(ProgramMapContext);
 
 	onMount(() => {
 		// Add node to nodes
@@ -779,7 +789,7 @@ function Course(props: {
 	const id = generateId(props.course.name || "Course");
 	const nodeState = createNodeState();
 	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
-		useContext(NodeContext);
+		useContext(ProgramMapContext);
 
 	onMount(() => {
 		// Add node to nodes

@@ -7,17 +7,20 @@ import {
 	createSignal,
 } from "solid-js";
 import type { NodeInfo } from "./ProgramMap";
-import type { ActiveNodeDetails } from "./programmap/ActiveNodeDetails";
+import type { ActiveNodeDetails } from "./programmap/ActiveNodeDetailsSideBar";
 
-export type NodeContextType = {
+export type ProgramMapContextType = {
 	nodes: ReactiveMap<string, NodeInfo>;
 	activeNodeDetails: Accessor<ActiveNodeDetails>;
 	setActiveNodeDetails: Setter<ActiveNodeDetails>;
 	showActiveNodeDetails: Accessor<boolean>;
 	setShowActiveNodeDetails: Setter<boolean>;
+	showSelectedNodes: Accessor<boolean>;
+	setShowSelectedNodes: Setter<boolean>;
 };
 
 const [showActiveNodeDetails, setShowActiveNodeDetails] = createSignal(false);
+const [showSelectedNodes, setShowSelectedNodes] = createSignal(false);
 const [activeNodeDetails, setActiveNodeDetails] =
 	createSignal<ActiveNodeDetails>({
 		title: "",
@@ -30,14 +33,17 @@ const defaultContext = {
 	setActiveNodeDetails,
 	showActiveNodeDetails,
 	setShowActiveNodeDetails,
+	showSelectedNodes,
+	setShowSelectedNodes,
 };
 
-export const NodeContext = createContext<NodeContextType>(defaultContext);
+export const ProgramMapContext =
+	createContext<ProgramMapContextType>(defaultContext);
 
 export function Provider(props: { children: JSXElement }) {
 	return (
-		<NodeContext.Provider value={defaultContext}>
+		<ProgramMapContext.Provider value={defaultContext}>
 			{props.children}
-		</NodeContext.Provider>
+		</ProgramMapContext.Provider>
 	);
 }

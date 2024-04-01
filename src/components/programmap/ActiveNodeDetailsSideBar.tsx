@@ -1,5 +1,8 @@
 import { type Accessor, For, type Setter, Show } from "solid-js";
 
+/**
+ * This is meant to be on the left side
+ */
 export type ActiveNodeDetails = {
 	title: string;
 	url?: string;
@@ -8,18 +11,18 @@ export type ActiveNodeDetails = {
 	paragraphs: string[];
 };
 
-function ActiveNodeDetails(props: {
+function ActiveNodeDetailsSideBar(props: {
 	details: Accessor<ActiveNodeDetails>;
 	active: Accessor<boolean>;
 	setActive: Setter<boolean>;
 }) {
 	return (
 		<aside
-			class={`h-full ${
-				props.active() ? "" : "w-0 hidden"
-			} duration-200 bg-sky-200 border-sky-200 border-r-black rounded-tl-lg rounded-bl-lg`}
+			class={`${
+				props.active() ? "w-full" : "w-0"
+			} duration-200 bg-sky-200 rounded-tl-lg rounded-bl-lg`}
 		>
-			<article>
+			<article hidden={!props.active()}>
 				<h3 class="text-lg font-bold text-center">{props.details().title}</h3>
 				<Show
 					when={props.details().paragraphs.length > 0}
@@ -34,4 +37,4 @@ function ActiveNodeDetails(props: {
 	);
 }
 
-export default ActiveNodeDetails;
+export default ActiveNodeDetailsSideBar;
