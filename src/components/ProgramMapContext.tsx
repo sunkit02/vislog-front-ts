@@ -7,7 +7,7 @@ import {
 	createSignal,
 } from "solid-js";
 import type { NodeInfo } from "./ProgramMap";
-import type { ActiveNodeDetails } from "./programmap/NodeDetails";
+import type { ActiveNodeDetails } from "./programmap/ActiveNodeDetails";
 
 export type NodeContextType = {
 	nodes: ReactiveMap<string, NodeInfo>;

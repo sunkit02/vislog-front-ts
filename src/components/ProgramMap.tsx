@@ -17,7 +17,7 @@ import { NodeContext } from "./ProgramMapContext";
 import type { ReactiveMap } from "@solid-primitives/map";
 import ExitFullscreen from "../icons/ExitFullscreen";
 import IntoFullscreen from "../icons/IntoFullscreen";
-import ActiveNodeDetails from "./programmap/NodeDetails";
+import ActiveNodeDetails from "./programmap/ActiveNodeDetails";
 
 function ProgramMap(props: { program: T.Program }) {
 	let pmContainerRef: HTMLDivElement | undefined;
@@ -126,16 +126,24 @@ function Program(props: { program: T.Program }) {
 		const childrenIds: string[] = [];
 		const node = new NodeInfo(null, childrenIds, nodeState);
 		nodes.set(id, node);
+
+		// Hide active node details and update its content to be consistent with current program
+		setShowActiveNodeDetails(false);
+		updateCurrentNodeDetails();
 	});
 
-	const showCurrentNodeDetails = (e: MouseEvent) => {
-		e.stopPropagation();
+	const updateCurrentNodeDetails = () => {
 		setActiveNodeDetails({
 			title: props.program.title,
 			paragraphs: [props.program.guid],
 		});
+	};
 
-		setShowActiveNodeDetails((prev) => !prev);
+	const showCurrentNodeDetails = (e: MouseEvent) => {
+		e.stopPropagation();
+		updateCurrentNodeDetails();
+
+		setShowActiveNodeDetails(true);
 	};
 
 	const contents = (
@@ -151,11 +159,11 @@ function Program(props: { program: T.Program }) {
 			>
 				Link to Catalog
 			</a>
-			<button type="button" onClick={() => console.log(nodes)}>
-				Print
-			</button>
 			<button type="button" onClick={showCurrentNodeDetails}>
-				Show details
+				<span class="underline hover:text-blue-600">Show details</span>
+			</button>
+			<button type="button" onClick={() => console.log(nodes)}>
+				<span class="underline hover:text-blue-600">Print</span>
 			</button>
 		</div>
 	);
@@ -261,7 +269,27 @@ function SingleBasicRequirement(props: {
 	console.log("SingleBasicRequirement", props);
 
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
-	const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
+	const { setShowActiveNodeDetails, setActiveNodeDetails } =
+		useContext(NodeContext);
+
+	const showCurrentNodeDetails = (e: MouseEvent) => {
+		e.stopPropagation();
+		setActiveNodeDetails({
+			title: props.req.data.title || "No Title",
+			paragraphs: [`Parent id: ${props.parentId}`],
+		});
+
+		setShowActiveNodeDetails(true);
+	};
+
+	const content = (
+		<>
+			<h3 class="w-[80%] text-center">{props.req.data.title}</h3>
+			<button type="button" onClick={showCurrentNodeDetails}>
+				<span class="underline hover:text-blue-600">Show details</span>
+			</button>
+		</>
+	);
 	const { nodes } = useContext(NodeContext);
 	const nodeState = createNodeState();
 
@@ -301,8 +329,8 @@ function BasicRequirements(props: {
 	console.log("BasicRequirements", props);
 	// console.log("BasicRequirements title", props.req.data.title);
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
-	const content = <h3 class="w-[80%] text-center">{props.req.data.title}</h3>;
-	const { nodes } = useContext(NodeContext);
+	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
+		useContext(NodeContext);
 	const nodeState = createNodeState();
 
 	onMount(() => {
@@ -310,6 +338,25 @@ function BasicRequirements(props: {
 		const node = new NodeInfo(props.parentId, [], nodeState);
 		nodes.set(id, node);
 	});
+
+	const showCurrentNodeDetails = (e: MouseEvent) => {
+		e.stopPropagation();
+		setActiveNodeDetails({
+			title: props.req.data.title || "No Title",
+			paragraphs: [`Parent id: ${props.parentId}`],
+		});
+
+		setShowActiveNodeDetails(true);
+	};
+
+	const content = (
+		<div class="flex flex-col justify-center items-center">
+			<h3 class="w-[80%] text-center">{props.req.data.title}</h3>
+			<button type="button" onClick={showCurrentNodeDetails}>
+				<span class="underline hover:text-blue-600">Show details</span>
+			</button>
+		</div>
+	);
 
 	return (
 		<Node
@@ -731,7 +778,8 @@ function Course(props: {
 
 	const id = generateId(props.course.name || "Course");
 	const nodeState = createNodeState();
-	const { nodes } = useContext(NodeContext);
+	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
+		useContext(NodeContext);
 
 	onMount(() => {
 		// Add node to nodes
@@ -747,6 +795,42 @@ function Course(props: {
 		parentNode.childrenIds.push(id);
 	});
 
+	const showCurrentNodeDetails = (e: MouseEvent) => {
+		e.stopPropagation();
+		setActiveNodeDetails({
+			title: props.course.name || "No Title",
+			url: props.course.url,
+			paragraphs: [
+				`${props.course.subject_code}-${props.course.number}`,
+				`GUID: ${props.course.guid}`,
+				props.course.credits[1] !== null
+					? `Credits: ${props.course.credits[0]}-${props.course.credits[1]} hours`
+					: `Credits: ${props.course.credits[0]} hours`,
+			],
+		});
+
+		setShowActiveNodeDetails(true);
+	};
+
+	const nodeContent = (
+		<div class="flex flex-col items-center justify-center">
+			<h3 class="w-[80%] text-center">
+				{props.course.name || `Course: ${props.course.guid}`}
+			</h3>
+			<a
+				href={props.course.url}
+				rel="noreferrer"
+				target="_blank"
+				class="underline hover:text-blue-600"
+			>
+				Link to Course
+			</a>
+			<button type="button" onClick={showCurrentNodeDetails}>
+				<span class="underline hover:text-blue-600">Show details</span>
+			</button>
+		</div>
+	);
+
 	return (
 		<Node
 			id={id}
@@ -754,21 +838,7 @@ function Course(props: {
 			showArrow={props.showArrow}
 			state={nodeState}
 			nodes={nodes}
-			nodeContent={
-				<div class="flex flex-col items-center justify-center">
-					<h3 class="w-[80%] text-center">
-						{props.course.name || `Course: ${props.course.guid}`}
-					</h3>
-					<a
-						href={props.course.url}
-						rel="noreferrer"
-						target="_blank"
-						class="underline hover:text-blue-600"
-					>
-						Link to Course
-					</a>
-				</div>
-			}
+			nodeContent={nodeContent}
 		/>
 	);
 }
@@ -815,7 +885,7 @@ function Node(props: {
 			// console.log("svgBoundingRect", svgBoundingRect);
 
 			if (selfBoundingRect && parentBoundingRect && svgBoundingRect) {
-				const { x, y, height, width } = selfBoundingRect;
+				const { x, y, height: _, width } = selfBoundingRect;
 				// console.log({ x, y, height, width });
 
 				const {

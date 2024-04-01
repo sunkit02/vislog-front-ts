@@ -20,7 +20,7 @@ function ActiveNodeDetails(props: {
 			} duration-200 bg-sky-200 border-sky-200 border-r-black rounded-tl-lg rounded-bl-lg`}
 		>
 			<article>
-				<h3>{props.details().title}</h3>
+				<h3 class="text-lg font-bold text-center">{props.details().title}</h3>
 				<Show
 					when={props.details().paragraphs.length > 0}
 					fallback={<p class="text-center">No description.</p>}
