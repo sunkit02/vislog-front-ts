@@ -17,10 +17,13 @@ import { NodeContext } from "./ProgramMapContext";
 import type { ReactiveMap } from "@solid-primitives/map";
 import ExitFullscreen from "../icons/ExitFullscreen";
 import IntoFullscreen from "../icons/IntoFullscreen";
+import ActiveNodeDetails from "./programmap/NodeDetails";
 
 function ProgramMap(props: { program: T.Program }) {
 	let pmContainerRef: HTMLDivElement | undefined;
 	const [fullScreen, setFullScreen] = createSignal(false);
+	const { activeNodeDetails, showActiveNodeDetails, setShowActiveNodeDetails } =
+		useContext(NodeContext);
 
 	onMount(() => {
 		centerProgramMap();
@@ -77,20 +80,44 @@ function ProgramMap(props: { program: T.Program }) {
 			>
 				<Program program={props.program} />
 			</article>
-			<button
-				type="button"
-				class="absolute left-3 top-3 h-[30px] w-[30px] rounded-lg p-[0.2rem] hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100"
-				onClick={toggleFullScreen}
+
+			{/* The following div wrapper is `justify-end flex-col-reverse` when */}
+			{/* `showActiveNodeDetails() == false` to ensure the fullscreen button is on top */}
+			<div
+				class={`flex ${
+					showActiveNodeDetails() ? "flex-row" : "justify-end flex-col-reverse"
+				} absolute left-[2px] top-[2px] h-[calc(100%-4px)] w-[20%]`}
 			>
-				{fullScreen() ? <ExitFullscreen /> : <IntoFullscreen />}
-			</button>
+				<ActiveNodeDetails
+					details={activeNodeDetails}
+					active={showActiveNodeDetails}
+					setActive={setShowActiveNodeDetails}
+				/>
+				<div class="relative flex flex-row justify-start items-center h-full">
+					<button
+						type="button"
+						class="absolute top-1 left-1 h-[30px] w-[30px] m-3 rounded-lg p-[0.2rem] shrink-0 hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100"
+						onClick={toggleFullScreen}
+					>
+						{fullScreen() ? <ExitFullscreen /> : <IntoFullscreen />}
+					</button>
+					<button
+						type="button"
+						class="bg-sky-200 h-20 w-4 rounded-tr-lg rounded-br-lg border-r-black border-t-black border-b-black hover:bg-sky-300 transition"
+						onClick={() => setShowActiveNodeDetails((prev) => !prev)}
+					>
+						{showActiveNodeDetails() ? "<" : ">"}
+					</button>
+				</div>
+			</div>
 		</div>
 	);
 }
 
 function Program(props: { program: T.Program }) {
 	console.log("Program", props.program);
-	const { nodes } = useContext(NodeContext);
+	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
+		useContext(NodeContext);
 	const nodeState = createNodeState();
 	const id = generateId(props.program.title);
 
@@ -100,6 +127,16 @@ function Program(props: { program: T.Program }) {
 		const node = new NodeInfo(null, childrenIds, nodeState);
 		nodes.set(id, node);
 	});
+
+	const showCurrentNodeDetails = (e: MouseEvent) => {
+		e.stopPropagation();
+		setActiveNodeDetails({
+			title: props.program.title,
+			paragraphs: [props.program.guid],
+		});
+
+		setShowActiveNodeDetails((prev) => !prev);
+	};
 
 	const contents = (
 		<div class="flex flex-col items-center justify-center">
@@ -116,6 +153,9 @@ function Program(props: { program: T.Program }) {
 			</a>
 			<button type="button" onClick={() => console.log(nodes)}>
 				Print
+			</button>
+			<button type="button" onClick={showCurrentNodeDetails}>
+				Show details
 			</button>
 		</div>
 	);
@@ -744,6 +784,10 @@ function Node(props: {
 	state: NodeState;
 	showArrow?: boolean;
 	children?: JSXElement;
+	/**
+	 * Action to perform when node is clicked
+	 */
+	onClick?: (e: MouseEvent) => void;
 }): JSXElement {
 	const [arrow, setArrow] = createSignal<JSXElement | undefined>(undefined);
 
@@ -841,6 +885,9 @@ function Node(props: {
 		// e.preventDefault();
 		e.stopPropagation();
 		props.state.setSelected(!props.state.selected());
+
+		// Invoke actions passed in from parent
+		props.onClick?.(e);
 	}
 
 	return (
@@ -876,7 +923,7 @@ function Node(props: {
 				</section>
 			</div>
 			<svg
-				class="absolute h-[100%] w-[100%] overflow-visible pointer-events-none"
+				class="pointer-events-none absolute h-[100%] w-[100%] overflow-visible"
 				ref={svgRef}
 			>
 				<title>Arrow betwen nodes</title>
