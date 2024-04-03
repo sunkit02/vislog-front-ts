@@ -130,6 +130,8 @@ function Program(props: { program: T.Program }) {
 	const id = generateId(props.program.title);
 
 	onMount(() => {
+		nodes.clear();
+
 		// Add node to nodes
 		const childrenIds: string[] = [];
 		const node = new NodeInfo(null, childrenIds, nodeState);
