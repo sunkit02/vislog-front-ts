@@ -22,8 +22,12 @@ import ActiveNodeDetails from "./programmap/ActiveNodeDetailsSideBar";
 function ProgramMap(props: { program: T.Program }) {
 	let pmContainerRef: HTMLDivElement | undefined;
 	const [fullScreen, setFullScreen] = createSignal(false);
-	const { activeNodeDetails, showActiveNodeDetails, setShowActiveNodeDetails } =
-		useContext(ProgramMapContext);
+	const {
+		selectedNodes,
+		activeNodeDetails,
+		showActiveNodeDetails,
+		setShowActiveNodeDetails,
+	} = useContext(ProgramMapContext);
 
 	onMount(() => {
 		centerProgramMap();
@@ -89,6 +93,7 @@ function ProgramMap(props: { program: T.Program }) {
 			>
 				<ActiveNodeDetails
 					details={activeNodeDetails}
+					selectedNodes={selectedNodes}
 					active={showActiveNodeDetails}
 					setActive={setShowActiveNodeDetails}
 				/>
@@ -109,25 +114,18 @@ function ProgramMap(props: { program: T.Program }) {
 					</button>
 				</div>
 			</div>
-			<div id="right-aside-container" class="absolute left-full top-0 h-full">
-				<div class="absolute left-[calc(-1rem-2px)] flex flex-row justify-start items-center h-full">
-					<button
-						type="button"
-						class="bg-sky-200 h-20 w-[1rem] rounded-tl-lg rounded-bl-lg border-r-black border-t-black border-b-black hover:bg-sky-300 transition"
-						onClick={() => setShowActiveNodeDetails((prev) => !prev)}
-					>
-						{showActiveNodeDetails() ? ">" : "<"}
-					</button>
-				</div>
-			</div>
 		</div>
 	);
 }
 
 function Program(props: { program: T.Program }) {
 	console.log("Program", props.program);
-	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
-		useContext(ProgramMapContext);
+	const {
+		nodes,
+		setSelectedNodes,
+		setShowActiveNodeDetails,
+		setActiveNodeDetails,
+	} = useContext(ProgramMapContext);
 	const nodeState = createNodeState();
 	const id = generateId(props.program.title);
 
@@ -154,6 +152,19 @@ function Program(props: { program: T.Program }) {
 		updateCurrentNodeDetails();
 
 		setShowActiveNodeDetails(true);
+	};
+
+	// NOTE: Don't touch the event propagation and set any state, only read.
+	// This callback will be executed before the inner callback for onclick
+	// in Node will be
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== props.program.title),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.program.title]));
+		}
 	};
 
 	const contents = (
@@ -185,6 +196,7 @@ function Program(props: { program: T.Program }) {
 			nodeContent={contents}
 			state={nodeState}
 			nodes={nodes}
+			onClick={toggleSelectNode}
 		>
 			<Switch fallback={<FallbackMessage target="Program" />}>
 				<Match when={props.program.requirements}>
@@ -339,15 +351,13 @@ function BasicRequirements(props: {
 	console.log("BasicRequirements", props);
 	// console.log("BasicRequirements title", props.req.data.title);
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
-	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
-		useContext(ProgramMapContext);
+	const {
+		nodes,
+		setShowActiveNodeDetails,
+		setActiveNodeDetails,
+		setSelectedNodes,
+	} = useContext(ProgramMapContext);
 	const nodeState = createNodeState();
-
-	onMount(() => {
-		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
-		nodes.set(id, node);
-	});
 
 	const showCurrentNodeDetails = (e: MouseEvent) => {
 		e.stopPropagation();
@@ -359,6 +369,16 @@ function BasicRequirements(props: {
 		setShowActiveNodeDetails(true);
 	};
 
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== (props.req.data.title || id)),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.req.data.title || id]));
+		}
+	};
+
 	const content = (
 		<div class="flex flex-col justify-center items-center">
 			<h3 class="w-[80%] text-center">{props.req.data.title}</h3>
@@ -368,6 +388,12 @@ function BasicRequirements(props: {
 		</div>
 	);
 
+	onMount(() => {
+		// Add node to nodes
+		const node = new NodeInfo(props.parentId, [], nodeState);
+		nodes.set(id, node);
+	});
+
 	return (
 		<Node
 			id={id}
@@ -375,6 +401,7 @@ function BasicRequirements(props: {
 			nodeContent={content}
 			state={nodeState}
 			nodes={nodes}
+			onClick={toggleSelectNode}
 		>
 			<div class="flex flex-row items-start justify-center">
 				<For each={props.req.data.requirements}>
@@ -390,7 +417,17 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
 
 	const id = generateId(props.req.data.title);
 	const nodeState = createNodeState();
-	const { nodes } = useContext(ProgramMapContext);
+	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
+
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== props.req.data.title),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.req.data.title]));
+		}
+	};
 
 	onMount(() => {
 		// Add node to nodes
@@ -405,6 +442,7 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
 			nodeContent={<h3 class="w-[80%] text-center">{props.req.data.title}</h3>}
 			state={nodeState}
 			nodes={nodes}
+			onClick={toggleSelectNode}
 		/>
 	);
 }
@@ -489,7 +527,18 @@ function Courses(props: {
 
 	const id = generateId(props.data.title || "Courses");
 	const nodeState = createNodeState();
-	const { nodes } = useContext(ProgramMapContext);
+	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
+
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== (props.data.title || id)),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.data.title || id]));
+		}
+	};
+
 	const content = (
 		<h3 class="w-[80%] text-center">{props.data.title || "Courses"}</h3>
 	);
@@ -515,6 +564,7 @@ function Courses(props: {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
+			onClick={toggleSelectNode}
 		>
 			<div class="flex flex-col items-center justify-center gap-20">
 				<For each={props.data.courses}>
@@ -533,7 +583,17 @@ function SelectFromCourses(props: {
 
 	const id = generateId(props.data.title);
 	const nodeState = createNodeState();
-	const { nodes } = useContext(ProgramMapContext);
+	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
+
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== props.data.title),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.data.title]));
+		}
+	};
 
 	onMount(() => {
 		// Add node to nodes
@@ -555,6 +615,7 @@ function SelectFromCourses(props: {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
+			onClick={toggleSelectNode}
 			nodeContent={
 				<div class="flex flex-col items-center justify-center gap-5">
 					<h3 class="w-[80%] text-center">{props.data.title}</h3>
@@ -579,7 +640,17 @@ function RequirementLabel(props: {
 
 	const id = generateId(props.data.title || "RequirementLabel");
 	const nodeState = createNodeState();
-	const { nodes } = useContext(ProgramMapContext);
+	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
+
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== (props.data.title || id)),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.data.title || id]));
+		}
+	};
 
 	onMount(() => {
 		// Add node to nodes
@@ -601,6 +672,7 @@ function RequirementLabel(props: {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
+			onClick={toggleSelectNode}
 			nodeContent={
 				<>
 					<h3 class="w-[80%] text-center">{props.data.title}</h3>
@@ -747,7 +819,17 @@ function Label(props: {
 
 	const id = generateId(props.label.name);
 	const nodeState = createNodeState();
-	const { nodes } = useContext(ProgramMapContext);
+	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
+
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== props.label.name),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.label.name]));
+		}
+	};
 
 	onMount(() => {
 		// Add node to nodes
@@ -770,6 +852,7 @@ function Label(props: {
 			state={nodeState}
 			nodes={nodes}
 			showArrow={props.showArrow}
+			onClick={toggleSelectNode}
 			nodeContent={
 				<>
 					<h3 class="w-[80%] text-center">{props.label.name}</h3>
@@ -788,22 +871,22 @@ function Course(props: {
 
 	const id = generateId(props.course.name || "Course");
 	const nodeState = createNodeState();
-	const { nodes, setShowActiveNodeDetails, setActiveNodeDetails } =
-		useContext(ProgramMapContext);
+	const {
+		nodes,
+		setShowActiveNodeDetails,
+		setActiveNodeDetails,
+		setSelectedNodes,
+	} = useContext(ProgramMapContext);
 
-	onMount(() => {
-		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
-		nodes.set(id, node);
-
-		// Add node to parent node's children
-		const parentNode = nodes.get(props.parentId);
-		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.course);
-			return;
+	const toggleSelectNode = (_: MouseEvent) => {
+		if (nodeState.selected()) {
+			setSelectedNodes((prev) =>
+				prev.filter((title) => title !== (props.course.name || id)),
+			);
+		} else {
+			setSelectedNodes((prev) => prev.concat([props.course.name || id]));
 		}
-		parentNode.childrenIds.push(id);
-	});
+	};
 
 	const showCurrentNodeDetails = (e: MouseEvent) => {
 		e.stopPropagation();
@@ -841,6 +924,20 @@ function Course(props: {
 		</div>
 	);
 
+	onMount(() => {
+		// Add node to nodes
+		const node = new NodeInfo(props.parentId, [], nodeState);
+		nodes.set(id, node);
+
+		// Add node to parent node's children
+		const parentNode = nodes.get(props.parentId);
+		if (!parentNode) {
+			handleParentUndefined(props.parentId, props.course);
+			return;
+		}
+		parentNode.childrenIds.push(id);
+	});
+
 	return (
 		<Node
 			id={id}
@@ -848,6 +945,7 @@ function Course(props: {
 			showArrow={props.showArrow}
 			state={nodeState}
 			nodes={nodes}
+			onClick={toggleSelectNode}
 			nodeContent={nodeContent}
 		/>
 	);
@@ -865,7 +963,11 @@ function Node(props: {
 	showArrow?: boolean;
 	children?: JSXElement;
 	/**
-	 * Action to perform when node is clicked
+	 *  Action to perform when node is clicked
+	 *
+	 *  NOTE: Don't touch the event propagation and set any state, only read.
+	 *  This callback will be executed before the inner callback for `onClick`
+	 *  in `Node` will be
 	 */
 	onClick?: (e: MouseEvent) => void;
 }): JSXElement {
@@ -962,12 +1064,11 @@ function Node(props: {
 	 *   - Updates propagated from children are still allowed because it should never cause the hoverCount to drop under 1, hence holding the highlight.
 	 */
 	function handleClickNode(e: MouseEvent) {
-		// e.preventDefault();
-		e.stopPropagation();
-		props.state.setSelected(!props.state.selected());
-
 		// Invoke actions passed in from parent
 		props.onClick?.(e);
+
+		e.stopPropagation();
+		props.state.setSelected(!props.state.selected());
 	}
 
 	return (

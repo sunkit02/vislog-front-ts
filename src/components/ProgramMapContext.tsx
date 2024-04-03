@@ -11,16 +11,16 @@ import type { ActiveNodeDetails } from "./programmap/ActiveNodeDetailsSideBar";
 
 export type ProgramMapContextType = {
 	nodes: ReactiveMap<string, NodeInfo>;
+	selectedNodes: Accessor<string[]>;
+	setSelectedNodes: Setter<string[]>;
 	activeNodeDetails: Accessor<ActiveNodeDetails>;
 	setActiveNodeDetails: Setter<ActiveNodeDetails>;
 	showActiveNodeDetails: Accessor<boolean>;
 	setShowActiveNodeDetails: Setter<boolean>;
-	showSelectedNodes: Accessor<boolean>;
-	setShowSelectedNodes: Setter<boolean>;
 };
 
+const [selectedNodes, setSelectedNodes] = createSignal<string[]>([]);
 const [showActiveNodeDetails, setShowActiveNodeDetails] = createSignal(false);
-const [showSelectedNodes, setShowSelectedNodes] = createSignal(false);
 const [activeNodeDetails, setActiveNodeDetails] =
 	createSignal<ActiveNodeDetails>({
 		title: "",
@@ -29,12 +29,12 @@ const [activeNodeDetails, setActiveNodeDetails] =
 
 const defaultContext = {
 	nodes: new ReactiveMap<string, NodeInfo>(),
+	selectedNodes,
+	setSelectedNodes,
 	activeNodeDetails,
 	setActiveNodeDetails,
 	showActiveNodeDetails,
 	setShowActiveNodeDetails,
-	showSelectedNodes,
-	setShowSelectedNodes,
 };
 
 export const ProgramMapContext =
