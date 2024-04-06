@@ -1,5 +1,4 @@
 import {
-	Accessor,
 	Match,
 	Switch,
 	createEffect,

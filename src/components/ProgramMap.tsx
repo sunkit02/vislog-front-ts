@@ -19,6 +19,7 @@ import ExitFullscreen from "../icons/ExitFullscreen";
 import IntoFullscreen from "../icons/IntoFullscreen";
 import ActiveNodeDetails from "./programmap/ActiveNodeDetailsSideBar";
 
+// TODO: Split long list of courses into two columns
 function ProgramMap(props: { program: T.Program }) {
 	let pmContainerRef: HTMLDivElement | undefined;
 	const [fullScreen, setFullScreen] = createSignal(false);
@@ -74,6 +75,8 @@ function ProgramMap(props: { program: T.Program }) {
 		}
 	}
 
+	let sideBarContainerRef: HTMLDivElement | undefined;
+
 	return (
 		<div class={`transition ${fullScreen() ? "" : "relative"}`}>
 			<article
@@ -88,26 +91,28 @@ function ProgramMap(props: { program: T.Program }) {
 			{/* The following div wrapper is `justify-end flex-col-reverse` when */}
 			{/* `showActiveNodeDetails() == false` to ensure the fullscreen button is on top */}
 			<div
+				ref={sideBarContainerRef}
 				id="left-aside-container"
-				class="flex flex-row absolute left-[2px] top-[2px] h-[calc(100%-4px)] w-[20%]"
+				class="absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] flex-row]"
 			>
 				<ActiveNodeDetails
+					containerRef={sideBarContainerRef}
 					details={activeNodeDetails}
 					selectedNodes={selectedNodes}
 					active={showActiveNodeDetails}
 					setActive={setShowActiveNodeDetails}
 				/>
-				<div class="relative flex flex-row justify-start items-center h-full">
+				<div class="relative flex h-full flex-row items-center justify-start">
 					<button
 						type="button"
-						class="absolute top-1 left-1 h-[30px] w-[30px] m-3 rounded-lg p-[0.2rem] shrink-0 hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100"
+						class="absolute left-1 top-1 m-3 h-[30px] w-[30px] shrink-0 rounded-lg p-[0.2rem] hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100"
 						onClick={toggleFullScreen}
 					>
 						{fullScreen() ? <ExitFullscreen /> : <IntoFullscreen />}
 					</button>
 					<button
 						type="button"
-						class="bg-sky-200 h-20 w-4 rounded-tr-lg rounded-br-lg border-r-black border-t-black border-b-black hover:bg-sky-300 transition"
+						class="h-20 w-4 rounded-br-lg rounded-tr-lg border-b-black border-r-black border-t-black bg-sky-200 transition hover:bg-sky-300"
 						onClick={() => setShowActiveNodeDetails((prev) => !prev)}
 					>
 						{showActiveNodeDetails() ? "<" : ">"}
@@ -140,6 +145,7 @@ function Program(props: { program: T.Program }) {
 		// Hide active node details and update its content to be consistent with current program
 		setShowActiveNodeDetails(false);
 		updateCurrentNodeDetails();
+		setSelectedNodes([]);
 	});
 
 	const updateCurrentNodeDetails = () => {
@@ -382,7 +388,7 @@ function BasicRequirements(props: {
 	};
 
 	const content = (
-		<div class="flex flex-col justify-center items-center">
+		<div class="flex flex-col items-center justify-center">
 			<h3 class="w-[80%] text-center">{props.req.data.title}</h3>
 			<button type="button" onClick={showCurrentNodeDetails}>
 				<span class="underline hover:text-blue-600">Show details</span>
