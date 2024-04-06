@@ -1,4 +1,5 @@
 import {
+	Accessor,
 	Match,
 	Switch,
 	createEffect,
@@ -9,17 +10,27 @@ import SearchBar from "./components/utility/SearchBar";
 import ProgramMap from "./components/ProgramMap";
 import type { Program } from "./types";
 
-const fetchProgramNames = async (): Promise<string[]> => {
-	const url = "http://localhost:3001/program_names.json";
-	console.log(`Fetching from: ${url}`);
+const DATA_SERVER_URL = "http://10.253.132.175:8080";
 
-	const response = await fetch(url);
-	return response.json();
+type GuidTitlePair = {
+	guid: string;
+	title: string;
 };
 
-const fetchProgram = async (programName: string): Promise<Program> => {
-	const processedProgramName = programName.toLowerCase().replaceAll(" ", "_");
-	const url = `http://localhost:3001/${processedProgramName}.json`;
+const fetchProgramNames = async (): Promise<Map<string, string>> => {
+	const url = `${DATA_SERVER_URL}/api/programs/titles?with_guid=true`;
+	console.log(`Fetching from: ${url}`);
+
+	const titleMap = await fetch(url)
+		.then((res) => res.json())
+		.then((pairs: GuidTitlePair[]) => {
+			return new Map(pairs.map((p) => [p.title, p.guid]));
+		});
+	return titleMap;
+};
+
+const fetchProgram = async (guid: string): Promise<Program> => {
+	const url = `${DATA_SERVER_URL}/api/programs/${guid}`;
 	console.log(`Fetching from: ${url}`);
 
 	const response = await fetch(url);
@@ -30,15 +41,26 @@ function App() {
 	const [programName, setProgramName] = createSignal(
 		"Major in Art with Discipline-Specific Honors",
 	);
+
+	const [programTitleMap, setProgramTitleMap] = createSignal<
+		Map<string, string>
+	>(new Map());
+	const programTitles = () => Array.from(programTitleMap().keys());
+
 	// FIX: Do not fetch resource when `programName` is an empty string
-	const [programJson] = createResource(programName, fetchProgram);
 	const [programNamesResource] = createResource(fetchProgramNames);
-	const [programNames, setProgramNames] = createSignal<string[]>([]);
+
+	const programGuidByName = () => {
+		const guid = programTitleMap().get(programName());
+		console.log("got guid: ", guid);
+		return guid;
+	};
+	const [programJson] = createResource(programGuidByName, fetchProgram);
 
 	// Assign programNames once programNamesResource has loaded
 	createEffect(() => {
 		if (programNamesResource.state === "ready") {
-			setProgramNames(programNamesResource());
+			setProgramTitleMap(programNamesResource());
 		} else if (programNamesResource.state === "errored") {
 			alert(
 				"An error occured when loading program names. See console for more information.",
@@ -54,7 +76,7 @@ function App() {
 			<div class="flex w-[30%] justify-center p-5">
 				<SearchBar
 					setSearchText={setProgramName}
-					possibleSearches={programNames}
+					possibleSearches={programTitles}
 				/>
 			</div>
 			<div class="mt-5 flex items-center justify-center">
