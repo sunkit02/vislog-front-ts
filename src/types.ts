@@ -161,3 +161,20 @@ export type Course = {
 	 */
 	credits: [number, number | null];
 };
+
+export type CourseDetails = {
+	url: string;
+	guid: string;
+	path: string;
+	subject_code: string;
+	subject_name: string | null;
+	number: string;
+	name: string;
+	credits_min: number;
+	credits_max: number | null;
+	description: string;
+	prerequisite_narrative: string | null;
+	prerequisite: string | null;
+	corequisite_narrative: string | null;
+	corequisite: string | null;
+};

@@ -18,6 +18,7 @@ import type { ReactiveMap } from "@solid-primitives/map";
 import ExitFullscreen from "../icons/ExitFullscreen";
 import IntoFullscreen from "../icons/IntoFullscreen";
 import ActiveNodeDetails from "./programmap/ActiveNodeDetailsSideBar";
+import { DATA_SERVER_URL } from "../App";
 
 // TODO: Split long list of courses into two columns
 function ProgramMap(props: { program: T.Program }) {
@@ -896,8 +897,14 @@ function Course(props: {
 		}
 	};
 
-	const showCurrentNodeDetails = (e: MouseEvent) => {
+	const showCurrentNodeDetails = async (e: MouseEvent) => {
 		e.stopPropagation();
+		const courseDetails: T.CourseDetails = await fetch(
+			`${DATA_SERVER_URL}/api/courses/${props.course.guid}`,
+		).then((res) => res.json());
+
+		console.log(courseDetails);
+
 		setActiveNodeDetails({
 			title: props.course.name || "No Title",
 			url: props.course.url,
@@ -907,6 +914,7 @@ function Course(props: {
 				props.course.credits[1] !== null
 					? `Credits: ${props.course.credits[0]}-${props.course.credits[1]} hours`
 					: `Credits: ${props.course.credits[0]} hours`,
+				`Details: ${courseDetails.description}`,
 			],
 		});
 

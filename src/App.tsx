@@ -9,7 +9,7 @@ import SearchBar from "./components/utility/SearchBar";
 import ProgramMap from "./components/ProgramMap";
 import type { Program } from "./types";
 
-const DATA_SERVER_URL = "http://10.253.132.175:8080";
+export const DATA_SERVER_URL = "http://10.253.132.175:8080";
 
 type GuidTitlePair = {
 	guid: string;
