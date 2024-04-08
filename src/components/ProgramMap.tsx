@@ -243,14 +243,16 @@ function Requirements(props: { reqs: T.Requirements; parentId: string }) {
 				/>
 			</Match>
 			<Match when={props.reqs.type === T.RequirementsType.Many}>
-				<For each={(props.reqs as T.ManyRequirements).data}>
-					{(reqModule) => (
-						<RequirementModule
-							reqModule={reqModule}
-							parentId={props.parentId}
-						/>
-					)}
-				</For>
+				<ul class="flex flex-row">
+					<For each={(props.reqs as T.ManyRequirements).data}>
+						{(reqModule) => (
+							<RequirementModule
+								reqModule={reqModule}
+								parentId={props.parentId}
+							/>
+						)}
+					</For>
+				</ul>
 			</Match>
 		</Switch>
 	);
@@ -566,7 +568,9 @@ function Courses(props: {
 	};
 
 	const content = (
-		<h3 class="w-[80%] text-center">{props.data.title || "Courses"}</h3>
+		<>
+			<h3 class="w-[80%] text-center">{props.data.title || "Courses"}</h3>
+		</>
 	);
 
 	onMount(() => {
