@@ -9,6 +9,7 @@ import {
 	createSignal,
 	onMount,
 	useContext,
+	createEffect,
 } from "solid-js";
 import { generateId } from "../utils/keygen";
 import CurvedArrow from "./utility/CurvedArrow";
@@ -1020,7 +1021,11 @@ function Node(props: {
 		return props.state.hoverCount() > 0 || props.state.selected();
 	}
 
-	onMount(() => {
+	// TODO: Optimize away the initial render so the arrows are only rendered once
+	createEffect(() => {
+		props.nodes.get(props.id)?.nodeState.updateArrowsTrigger();
+		console.log("Triggered an arrow update!!!!");
+
 		if (!props.parentId) {
 			console.log(`Node with id ${props.id} doesn't have a parentId`);
 			return;
@@ -1114,6 +1119,11 @@ function Node(props: {
 		}
 	});
 
+	onMount(() => {
+		// Trigger arrow update to redraw all arrows after adjusting program map
+		props.nodes.get(props.id)?.nodeState.setUpdateArrowsTrigger((p) => !p);
+	});
+
 	// Updates the hovercount of the current node and all of its parents
 	function updateSubTreeHoverCount(
 		updateFn: (prev: number) => number,
@@ -1204,11 +1214,38 @@ function DoubleCourseList(props: {
 		props.courses.filter((_, idx) => idx % 2 !== 0),
 	);
 
+	// The padding is used to align the gap between the two lists
+	// to the center of the parent node
+	const [paddingWidth, setPaddingWidth] = createSignal(0);
+	const padding = <div id="padding" style={{ width: `${paddingWidth()}px` }} />;
+
+	const [leftListWidth, setLeftListWidth] = createSignal(0);
+	const [rightListWidth, setRightListWidth] = createSignal(0);
+
+	let leftListRef: HTMLUListElement | undefined;
+	let rightListRef: HTMLUListElement | undefined;
+
+	onMount(() => {
+		if (leftListRef && rightListRef) {
+			const { width: leftWidth } = leftListRef.getBoundingClientRect();
+			const { width: rightWidth } = rightListRef.getBoundingClientRect();
+
+			setLeftListWidth(leftWidth);
+			setRightListWidth(rightWidth);
+			// The difference between the two widths
+			setPaddingWidth(Math.abs(leftWidth - rightWidth));
+		}
+	});
+
 	return (
 		<Switch fallback={<FallbackMessage target="DuoCourseList" />}>
 			<Match when={props.courses.length > 1}>
 				<div class="flex flex-row justify-center items-start">
-					<ul class="flex flex-col items-end justify-center gap-20">
+					{leftListWidth() < rightListWidth() ? padding : null}
+					<ul
+						class="flex flex-col items-end justify-center gap-20"
+						ref={leftListRef}
+					>
 						<For each={leftList()}>
 							{(entry) => (
 								<CourseEntry
@@ -1219,7 +1256,10 @@ function DoubleCourseList(props: {
 							)}
 						</For>
 					</ul>
-					<ul class="flex flex-col items-start justify-center gap-20">
+					<ul
+						class="flex flex-col items-start justify-center gap-20"
+						ref={rightListRef}
+					>
 						<For each={rightList()}>
 							{(entry) => (
 								<CourseEntry
@@ -1230,6 +1270,7 @@ function DoubleCourseList(props: {
 							)}
 						</For>
 					</ul>
+					{leftListWidth() > rightListWidth() ? padding : null}
 				</div>
 			</Match>
 			<Match when={props.courses.length <= 1}>
@@ -1284,13 +1325,23 @@ type NodeState = {
 	setHoverCount: Setter<number>;
 	selected: Accessor<boolean>;
 	setSelected: Setter<boolean>;
+	updateArrowsTrigger: Accessor<boolean>;
+	setUpdateArrowsTrigger: Setter<boolean>;
 };
 
 function createNodeState(): NodeState {
 	const [hoverCount, setHoverCount] = createSignal(0);
 	const [selected, setSelected] = createSignal(false);
+	const [updateArrowsTrigger, setUpdateArrowsTrigger] = createSignal(true);
 
-	return { hoverCount, setHoverCount, selected, setSelected };
+	return {
+		hoverCount,
+		setHoverCount,
+		selected,
+		setSelected,
+		updateArrowsTrigger,
+		setUpdateArrowsTrigger,
+	};
 }
 
 export default ProgramMap;
