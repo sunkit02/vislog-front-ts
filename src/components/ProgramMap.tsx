@@ -19,6 +19,7 @@ import ExitFullscreen from "../icons/ExitFullscreen";
 import IntoFullscreen from "../icons/IntoFullscreen";
 import ActiveNodeDetails from "./programmap/ActiveNodeDetailsSideBar";
 import { DATA_SERVER_URL } from "../App";
+import DoubleListCurvedArrow from "./utility/DoubleListCurvedArrow";
 
 // TODO: Split long list of courses into two columns
 function ProgramMap(props: { program: T.Program }) {
@@ -586,11 +587,7 @@ function Courses(props: {
 			nodes={nodes}
 			onClick={toggleSelectNode}
 		>
-			<div class="flex flex-col items-center justify-center gap-20">
-				<For each={props.data.courses}>
-					{(entry) => <CourseEntry entry={entry} parentId={id} />}
-				</For>
-			</div>
+			<DoubleCourseList parentId={id} courses={props.data.courses} />
 		</Node>
 	);
 }
@@ -708,6 +705,7 @@ function CourseEntry(props: {
 	parentId: string;
 	isNested?: boolean;
 	showArrow?: boolean;
+	doubleListSide?: "left" | "right";
 }) {
 	console.log("CourseEntry", props);
 
@@ -719,6 +717,7 @@ function CourseEntry(props: {
 					parentId={props.parentId}
 					isNested={props.isNested}
 					showArrow={props.showArrow}
+					doubleListSide={props.doubleListSide}
 				/>
 			</Match>
 			<Match when={props.entry.type === T.CourseEntryType.Or}>
@@ -726,6 +725,7 @@ function CourseEntry(props: {
 					entries={(props.entry as T.Or).data}
 					parentId={props.parentId}
 					showArrow={props.showArrow === false ? false : true}
+					doubleListSide={props.doubleListSide}
 				/>
 			</Match>
 			<Match when={props.entry.type === T.CourseEntryType.Course}>
@@ -733,6 +733,7 @@ function CourseEntry(props: {
 					course={(props.entry as T.EntryCourse).data}
 					parentId={props.parentId}
 					showArrow={props.showArrow}
+					doubleListSide={props.doubleListSide}
 				/>
 			</Match>
 			<Match when={props.entry.type === T.CourseEntryType.Label}>
@@ -740,6 +741,7 @@ function CourseEntry(props: {
 					label={(props.entry as T.EntryLabel).data}
 					parentId={props.parentId}
 					showArrow={props.showArrow}
+					doubleListSide={props.doubleListSide}
 				/>
 			</Match>
 		</Switch>
@@ -751,6 +753,7 @@ function And(props: {
 	isNested?: boolean;
 	parentId: string;
 	showArrow?: boolean;
+	doubleListSide?: "left" | "right";
 }) {
 	console.log("And", props);
 
@@ -779,6 +782,7 @@ function And(props: {
 			state={nodeState}
 			nodes={nodes}
 			showArrow={props.showArrow}
+			doubleListSide={props.doubleListSide}
 			nodeContent={
 				<div class="flex flex-col items-center justify-center gap-5 p-5">
 					<h3 class="w-[80%] text-center">And</h3>
@@ -811,6 +815,7 @@ function Or(props: {
 	entries: T.CourseEntry[];
 	parentId: string;
 	showArrow?: boolean;
+	doubleListSide?: "left" | "right";
 }) {
 	console.log("Or", props);
 
@@ -834,6 +839,7 @@ function Label(props: {
 	label: T.Label;
 	parentId: string;
 	showArrow?: boolean;
+	doubleListSide?: "left" | "right";
 }) {
 	console.log("Lable", props);
 
@@ -873,6 +879,7 @@ function Label(props: {
 			nodes={nodes}
 			showArrow={props.showArrow}
 			onClick={toggleSelectNode}
+			doubleListSide={props.doubleListSide}
 			nodeContent={
 				<>
 					<h3 class="w-[80%] text-center">{props.label.name}</h3>
@@ -886,6 +893,7 @@ function Course(props: {
 	course: T.Course;
 	parentId: string;
 	showArrow?: boolean;
+	doubleListSide?: "left" | "right";
 }) {
 	console.log("Course", props);
 
@@ -974,6 +982,7 @@ function Course(props: {
 			nodes={nodes}
 			onClick={toggleSelectNode}
 			nodeContent={nodeContent}
+			doubleListSide={props.doubleListSide}
 		/>
 	);
 }
@@ -989,6 +998,10 @@ function Node(props: {
 	state: NodeState;
 	showArrow?: boolean;
 	children?: JSXElement;
+	/**
+	 * Which side of the `DoubleCourseList` this node is on. Is not in a `DoubleCourseList` if `undefined`
+	 */
+	doubleListSide?: "left" | "right";
 	/**
 	 *  Action to perform when node is clicked
 	 *
@@ -1024,7 +1037,7 @@ function Node(props: {
 			// console.log("svgBoundingRect", svgBoundingRect);
 
 			if (selfBoundingRect && parentBoundingRect && svgBoundingRect) {
-				const { x, y, height: _, width } = selfBoundingRect;
+				const { x, y, height, width } = selfBoundingRect;
 				// console.log({ x, y, height, width });
 
 				const {
@@ -1041,10 +1054,48 @@ function Node(props: {
 				const startX = parentX + parentWidth / 2 - offsetX;
 				const startY = parentY + parentHeight - offsetY;
 
-				const endX = x + width / 2 - offsetX;
-				const endY = y - offsetY;
+				let endX: number;
+				let endY: number;
 
-				const arrow = (
+				if (props.doubleListSide === "left") {
+					// Middle right of Node
+					// +-------+
+					// |       |<-
+					// +-------+
+					endX = x + width - offsetX;
+					endY = y + height / 2 - offsetY;
+				} else if (props.doubleListSide === "right") {
+					// Middle left of Node
+					//   +-------+
+					// ->|       |
+					//   +-------+
+					endX = x - offsetX;
+					endY = y + height / 2 - offsetY;
+				} else {
+					// This means that the Node is not in a `DoubleCoursesList`
+					// Top middle of Node
+					//
+					//     +
+					// +-------+
+					// |       |
+					// +-------+
+					endX = x + width / 2 - offsetX;
+					endY = y - offsetY;
+				}
+
+				const arrow = props.doubleListSide ? (
+					<DoubleListCurvedArrow
+						id={`${props.parentId}->${props.id}`}
+						x1={startX}
+						y1={startY}
+						curveStartX={parentX + parentWidth / 2 - offsetX}
+						curveStartY={y - height - offsetY}
+						x2={endX}
+						y2={endY}
+						highlight={highlight}
+						doubleListSide={props.doubleListSide}
+					/>
+				) : (
 					<CurvedArrow
 						id={`${props.parentId}->${props.id}`}
 						x1={startX}
@@ -1139,6 +1190,56 @@ function Node(props: {
 			</svg>
 			{props.children}
 		</div>
+	);
+}
+
+function DoubleCourseList(props: {
+	parentId: string;
+	courses: T.CourseEntry[];
+}) {
+	const [leftList, _setLeftList] = createSignal(
+		props.courses.filter((_, idx) => idx % 2 === 0),
+	);
+	const [rightList, _setRightList] = createSignal(
+		props.courses.filter((_, idx) => idx % 2 !== 0),
+	);
+
+	return (
+		<Switch fallback={<FallbackMessage target="DuoCourseList" />}>
+			<Match when={props.courses.length > 1}>
+				<div class="flex flex-row justify-center items-start">
+					<ul class="flex flex-col items-end justify-center gap-20">
+						<For each={leftList()}>
+							{(entry) => (
+								<CourseEntry
+									entry={entry}
+									parentId={props.parentId}
+									doubleListSide="left"
+								/>
+							)}
+						</For>
+					</ul>
+					<ul class="flex flex-col items-start justify-center gap-20">
+						<For each={rightList()}>
+							{(entry) => (
+								<CourseEntry
+									entry={entry}
+									parentId={props.parentId}
+									doubleListSide="right"
+								/>
+							)}
+						</For>
+					</ul>
+				</div>
+			</Match>
+			<Match when={props.courses.length <= 1}>
+				<div class="flex flex-col items-center justify-center gap-20">
+					<For each={props.courses}>
+						{(entry) => <CourseEntry entry={entry} parentId={props.parentId} />}
+					</For>
+				</div>
+			</Match>
+		</Switch>
 	);
 }
 

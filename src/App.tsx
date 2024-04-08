@@ -38,7 +38,7 @@ const fetchProgram = async (guid: string): Promise<Program> => {
 
 function App() {
 	const [programName, setProgramName] = createSignal(
-		"Major in Art with Discipline-Specific Honors",
+		"Major in Computer Science—42 hours",
 	);
 
 	const [programTitleMap, setProgramTitleMap] = createSignal<

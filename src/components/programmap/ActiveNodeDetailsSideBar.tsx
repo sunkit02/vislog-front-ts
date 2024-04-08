@@ -49,12 +49,12 @@ function ActiveNodeDetailsSideBar(props: {
 
 				const containerX = getAbsoluteOffsetX(props.containerRef);
 
-				const testDiv = document.createElement("div");
-				testDiv.className = `absolute top-[100px] left-[${containerX}px] w-[10px] h-[10px] bg-black`;
-				testDiv.style.left = `${containerX}px`;
-				console.log("containerX:", containerX);
-
-				document.body.appendChild(testDiv);
+				// const testDiv = document.createElement("div");
+				// testDiv.className = `absolute top-[100px] left-[${containerX}px] w-[10px] h-[10px] bg-black`;
+				// testDiv.style.left = `${containerX}px`;
+				// console.log("containerX:", containerX);
+				//
+				// document.body.appendChild(testDiv);
 
 				let newWidth = mouseX - containerX;
 				console.log("newWidth: ", newWidth);
