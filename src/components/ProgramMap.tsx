@@ -94,7 +94,7 @@ function ProgramMap(props: { program: T.Program }) {
 			<div
 				ref={sideBarContainerRef}
 				id="left-aside-container"
-				class="absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] flex-row]"
+				class="absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] flex-row] max-w-[75%]"
 			>
 				<ActiveNodeDetails
 					containerRef={sideBarContainerRef}
@@ -150,9 +150,18 @@ function Program(props: { program: T.Program }) {
 	});
 
 	const updateCurrentNodeDetails = () => {
+		let description = "";
+		if (props.program.content) {
+			description += props.program.content;
+		}
+		if (props.program.bottomContent) {
+			description += props.program.bottomContent;
+		}
+
 		setActiveNodeDetails({
 			title: props.program.title,
-			paragraphs: [props.program.guid],
+			paragraphs: [],
+			description,
 		});
 	};
 
@@ -914,8 +923,8 @@ function Course(props: {
 				props.course.credits[1] !== null
 					? `Credits: ${props.course.credits[0]}-${props.course.credits[1]} hours`
 					: `Credits: ${props.course.credits[0]} hours`,
-				`Details: ${courseDetails.description}`,
 			],
+			description: courseDetails.description,
 		});
 
 		setShowActiveNodeDetails(true);

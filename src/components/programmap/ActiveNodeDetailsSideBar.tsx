@@ -18,6 +18,7 @@ export type ActiveNodeDetails = {
 	code?: string;
 	credits?: [number, number | null];
 	paragraphs: string[];
+	description?: string;
 };
 
 function ActiveNodeDetailsSideBar(props: {
@@ -106,13 +107,16 @@ function ActiveNodeDetailsSideBar(props: {
 					hidden={!props.active()}
 				>
 					<h3 class="text-lg font-bold text-center">{props.details().title}</h3>
-					<Show
-						when={props.details().paragraphs.length > 0}
-						fallback={<p class="text-center">No description.</p>}
-					>
+					<Show when={props.details().paragraphs.length > 0}>
 						<For each={props.details().paragraphs}>
 							{(paragraph) => <p>{paragraph}</p>}
 						</For>
+					</Show>
+					<Show
+						when={props.details().description}
+						fallback={<p class="text-center">No description.</p>}
+					>
+						<p innerHTML={props.details().description} />
 					</Show>
 				</article>
 				<article

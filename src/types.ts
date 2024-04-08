@@ -2,6 +2,8 @@ export type Program = {
 	url: string;
 	guid: string;
 	title: string;
+	content: string | null;
+	bottomContent: string | null;
 	requirements: Requirements | null;
 };
 
