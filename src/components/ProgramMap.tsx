@@ -97,7 +97,7 @@ function ProgramMap(props: { program: T.Program }) {
 				id="left-aside-container"
 				class={`flex-row] absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] max-w-[75%] ${
 					!showActiveNodeDetails() ? "pointer-event-none" : ""
-				}`}
+				} z-10`}
 			>
 				<ActiveNodeDetails
 					containerRef={sideBarContainerRef}
@@ -1361,7 +1361,9 @@ function Node(props: NodeProps): JSXElement {
 				</section>
 			</div>
 			<svg
-				class="pointer-events-none absolute h-[100%] w-[100%] overflow-visible"
+				class={`pointer-events-none absolute h-[100%] w-[100%] overflow-visible ${
+					shouldHighlight() ? "z-10" : ""
+				}`}
 				ref={svgRef}
 			>
 				<title>Arrow betwen nodes</title>
