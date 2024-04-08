@@ -131,7 +131,9 @@ function ActiveNodeDetailsSideBar(props: {
 						<ul class="flex flex-col justify-start items-start overflow-auto w-full p-5">
 							<For each={props.selectedNodes()}>
 								{(title) => (
-									<li class="w-full hover:bg-sky-300 transition">{title}</li>
+									<li class="w-full hover:bg-sky-300 transition border-sky-200 border-b-black border">
+										{title}
+									</li>
 								)}
 							</For>
 						</ul>
