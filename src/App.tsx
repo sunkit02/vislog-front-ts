@@ -72,7 +72,7 @@ function App() {
 
 	return (
 		<div class="flex flex-col items-center justify-center">
-			<div class="flex w-[30%] justify-center p-5">
+			<div class="flex w-[80%] md:w-[60%] lg:w-[40%] justify-center p-5 ">
 				<SearchBar
 					setSearchText={setProgramName}
 					possibleSearches={programTitles}
