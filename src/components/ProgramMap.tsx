@@ -1178,7 +1178,7 @@ function Node(props: NodeProps): JSXElement {
 						x1={startX}
 						y1={startY}
 						curveStartX={parentX + parentWidth / 2 - offsetX}
-						curveStartY={y - height - offsetY}
+						curveStartY={y - offsetY}
 						x2={endX}
 						y2={endY}
 						highlight={highlight}
@@ -1206,6 +1206,8 @@ function Node(props: NodeProps): JSXElement {
 	// TODO: Optimize away the initial render so the arrows are only rendered once
 	createEffect(() => {
 		props.nodes.get(props.id)?.nodeState.updateArrowsTrigger();
+		// TODO: Update all nodes that are affected
+		props.nodes.get(props.id)?.nodeState.selected();
 		console.log("Triggered an arrow update!!!!");
 
 		renderArrowToParent();
