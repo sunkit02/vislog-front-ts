@@ -96,21 +96,21 @@ function ProgramMap(props: { program: T.Program }) {
 			<div
 				ref={sideBarContainerRef}
 				id="left-aside-container"
-				class={`absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] flex-row] max-w-[75%] ${
+				class={`flex-row] absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] max-w-[75%] ${
 					!showActiveNodeDetails() ? "pointer-event-none" : ""
 				}`}
 			>
 				<ActiveNodeDetails
 					containerRef={sideBarContainerRef}
 					details={activeNodeDetails}
-					selectedNodes={selectedNodes}
+					selectedNodes={() => Array.from(selectedNodes().values())}
 					active={showActiveNodeDetails}
 					setActive={setShowActiveNodeDetails}
 				/>
 				<div class="relative flex h-full flex-row items-center justify-start">
 					<button
 						type="button"
-						class="absolute left-1 top-1 m-3 h-[30px] w-[30px] shrink-0 rounded-lg p-[0.2rem] hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100 pointer-event-auto"
+						class="pointer-event-auto absolute left-1 top-1 m-3 h-[30px] w-[30px] shrink-0 rounded-lg p-[0.2rem] hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100"
 						onClick={toggleFullScreen}
 					>
 						{fullScreen() ? <ExitFullscreen /> : <IntoFullscreen />}
@@ -144,13 +144,13 @@ function Program(props: { program: T.Program }) {
 
 		// Add node to nodes
 		const childrenIds: string[] = [];
-		const node = new NodeInfo(null, childrenIds, nodeState);
+		const node = new NodeInfo(id, null, childrenIds, nodeState);
 		nodes.set(id, node);
 
 		// Hide active node details and update its content to be consistent with current program
 		setShowActiveNodeDetails(false);
 		updateCurrentNodeDetails();
-		setSelectedNodes([]);
+		setSelectedNodes(new Set<string>());
 	});
 
 	const updateCurrentNodeDetails = () => {
@@ -176,18 +176,19 @@ function Program(props: { program: T.Program }) {
 		setShowActiveNodeDetails(true);
 	};
 
-	// NOTE: Don't touch the event propagation and set any state, only read.
-	// This callback will be executed before the inner callback for onclick
-	// in Node will be
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== props.program.title),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.program.title || id);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.program.title]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.program.title || id);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	const contents = (
 		<div class="flex flex-col items-center justify-center">
@@ -218,7 +219,6 @@ function Program(props: { program: T.Program }) {
 			nodeContent={contents}
 			state={nodeState}
 			nodes={nodes}
-			onClick={toggleSelectNode}
 		>
 			<Switch fallback={<FallbackMessage target="Program" />}>
 				<Match when={props.program.requirements}>
@@ -315,7 +315,7 @@ function SingleBasicRequirement(props: {
 	console.log("SingleBasicRequirement", props);
 
 	const id = generateId(props.req.data.title || "SingleBasicRequirement");
-	const { setShowActiveNodeDetails, setActiveNodeDetails } =
+	const { setShowActiveNodeDetails, setActiveNodeDetails, setSelectedNodes } =
 		useContext(ProgramMapContext);
 
 	const showCurrentNodeDetails = (e: MouseEvent) => {
@@ -339,9 +339,23 @@ function SingleBasicRequirement(props: {
 	const { nodes } = useContext(ProgramMapContext);
 	const nodeState = createNodeState();
 
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.req.data.title || id);
+				return new Set(prev);
+			});
+		} else {
+			setSelectedNodes((prev) => {
+				prev.delete(props.req.data.title || id);
+				return new Set(prev);
+			});
+		}
+	});
+
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -397,15 +411,19 @@ function BasicRequirements(props: {
 		setShowActiveNodeDetails(true);
 	};
 
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== (props.req.data.title || id)),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.req.data.title || id);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.req.data.title || id]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.req.data.title || id);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	const content = (
 		<div class="flex flex-col items-center justify-center">
@@ -418,7 +436,7 @@ function BasicRequirements(props: {
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 	});
 
@@ -429,7 +447,6 @@ function BasicRequirements(props: {
 			nodeContent={content}
 			state={nodeState}
 			nodes={nodes}
-			onClick={toggleSelectNode}
 		>
 			<div class="flex flex-row items-start justify-center">
 				<For each={props.req.data.requirements}>
@@ -447,19 +464,23 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
 	const nodeState = createNodeState();
 	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
 
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== props.req.data.title),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.req.data.title);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.req.data.title]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.req.data.title);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 	});
 
@@ -470,7 +491,6 @@ function ModuleLabel(props: { req: T.ModuleLabel; parentId: string }) {
 			nodeContent={<h3 class="w-[80%] text-center">{props.req.data.title}</h3>}
 			state={nodeState}
 			nodes={nodes}
-			onClick={toggleSelectNode}
 		/>
 	);
 }
@@ -484,7 +504,7 @@ function Unimplemented(props: { rawContent: unknown; parentId: string }) {
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -557,15 +577,19 @@ function Courses(props: {
 	const nodeState = createNodeState();
 	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
 
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== (props.data.title || id)),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.data.title || id);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.data.title || id]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.data.title || id);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	const content = (
 		<>
@@ -575,7 +599,7 @@ function Courses(props: {
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -598,7 +622,6 @@ function Courses(props: {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
-			onClick={toggleSelectNode}
 		>
 			<DoubleCourseList parentId={id} courses={props.data.courses} />
 		</Node>
@@ -615,19 +638,23 @@ function SelectFromCourses(props: {
 	const nodeState = createNodeState();
 	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
 
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== props.data.title),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.data.title || id);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.data.title]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.data.title || id);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -645,7 +672,6 @@ function SelectFromCourses(props: {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
-			onClick={toggleSelectNode}
 			nodeContent={
 				<div class="flex flex-col items-center justify-center gap-5">
 					<h3 class="w-[80%] text-center">{props.data.title}</h3>
@@ -672,19 +698,23 @@ function RequirementLabel(props: {
 	const nodeState = createNodeState();
 	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
 
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== (props.data.title || id)),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.data.title || id);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.data.title || id]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.data.title || id);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -706,7 +736,6 @@ function RequirementLabel(props: {
 			parentId={props.parentId}
 			state={nodeState}
 			nodes={nodes}
-			onClick={toggleSelectNode}
 			nodeContent={
 				<>
 					<h3 class="w-[80%] text-center">{props.data.title}</h3>
@@ -780,7 +809,7 @@ function And(props: {
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -845,7 +874,7 @@ function Or(props: {
 		// Only register the Or in nodes if is part of a `DoubleCoursesList`
 		if (props.doubleListSide) {
 			// Add node to nodes
-			const node = new NodeInfo(props.parentId, [], nodeState);
+			const node = new NodeInfo(id, props.parentId, [], nodeState);
 			nodes.set(id, node);
 
 			// Add node to parent node's children
@@ -926,19 +955,23 @@ function Label(props: {
 	const nodeState = createNodeState();
 	const { nodes, setSelectedNodes } = useContext(ProgramMapContext);
 
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== props.label.name),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.label.name || id);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.label.name]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.label.name || id);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -957,7 +990,6 @@ function Label(props: {
 			state={nodeState}
 			nodes={nodes}
 			showArrow={props.showArrow}
-			onClick={toggleSelectNode}
 			doubleListSide={props.doubleListSide}
 			nodeContent={
 				<>
@@ -985,15 +1017,19 @@ function Course(props: {
 		setSelectedNodes,
 	} = useContext(ProgramMapContext);
 
-	const toggleSelectNode = (_: MouseEvent) => {
-		if (nodeState.selected()) {
-			setSelectedNodes((prev) =>
-				prev.filter((title) => title !== (props.course.name || id)),
-			);
+	createEffect(() => {
+		if (nodeState.directlySelected() || nodeState.childSelectedCount() > 0) {
+			setSelectedNodes((prev) => {
+				prev.add(props.course.name || id);
+				return new Set(prev);
+			});
 		} else {
-			setSelectedNodes((prev) => prev.concat([props.course.name || id]));
+			setSelectedNodes((prev) => {
+				prev.delete(props.course.name || id);
+				return new Set(prev);
+			});
 		}
-	};
+	});
 
 	const showCurrentNodeDetails = async (e: MouseEvent) => {
 		e.stopPropagation();
@@ -1040,7 +1076,7 @@ function Course(props: {
 
 	onMount(() => {
 		// Add node to nodes
-		const node = new NodeInfo(props.parentId, [], nodeState);
+		const node = new NodeInfo(id, props.parentId, [], nodeState);
 		nodes.set(id, node);
 
 		// Add node to parent node's children
@@ -1063,7 +1099,6 @@ function Course(props: {
 			showArrow={props.showArrow}
 			state={nodeState}
 			nodes={nodes}
-			onClick={toggleSelectNode}
 			nodeContent={nodeContent}
 			doubleListSide={props.doubleListSide}
 		/>
@@ -1105,8 +1140,19 @@ function Node(props: NodeProps): JSXElement {
 	let nodeRef: HTMLDivElement | undefined;
 	let svgRef: SVGSVGElement | undefined;
 
-	function highlight(): boolean {
-		return props.state.hoverCount() > 0 || props.state.selected();
+	function nodeIsSelected(): boolean {
+		const nodeInfo = props.nodes.get(props.id);
+		if (nodeInfo) {
+			return (
+				nodeInfo.nodeState.directlySelected() ||
+				nodeInfo.nodeState.childSelectedCount() > 0
+			);
+		}
+		return false;
+	}
+
+	function shouldHighlight(): boolean {
+		return props.state.hoverCount() > 0 || nodeIsSelected();
 	}
 
 	function renderArrowToParent() {
@@ -1181,7 +1227,7 @@ function Node(props: NodeProps): JSXElement {
 						curveStartY={y - offsetY}
 						x2={endX}
 						y2={endY}
-						highlight={highlight}
+						highlight={shouldHighlight}
 						doubleListSide={props.doubleListSide}
 					/>
 				) : (
@@ -1191,7 +1237,7 @@ function Node(props: NodeProps): JSXElement {
 						y1={startY}
 						x2={endX}
 						y2={endY}
-						highlight={highlight}
+						highlight={shouldHighlight}
 					/>
 				);
 
@@ -1207,8 +1253,8 @@ function Node(props: NodeProps): JSXElement {
 	createEffect(() => {
 		props.nodes.get(props.id)?.nodeState.updateArrowsTrigger();
 		// TODO: Update all nodes that are affected
-		props.nodes.get(props.id)?.nodeState.selected();
-		console.log("Triggered an arrow update!!!!");
+		props.nodes.get(props.id)?.nodeState.directlySelected();
+		console.debug("Triggered an arrow update!!!!");
 
 		renderArrowToParent();
 	});
@@ -1250,7 +1296,33 @@ function Node(props: NodeProps): JSXElement {
 		props.onClick?.(e);
 
 		e.stopPropagation();
-		props.state.setSelected(!props.state.selected());
+		updateSelected(props.nodes, !props.state.directlySelected());
+	}
+
+	// Update the childSelected state of all the current node's parents and the
+	// current node's `directlySelected`  state
+	function updateSelected(
+		nodes: ReactiveMap<string, NodeInfo>,
+		isSelected: boolean,
+	) {
+		// Set the current node's `directlySelected` state
+		props.state.setDirectlySelected(isSelected);
+
+		// Set all parents' `childSelected` state
+		let parentId: string | null = props.parentId;
+		while (parentId) {
+			const parentNode = nodes.get(parentId);
+			if (!parentNode) {
+				console.error(
+					`Node with id ${parentId} was not found in the node tree.`,
+				);
+				return;
+			}
+			parentNode.nodeState.setChildSelectedCount((prev) =>
+				isSelected ? prev + 1 : prev - 1,
+			);
+			parentId = parentNode.parentId;
+		}
 	}
 
 	return (
@@ -1262,22 +1334,24 @@ function Node(props: NodeProps): JSXElement {
 					onKeyPress={() => {}}
 					onClick={handleClickNode}
 					onMouseEnter={() => {
-						if (!props.state.selected()) {
+						if (!nodeIsSelected()) {
 							updateSubTreeHoverCount((prev) => prev + 1, props.nodes);
 						}
 					}}
 					// NOTE: Potential place for the hoverCount to get offsynce and be always lower or greater than 0.
 					// Add a check if needed in the future
 					onMouseLeave={() => {
-						if (!props.state.selected()) {
+						if (!nodeIsSelected()) {
 							updateSubTreeHoverCount((prev) => prev - 1, props.nodes);
 						}
 					}}
 					// TODO: Add contrast between nodes that are selected or parents of the currently hovered nodes and the node being hovered;
 					class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-solid transition ${
-						props.state.selected() ? "border-4" : "border-2"
+						nodeIsSelected() && props.showHoverEffect !== false
+							? "border-4"
+							: "border-2"
 					} ${
-						highlight() && props.showHoverEffect !== false
+						shouldHighlight() && props.showHoverEffect !== false
 							? "border-blue-500 bg-sky-300"
 							: "border-black bg-sky-100"
 					}`}
@@ -1334,7 +1408,7 @@ function DoubleCourseList(props: {
 	return (
 		<Switch fallback={<FallbackMessage target="DuoCourseList" />}>
 			<Match when={props.courses.length > 1}>
-				<div class="flex flex-row justify-center items-start">
+				<div class="flex flex-row items-start justify-center">
 					{leftListWidth() < rightListWidth() ? padding : null}
 					<ul
 						class="flex flex-col items-end justify-center gap-20"
@@ -1402,16 +1476,19 @@ function handleParentUndefined(
 }
 
 export class NodeInfo {
+	id: string;
 	parentId: string | null;
 	selected: boolean;
 	childrenIds: string[];
 	readonly nodeState: NodeState;
 
 	constructor(
+		id: string,
 		parentId: string | null,
 		childrenIds: string[],
 		nodeState: NodeState,
 	) {
+		this.id = id;
 		this.parentId = parentId;
 		this.childrenIds = childrenIds;
 		this.selected = false;
@@ -1422,8 +1499,10 @@ export class NodeInfo {
 type NodeState = {
 	hoverCount: Accessor<number>;
 	setHoverCount: Setter<number>;
-	selected: Accessor<boolean>;
-	setSelected: Setter<boolean>;
+	directlySelected: Accessor<boolean>;
+	setDirectlySelected: Setter<boolean>;
+	childSelectedCount: Accessor<number>;
+	setChildSelectedCount: Setter<number>;
 	/**
 	 * Used to trigger arrow updates in a `createEffect` signal.
 	 * Simply flip the boolean value back and forth using
@@ -1435,14 +1514,17 @@ type NodeState = {
 
 function createNodeState(): NodeState {
 	const [hoverCount, setHoverCount] = createSignal(0);
-	const [selected, setSelected] = createSignal(false);
+	const [directlySelected, setDirectlySelected] = createSignal(false);
+	const [childSelectedCount, setChildSelectedCount] = createSignal(0);
 	const [updateArrowsTrigger, setUpdateArrowsTrigger] = createSignal(true);
 
 	return {
 		hoverCount,
 		setHoverCount,
-		selected,
-		setSelected,
+		directlySelected,
+		setDirectlySelected,
+		childSelectedCount,
+		setChildSelectedCount,
 		updateArrowsTrigger,
 		setUpdateArrowsTrigger,
 	};
