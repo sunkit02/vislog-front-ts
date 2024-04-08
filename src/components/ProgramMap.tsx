@@ -879,6 +879,7 @@ function Or(props: {
 					state={nodeState}
 					nodes={nodes}
 					showArrow={props.showArrow}
+					showHoverEffect={false}
 					doubleListSide={props.doubleListSide}
 					nodeContent={
 						<div class="flex flex-col items-center justify-center gap-5 p-5">
@@ -1065,16 +1066,17 @@ function Course(props: {
 	);
 }
 
-/**
- * It is assumed that there is no parent when a `null` value is explicitly assinged to `parentId`
- */
-function Node(props: {
+type NodeProps = {
 	id: string;
 	nodeContent: JSXElement;
 	parentId: string | null;
 	nodes: ReactiveMap<string, NodeInfo>;
 	state: NodeState;
 	showArrow?: boolean;
+	/**
+	 * Whether or to show the mouse hover effect (logical highlighting of parents will not be affected)
+	 */
+	showHoverEffect?: boolean;
 	children?: JSXElement;
 	/**
 	 * Which side of the `DoubleCourseList` this node is on. Is not in a `DoubleCourseList` if `undefined`
@@ -1088,7 +1090,12 @@ function Node(props: {
 	 *  in `Node` will be
 	 */
 	onClick?: (e: MouseEvent) => void;
-}): JSXElement {
+};
+
+/**
+ * It is assumed that there is no parent when a `null` value is explicitly assinged to `parentId`
+ */
+function Node(props: NodeProps): JSXElement {
 	const [arrow, setArrow] = createSignal<JSXElement | undefined>(undefined);
 
 	let nodeRef: HTMLDivElement | undefined;
@@ -1260,7 +1267,7 @@ function Node(props: {
 					class={`flex min-h-[120px] min-w-[250px] items-center justify-center rounded-lg border-solid transition ${
 						props.state.selected() ? "border-4" : "border-2"
 					} ${
-						highlight()
+						highlight() && props.showHoverEffect !== false
 							? "border-blue-500 bg-sky-300"
 							: "border-black bg-sky-100"
 					}`}
