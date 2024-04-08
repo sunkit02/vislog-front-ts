@@ -1105,11 +1105,7 @@ function Node(props: NodeProps): JSXElement {
 		return props.state.hoverCount() > 0 || props.state.selected();
 	}
 
-	// TODO: Optimize away the initial render so the arrows are only rendered once
-	createEffect(() => {
-		props.nodes.get(props.id)?.nodeState.updateArrowsTrigger();
-		console.log("Triggered an arrow update!!!!");
-
+	function renderArrowToParent() {
 		if (!props.parentId) {
 			console.log(`Node with id ${props.id} doesn't have a parentId`);
 			return;
@@ -1148,26 +1144,26 @@ function Node(props: NodeProps): JSXElement {
 
 				if (props.doubleListSide === "left") {
 					// Middle right of Node
-					// +-------+
-					// |       |<-
-					// +-------+
+					// +--------+
+					// |  Node  |<-
+					// +--------+
 					endX = x + width - offsetX;
 					endY = y + height / 2 - offsetY;
 				} else if (props.doubleListSide === "right") {
 					// Middle left of Node
-					//   +-------+
-					// ->|       |
-					//   +-------+
+					//   +--------+
+					// ->|  Node  |
+					//   +--------+
 					endX = x - offsetX;
 					endY = y + height / 2 - offsetY;
 				} else {
 					// This means that the Node is not in a `DoubleCoursesList`
 					// Top middle of Node
 					//
-					//     +
-					// +-------+
-					// |       |
-					// +-------+
+					//     v
+					// +--------+
+					// |  Node  |
+					// +--------+
 					endX = x + width / 2 - offsetX;
 					endY = y - offsetY;
 				}
@@ -1201,6 +1197,14 @@ function Node(props: NodeProps): JSXElement {
 				setArrow(arrow);
 			}
 		}
+	}
+
+	// TODO: Optimize away the initial render so the arrows are only rendered once
+	createEffect(() => {
+		props.nodes.get(props.id)?.nodeState.updateArrowsTrigger();
+		console.log("Triggered an arrow update!!!!");
+
+		renderArrowToParent();
 	});
 
 	onMount(() => {
