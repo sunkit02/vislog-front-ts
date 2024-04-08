@@ -82,7 +82,6 @@ function ProgramMap(props: { program: T.Program }) {
 		<div class={`transition ${fullScreen() ? "" : "relative"}`}>
 			<article
 				ref={pmContainerRef}
-				class={`relative h-[80vh] w-[90vw] overflow-auto ${
 				class={`relative h-[90vh] w-[90vw] overflow-auto ${
 					fullScreen() ? "" : "rounded-lg border-2 border-solid border-black"
 				} bg-yellow-50 p-5`}
@@ -95,7 +94,9 @@ function ProgramMap(props: { program: T.Program }) {
 			<div
 				ref={sideBarContainerRef}
 				id="left-aside-container"
-				class="absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] flex-row] max-w-[75%]"
+				class={`absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] flex-row] max-w-[75%] ${
+					showActiveNodeDetails() ? "pointer-event-none" : ""
+				}`}
 			>
 				<ActiveNodeDetails
 					containerRef={sideBarContainerRef}
@@ -107,7 +108,7 @@ function ProgramMap(props: { program: T.Program }) {
 				<div class="relative flex h-full flex-row items-center justify-start">
 					<button
 						type="button"
-						class="absolute left-1 top-1 m-3 h-[30px] w-[30px] shrink-0 rounded-lg p-[0.2rem] hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100"
+						class="absolute left-1 top-1 m-3 h-[30px] w-[30px] shrink-0 rounded-lg p-[0.2rem] hover:border-2 hover:border-solid hover:border-black hover:bg-yellow-100 pointer-event-auto"
 						onClick={toggleFullScreen}
 					>
 						{fullScreen() ? <ExitFullscreen /> : <IntoFullscreen />}
