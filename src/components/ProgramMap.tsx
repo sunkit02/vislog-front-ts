@@ -345,7 +345,11 @@ function SingleBasicRequirement(props: {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.req);
+			handleParentUndefined(
+				props.parentId,
+				props.req.data.title || "SingleBasicRequirement: No Title",
+				props.req,
+			);
 			return;
 		}
 		const newParentNode = { ...parentNode };
@@ -484,7 +488,7 @@ function Unimplemented(props: { rawContent: unknown; parentId: string }) {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.rawContent);
+			handleParentUndefined(props.parentId, "Unimplemented", props.rawContent);
 			return;
 		}
 		parentNode.childrenIds.push(id);
@@ -573,7 +577,11 @@ function Courses(props: {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.data);
+			handleParentUndefined(
+				props.parentId,
+				props.data.title || "Courses: No Title",
+				props.data,
+			);
 			return;
 		}
 		parentNode.childrenIds.push(id);
@@ -621,7 +629,7 @@ function SelectFromCourses(props: {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.data);
+			handleParentUndefined(props.parentId, props.data.title, props.data);
 			return;
 		}
 		parentNode.childrenIds.push(id);
@@ -678,7 +686,11 @@ function RequirementLabel(props: {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.data);
+			handleParentUndefined(
+				props.parentId,
+				props.data.title || "RequirementLabel: No Title",
+				props.data,
+			);
 			return;
 		}
 		parentNode.childrenIds.push(id);
@@ -770,7 +782,7 @@ function And(props: {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.entries);
+			handleParentUndefined(props.parentId, "And", props.entries);
 			return;
 		}
 		parentNode.childrenIds.push(id);
@@ -815,24 +827,85 @@ function And(props: {
 function Or(props: {
 	entries: T.CourseEntry[];
 	parentId: string;
+	isNested?: boolean;
 	showArrow?: boolean;
 	doubleListSide?: "left" | "right";
 }) {
 	console.log("Or", props);
 
+	const id = generateId("Or");
+	const nodeState = createNodeState();
+	const { nodes } = useContext(ProgramMapContext);
+
+	onMount(() => {
+		// Only register the Or in nodes if is part of a `DoubleCoursesList`
+		if (props.doubleListSide) {
+			// Add node to nodes
+			const node = new NodeInfo(props.parentId, [], nodeState);
+			nodes.set(id, node);
+
+			// Add node to parent node's children
+			const parentNode = nodes.get(props.parentId);
+			if (!parentNode) {
+				handleParentUndefined(props.parentId, "And", props.entries);
+				return;
+			}
+			parentNode.childrenIds.push(id);
+		}
+	});
+
 	return (
-		<div class="flex flex-row gap-5">
-			<For each={props.entries}>
-				{(entry) => (
-					<CourseEntry
-						entry={entry}
-						isNested={true}
-						parentId={props.parentId}
-						showArrow={props.showArrow}
-					/>
-				)}
-			</For>
-		</div>
+		<Switch>
+			{/* Or element not in a `DoubleCoursesList` */}
+			<Match when={props.doubleListSide === undefined}>
+				<div class="flex flex-row gap-5">
+					<For each={props.entries}>
+						{(entry) => (
+							<CourseEntry
+								entry={entry}
+								isNested={true}
+								parentId={props.parentId}
+								showArrow={props.showArrow}
+							/>
+						)}
+					</For>
+				</div>
+			</Match>
+			{/* Or element is in a `DoubleCoursesList` */}
+			<Match when={props.doubleListSide !== undefined}>
+				<Node
+					id={id}
+					parentId={props.parentId}
+					state={nodeState}
+					nodes={nodes}
+					showArrow={props.showArrow}
+					doubleListSide={props.doubleListSide}
+					nodeContent={
+						<div class="flex flex-col items-center justify-center gap-5 p-5">
+							<h3 class="w-[80%] text-center">Or</h3>
+							<div
+								class={`flex ${
+									props.entries.length <= 3 && props.isNested === false
+										? "flex-row"
+										: "flex-col"
+								} items-center justify-center gap-5`}
+							>
+								<For each={props.entries}>
+									{(entry) => (
+										<CourseEntry
+											entry={entry}
+											isNested={true}
+											parentId={id}
+											showArrow={false}
+										/>
+									)}
+								</For>
+							</div>
+						</div>
+					}
+				/>
+			</Match>
+		</Switch>
 	);
 }
 
@@ -866,7 +939,7 @@ function Label(props: {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.label);
+			handleParentUndefined(props.parentId, props.label.name, props.label);
 			return;
 		}
 		parentNode.childrenIds.push(id);
@@ -968,7 +1041,11 @@ function Course(props: {
 		// Add node to parent node's children
 		const parentNode = nodes.get(props.parentId);
 		if (!parentNode) {
-			handleParentUndefined(props.parentId, props.course);
+			handleParentUndefined(
+				props.parentId,
+				`Course: ${props.course.name}`,
+				props.course,
+			);
 			return;
 		}
 		parentNode.childrenIds.push(id);
@@ -1292,12 +1369,17 @@ function FallbackMessage(props: { target: string }) {
 	);
 }
 
-function handleParentUndefined(parentId: string, node: unknown) {
+function handleParentUndefined(
+	parentId: string,
+	context: string,
+	node: unknown,
+) {
 	alert("Parent node cannot be undefined. See console for more information.");
 	console.error(
 		"Cannot find parent of the following:",
 		node,
 		`Parent id: ${parentId}`,
+		`Context: ${context}`,
 	);
 	return;
 }
@@ -1325,6 +1407,11 @@ type NodeState = {
 	setHoverCount: Setter<number>;
 	selected: Accessor<boolean>;
 	setSelected: Setter<boolean>;
+	/**
+	 * Used to trigger arrow updates in a `createEffect` signal.
+	 * Simply flip the boolean value back and forth using
+	 * `setUpdateArrowsTrigger` to trigger an update
+	 */
 	updateArrowsTrigger: Accessor<boolean>;
 	setUpdateArrowsTrigger: Setter<boolean>;
 };
