@@ -84,7 +84,7 @@ function ProgramMap(props: { program: T.Program }) {
 		<div class={`transition ${fullScreen() ? "" : "relative"}`}>
 			<article
 				ref={pmContainerRef}
-				class={`relative h-[90vh] w-[90vw] overflow-auto ${
+				class={`relative h-[88vh] w-[90vw] overflow-auto ${
 					fullScreen() ? "" : "rounded-lg border-2 border-solid border-black"
 				} bg-yellow-50 p-5`}
 			>
