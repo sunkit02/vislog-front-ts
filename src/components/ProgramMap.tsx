@@ -22,7 +22,6 @@ import ActiveNodeDetails from "./programmap/ActiveNodeDetailsSideBar";
 import { DATA_SERVER_URL } from "../App";
 import DoubleListCurvedArrow from "./utility/DoubleListCurvedArrow";
 
-// TODO: Split long list of courses into two columns
 function ProgramMap(props: { program: T.Program }) {
 	let pmContainerRef: HTMLDivElement | undefined;
 	const [fullScreen, setFullScreen] = createSignal(false);
@@ -206,9 +205,11 @@ function Program(props: { program: T.Program }) {
 			<button type="button" onClick={showCurrentNodeDetails}>
 				<span class="underline hover:text-blue-600">Show details</span>
 			</button>
-			<button type="button" onClick={() => console.log(nodes)}>
-				<span class="underline hover:text-blue-600">Print</span>
-			</button>
+			{/*
+        <button type="button" onClick={() => console.log(nodes)}>
+          <span class="underline hover:text-blue-600">Print</span>
+        </button>
+      */}
 		</div>
 	);
 
