@@ -103,10 +103,12 @@ function ActiveNodeDetailsSideBar(props: {
 		>
 			<div class="flex flex-col w-[calc(100%-5px)]">
 				<article
-					class="h-[50%] border-b-black border-b-2 px-3 py-1 overflow-y-auto"
+					class="h-[50%] border-b-black border-b-2 px-4 py-2 overflow-y-auto"
 					hidden={!props.active()}
 				>
-					<h3 class="text-lg font-bold text-center">{props.details().title}</h3>
+					<h3 class="text-lg font-bold text-center mb-3">
+						{props.details().title}
+					</h3>
 					<Show when={props.details().paragraphs.length > 0}>
 						<For each={props.details().paragraphs}>
 							{(paragraph) => <p>{paragraph}</p>}
