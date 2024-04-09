@@ -96,8 +96,8 @@ function ProgramMap(props: { program: T.Program }) {
 				ref={sideBarContainerRef}
 				id="left-aside-container"
 				class={`flex-row] absolute left-[2px] top-[2px] flex h-[calc(100%-4px)] max-w-[75%] ${
-					!showActiveNodeDetails() ? "pointer-event-none" : ""
-				} z-10`}
+					!showActiveNodeDetails() ? "pointer-event-none" : "z-10"
+				}`}
 			>
 				<ActiveNodeDetails
 					containerRef={sideBarContainerRef}
