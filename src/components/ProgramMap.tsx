@@ -21,6 +21,7 @@ import IntoFullscreen from "../icons/IntoFullscreen";
 import ActiveNodeDetails from "./programmap/ActiveNodeDetailsSideBar";
 import { DATA_SERVER_URL } from "../App";
 import DoubleListCurvedArrow from "./utility/DoubleListCurvedArrow";
+import ExportIcon from "../icons/Export";
 
 function ProgramMap(props: { program: T.Program }) {
 	let pmContainerRef: HTMLDivElement | undefined;
@@ -77,10 +78,26 @@ function ProgramMap(props: { program: T.Program }) {
 		}
 	}
 
+	function exportSelectedNodesToTextFile() {
+		const link = document.createElement("a");
+
+		const file = new Blob([Array.from(selectedNodes()).join("\n")], {
+			type: "text/plain;charset=utf-8",
+		});
+
+		link.href = URL.createObjectURL(file);
+
+		link.download = "selected-nodes.txt";
+
+		link.click();
+
+		URL.revokeObjectURL(link.href);
+	}
+
 	let sideBarContainerRef: HTMLDivElement | undefined;
 
 	return (
-		<div class={`transition ${fullScreen() ? "" : "relative"}`}>
+		<div class={`transition flex flex-row ${fullScreen() ? "" : "relative"}`}>
 			<article
 				ref={pmContainerRef}
 				class={`relative h-[88vh] w-[90vw] overflow-auto ${
@@ -122,6 +139,17 @@ function ProgramMap(props: { program: T.Program }) {
 						{showActiveNodeDetails() ? "<" : ">"}
 					</button>
 				</div>
+			</div>
+			{/* This is the container for holding the export button */}
+			{/* The weird calc(-0.75rem-20px-30px) is for calc(-[m-3]-[scrollbar]-[button-width]) */}
+			<div class={`relative ${fullScreen() ? "hidden" : null}`}>
+				<button
+					type="button"
+					class="absolute left-[calc(-0.75rem-20px-30px)] top-1 mt-3 h-[30px] w-[30px] rounded-lg p-[0.2rem] hover:border-solid hover:border-black hover:border-2 hover:bg-yellow-100"
+					onClick={exportSelectedNodesToTextFile}
+				>
+					<ExportIcon />
+				</button>
 			</div>
 		</div>
 	);
