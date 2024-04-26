@@ -1,4 +1,4 @@
-function IntoFullscreen() {
+function IntoFullscreenIcon() {
 	return (
 		<svg height="100%" width="100%" viewBox="0 0 384.97 384.97">
 			<title>Into Fullscreen</title>
@@ -30,4 +30,4 @@ function IntoFullscreen() {
 	);
 }
 
-export default IntoFullscreen;
+export default IntoFullscreenIcon;

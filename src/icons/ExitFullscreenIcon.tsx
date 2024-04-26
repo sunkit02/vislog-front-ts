@@ -1,4 +1,4 @@
-function ExitFullscreen() {
+function ExitFullscreenIcon() {
 	return (
 		<svg height="100%" width="100%" viewBox="0 0 385.331 385.331">
 			<title>Exit Fullscreen</title>
@@ -30,4 +30,4 @@ function ExitFullscreen() {
 	);
 }
 
-export default ExitFullscreen;
+export default ExitFullscreenIcon;
