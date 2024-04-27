@@ -9,7 +9,8 @@ import SearchBar from "./components/utility/SearchBar";
 import ProgramMap from "./components/ProgramMap";
 import type { Program } from "./types";
 
-export const DATA_SERVER_URL = "http://10.253.132.175:8080";
+// Use `window.origin` to get the dynamic address when served as static asset from server
+export const DATA_SERVER_URL = window.origin;
 
 type GuidTitlePair = {
 	guid: string;
